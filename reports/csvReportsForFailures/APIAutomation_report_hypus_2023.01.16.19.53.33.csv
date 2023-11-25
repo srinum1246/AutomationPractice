@@ -1,0 +1,2 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","userRemoveUserAPI","https://hyperspace.apiv2.carear.app/user/1/removeUser","hyperspace02.apiauto@gmail.com","super_admin","DELETE","NA","400","{""message"":""User not found in firestore database""}"

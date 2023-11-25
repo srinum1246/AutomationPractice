@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CareARAutomation-backend" parallel="methods" thread-count="1">
+    <test name="Api Tests">
+        <classes>
+            <class name="org.tests.userDelete"/>
+        </classes>
+    </test>
+</suite>

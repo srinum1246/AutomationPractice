@@ -1,0 +1,2 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Pass","Confluence - Allowed","ActualResult - NotAllowed","tenantAdminTenantFetchKpiAPIManField","https://hyperspace.apiv2.carear.app/tenantAdmin/tenant/fetchKPI","hyperspace02.apiauto@gmail.com","super_admin","POST","{""fromDate"":"""",""toDate"":"""",""tenantId"":""""}","400","{""message"":""Failed to fetch KPI data"",""error"":""Required fields are missing""}"

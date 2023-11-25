@@ -1,0 +1,2 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Pass - ManualInterventionReqd","Confluence - Allowed","ActualResult - NotAllowed","downloadManagementUpdateManField","https://hyperspace.apiv2.carear.app/downloadManagement/downloads/update/:","hyperspace02.apiauto@gmail.com","super_admin","POST","{""docId"":""""}","500","{""code"":500,""message"":""Requesting document does not exist""}"

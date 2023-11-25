@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="APITests">
+        <classes>
+            <class name="org.tests.apiTestCases">
+                   <methods>
+                       <include name = "createTenantAPI"/>
+                       <include name = "updateTenantAPI"/>
+                       <include name = "fetchTenantAPI"/>
+                       <include name = "deleteTenantAPI"/>
+                       <include name = "realDeleteTenantAPI"/>
+                       <include name = "tenantmanagementFetchTenantAiEnabledAPI"/>
+                       <include name = "tenantmanagementGetAiServiceConfigAPI"/>
+                       <include name = "tenantmanagementSaveAiServicesConfigUpdateAPI"/>
+                       <include name = "tenantAdminAddGroupAPI"/>
+                       <include name = "tenantAdminUpdateGroupAPI"/>
+                       <include name = "tenantAdminRemoveGroupAPI"/>
+                       <include name = "tenantAdminTenantIdInfoAPI"/>
+                       <include name = "tenantAdminSaveNotificationsAPI"/>
+                       <include name = "tenantAdminSearchUserFetchAPI"/>
+                       <include name = "tenantAdminGroupIdUsersFetchAPI"/>
+                       <include name = "tenantAdminTenantIdUsersAuthenticateAPI"/>
+                       <include name = "tenantAdminTenantIdStartValueUsersAuthenticateAPI"/>
+                       <include name = "tenantAdminSurveyTenantIdAPI"/>
+                       <include name = "tenantAdminUpdatePermissionDataAPI"/>
+                       <include name = "tenantAdminTenantIdFetchPluginListAPI"/>
+                       <include name = "tenantAdminUpdatePluginStatusAPI"/>
+                       <include name = "tenantAdminTenantFetchKpiAPI"/>
+                       <include name = "tenantAdminTenantIdExperiencesAddAPI"/>
+                       <include name = "tenantAdminTenantIdExperiencesExperienceIdAPI"/>
+                       <include name = "tenantAdminTenantIdExperiencesExperienceIdFetchAPI"/>
+                       <include name = "tenantAdminTenantIdExperiencesFetchAllAPI"/>
+                       <include name = "tenantAdminTenantIdExperiencesUpdateAPI"/>
+                       <include name = "tenantAdminTenantIdExperiencesDeleteAPI"/>
+                       <include name = "tenantAdminGetPluginConfigurationFetchAPI"/>
+                       <include name = "tenantAdminSavePluginSystemInfoUpdateAPI"/>
+                       <include name = "tenantAdminSaveInstructBuilderExperienceAPI"/>
+                       <include name = "tenantAdminInstructBuilderExperienceFetchAPI"/>
+                       <include name = "messagingCheckForUpgradeAPI"/>
+                       <include name = "userTenantsGroupAPI"/>
+                       <include name = "userFetchFavoritesAPI"/>
+                       <include name = "userUpdateUserAPI"/>
+                       <include name = "userGetFeatureFormsAPI"/>
+                       <include name = "userGetFeatureFormsUpdateAPI"/>
+                       <include name = "userRemoveUserAPI"/>
+                       <include name = "userUserInfoAPI"/>
+                       <include name = "secretManagerStoresNowSecretAPI"/>
+                       <include name = "secretManagerAwsConfigAPI"/>
+                       <include name = "secretManagerSfdcConfigAPI"/>
+                       <include name = "sessionsFetchSessionsUserAPI"/>
+                       <include name = "sessionsTenantFetchSessionsAPI"/>
+                       <include name = "sessionsGuestParticipantsNumAPI"/>
+                       <include name = "authLogin"/>
+                       <include name = "authLogout"/>
+                       <include name = "authRefreshToken"/>
+                       <include name = "authActivateUser"/>
+                       <include name = "authRegisterUser"/>
+                       <include name = "authFetchsSuperUsers"/>
+                       <include name = "aiServicesAuthTenantId"/>
+                       <include name = "centralLookupQuantPart"/>
+                       <include name = "downloadManagementSave"/>
+                       <include name = "downloadManagementUpdate"/>
+                       <include name = "downloadManagementList"/>
+                       <include name = "downloadManagementDociId"/>
+                       <include name = "getTenantPurchaseHistory"/>
+                       <include name = "authGetScore"/>
+                       <include name="aiServicesAuthTenantExpId"/>
+                       <include name ="aiServicesAuthTenantExpIdReadOnly"/>
+
+                       <include name = "tenantAdminTenantIdSaveKPI"/>
+                       <include name = "tenantAdminFetchKpiBuilderData"/>
+                       <include name = "tenantAdminSurveyDelete"/>
+                       <include name = "instructExperienceGoogleTranslationInBulk"/>
+                       <include name = "instructExperienceCopyStorageData"/>
+                       <include name = "updateDefaultInstructLanguage"/>
+                       <include name = "deleteInstructExperienceLanguage"/>
+                   </methods>
+            </class>
+
+        </classes>
+
+    </test>
+</suite>

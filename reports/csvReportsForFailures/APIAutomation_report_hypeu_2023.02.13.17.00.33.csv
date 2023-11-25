@@ -1,0 +1,2 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSearchUserFetchAPI","https://eu.hyperspace.apiv2.carear.app/tenantAdmin/tenantsGroup/xY7Z7ltEesu8tHmZmlBs/search/automation2748230@gmail.com","hyperspaceeu01.apiauto@gmail.com","api_super_admin","GET","NA","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"

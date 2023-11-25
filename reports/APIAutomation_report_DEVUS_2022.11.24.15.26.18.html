@@ -1,0 +1,763 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 24, 2022 03:26:18 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">sessionsTenantFetchSessionsAPI</p>
+            <p class="text-sm">
+              <span>3:26:20 pm</span> / <span>00:00:34:591</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">sessionsTenantFetchSessionsAPI</h5>
+<span class='badge badge-success'>11.24.2022 3:26:20 pm</span>
+<span class='badge badge-danger'>11.24.2022 3:26:55 pm</span>
+<span class='badge badge-default'>00:00:34:591</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:20 pm</td>
+        <td>
+          *******************Starting of sessionsTenantFetchSessionsAPI test*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:20 pm</td>
+        <td>
+          ******************* Testing API URI 'https://dev.apiv2.carear.app/sessions/tenant/fetchSessions'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:26 pm</td>
+        <td>
+          *******************Testing for api_super_admin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:26 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:26 pm</td>
+        <td>
+          Response status code is: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:26 pm</td>
+        <td>
+          Response is: {"error":"Insufficient Permission","message":"Failed to authenticate the User","status":"Forbidden"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:29 pm</td>
+        <td>
+          *******************Testing for super_admin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:29 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:29 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:29 pm</td>
+        <td>
+          Response is: [{"sessionId":"cc57ca72-5833-4d76-a8a1-7b5b06701a30","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690429833,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"version":"22.04.001","companyName":"tcs","groupId":"none","userName":"Dev User","deviceType":"nativeMobile","userType":"Host","jobDescription":"","location":{"horizontalAccuracy":20.4,"verticalAccuracy":20.4,"longitude":78.6598053,"altitude":0,"latitude":17.6426258},"region":"AREA_CODE_GLOB","joinerType":"Host","canBeCollaborator":true,"stage":"Disconnected","arHintsEnabled":"False","cameraState":0,"proxy":false,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","processorCount":8,"side":"Sender","userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","aspectRatio":"1080*2400*Portrait","startBatteryPercentage":0.87,"systemMemorySize":3587,"end":1668690469581,"microphoneState":0,"agoraId":"3306514821","participantType":"Collaborator","photoURL":"","tenantId":"uMbQiXOc1pHs49b46fcp","processorType":"ARM64 FP ASIMD AES","start":1668690429833,"endBatteryPercentage":0.8700000047683716,"streamingRequestState":"Default","deviceModel":"Xiaomi Redmi Note 9 Pro"}},"productName":"","type":"Assist"},{"sessionId":"1ad89e4e-c08a-4e10-86be-4ae19dc8f613","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690328525,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"region":"AREA_CODE_GLOB","location":{"longitude":78.6598053,"verticalAccuracy":20.4,"altitude":0,"horizontalAccuracy":20.4,"latitude":17.6426258},"version":"22.04.001","deviceModel":"Xiaomi Redmi Note 9 Pro","processorType":"ARM64 FP ASIMD AES","canBeCollaborator":true,"userType":"Host","endBatteryPercentage":0.8700000047683716,"jobDescription":"","joinerType":"Host","deviceType":"nativeMobile","systemMemorySize":3587,"cameraState":0,"agoraId":"4117470793","groupId":"none","userName":"Dev User","microphoneState":0,"end":1668690343491,"aspectRatio":"1080*2400*Portrait","photoURL":"","proxy":false,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","processorCount":8,"tenantId":"uMbQiXOc1pHs49b46fcp","participantType":"Collaborator","stage":"Disconnected","start":1668690328525,"userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","arHintsEnabled":"False","companyName":"tcs","startBatteryPercentage":0.87,"streamingRequestState":"Default","side":"Sender"}},"productName":"","type":"Assist"},{"sessionId":"350f1f69-3d74-475f-98ca-4de96f8a5607","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689451755,"users":{"70bLXxJjDWUF7Vll5vRHTO5CzD32":{"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","proxy":false,"region":"AREA_CODE_GLOB","version":"22.04.001","endBatteryPercentage":0.8600000143051147,"location":{"altitude":0,"horizontalAccuracy":20.4,"longitude":78.6598053,"latitude":17.6426258,"verticalAccuracy":20.4},"stage":"Disconnected","streamingRequestState":"Default","startBatteryPercentage":0.86,"agoraId":"1548322811","arHintsEnabled":"False","aspectRatio":"720*1600*Portrait","processorCount":8,"userId":"70bLXxJjDWUF7Vll5vRHTO5CzD32","systemMemorySize":3587,"tenantId":"uMbQiXOc1pHs49b46fcp","deviceType":"nativeMobile","start":1668689451755,"userName":"Dev Tenant","processorType":"ARM64 FP ASIMD AES","deviceModel":"Xiaomi Redmi Note 9 Pro","groupId":"none","canBeCollaborator":true,"joinerType":"Host","photoURL":"","end":1668689473387,"companyName":"tcs","microphoneState":0,"jobDescription":"","participantType":"Collaborator","side":"Sender","cameraState":0,"userType":"Host"}},"productName":"","type":"Assist"},{"sessionId":"47cc40d5-14c1-4246-aa60-e938991dd3fe","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689298958,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"streamingRequestState":"Default","deviceModel":"Xiaomi Redmi Note 9 Pro","processorType":"ARM64 FP ASIMD AES","agoraId":"92841364","participantType":"Collaborator","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","canBeCollaborator":true,"side":"Sender","start":1668689298958,"location":{"horizontalAccuracy":20.4,"verticalAccuracy":20.4,"altitude":0,"latitude":17.6426258,"longitude":78.6598053},"microphoneState":0,"deviceType":"nativeMobile","proxy":false,"stage":"Connected","cameraState":0,"companyName":"tcs","version":"22.04.001","userType":"Host","joinerType":"Host","aspectRatio":"720*1600*Portrait","systemMemorySize":3587,"userName":"Dev User","region":"AREA_CODE_GLOB","photoURL":"","groupId":"none","arHintsEnabled":"False","tenantId":"uMbQiXOc1pHs49b46fcp","processorCount":8,"userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","jobDescription":"","startBatteryPercentage":0.86}},"productName":"","type":"Assist"}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:31 pm</td>
+        <td>
+          *******************Testing for SystemAnalyst role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:31 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:31 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:31 pm</td>
+        <td>
+          Response is: [{"sessionId":"cc57ca72-5833-4d76-a8a1-7b5b06701a30","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690429833,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"agoraId":"3306514821","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","version":"22.04.001","side":"Sender","userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","start":1668690429833,"cameraState":0,"userType":"Host","userName":"Dev User","deviceModel":"Xiaomi Redmi Note 9 Pro","startBatteryPercentage":0.87,"region":"AREA_CODE_GLOB","tenantId":"uMbQiXOc1pHs49b46fcp","aspectRatio":"1080*2400*Portrait","microphoneState":0,"location":{"longitude":78.6598053,"altitude":0,"horizontalAccuracy":20.4,"latitude":17.6426258,"verticalAccuracy":20.4},"companyName":"tcs","processorCount":8,"participantType":"Collaborator","deviceType":"nativeMobile","processorType":"ARM64 FP ASIMD AES","groupId":"none","systemMemorySize":3587,"proxy":false,"joinerType":"Host","end":1668690469581,"endBatteryPercentage":0.8700000047683716,"arHintsEnabled":"False","jobDescription":"","stage":"Disconnected","photoURL":"","streamingRequestState":"Default","canBeCollaborator":true}},"productName":"","type":"Assist"},{"sessionId":"1ad89e4e-c08a-4e10-86be-4ae19dc8f613","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690328525,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"groupId":"none","companyName":"tcs","participantType":"Collaborator","location":{"altitude":0,"verticalAccuracy":20.4,"longitude":78.6598053,"horizontalAccuracy":20.4,"latitude":17.6426258},"streamingRequestState":"Default","processorType":"ARM64 FP ASIMD AES","stage":"Disconnected","processorCount":8,"microphoneState":0,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","canBeCollaborator":true,"userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","tenantId":"uMbQiXOc1pHs49b46fcp","deviceModel":"Xiaomi Redmi Note 9 Pro","joinerType":"Host","aspectRatio":"1080*2400*Portrait","endBatteryPercentage":0.8700000047683716,"agoraId":"4117470793","deviceType":"nativeMobile","proxy":false,"userType":"Host","end":1668690343491,"systemMemorySize":3587,"userName":"Dev User","version":"22.04.001","startBatteryPercentage":0.87,"cameraState":0,"photoURL":"","arHintsEnabled":"False","region":"AREA_CODE_GLOB","jobDescription":"","side":"Sender","start":1668690328525}},"productName":"","type":"Assist"},{"sessionId":"350f1f69-3d74-475f-98ca-4de96f8a5607","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689451755,"users":{"70bLXxJjDWUF7Vll5vRHTO5CzD32":{"photoURL":"","microphoneState":0,"cameraState":0,"deviceType":"nativeMobile","stage":"Disconnected","tenantId":"uMbQiXOc1pHs49b46fcp","joinerType":"Host","proxy":false,"version":"22.04.001","arHintsEnabled":"False","systemMemorySize":3587,"companyName":"tcs","aspectRatio":"720*1600*Portrait","location":{"verticalAccuracy":20.4,"horizontalAccuracy":20.4,"latitude":17.6426258,"longitude":78.6598053,"altitude":0},"processorCount":8,"agoraId":"1548322811","streamingRequestState":"Default","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","userId":"70bLXxJjDWUF7Vll5vRHTO5CzD32","side":"Sender","startBatteryPercentage":0.86,"userType":"Host","processorType":"ARM64 FP ASIMD AES","canBeCollaborator":true,"end":1668689473387,"groupId":"none","region":"AREA_CODE_GLOB","userName":"Dev Tenant","endBatteryPercentage":0.8600000143051147,"participantType":"Collaborator","start":1668689451755,"jobDescription":"","deviceModel":"Xiaomi Redmi Note 9 Pro"}},"productName":"","type":"Assist"},{"sessionId":"47cc40d5-14c1-4246-aa60-e938991dd3fe","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689298958,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"version":"22.04.001","userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","stage":"Connected","deviceModel":"Xiaomi Redmi Note 9 Pro","location":{"horizontalAccuracy":20.4,"verticalAccuracy":20.4,"longitude":78.6598053,"altitude":0,"latitude":17.6426258},"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","arHintsEnabled":"False","companyName":"tcs","processorType":"ARM64 FP ASIMD AES","tenantId":"uMbQiXOc1pHs49b46fcp","joinerType":"Host","streamingRequestState":"Default","groupId":"none","startBatteryPercentage":0.86,"deviceType":"nativeMobile","userName":"Dev User","region":"AREA_CODE_GLOB","microphoneState":0,"processorCount":8,"photoURL":"","proxy":false,"userType":"Host","agoraId":"92841364","aspectRatio":"720*1600*Portrait","start":1668689298958,"canBeCollaborator":true,"cameraState":0,"side":"Sender","systemMemorySize":3587,"participantType":"Collaborator","jobDescription":""}},"productName":"","type":"Assist"}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:32 pm</td>
+        <td>
+          *******************Testing for PartnerCreator role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:32 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:32 pm</td>
+        <td>
+          Response status code is: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:32 pm</td>
+        <td>
+          Response is: {"error":"Insufficient Permission","message":"Failed to authenticate the User","status":"Forbidden"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:34 pm</td>
+        <td>
+          *******************Testing for PrimaryTenantAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:34 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:34 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:34 pm</td>
+        <td>
+          Response is: [{"sessionId":"cc57ca72-5833-4d76-a8a1-7b5b06701a30","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690429833,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"location":{"horizontalAccuracy":20.4,"verticalAccuracy":20.4,"altitude":0,"longitude":78.6598053,"latitude":17.6426258},"userType":"Host","side":"Sender","deviceType":"nativeMobile","version":"22.04.001","start":1668690429833,"joinerType":"Host","streamingRequestState":"Default","companyName":"tcs","aspectRatio":"1080*2400*Portrait","stage":"Disconnected","agoraId":"3306514821","arHintsEnabled":"False","participantType":"Collaborator","userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","startBatteryPercentage":0.87,"userName":"Dev User","microphoneState":0,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","jobDescription":"","end":1668690469581,"cameraState":0,"endBatteryPercentage":0.8700000047683716,"processorCount":8,"proxy":false,"deviceModel":"Xiaomi Redmi Note 9 Pro","region":"AREA_CODE_GLOB","photoURL":"","processorType":"ARM64 FP ASIMD AES","tenantId":"uMbQiXOc1pHs49b46fcp","systemMemorySize":3587,"canBeCollaborator":true,"groupId":"none"}},"productName":"","type":"Assist"},{"sessionId":"1ad89e4e-c08a-4e10-86be-4ae19dc8f613","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690328525,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"start":1668690328525,"joinerType":"Host","jobDescription":"","microphoneState":0,"deviceType":"nativeMobile","agoraId":"4117470793","aspectRatio":"1080*2400*Portrait","startBatteryPercentage":0.87,"userType":"Host","userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","groupId":"none","side":"Sender","version":"22.04.001","participantType":"Collaborator","location":{"longitude":78.6598053,"horizontalAccuracy":20.4,"latitude":17.6426258,"verticalAccuracy":20.4,"altitude":0},"cameraState":0,"photoURL":"","processorCount":8,"stage":"Disconnected","tenantId":"uMbQiXOc1pHs49b46fcp","systemMemorySize":3587,"processorType":"ARM64 FP ASIMD AES","proxy":false,"streamingRequestState":"Default","region":"AREA_CODE_GLOB","deviceModel":"Xiaomi Redmi Note 9 Pro","end":1668690343491,"companyName":"tcs","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","canBeCollaborator":true,"userName":"Dev User","endBatteryPercentage":0.8700000047683716,"arHintsEnabled":"False"}},"productName":"","type":"Assist"},{"sessionId":"350f1f69-3d74-475f-98ca-4de96f8a5607","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689451755,"users":{"70bLXxJjDWUF7Vll5vRHTO5CzD32":{"userName":"Dev Tenant","deviceType":"nativeMobile","start":1668689451755,"processorType":"ARM64 FP ASIMD AES","canBeCollaborator":true,"userType":"Host","endBatteryPercentage":0.8600000143051147,"startBatteryPercentage":0.86,"aspectRatio":"720*1600*Portrait","streamingRequestState":"Default","version":"22.04.001","cameraState":0,"joinerType":"Host","tenantId":"uMbQiXOc1pHs49b46fcp","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","arHintsEnabled":"False","groupId":"none","jobDescription":"","participantType":"Collaborator","processorCount":8,"location":{"latitude":17.6426258,"longitude":78.6598053,"verticalAccuracy":20.4,"horizontalAccuracy":20.4,"altitude":0},"agoraId":"1548322811","end":1668689473387,"microphoneState":0,"companyName":"tcs","side":"Sender","photoURL":"","region":"AREA_CODE_GLOB","userId":"70bLXxJjDWUF7Vll5vRHTO5CzD32","proxy":false,"systemMemorySize":3587,"stage":"Disconnected","deviceModel":"Xiaomi Redmi Note 9 Pro"}},"productName":"","type":"Assist"},{"sessionId":"47cc40d5-14c1-4246-aa60-e938991dd3fe","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689298958,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"groupId":"none","jobDescription":"","systemMemorySize":3587,"userType":"Host","tenantId":"uMbQiXOc1pHs49b46fcp","microphoneState":0,"deviceModel":"Xiaomi Redmi Note 9 Pro","companyName":"tcs","participantType":"Collaborator","arHintsEnabled":"False","aspectRatio":"720*1600*Portrait","streamingRequestState":"Default","version":"22.04.001","userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","start":1668689298958,"location":{"latitude":17.6426258,"altitude":0,"longitude":78.6598053,"horizontalAccuracy":20.4,"verticalAccuracy":20.4},"side":"Sender","region":"AREA_CODE_GLOB","agoraId":"92841364","joinerType":"Host","processorType":"ARM64 FP ASIMD AES","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","userName":"Dev User","proxy":false,"startBatteryPercentage":0.86,"deviceType":"nativeMobile","stage":"Connected","photoURL":"","cameraState":0,"processorCount":8,"canBeCollaborator":true}},"productName":"","type":"Assist"}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:36 pm</td>
+        <td>
+          *******************Testing for SecondaryTenantAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:36 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:36 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:36 pm</td>
+        <td>
+          Response is: [{"sessionId":"cc57ca72-5833-4d76-a8a1-7b5b06701a30","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690429833,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"cameraState":0,"processorCount":8,"endBatteryPercentage":0.8700000047683716,"location":{"longitude":78.6598053,"horizontalAccuracy":20.4,"latitude":17.6426258,"verticalAccuracy":20.4,"altitude":0},"joinerType":"Host","proxy":false,"side":"Sender","userName":"Dev User","streamingRequestState":"Default","deviceModel":"Xiaomi Redmi Note 9 Pro","systemMemorySize":3587,"companyName":"tcs","version":"22.04.001","jobDescription":"","agoraId":"3306514821","microphoneState":0,"participantType":"Collaborator","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","photoURL":"","stage":"Disconnected","processorType":"ARM64 FP ASIMD AES","startBatteryPercentage":0.87,"groupId":"none","region":"AREA_CODE_GLOB","tenantId":"uMbQiXOc1pHs49b46fcp","canBeCollaborator":true,"userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","deviceType":"nativeMobile","userType":"Host","arHintsEnabled":"False","end":1668690469581,"start":1668690429833,"aspectRatio":"1080*2400*Portrait"}},"productName":"","type":"Assist"},{"sessionId":"1ad89e4e-c08a-4e10-86be-4ae19dc8f613","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690328525,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"processorCount":8,"agoraId":"4117470793","start":1668690328525,"startBatteryPercentage":0.87,"region":"AREA_CODE_GLOB","jobDescription":"","stage":"Disconnected","location":{"verticalAccuracy":20.4,"horizontalAccuracy":20.4,"altitude":0,"latitude":17.6426258,"longitude":78.6598053},"endBatteryPercentage":0.8700000047683716,"streamingRequestState":"Default","processorType":"ARM64 FP ASIMD AES","version":"22.04.001","canBeCollaborator":true,"companyName":"tcs","deviceType":"nativeMobile","side":"Sender","arHintsEnabled":"False","userType":"Host","systemMemorySize":3587,"proxy":false,"joinerType":"Host","aspectRatio":"1080*2400*Portrait","microphoneState":0,"participantType":"Collaborator","deviceModel":"Xiaomi Redmi Note 9 Pro","cameraState":0,"tenantId":"uMbQiXOc1pHs49b46fcp","end":1668690343491,"userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","photoURL":"","userName":"Dev User","groupId":"none","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)"}},"productName":"","type":"Assist"},{"sessionId":"350f1f69-3d74-475f-98ca-4de96f8a5607","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689451755,"users":{"70bLXxJjDWUF7Vll5vRHTO5CzD32":{"region":"AREA_CODE_GLOB","side":"Sender","photoURL":"","endBatteryPercentage":0.8600000143051147,"joinerType":"Host","stage":"Disconnected","aspectRatio":"720*1600*Portrait","deviceType":"nativeMobile","arHintsEnabled":"False","groupId":"none","participantType":"Collaborator","proxy":false,"canBeCollaborator":true,"start":1668689451755,"cameraState":0,"location":{"latitude":17.6426258,"verticalAccuracy":20.4,"altitude":0,"longitude":78.6598053,"horizontalAccuracy":20.4},"userType":"Host","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","companyName":"tcs","jobDescription":"","tenantId":"uMbQiXOc1pHs49b46fcp","version":"22.04.001","streamingRequestState":"Default","processorCount":8,"agoraId":"1548322811","microphoneState":0,"startBatteryPercentage":0.86,"systemMemorySize":3587,"processorType":"ARM64 FP ASIMD AES","deviceModel":"Xiaomi Redmi Note 9 Pro","userName":"Dev Tenant","end":1668689473387,"userId":"70bLXxJjDWUF7Vll5vRHTO5CzD32"}},"productName":"","type":"Assist"},{"sessionId":"47cc40d5-14c1-4246-aa60-e938991dd3fe","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689298958,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"proxy":false,"participantType":"Collaborator","start":1668689298958,"cameraState":0,"processorType":"ARM64 FP ASIMD AES","userName":"Dev User","userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","processorCount":8,"region":"AREA_CODE_GLOB","streamingRequestState":"Default","tenantId":"uMbQiXOc1pHs49b46fcp","version":"22.04.001","joinerType":"Host","systemMemorySize":3587,"location":{"horizontalAccuracy":20.4,"verticalAccuracy":20.4,"longitude":78.6598053,"latitude":17.6426258,"altitude":0},"canBeCollaborator":true,"stage":"Connected","arHintsEnabled":"False","companyName":"tcs","jobDescription":"","side":"Sender","aspectRatio":"720*1600*Portrait","microphoneState":0,"deviceType":"nativeMobile","groupId":"none","agoraId":"92841364","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","userType":"Host","photoURL":"","startBatteryPercentage":0.86,"deviceModel":"Xiaomi Redmi Note 9 Pro"}},"productName":"","type":"Assist"}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:38 pm</td>
+        <td>
+          *******************Testing for Analyst role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:38 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:38 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:38 pm</td>
+        <td>
+          Response is: [{"sessionId":"cc57ca72-5833-4d76-a8a1-7b5b06701a30","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690429833,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"location":{"verticalAccuracy":20.4,"altitude":0,"horizontalAccuracy":20.4,"longitude":78.6598053,"latitude":17.6426258},"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","canBeCollaborator":true,"userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","deviceModel":"Xiaomi Redmi Note 9 Pro","microphoneState":0,"deviceType":"nativeMobile","side":"Sender","end":1668690469581,"agoraId":"3306514821","participantType":"Collaborator","stage":"Disconnected","photoURL":"","cameraState":0,"endBatteryPercentage":0.8700000047683716,"version":"22.04.001","proxy":false,"userName":"Dev User","tenantId":"uMbQiXOc1pHs49b46fcp","region":"AREA_CODE_GLOB","processorType":"ARM64 FP ASIMD AES","startBatteryPercentage":0.87,"jobDescription":"","arHintsEnabled":"False","start":1668690429833,"companyName":"tcs","joinerType":"Host","aspectRatio":"1080*2400*Portrait","systemMemorySize":3587,"groupId":"none","processorCount":8,"streamingRequestState":"Default","userType":"Host"}},"productName":"","type":"Assist"},{"sessionId":"1ad89e4e-c08a-4e10-86be-4ae19dc8f613","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690328525,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"groupId":"none","jobDescription":"","joinerType":"Host","processorCount":8,"companyName":"tcs","tenantId":"uMbQiXOc1pHs49b46fcp","arHintsEnabled":"False","startBatteryPercentage":0.87,"agoraId":"4117470793","start":1668690328525,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","processorType":"ARM64 FP ASIMD AES","photoURL":"","userName":"Dev User","end":1668690343491,"systemMemorySize":3587,"endBatteryPercentage":0.8700000047683716,"deviceType":"nativeMobile","userType":"Host","side":"Sender","aspectRatio":"1080*2400*Portrait","canBeCollaborator":true,"location":{"horizontalAccuracy":20.4,"verticalAccuracy":20.4,"latitude":17.6426258,"altitude":0,"longitude":78.6598053},"cameraState":0,"version":"22.04.001","stage":"Disconnected","deviceModel":"Xiaomi Redmi Note 9 Pro","participantType":"Collaborator","userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","region":"AREA_CODE_GLOB","proxy":false,"microphoneState":0,"streamingRequestState":"Default"}},"productName":"","type":"Assist"},{"sessionId":"350f1f69-3d74-475f-98ca-4de96f8a5607","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689451755,"users":{"70bLXxJjDWUF7Vll5vRHTO5CzD32":{"userName":"Dev Tenant","tenantId":"uMbQiXOc1pHs49b46fcp","streamingRequestState":"Default","microphoneState":0,"stage":"Disconnected","deviceType":"nativeMobile","endBatteryPercentage":0.8600000143051147,"start":1668689451755,"canBeCollaborator":true,"side":"Sender","participantType":"Collaborator","userId":"70bLXxJjDWUF7Vll5vRHTO5CzD32","proxy":false,"aspectRatio":"720*1600*Portrait","jobDescription":"","deviceModel":"Xiaomi Redmi Note 9 Pro","agoraId":"1548322811","version":"22.04.001","groupId":"none","joinerType":"Host","arHintsEnabled":"False","processorCount":8,"systemMemorySize":3587,"cameraState":0,"photoURL":"","end":1668689473387,"location":{"latitude":17.6426258,"altitude":0,"verticalAccuracy":20.4,"longitude":78.6598053,"horizontalAccuracy":20.4},"region":"AREA_CODE_GLOB","userType":"Host","companyName":"tcs","processorType":"ARM64 FP ASIMD AES","startBatteryPercentage":0.86,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)"}},"productName":"","type":"Assist"},{"sessionId":"47cc40d5-14c1-4246-aa60-e938991dd3fe","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689298958,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"canBeCollaborator":true,"jobDescription":"","processorCount":8,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","tenantId":"uMbQiXOc1pHs49b46fcp","agoraId":"92841364","arHintsEnabled":"False","photoURL":"","proxy":false,"userName":"Dev User","joinerType":"Host","side":"Sender","cameraState":0,"groupId":"none","deviceType":"nativeMobile","streamingRequestState":"Default","location":{"verticalAccuracy":20.4,"horizontalAccuracy":20.4,"altitude":0,"longitude":78.6598053,"latitude":17.6426258},"processorType":"ARM64 FP ASIMD AES","companyName":"tcs","systemMemorySize":3587,"aspectRatio":"720*1600*Portrait","participantType":"Collaborator","microphoneState":0,"stage":"Connected","region":"AREA_CODE_GLOB","startBatteryPercentage":0.86,"userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","deviceModel":"Xiaomi Redmi Note 9 Pro","version":"22.04.001","userType":"Host","start":1668689298958}},"productName":"","type":"Assist"}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:39 pm</td>
+        <td>
+          *******************Testing for User role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:39 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:39 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:39 pm</td>
+        <td>
+          Response is: [{"sessionId":"cc57ca72-5833-4d76-a8a1-7b5b06701a30","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690429833,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"agoraId":"3306514821","location":{"horizontalAccuracy":20.4,"altitude":0,"latitude":17.6426258,"longitude":78.6598053,"verticalAccuracy":20.4},"version":"22.04.001","startBatteryPercentage":0.87,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","side":"Sender","endBatteryPercentage":0.8700000047683716,"userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","userName":"Dev User","tenantId":"uMbQiXOc1pHs49b46fcp","participantType":"Collaborator","deviceModel":"Xiaomi Redmi Note 9 Pro","microphoneState":0,"streamingRequestState":"Default","cameraState":0,"arHintsEnabled":"False","end":1668690469581,"groupId":"none","stage":"Disconnected","userType":"Host","processorCount":8,"processorType":"ARM64 FP ASIMD AES","aspectRatio":"1080*2400*Portrait","start":1668690429833,"systemMemorySize":3587,"region":"AREA_CODE_GLOB","deviceType":"nativeMobile","companyName":"tcs","canBeCollaborator":true,"jobDescription":"","proxy":false,"photoURL":"","joinerType":"Host"}},"productName":"","type":"Assist"},{"sessionId":"1ad89e4e-c08a-4e10-86be-4ae19dc8f613","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690328525,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"aspectRatio":"1080*2400*Portrait","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","version":"22.04.001","userName":"Dev User","location":{"longitude":78.6598053,"verticalAccuracy":20.4,"horizontalAccuracy":20.4,"altitude":0,"latitude":17.6426258},"jobDescription":"","microphoneState":0,"arHintsEnabled":"False","end":1668690343491,"side":"Sender","agoraId":"4117470793","stage":"Disconnected","endBatteryPercentage":0.8700000047683716,"systemMemorySize":3587,"start":1668690328525,"startBatteryPercentage":0.87,"canBeCollaborator":true,"deviceType":"nativeMobile","deviceModel":"Xiaomi Redmi Note 9 Pro","participantType":"Collaborator","region":"AREA_CODE_GLOB","tenantId":"uMbQiXOc1pHs49b46fcp","userType":"Host","cameraState":0,"streamingRequestState":"Default","joinerType":"Host","companyName":"tcs","processorType":"ARM64 FP ASIMD AES","groupId":"none","userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","proxy":false,"photoURL":"","processorCount":8}},"productName":"","type":"Assist"},{"sessionId":"350f1f69-3d74-475f-98ca-4de96f8a5607","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689451755,"users":{"70bLXxJjDWUF7Vll5vRHTO5CzD32":{"deviceType":"nativeMobile","userId":"70bLXxJjDWUF7Vll5vRHTO5CzD32","side":"Sender","userType":"Host","jobDescription":"","arHintsEnabled":"False","start":1668689451755,"companyName":"tcs","microphoneState":0,"userName":"Dev Tenant","cameraState":0,"groupId":"none","startBatteryPercentage":0.86,"proxy":false,"deviceModel":"Xiaomi Redmi Note 9 Pro","canBeCollaborator":true,"agoraId":"1548322811","region":"AREA_CODE_GLOB","endBatteryPercentage":0.8600000143051147,"version":"22.04.001","location":{"longitude":78.6598053,"horizontalAccuracy":20.4,"verticalAccuracy":20.4,"latitude":17.6426258,"altitude":0},"aspectRatio":"720*1600*Portrait","systemMemorySize":3587,"participantType":"Collaborator","photoURL":"","end":1668689473387,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","streamingRequestState":"Default","stage":"Disconnected","processorCount":8,"tenantId":"uMbQiXOc1pHs49b46fcp","processorType":"ARM64 FP ASIMD AES","joinerType":"Host"}},"productName":"","type":"Assist"},{"sessionId":"47cc40d5-14c1-4246-aa60-e938991dd3fe","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689298958,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"groupId":"none","userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","cameraState":0,"proxy":false,"canBeCollaborator":true,"region":"AREA_CODE_GLOB","streamingRequestState":"Default","agoraId":"92841364","aspectRatio":"720*1600*Portrait","arHintsEnabled":"False","userType":"Host","deviceModel":"Xiaomi Redmi Note 9 Pro","startBatteryPercentage":0.86,"companyName":"tcs","participantType":"Collaborator","deviceType":"nativeMobile","tenantId":"uMbQiXOc1pHs49b46fcp","version":"22.04.001","microphoneState":0,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","joinerType":"Host","processorType":"ARM64 FP ASIMD AES","photoURL":"","jobDescription":"","systemMemorySize":3587,"start":1668689298958,"stage":"Connected","location":{"longitude":78.6598053,"horizontalAccuracy":20.4,"altitude":0,"latitude":17.6426258,"verticalAccuracy":20.4},"side":"Sender","userName":"Dev User","processorCount":8}},"productName":"","type":"Assist"}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:41 pm</td>
+        <td>
+          *******************Testing for Creator role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:41 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:41 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:41 pm</td>
+        <td>
+          Response is: [{"sessionId":"cc57ca72-5833-4d76-a8a1-7b5b06701a30","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690429833,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"participantType":"Collaborator","cameraState":0,"userName":"Dev User","location":{"longitude":78.6598053,"altitude":0,"horizontalAccuracy":20.4,"latitude":17.6426258,"verticalAccuracy":20.4},"photoURL":"","canBeCollaborator":true,"systemMemorySize":3587,"processorCount":8,"agoraId":"3306514821","processorType":"ARM64 FP ASIMD AES","aspectRatio":"1080*2400*Portrait","joinerType":"Host","arHintsEnabled":"False","proxy":false,"side":"Sender","userType":"Host","groupId":"none","endBatteryPercentage":0.8700000047683716,"deviceType":"nativeMobile","start":1668690429833,"jobDescription":"","streamingRequestState":"Default","region":"AREA_CODE_GLOB","microphoneState":0,"end":1668690469581,"deviceModel":"Xiaomi Redmi Note 9 Pro","version":"22.04.001","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","tenantId":"uMbQiXOc1pHs49b46fcp","stage":"Disconnected","companyName":"tcs","startBatteryPercentage":0.87}},"productName":"","type":"Assist"},{"sessionId":"1ad89e4e-c08a-4e10-86be-4ae19dc8f613","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690328525,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"processorCount":8,"userName":"Dev User","endBatteryPercentage":0.8700000047683716,"joinerType":"Host","region":"AREA_CODE_GLOB","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","start":1668690328525,"streamingRequestState":"Default","participantType":"Collaborator","microphoneState":0,"groupId":"none","systemMemorySize":3587,"version":"22.04.001","end":1668690343491,"processorType":"ARM64 FP ASIMD AES","companyName":"tcs","tenantId":"uMbQiXOc1pHs49b46fcp","location":{"latitude":17.6426258,"horizontalAccuracy":20.4,"verticalAccuracy":20.4,"altitude":0,"longitude":78.6598053},"deviceType":"nativeMobile","userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","userType":"Host","cameraState":0,"agoraId":"4117470793","deviceModel":"Xiaomi Redmi Note 9 Pro","arHintsEnabled":"False","proxy":false,"side":"Sender","stage":"Disconnected","jobDescription":"","photoURL":"","aspectRatio":"1080*2400*Portrait","startBatteryPercentage":0.87,"canBeCollaborator":true}},"productName":"","type":"Assist"},{"sessionId":"350f1f69-3d74-475f-98ca-4de96f8a5607","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689451755,"users":{"70bLXxJjDWUF7Vll5vRHTO5CzD32":{"stage":"Disconnected","streamingRequestState":"Default","startBatteryPercentage":0.86,"location":{"verticalAccuracy":20.4,"altitude":0,"longitude":78.6598053,"horizontalAccuracy":20.4,"latitude":17.6426258},"userName":"Dev Tenant","agoraId":"1548322811","tenantId":"uMbQiXOc1pHs49b46fcp","companyName":"tcs","cameraState":0,"deviceModel":"Xiaomi Redmi Note 9 Pro","endBatteryPercentage":0.8600000143051147,"microphoneState":0,"participantType":"Collaborator","side":"Sender","canBeCollaborator":true,"start":1668689451755,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","end":1668689473387,"aspectRatio":"720*1600*Portrait","version":"22.04.001","joinerType":"Host","userType":"Host","groupId":"none","processorCount":8,"processorType":"ARM64 FP ASIMD AES","proxy":false,"jobDescription":"","userId":"70bLXxJjDWUF7Vll5vRHTO5CzD32","deviceType":"nativeMobile","arHintsEnabled":"False","region":"AREA_CODE_GLOB","photoURL":"","systemMemorySize":3587}},"productName":"","type":"Assist"},{"sessionId":"47cc40d5-14c1-4246-aa60-e938991dd3fe","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689298958,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"processorType":"ARM64 FP ASIMD AES","processorCount":8,"joinerType":"Host","version":"22.04.001","cameraState":0,"side":"Sender","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","deviceModel":"Xiaomi Redmi Note 9 Pro","photoURL":"","systemMemorySize":3587,"microphoneState":0,"tenantId":"uMbQiXOc1pHs49b46fcp","arHintsEnabled":"False","canBeCollaborator":true,"streamingRequestState":"Default","start":1668689298958,"companyName":"tcs","userName":"Dev User","agoraId":"92841364","startBatteryPercentage":0.86,"region":"AREA_CODE_GLOB","stage":"Connected","participantType":"Collaborator","userType":"Host","aspectRatio":"720*1600*Portrait","groupId":"none","location":{"latitude":17.6426258,"longitude":78.6598053,"verticalAccuracy":20.4,"horizontalAccuracy":20.4,"altitude":0},"deviceType":"nativeMobile","jobDescription":"","proxy":false,"userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3"}},"productName":"","type":"Assist"}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:42 pm</td>
+        <td>
+          *******************Testing for AnotherPrimaryTenantAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:42 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:42 pm</td>
+        <td>
+          Response status code is: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:42 pm</td>
+        <td>
+          Response is: {"message":"Failed to fetch the sessions data","error":"Insufficient Permission"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:44 pm</td>
+        <td>
+          *******************Testing for SecTenantAdminFromDiffTenant role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:44 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:44 pm</td>
+        <td>
+          Response status code is: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:44 pm</td>
+        <td>
+          Response is: {"message":"Failed to fetch the sessions data","error":"Insufficient Permission"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:45 pm</td>
+        <td>
+          *******************Testing for AnalystRoleFromDiffTenant role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:45 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:45 pm</td>
+        <td>
+          Response status code is: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:45 pm</td>
+        <td>
+          Response is: {"message":"Failed to fetch the sessions data","error":"Insufficient Permission"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:47 pm</td>
+        <td>
+          *******************Testing for UserRoleFromDiffTenant role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:47 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:47 pm</td>
+        <td>
+          Response status code is: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:47 pm</td>
+        <td>
+          Response is: {"message":"Failed to fetch the sessions data","error":"Insufficient Permission"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:49 pm</td>
+        <td>
+          *******************Testing for CreatorRoleUserFromDifferentTenant role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:49 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:49 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:26:49 pm</td>
+        <td>
+          Response is: [{"sessionId":"cc57ca72-5833-4d76-a8a1-7b5b06701a30","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690429833,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"companyName":"tcs","startBatteryPercentage":0.87,"endBatteryPercentage":0.8700000047683716,"deviceModel":"Xiaomi Redmi Note 9 Pro","userType":"Host","groupId":"none","userName":"Dev User","cameraState":0,"userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","systemMemorySize":3587,"joinerType":"Host","aspectRatio":"1080*2400*Portrait","proxy":false,"participantType":"Collaborator","processorType":"ARM64 FP ASIMD AES","tenantId":"uMbQiXOc1pHs49b46fcp","processorCount":8,"agoraId":"3306514821","start":1668690429833,"canBeCollaborator":true,"end":1668690469581,"location":{"altitude":0,"verticalAccuracy":20.4,"longitude":78.6598053,"latitude":17.6426258,"horizontalAccuracy":20.4},"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","microphoneState":0,"jobDescription":"","deviceType":"nativeMobile","streamingRequestState":"Default","arHintsEnabled":"False","side":"Sender","photoURL":"","stage":"Disconnected","region":"AREA_CODE_GLOB","version":"22.04.001"}},"productName":"","type":"Assist"},{"sessionId":"1ad89e4e-c08a-4e10-86be-4ae19dc8f613","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668690328525,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"version":"22.04.001","processorType":"ARM64 FP ASIMD AES","joinerType":"Host","aspectRatio":"1080*2400*Portrait","location":{"longitude":78.6598053,"latitude":17.6426258,"altitude":0,"horizontalAccuracy":20.4,"verticalAccuracy":20.4},"jobDescription":"","tenantId":"uMbQiXOc1pHs49b46fcp","participantType":"Collaborator","endBatteryPercentage":0.8700000047683716,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","agoraId":"4117470793","deviceType":"nativeMobile","groupId":"none","proxy":false,"systemMemorySize":3587,"canBeCollaborator":true,"stage":"Disconnected","cameraState":0,"arHintsEnabled":"False","processorCount":8,"start":1668690328525,"photoURL":"","userType":"Host","deviceModel":"Xiaomi Redmi Note 9 Pro","end":1668690343491,"side":"Sender","streamingRequestState":"Default","startBatteryPercentage":0.87,"companyName":"tcs","userName":"Dev User","userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","microphoneState":0,"region":"AREA_CODE_GLOB"}},"productName":"","type":"Assist"},{"sessionId":"350f1f69-3d74-475f-98ca-4de96f8a5607","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689451755,"users":{"70bLXxJjDWUF7Vll5vRHTO5CzD32":{"stage":"Disconnected","userName":"Dev Tenant","microphoneState":0,"agoraId":"1548322811","deviceModel":"Xiaomi Redmi Note 9 Pro","canBeCollaborator":true,"companyName":"tcs","deviceType":"nativeMobile","processorCount":8,"joinerType":"Host","end":1668689473387,"tenantId":"uMbQiXOc1pHs49b46fcp","region":"AREA_CODE_GLOB","jobDescription":"","streamingRequestState":"Default","userType":"Host","startBatteryPercentage":0.86,"version":"22.04.001","endBatteryPercentage":0.8600000143051147,"systemMemorySize":3587,"proxy":false,"side":"Sender","location":{"latitude":17.6426258,"longitude":78.6598053,"horizontalAccuracy":20.4,"verticalAccuracy":20.4,"altitude":0},"participantType":"Collaborator","start":1668689451755,"photoURL":"","groupId":"none","cameraState":0,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","userId":"70bLXxJjDWUF7Vll5vRHTO5CzD32","arHintsEnabled":"False","aspectRatio":"720*1600*Portrait","processorType":"ARM64 FP ASIMD AES"}},"productName":"","type":"Assist"},{"sessionId":"47cc40d5-14c1-4246-aa60-e938991dd3fe","tenantId":"uMbQiXOc1pHs49b46fcp","sessionStartTime":1668689298958,"users":{"7a57iKjdCaPh7q3GlwtKukQwPyE3":{"tenantId":"uMbQiXOc1pHs49b46fcp","arHintsEnabled":"False","systemMemorySize":3587,"jobDescription":"","processorCount":8,"version":"22.04.001","processorType":"ARM64 FP ASIMD AES","photoURL":"","groupId":"none","agoraId":"92841364","location":{"horizontalAccuracy":20.4,"altitude":0,"latitude":17.6426258,"verticalAccuracy":20.4,"longitude":78.6598053},"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","userType":"Host","joinerType":"Host","side":"Sender","userId":"7a57iKjdCaPh7q3GlwtKukQwPyE3","region":"AREA_CODE_GLOB","streamingRequestState":"Default","stage":"Connected","cameraState":0,"proxy":false,"aspectRatio":"720*1600*Portrait","microphoneState":0,"start":1668689298958,"deviceType":"nativeMobile","canBeCollaborator":true,"userName":"Dev User","companyName":"tcs","participantType":"Collaborator","deviceModel":"Xiaomi Redmi Note 9 Pro","startBatteryPercentage":0.86}},"productName":"","type":"Assist"}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:50 pm</td>
+        <td>
+          *******************Testing for DifferentRegionAPISuperAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:50 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:50 pm</td>
+        <td>
+          Response status code is: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:50 pm</td>
+        <td>
+          Response is: {"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:52 pm</td>
+        <td>
+          *******************Testing for DifferentRegionSuperAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:52 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:52 pm</td>
+        <td>
+          Response status code is: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:52 pm</td>
+        <td>
+          Response is: {"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:53 pm</td>
+        <td>
+          *******************Testing for DifferentRegionSystemAnalyst role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:53 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:53 pm</td>
+        <td>
+          Response status code is: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:53 pm</td>
+        <td>
+          Response is: {"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:55 pm</td>
+        <td>
+          *******************Testing for DiffRegionPartnerCreator role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:55 pm</td>
+        <td>
+          *******************The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:55 pm</td>
+        <td>
+          Response status code is: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:26:55 pm</td>
+        <td>
+          Response is: {"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:26:55 pm</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 24, 2022 03:26:18 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 24, 2022 03:27:15 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='21%'><b>16</b> events passed</small></div>
+<div>
+<small data-tooltip='26%'><b>20</b> events failed,
+<b data-tooltip='%'>39</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"sessionsTenantFetchSessionsAPI":34.591
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 16,
+failEvents: 20,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 39
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

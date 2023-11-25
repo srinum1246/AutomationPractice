@@ -1,0 +1,2 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Pass","Confluence - Allowed","ActualResult - NotAllowed","secretManagerStoresNowSecretAPI","https://hyperspace.apiv2.carear.app/secretManager/storeSnowSecret","hyperspace02.apiauto@gmail.com","super_admin","POST","{""password"":""12"",""tenantId"":""tenantIDVal"",""username"":""1234""}","400","{""message"":""Failed to store the Tenant's ServiceNow Key"",""error"":""Tenant does not exist""}"

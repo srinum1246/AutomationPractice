@@ -1,0 +1,336 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 16, 2022 03:39:13 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">sessionsTenantFetchSessionsAPI</p>
+            <p class="text-sm">
+              <span>3:39:15 pm</span> / <span>00:01:09:674</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">sessionsTenantFetchSessionsAPI</h5>
+<span class='badge badge-success'>11.16.2022 3:39:15 pm</span>
+<span class='badge badge-danger'>11.16.2022 3:40:24 pm</span>
+<span class='badge badge-default'>00:01:09:674</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:39:15 pm</td>
+        <td>
+          *******************Starting of sessionsTenantFetchSessionsAPI test*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:39:15 pm</td>
+        <td>
+          ******************* Testing API URI 'https://hyperspace.apiv2.carear.app/sessions/tenant/fetchSessions'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:39:34 pm</td>
+        <td>
+          *******************Testing for api_super_admin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:39:34 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:39:34 pm</td>
+        <td>
+          Response is: [{"sessionId":"e14b6cb8-4ad1-4bf2-94ff-74cdc0b64e68","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591410235,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"side":"Sender","deviceModel":"Xiaomi Redmi Note 9 Pro","start":1668591410235,"groupId":"autoGroup1","startBatteryPercentage":0.87,"processorCount":8,"systemMemorySize":3587,"microphoneState":0,"end":1668591442515,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","joinerType":"Host","companyName":"hyperspace03Tenant","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","streamingRequestState":"Default","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","cameraState":0,"location":{"altitude":0,"verticalAccuracy":23.6,"longitude":78.6598053,"horizontalAccuracy":23.6,"latitude":17.6426258},"canBeCollaborator":true,"aspectRatio":"720*1600*Portrait","userName":"Hyperspacezerosi","processorType":"ARM64 FP ASIMD AES","region":"AREA_CODE_GLOB","deviceType":"nativeMobile","jobDescription":"","agoraId":"3765530942","arHintsEnabled":"False","photoURL":"","endBatteryPercentage":0.87,"userType":"Host","version":"22.05.001","participantType":"Collaborator","proxy":false,"stage":"Disconnected"}},"productName":"","type":"Assist"},{"sessionId":"0eff6489-9d32-47cf-a5e5-980cbb239b29","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591093486,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"systemMemorySize":3587,"participantType":"Collaborator","microphoneState":0,"startBatteryPercentage":0.88,"end":1668591126799,"processorType":"ARM64 FP ASIMD AES","streamingRequestState":"Default","processorCount":8,"agoraId":"441562318","jobDescription":"","arHintsEnabled":"False","groupId":"autoGroup1","userName":"Hyperspacezerosi","deviceType":"nativeMobile","joinerType":"Host","proxy":false,"canBeCollaborator":true,"cameraState":0,"side":"Sender","endBatteryPercentage":0.88,"deviceModel":"Xiaomi Redmi Note 9 Pro","companyName":"hyperspace03Tenant","start":1668591093486,"version":"22.05.001","region":"AREA_CODE_GLOB","location":{"verticalAccuracy":23.6,"horizontalAccuracy":23.6,"latitude":17.6426258,"altitude":0,"longitude":78.6598053},"userType":"Host","tenantId":"FOZvxI0W3z7R9Jh6CIm0","photoURL":"","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","aspectRatio":"720*1600*Portrait","stage":"Disconnected","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2"}},"productName":"","type":"Assist"},{"sessionId":"0d6824c7-e08b-4af2-b97a-1493c6c98105","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668585030115,"users":{"s4rqNa7OvIhep2y6s99IGbXK84v2":{"tenantId":"FOZvxI0W3z7R9Jh6CIm0","agoraId":"3211625643","end":1668585045405,"companyName":"hyperspace03Tenant","userType":"Host","groupId":"none","jobDescription":"","side":"Sender","systemMemorySize":3587,"joinerType":"Host","processorCount":8,"userId":"s4rqNa7OvIhep2y6s99IGbXK84v2","userName":"Hyperspacezerothree","processorType":"ARM64 FP ASIMD AES","region":"AREA_CODE_GLOB","aspectRatio":"1080*2400*Portrait","start":1668585030115,"deviceModel":"Xiaomi Redmi Note 9 Pro","startBatteryPercentage":0.91,"arHintsEnabled":"False","microphoneState":0,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","proxy":false,"streamingRequestState":"Default","location":{"latitude":17.6426716,"altitude":439.2646,"verticalAccuracy":4.317457,"longitude":78.65976,"horizontalAccuracy":4.317457},"canBeCollaborator":true,"stage":"Connected","version":"22.05.001","deviceType":"nativeMobile","cameraState":0,"photoURL":"","endBatteryPercentage":0.91,"participantType":"Collaborator"}},"productName":"","type":"Assist"},{"sessionId":"cebcfcf1-6854-495b-b009-7b6e1fa8b8cc","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668584910280,"users":{"s4rqNa7OvIhep2y6s99IGbXK84v2":{"processorType":"ARM64 FP ASIMD AES","deviceType":"nativeMobile","systemMemorySize":3587,"userName":"Hyperspacezerothree","groupId":"none","companyName":"hyperspace03Tenant","userType":"Host","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","region":"AREA_CODE_GLOB","side":"Sender","endBatteryPercentage":0.92,"arHintsEnabled":"False","start":1668584910280,"userId":"s4rqNa7OvIhep2y6s99IGbXK84v2","jobDescription":"","stage":"Connected","canBeCollaborator":true,"version":"22.05.001","photoURL":"","streamingRequestState":"Default","location":{"horizontalAccuracy":4.317457,"verticalAccuracy":4.317457,"latitude":17.6426716,"longitude":78.65976,"altitude":439.2646},"proxy":false,"agoraId":"3365623184","participantType":"Collaborator","microphoneState":0,"deviceModel":"Xiaomi Redmi Note 9 Pro","aspectRatio":"1080*2400*Portrait","joinerType":"Host","tenantId":"FOZvxI0W3z7R9Jh6CIm0","cameraState":0,"processorCount":8,"startBatteryPercentage":0.92}},"productName":"","type":"Assist"},{"sessionId":"8207d9fd-03bf-42c6-86ed-050b9dad91ef","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668583660769,"users":{"s4rqNa7OvIhep2y6s99IGbXK84v2":{"processorType":"ARM64 FP ASIMD AES","region":"AREA_CODE_GLOB","userId":"s4rqNa7OvIhep2y6s99IGbXK84v2","deviceType":"nativeMobile","location":{"longitude":78.65976,"altitude":439.2646,"latitude":17.6426716,"verticalAccuracy":4.317457,"horizontalAccuracy":4.317457},"joinerType":"Host","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","start":1668583660769,"version":"22.05.001","groupId":"none","agoraId":"1127009453","streamingRequestState":"Default","side":"Sender","cameraState":0,"arHintsEnabled":"False","systemMemorySize":3587,"userName":"Hyperspacezerothree","canBeCollaborator":true,"proxy":false,"jobDescription":"","microphoneState":0,"userType":"Host","processorCount":8,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","aspectRatio":"1080*2400*Portrait","participantType":"Collaborator","photoURL":"","end":1668583800083,"endBatteryPercentage":0.94,"startBatteryPercentage":0.94,"deviceModel":"Xiaomi Redmi Note 9 Pro","stage":"Disconnected","companyName":"hyperspace03Tenant"}},"productName":"","type":"Assist"},{"sessionId":"52761bd2-607b-48a5-98dd-b1e9baeb9cbd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668499644275,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"agoraId":"2690334247","processorType":"ARM64 FP ASIMD AES","canBeCollaborator":true,"jobDescription":"","stage":"Connected","userType":"Host","aspectRatio":"1080*2400*Portrait","deviceType":"nativeMobile","region":"AREA_CODE_GLOB","startBatteryPercentage":0.8,"side":"Sender","systemMemorySize":3587,"photoURL":"","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","participantType":"Collaborator","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","cameraState":0,"companyName":"hyperspace03Tenant","joinerType":"Host","deviceModel":"Xiaomi Redmi Note 9 Pro","start":1668499644275,"endBatteryPercentage":0.8,"processorCount":8,"userName":"Hyperspacezerosi","arHintsEnabled":"False","tenantId":"FOZvxI0W3z7R9Jh6CIm0","microphoneState":0,"location":{"latitude":17.4590778,"altitude":518.4,"verticalAccuracy":120.384,"horizontalAccuracy":120.384,"longitude":78.36822},"version":"22.05.001","groupId":"autoGroup1","proxy":false,"streamingRequestState":"Default"}},"productName":"","type":"Assist"},{"sessionId":"a520a880-5d8a-4b7f-8ffd-4c2c2fa7db8d","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496824723,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"endBatteryPercentage":0.37,"userName":"Hyperspacezerosi","region":"AREA_CODE_GLOB","version":"22.05.001","stage":"Disconnected","deviceType":"nativeMobile","startBatteryPercentage":0.37,"proxy":false,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","deviceModel":"samsung SM-G991B","start":1668496824723,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","cameraState":0,"agoraId":"2808927703","location":{"latitude":18.8709869,"longitude":79.43406,"verticalAccuracy":128.899,"altitude":65.6,"horizontalAccuracy":128.899},"microphoneState":0,"operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","groupId":"autoGroup1","joinerType":"Host","processorCount":8,"arHintsEnabled":"False","survey":{"syg91SNzYiu3f3T4o8G5":"ghuu","ZkgSigHV1ZnPYsqgwfW5":"4"},"systemMemorySize":7201,"end":1668496830315,"photoURL":"","companyName":"hyperspace03Tenant","jobDescription":"","userType":"Host","streamingRequestState":"Default","processorType":"ARM64 FP ASIMD AES","aspectRatio":"1080*2400*Portrait","side":"Sender","participantType":"Collaborator","canBeCollaborator":true}},"productName":"","type":"Assist"},{"sessionId":"6df3ae96-d712-4276-9dda-2fec3e69dccc","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496477905,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"photoURL":"","side":"Sender","processorCount":8,"stage":"Disconnected","participantType":"Collaborator","userType":"Host","region":"AREA_CODE_GLOB","arHintsEnabled":"False","startBatteryPercentage":0.34,"proxy":false,"deviceModel":"samsung SM-G991B","tenantId":"FOZvxI0W3z7R9Jh6CIm0","canBeCollaborator":true,"location":{"longitude":79.44038,"verticalAccuracy":2514,"horizontalAccuracy":2514,"latitude":18.8688068,"altitude":0},"streamingRequestState":"Default","jobDescription":"","joinerType":"Host","end":1668496486396,"deviceType":"nativeMobile","operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","start":1668496477905,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","aspectRatio":"1080*2400*Portrait","version":"22.05.001","microphoneState":0,"systemMemorySize":7201,"agoraId":"372627155","userName":"Hyperspacezerosi","companyName":"hyperspace03Tenant","endBatteryPercentage":0.34,"survey":{"syg91SNzYiu3f3T4o8G5":"ohh god","ZkgSigHV1ZnPYsqgwfW5":"4","hk92DE0RsYoFgLJ5EBts":"ohhh"},"cameraState":0,"groupId":"autoGroup1","processorType":"ARM64 FP ASIMD AES"}},"productName":"","type":"Assist"},{"sessionId":"3aa5e511-284e-4afe-957d-cf579ef988c6","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412386077,"users":{},"productName":"","type":"Instruct"},{"sessionId":"096dbc42-b97a-4b88-af9a-a36dec3067b0","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412385109,"users":{},"productName":"","type":"Instruct"},{"sessionId":"823a1fe1-6f30-40ef-b094-0153004ea6f5","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412384309,"users":{},"productName":"","type":"Instruct"},{"sessionId":"855b9a36-76d5-4a41-a519-e077c2662341","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412383508,"users":{},"productName":"","type":"Instruct"},{"sessionId":"e0a40235-4564-471f-9a16-913ae0e76f6b","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412382567,"users":{},"productName":"","type":"Instruct"},{"sessionId":"3c1716be-eb34-4f71-92ec-02e5021c2a6b","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412381620,"users":{},"productName":"","type":"Instruct"},{"sessionId":"55b3477b-0951-4629-ac8f-9735cdc0a507","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412380871,"users":{},"productName":"","type":"Instruct"},{"sessionId":"b18b0eca-c6a4-44bc-89fb-6dd3e57bfb41","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412380034,"users":{},"productName":"","type":"Instruct"},{"sessionId":"6f543303-5458-400c-a457-db36ad24cefd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401113787,"users":{},"productName":"","type":"Instruct"},{"sessionId":"ef2f3a61-92c9-4a88-a35e-081a7ee478b6","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401112920,"users":{},"productName":"","type":"Instruct"},{"sessionId":"0b5afe6c-686d-4669-9445-fb9ed6c0ec95","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401112042,"users":{},"productName":"","type":"Instruct"},{"sessionId":"eb45c812-c003-4462-b3ae-0280a5690796","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401111099,"users":{},"productName":"","type":"Instruct"},{"sessionId":"68741b31-fea1-4c3f-9b8a-fbb85bc8a4d1","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401110031,"users":{},"productName":"","type":"Instruct"},{"sessionId":"937562e3-7f1f-4d48-9ee7-617e29d275e5","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401109105,"users":{},"productName":"","type":"Instruct"},{"sessionId":"f11abb59-1e3c-43bf-9270-bc040e9190f0","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401108210,"users":{},"productName":"","type":"Instruct"},{"sessionId":"fff45ca6-ddac-4c19-a615-711144149799","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401107276,"users":{},"productName":"","type":"Instruct"},{"sessionId":"aed05fd6-5b06-4e56-8818-ba1d019a7a04","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340877211,"users":{},"productName":"","type":"Instruct"},{"sessionId":"14216cbf-e877-4791-abba-35b99597b295","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340876305,"users":{},"productName":"","type":"Instruct"},{"sessionId":"85c970c2-f322-47e8-b1db-6767c415012f","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340875384,"users":{},"productName":"","type":"Instruct"},{"sessionId":"1e5e677b-bdf1-433f-abf6-6a52588d06cd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340874493,"users":{},"productName":"","type":"Instruct"},{"sessionId":"2c4171df-093f-4887-b306-50d62e317df7","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340873589,"users":{},"productName":"","type":"Instruct"},{"sessionId":"9a8f8f15-3ef7-4b34-a1e0-fa4f9710c3a9","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340872656,"users":{},"productName":"","type":"Instruct"},{"sessionId":"fc4c2a49-a135-40b7-b71f-20bb9bcbc97a","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340871639,"users":{},"productName":"","type":"Instruct"},{"sessionId":"7bea81cf-0b4a-4d84-8fe3-5722baffc3ac","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340870703,"users":{},"productName":"","type":"Instruct"}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:39:40 pm</td>
+        <td>
+          *******************Testing for super_admin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:39:40 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:39:40 pm</td>
+        <td>
+          Response is: [{"sessionId":"e14b6cb8-4ad1-4bf2-94ff-74cdc0b64e68","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591410235,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"joinerType":"Host","deviceType":"nativeMobile","arHintsEnabled":"False","stage":"Disconnected","canBeCollaborator":true,"start":1668591410235,"version":"22.05.001","participantType":"Collaborator","endBatteryPercentage":0.87,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","streamingRequestState":"Default","userName":"Hyperspacezerosi","systemMemorySize":3587,"side":"Sender","deviceModel":"Xiaomi Redmi Note 9 Pro","userType":"Host","agoraId":"3765530942","aspectRatio":"720*1600*Portrait","tenantId":"FOZvxI0W3z7R9Jh6CIm0","companyName":"hyperspace03Tenant","end":1668591442515,"cameraState":0,"region":"AREA_CODE_GLOB","proxy":false,"groupId":"autoGroup1","microphoneState":0,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","processorCount":8,"processorType":"ARM64 FP ASIMD AES","location":{"horizontalAccuracy":23.6,"latitude":17.6426258,"altitude":0,"longitude":78.6598053,"verticalAccuracy":23.6},"jobDescription":"","photoURL":"","startBatteryPercentage":0.87}},"productName":"","type":"Assist"},{"sessionId":"0eff6489-9d32-47cf-a5e5-980cbb239b29","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591093486,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"deviceType":"nativeMobile","startBatteryPercentage":0.88,"end":1668591126799,"cameraState":0,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","processorCount":8,"groupId":"autoGroup1","side":"Sender","userType":"Host","deviceModel":"Xiaomi Redmi Note 9 Pro","tenantId":"FOZvxI0W3z7R9Jh6CIm0","processorType":"ARM64 FP ASIMD AES","canBeCollaborator":true,"arHintsEnabled":"False","aspectRatio":"720*1600*Portrait","companyName":"hyperspace03Tenant","region":"AREA_CODE_GLOB","userName":"Hyperspacezerosi","participantType":"Collaborator","start":1668591093486,"joinerType":"Host","microphoneState":0,"version":"22.05.001","agoraId":"441562318","location":{"horizontalAccuracy":23.6,"verticalAccuracy":23.6,"longitude":78.6598053,"latitude":17.6426258,"altitude":0},"systemMemorySize":3587,"endBatteryPercentage":0.88,"streamingRequestState":"Default","jobDescription":"","photoURL":"","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","proxy":false,"stage":"Disconnected"}},"productName":"","type":"Assist"},{"sessionId":"0d6824c7-e08b-4af2-b97a-1493c6c98105","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668585030115,"users":{"s4rqNa7OvIhep2y6s99IGbXK84v2":{"companyName":"hyperspace03Tenant","userId":"s4rqNa7OvIhep2y6s99IGbXK84v2","streamingRequestState":"Default","endBatteryPercentage":0.91,"groupId":"none","startBatteryPercentage":0.91,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","processorCount":8,"canBeCollaborator":true,"userType":"Host","start":1668585030115,"userName":"Hyperspacezerothree","region":"AREA_CODE_GLOB","microphoneState":0,"version":"22.05.001","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","arHintsEnabled":"False","side":"Sender","deviceType":"nativeMobile","agoraId":"3211625643","proxy":false,"systemMemorySize":3587,"aspectRatio":"1080*2400*Portrait","participantType":"Collaborator","end":1668585045405,"stage":"Connected","cameraState":0,"processorType":"ARM64 FP ASIMD AES","photoURL":"","deviceModel":"Xiaomi Redmi Note 9 Pro","location":{"horizontalAccuracy":4.317457,"altitude":439.2646,"verticalAccuracy":4.317457,"latitude":17.6426716,"longitude":78.65976},"jobDescription":"","joinerType":"Host"}},"productName":"","type":"Assist"},{"sessionId":"cebcfcf1-6854-495b-b009-7b6e1fa8b8cc","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668584910280,"users":{"s4rqNa7OvIhep2y6s99IGbXK84v2":{"deviceModel":"Xiaomi Redmi Note 9 Pro","cameraState":0,"microphoneState":0,"start":1668584910280,"userType":"Host","companyName":"hyperspace03Tenant","proxy":false,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","groupId":"none","streamingRequestState":"Default","photoURL":"","userId":"s4rqNa7OvIhep2y6s99IGbXK84v2","canBeCollaborator":true,"systemMemorySize":3587,"version":"22.05.001","processorCount":8,"region":"AREA_CODE_GLOB","location":{"latitude":17.6426716,"horizontalAccuracy":4.317457,"altitude":439.2646,"verticalAccuracy":4.317457,"longitude":78.65976},"joinerType":"Host","startBatteryPercentage":0.92,"endBatteryPercentage":0.92,"processorType":"ARM64 FP ASIMD AES","aspectRatio":"1080*2400*Portrait","participantType":"Collaborator","agoraId":"3365623184","jobDescription":"","tenantId":"FOZvxI0W3z7R9Jh6CIm0","userName":"Hyperspacezerothree","deviceType":"nativeMobile","stage":"Connected","arHintsEnabled":"False","side":"Sender"}},"productName":"","type":"Assist"},{"sessionId":"8207d9fd-03bf-42c6-86ed-050b9dad91ef","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668583660769,"users":{"s4rqNa7OvIhep2y6s99IGbXK84v2":{"processorCount":8,"companyName":"hyperspace03Tenant","systemMemorySize":3587,"aspectRatio":"1080*2400*Portrait","endBatteryPercentage":0.94,"location":{"longitude":78.65976,"horizontalAccuracy":4.317457,"latitude":17.6426716,"verticalAccuracy":4.317457,"altitude":439.2646},"userId":"s4rqNa7OvIhep2y6s99IGbXK84v2","end":1668583800083,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","region":"AREA_CODE_GLOB","version":"22.05.001","deviceType":"nativeMobile","participantType":"Collaborator","startBatteryPercentage":0.94,"start":1668583660769,"proxy":false,"joinerType":"Host","processorType":"ARM64 FP ASIMD AES","canBeCollaborator":true,"groupId":"none","userType":"Host","stage":"Disconnected","deviceModel":"Xiaomi Redmi Note 9 Pro","agoraId":"1127009453","arHintsEnabled":"False","cameraState":0,"streamingRequestState":"Default","jobDescription":"","microphoneState":0,"side":"Sender","photoURL":"","userName":"Hyperspacezerothree","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)"}},"productName":"","type":"Assist"},{"sessionId":"52761bd2-607b-48a5-98dd-b1e9baeb9cbd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668499644275,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"location":{"horizontalAccuracy":120.384,"verticalAccuracy":120.384,"latitude":17.4590778,"altitude":518.4,"longitude":78.36822},"processorType":"ARM64 FP ASIMD AES","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","photoURL":"","deviceType":"nativeMobile","side":"Sender","deviceModel":"Xiaomi Redmi Note 9 Pro","processorCount":8,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","start":1668499644275,"companyName":"hyperspace03Tenant","aspectRatio":"1080*2400*Portrait","cameraState":0,"userType":"Host","arHintsEnabled":"False","microphoneState":0,"agoraId":"2690334247","groupId":"autoGroup1","participantType":"Collaborator","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","endBatteryPercentage":0.8,"jobDescription":"","stage":"Connected","userName":"Hyperspacezerosi","version":"22.05.001","proxy":false,"canBeCollaborator":true,"streamingRequestState":"Default","systemMemorySize":3587,"startBatteryPercentage":0.8,"joinerType":"Host","region":"AREA_CODE_GLOB"}},"productName":"","type":"Assist"},{"sessionId":"a520a880-5d8a-4b7f-8ffd-4c2c2fa7db8d","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496824723,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"region":"AREA_CODE_GLOB","location":{"latitude":18.8709869,"verticalAccuracy":128.899,"horizontalAccuracy":128.899,"altitude":65.6,"longitude":79.43406},"endBatteryPercentage":0.37,"deviceModel":"samsung SM-G991B","side":"Sender","start":1668496824723,"groupId":"autoGroup1","tenantId":"FOZvxI0W3z7R9Jh6CIm0","aspectRatio":"1080*2400*Portrait","processorType":"ARM64 FP ASIMD AES","photoURL":"","jobDescription":"","startBatteryPercentage":0.37,"microphoneState":0,"joinerType":"Host","canBeCollaborator":true,"stage":"Disconnected","participantType":"Collaborator","version":"22.05.001","arHintsEnabled":"False","userType":"Host","userName":"Hyperspacezerosi","processorCount":8,"operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","companyName":"hyperspace03Tenant","survey":{"syg91SNzYiu3f3T4o8G5":"ghuu","ZkgSigHV1ZnPYsqgwfW5":"4"},"end":1668496830315,"systemMemorySize":7201,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","cameraState":0,"deviceType":"nativeMobile","streamingRequestState":"Default","proxy":false,"agoraId":"2808927703"}},"productName":"","type":"Assist"},{"sessionId":"6df3ae96-d712-4276-9dda-2fec3e69dccc","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496477905,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"cameraState":0,"userName":"Hyperspacezerosi","photoURL":"","tenantId":"FOZvxI0W3z7R9Jh6CIm0","aspectRatio":"1080*2400*Portrait","end":1668496486396,"deviceModel":"samsung SM-G991B","participantType":"Collaborator","processorType":"ARM64 FP ASIMD AES","side":"Sender","operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","agoraId":"372627155","deviceType":"nativeMobile","version":"22.05.001","jobDescription":"","proxy":false,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","joinerType":"Host","processorCount":8,"userType":"Host","endBatteryPercentage":0.34,"start":1668496477905,"groupId":"autoGroup1","systemMemorySize":7201,"stage":"Disconnected","canBeCollaborator":true,"microphoneState":0,"survey":{"syg91SNzYiu3f3T4o8G5":"ohh god","ZkgSigHV1ZnPYsqgwfW5":"4","hk92DE0RsYoFgLJ5EBts":"ohhh"},"arHintsEnabled":"False","streamingRequestState":"Default","startBatteryPercentage":0.34,"location":{"latitude":18.8688068,"verticalAccuracy":2514,"altitude":0,"horizontalAccuracy":2514,"longitude":79.44038},"companyName":"hyperspace03Tenant","region":"AREA_CODE_GLOB"}},"productName":"","type":"Assist"},{"sessionId":"3aa5e511-284e-4afe-957d-cf579ef988c6","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412386077,"users":{},"productName":"","type":"Instruct"},{"sessionId":"096dbc42-b97a-4b88-af9a-a36dec3067b0","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412385109,"users":{},"productName":"","type":"Instruct"},{"sessionId":"823a1fe1-6f30-40ef-b094-0153004ea6f5","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412384309,"users":{},"productName":"","type":"Instruct"},{"sessionId":"855b9a36-76d5-4a41-a519-e077c2662341","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412383508,"users":{},"productName":"","type":"Instruct"},{"sessionId":"e0a40235-4564-471f-9a16-913ae0e76f6b","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412382567,"users":{},"productName":"","type":"Instruct"},{"sessionId":"3c1716be-eb34-4f71-92ec-02e5021c2a6b","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412381620,"users":{},"productName":"","type":"Instruct"},{"sessionId":"55b3477b-0951-4629-ac8f-9735cdc0a507","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412380871,"users":{},"productName":"","type":"Instruct"},{"sessionId":"b18b0eca-c6a4-44bc-89fb-6dd3e57bfb41","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412380034,"users":{},"productName":"","type":"Instruct"},{"sessionId":"6f543303-5458-400c-a457-db36ad24cefd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401113787,"users":{},"productName":"","type":"Instruct"},{"sessionId":"ef2f3a61-92c9-4a88-a35e-081a7ee478b6","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401112920,"users":{},"productName":"","type":"Instruct"},{"sessionId":"0b5afe6c-686d-4669-9445-fb9ed6c0ec95","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401112042,"users":{},"productName":"","type":"Instruct"},{"sessionId":"eb45c812-c003-4462-b3ae-0280a5690796","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401111099,"users":{},"productName":"","type":"Instruct"},{"sessionId":"68741b31-fea1-4c3f-9b8a-fbb85bc8a4d1","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401110031,"users":{},"productName":"","type":"Instruct"},{"sessionId":"937562e3-7f1f-4d48-9ee7-617e29d275e5","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401109105,"users":{},"productName":"","type":"Instruct"},{"sessionId":"f11abb59-1e3c-43bf-9270-bc040e9190f0","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401108210,"users":{},"productName":"","type":"Instruct"},{"sessionId":"fff45ca6-ddac-4c19-a615-711144149799","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401107276,"users":{},"productName":"","type":"Instruct"},{"sessionId":"aed05fd6-5b06-4e56-8818-ba1d019a7a04","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340877211,"users":{},"productName":"","type":"Instruct"},{"sessionId":"14216cbf-e877-4791-abba-35b99597b295","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340876305,"users":{},"productName":"","type":"Instruct"},{"sessionId":"85c970c2-f322-47e8-b1db-6767c415012f","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340875384,"users":{},"productName":"","type":"Instruct"},{"sessionId":"1e5e677b-bdf1-433f-abf6-6a52588d06cd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340874493,"users":{},"productName":"","type":"Instruct"},{"sessionId":"2c4171df-093f-4887-b306-50d62e317df7","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340873589,"users":{},"productName":"","type":"Instruct"},{"sessionId":"9a8f8f15-3ef7-4b34-a1e0-fa4f9710c3a9","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340872656,"users":{},"productName":"","type":"Instruct"},{"sessionId":"fc4c2a49-a135-40b7-b71f-20bb9bcbc97a","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340871639,"users":{},"productName":"","type":"Instruct"},{"sessionId":"7bea81cf-0b4a-4d84-8fe3-5722baffc3ac","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340870703,"users":{},"productName":"","type":"Instruct"}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:39:44 pm</td>
+        <td>
+          *******************Testing for PrimaryTenantAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:39:44 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:39:44 pm</td>
+        <td>
+          Response is: [{"sessionId":"e14b6cb8-4ad1-4bf2-94ff-74cdc0b64e68","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591410235,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"userType":"Host","systemMemorySize":3587,"cameraState":0,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","agoraId":"3765530942","tenantId":"FOZvxI0W3z7R9Jh6CIm0","region":"AREA_CODE_GLOB","deviceType":"nativeMobile","processorType":"ARM64 FP ASIMD AES","endBatteryPercentage":0.87,"canBeCollaborator":true,"microphoneState":0,"stage":"Disconnected","arHintsEnabled":"False","companyName":"hyperspace03Tenant","userName":"Hyperspacezerosi","jobDescription":"","side":"Sender","processorCount":8,"end":1668591442515,"deviceModel":"Xiaomi Redmi Note 9 Pro","joinerType":"Host","photoURL":"","startBatteryPercentage":0.87,"participantType":"Collaborator","start":1668591410235,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","version":"22.05.001","groupId":"autoGroup1","aspectRatio":"720*1600*Portrait","location":{"altitude":0,"horizontalAccuracy":23.6,"verticalAccuracy":23.6,"latitude":17.6426258,"longitude":78.6598053},"streamingRequestState":"Default","proxy":false}},"productName":"","type":"Assist"},{"sessionId":"0eff6489-9d32-47cf-a5e5-980cbb239b29","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591093486,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"systemMemorySize":3587,"cameraState":0,"endBatteryPercentage":0.88,"groupId":"autoGroup1","joinerType":"Host","agoraId":"441562318","side":"Sender","deviceModel":"Xiaomi Redmi Note 9 Pro","canBeCollaborator":true,"deviceType":"nativeMobile","location":{"altitude":0,"horizontalAccuracy":23.6,"verticalAccuracy":23.6,"latitude":17.6426258,"longitude":78.6598053},"streamingRequestState":"Default","aspectRatio":"720*1600*Portrait","stage":"Disconnected","jobDescription":"","end":1668591126799,"participantType":"Collaborator","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","start":1668591093486,"userName":"Hyperspacezerosi","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","startBatteryPercentage":0.88,"processorType":"ARM64 FP ASIMD AES","region":"AREA_CODE_GLOB","processorCount":8,"proxy":false,"arHintsEnabled":"False","userType":"Host","companyName":"hyperspace03Tenant","photoURL":"","microphoneState":0,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","version":"22.05.001"}},"productName":"","type":"Assist"},{"sessionId":"0d6824c7-e08b-4af2-b97a-1493c6c98105","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668585030115,"users":{"s4rqNa7OvIhep2y6s99IGbXK84v2":{"deviceType":"nativeMobile","canBeCollaborator":true,"userType":"Host","region":"AREA_CODE_GLOB","tenantId":"FOZvxI0W3z7R9Jh6CIm0","joinerType":"Host","companyName":"hyperspace03Tenant","processorCount":8,"proxy":false,"processorType":"ARM64 FP ASIMD AES","version":"22.05.001","agoraId":"3211625643","photoURL":"","startBatteryPercentage":0.91,"jobDescription":"","endBatteryPercentage":0.91,"cameraState":0,"userId":"s4rqNa7OvIhep2y6s99IGbXK84v2","groupId":"none","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","streamingRequestState":"Default","systemMemorySize":3587,"participantType":"Collaborator","userName":"Hyperspacezerothree","location":{"longitude":78.65976,"verticalAccuracy":4.317457,"altitude":439.2646,"horizontalAccuracy":4.317457,"latitude":17.6426716},"stage":"Connected","side":"Sender","end":1668585045405,"arHintsEnabled":"False","start":1668585030115,"microphoneState":0,"aspectRatio":"1080*2400*Portrait","deviceModel":"Xiaomi Redmi Note 9 Pro"}},"productName":"","type":"Assist"},{"sessionId":"cebcfcf1-6854-495b-b009-7b6e1fa8b8cc","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668584910280,"users":{"s4rqNa7OvIhep2y6s99IGbXK84v2":{"aspectRatio":"1080*2400*Portrait","deviceModel":"Xiaomi Redmi Note 9 Pro","proxy":false,"location":{"altitude":439.2646,"horizontalAccuracy":4.317457,"latitude":17.6426716,"verticalAccuracy":4.317457,"longitude":78.65976},"groupId":"none","cameraState":0,"side":"Sender","deviceType":"nativeMobile","systemMemorySize":3587,"version":"22.05.001","participantType":"Collaborator","region":"AREA_CODE_GLOB","processorType":"ARM64 FP ASIMD AES","userId":"s4rqNa7OvIhep2y6s99IGbXK84v2","endBatteryPercentage":0.92,"startBatteryPercentage":0.92,"canBeCollaborator":true,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","agoraId":"3365623184","userType":"Host","userName":"Hyperspacezerothree","tenantId":"FOZvxI0W3z7R9Jh6CIm0","microphoneState":0,"arHintsEnabled":"False","stage":"Connected","photoURL":"","joinerType":"Host","streamingRequestState":"Default","start":1668584910280,"companyName":"hyperspace03Tenant","processorCount":8,"jobDescription":""}},"productName":"","type":"Assist"},{"sessionId":"8207d9fd-03bf-42c6-86ed-050b9dad91ef","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668583660769,"users":{"s4rqNa7OvIhep2y6s99IGbXK84v2":{"stage":"Disconnected","groupId":"none","start":1668583660769,"location":{"horizontalAccuracy":4.317457,"latitude":17.6426716,"longitude":78.65976,"altitude":439.2646,"verticalAccuracy":4.317457},"systemMemorySize":3587,"companyName":"hyperspace03Tenant","canBeCollaborator":true,"userId":"s4rqNa7OvIhep2y6s99IGbXK84v2","jobDescription":"","arHintsEnabled":"False","streamingRequestState":"Default","version":"22.05.001","tenantId":"FOZvxI0W3z7R9Jh6CIm0","agoraId":"1127009453","proxy":false,"deviceType":"nativeMobile","participantType":"Collaborator","cameraState":0,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","joinerType":"Host","side":"Sender","region":"AREA_CODE_GLOB","photoURL":"","aspectRatio":"1080*2400*Portrait","processorType":"ARM64 FP ASIMD AES","end":1668583800083,"microphoneState":0,"endBatteryPercentage":0.94,"userName":"Hyperspacezerothree","userType":"Host","processorCount":8,"deviceModel":"Xiaomi Redmi Note 9 Pro","startBatteryPercentage":0.94}},"productName":"","type":"Assist"},{"sessionId":"52761bd2-607b-48a5-98dd-b1e9baeb9cbd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668499644275,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"jobDescription":"","version":"22.05.001","systemMemorySize":3587,"location":{"latitude":17.4590778,"longitude":78.36822,"verticalAccuracy":120.384,"horizontalAccuracy":120.384,"altitude":518.4},"deviceModel":"Xiaomi Redmi Note 9 Pro","userType":"Host","companyName":"hyperspace03Tenant","region":"AREA_CODE_GLOB","streamingRequestState":"Default","side":"Sender","deviceType":"nativeMobile","cameraState":0,"agoraId":"2690334247","proxy":false,"processorCount":8,"startBatteryPercentage":0.8,"arHintsEnabled":"False","photoURL":"","stage":"Connected","endBatteryPercentage":0.8,"microphoneState":0,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","start":1668499644275,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","userName":"Hyperspacezerosi","joinerType":"Host","participantType":"Collaborator","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","processorType":"ARM64 FP ASIMD AES","canBeCollaborator":true,"aspectRatio":"1080*2400*Portrait","groupId":"autoGroup1"}},"productName":"","type":"Assist"},{"sessionId":"a520a880-5d8a-4b7f-8ffd-4c2c2fa7db8d","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496824723,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"processorType":"ARM64 FP ASIMD AES","arHintsEnabled":"False","cameraState":0,"groupId":"autoGroup1","startBatteryPercentage":0.37,"version":"22.05.001","region":"AREA_CODE_GLOB","photoURL":"","companyName":"hyperspace03Tenant","aspectRatio":"1080*2400*Portrait","stage":"Disconnected","location":{"longitude":79.43406,"verticalAccuracy":128.899,"altitude":65.6,"horizontalAccuracy":128.899,"latitude":18.8709869},"userName":"Hyperspacezerosi","survey":{"ZkgSigHV1ZnPYsqgwfW5":"4","syg91SNzYiu3f3T4o8G5":"ghuu"},"agoraId":"2808927703","endBatteryPercentage":0.37,"joinerType":"Host","systemMemorySize":7201,"streamingRequestState":"Default","deviceModel":"samsung SM-G991B","jobDescription":"","operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","processorCount":8,"proxy":false,"microphoneState":0,"participantType":"Collaborator","side":"Sender","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","deviceType":"nativeMobile","start":1668496824723,"userType":"Host","end":1668496830315,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","canBeCollaborator":true}},"productName":"","type":"Assist"},{"sessionId":"6df3ae96-d712-4276-9dda-2fec3e69dccc","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496477905,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","cameraState":0,"aspectRatio":"1080*2400*Portrait","companyName":"hyperspace03Tenant","location":{"longitude":79.44038,"altitude":0,"latitude":18.8688068,"verticalAccuracy":2514,"horizontalAccuracy":2514},"side":"Sender","canBeCollaborator":true,"startBatteryPercentage":0.34,"deviceType":"nativeMobile","groupId":"autoGroup1","start":1668496477905,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","joinerType":"Host","arHintsEnabled":"False","survey":{"ZkgSigHV1ZnPYsqgwfW5":"4","hk92DE0RsYoFgLJ5EBts":"ohhh","syg91SNzYiu3f3T4o8G5":"ohh god"},"userType":"Host","version":"22.05.001","jobDescription":"","end":1668496486396,"microphoneState":0,"processorCount":8,"operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","systemMemorySize":7201,"photoURL":"","endBatteryPercentage":0.34,"processorType":"ARM64 FP ASIMD AES","region":"AREA_CODE_GLOB","participantType":"Collaborator","agoraId":"372627155","proxy":false,"stage":"Disconnected","userName":"Hyperspacezerosi","deviceModel":"samsung SM-G991B","streamingRequestState":"Default"}},"productName":"","type":"Assist"},{"sessionId":"3aa5e511-284e-4afe-957d-cf579ef988c6","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412386077,"users":{},"productName":"","type":"Instruct"},{"sessionId":"096dbc42-b97a-4b88-af9a-a36dec3067b0","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412385109,"users":{},"productName":"","type":"Instruct"},{"sessionId":"823a1fe1-6f30-40ef-b094-0153004ea6f5","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412384309,"users":{},"productName":"","type":"Instruct"},{"sessionId":"855b9a36-76d5-4a41-a519-e077c2662341","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412383508,"users":{},"productName":"","type":"Instruct"},{"sessionId":"e0a40235-4564-471f-9a16-913ae0e76f6b","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412382567,"users":{},"productName":"","type":"Instruct"},{"sessionId":"3c1716be-eb34-4f71-92ec-02e5021c2a6b","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412381620,"users":{},"productName":"","type":"Instruct"},{"sessionId":"55b3477b-0951-4629-ac8f-9735cdc0a507","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412380871,"users":{},"productName":"","type":"Instruct"},{"sessionId":"b18b0eca-c6a4-44bc-89fb-6dd3e57bfb41","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412380034,"users":{},"productName":"","type":"Instruct"},{"sessionId":"6f543303-5458-400c-a457-db36ad24cefd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401113787,"users":{},"productName":"","type":"Instruct"},{"sessionId":"ef2f3a61-92c9-4a88-a35e-081a7ee478b6","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401112920,"users":{},"productName":"","type":"Instruct"},{"sessionId":"0b5afe6c-686d-4669-9445-fb9ed6c0ec95","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401112042,"users":{},"productName":"","type":"Instruct"},{"sessionId":"eb45c812-c003-4462-b3ae-0280a5690796","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401111099,"users":{},"productName":"","type":"Instruct"},{"sessionId":"68741b31-fea1-4c3f-9b8a-fbb85bc8a4d1","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401110031,"users":{},"productName":"","type":"Instruct"},{"sessionId":"937562e3-7f1f-4d48-9ee7-617e29d275e5","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401109105,"users":{},"productName":"","type":"Instruct"},{"sessionId":"f11abb59-1e3c-43bf-9270-bc040e9190f0","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401108210,"users":{},"productName":"","type":"Instruct"},{"sessionId":"fff45ca6-ddac-4c19-a615-711144149799","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401107276,"users":{},"productName":"","type":"Instruct"},{"sessionId":"aed05fd6-5b06-4e56-8818-ba1d019a7a04","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340877211,"users":{},"productName":"","type":"Instruct"},{"sessionId":"14216cbf-e877-4791-abba-35b99597b295","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340876305,"users":{},"productName":"","type":"Instruct"},{"sessionId":"85c970c2-f322-47e8-b1db-6767c415012f","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340875384,"users":{},"productName":"","type":"Instruct"},{"sessionId":"1e5e677b-bdf1-433f-abf6-6a52588d06cd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340874493,"users":{},"productName":"","type":"Instruct"},{"sessionId":"2c4171df-093f-4887-b306-50d62e317df7","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340873589,"users":{},"productName":"","type":"Instruct"},{"sessionId":"9a8f8f15-3ef7-4b34-a1e0-fa4f9710c3a9","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340872656,"users":{},"productName":"","type":"Instruct"},{"sessionId":"fc4c2a49-a135-40b7-b71f-20bb9bcbc97a","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340871639,"users":{},"productName":"","type":"Instruct"},{"sessionId":"7bea81cf-0b4a-4d84-8fe3-5722baffc3ac","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340870703,"users":{},"productName":"","type":"Instruct"}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:40:24 pm</td>
+        <td>
+          *******************Testing for SecondaryTenantAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:40:24 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:40:24 pm</td>
+        <td>
+          Response is: [{"sessionId":"e14b6cb8-4ad1-4bf2-94ff-74cdc0b64e68","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591410235,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"groupId":"autoGroup1","version":"22.05.001","side":"Sender","processorType":"ARM64 FP ASIMD AES","start":1668591410235,"joinerType":"Host","end":1668591442515,"systemMemorySize":3587,"arHintsEnabled":"False","agoraId":"3765530942","deviceType":"nativeMobile","participantType":"Collaborator","processorCount":8,"photoURL":"","startBatteryPercentage":0.87,"location":{"horizontalAccuracy":23.6,"longitude":78.6598053,"altitude":0,"verticalAccuracy":23.6,"latitude":17.6426258},"cameraState":0,"proxy":false,"microphoneState":0,"jobDescription":"","aspectRatio":"720*1600*Portrait","endBatteryPercentage":0.87,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","stage":"Disconnected","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","canBeCollaborator":true,"region":"AREA_CODE_GLOB","userName":"Hyperspacezerosi","tenantId":"FOZvxI0W3z7R9Jh6CIm0","deviceModel":"Xiaomi Redmi Note 9 Pro","companyName":"hyperspace03Tenant","streamingRequestState":"Default","userType":"Host"}},"productName":"","type":"Assist"},{"sessionId":"0eff6489-9d32-47cf-a5e5-980cbb239b29","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591093486,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"canBeCollaborator":true,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","tenantId":"FOZvxI0W3z7R9Jh6CIm0","systemMemorySize":3587,"start":1668591093486,"proxy":false,"location":{"altitude":0,"horizontalAccuracy":23.6,"latitude":17.6426258,"verticalAccuracy":23.6,"longitude":78.6598053},"processorType":"ARM64 FP ASIMD AES","processorCount":8,"companyName":"hyperspace03Tenant","groupId":"autoGroup1","streamingRequestState":"Default","endBatteryPercentage":0.88,"region":"AREA_CODE_GLOB","photoURL":"","jobDescription":"","cameraState":0,"version":"22.05.001","aspectRatio":"720*1600*Portrait","stage":"Disconnected","deviceType":"nativeMobile","participantType":"Collaborator","joinerType":"Host","side":"Sender","microphoneState":0,"userName":"Hyperspacezerosi","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","userType":"Host","end":1668591126799,"deviceModel":"Xiaomi Redmi Note 9 Pro","agoraId":"441562318","arHintsEnabled":"False","startBatteryPercentage":0.88}},"productName":"","type":"Assist"},{"sessionId":"0d6824c7-e08b-4af2-b97a-1493c6c98105","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668585030115,"users":{"s4rqNa7OvIhep2y6s99IGbXK84v2":{"endBatteryPercentage":0.91,"agoraId":"3211625643","participantType":"Collaborator","startBatteryPercentage":0.91,"stage":"Connected","userType":"Host","jobDescription":"","region":"AREA_CODE_GLOB","joinerType":"Host","photoURL":"","systemMemorySize":3587,"start":1668585030115,"companyName":"hyperspace03Tenant","canBeCollaborator":true,"end":1668585045405,"streamingRequestState":"Default","tenantId":"FOZvxI0W3z7R9Jh6CIm0","userName":"Hyperspacezerothree","location":{"altitude":439.2646,"latitude":17.6426716,"horizontalAccuracy":4.317457,"longitude":78.65976,"verticalAccuracy":4.317457},"processorCount":8,"version":"22.05.001","processorType":"ARM64 FP ASIMD AES","aspectRatio":"1080*2400*Portrait","deviceModel":"Xiaomi Redmi Note 9 Pro","userId":"s4rqNa7OvIhep2y6s99IGbXK84v2","arHintsEnabled":"False","microphoneState":0,"deviceType":"nativeMobile","cameraState":0,"side":"Sender","proxy":false,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","groupId":"none"}},"productName":"","type":"Assist"},{"sessionId":"cebcfcf1-6854-495b-b009-7b6e1fa8b8cc","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668584910280,"users":{"s4rqNa7OvIhep2y6s99IGbXK84v2":{"deviceType":"nativeMobile","stage":"Connected","groupId":"none","microphoneState":0,"cameraState":0,"userId":"s4rqNa7OvIhep2y6s99IGbXK84v2","aspectRatio":"1080*2400*Portrait","userName":"Hyperspacezerothree","region":"AREA_CODE_GLOB","processorType":"ARM64 FP ASIMD AES","photoURL":"","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","location":{"longitude":78.65976,"horizontalAccuracy":4.317457,"verticalAccuracy":4.317457,"altitude":439.2646,"latitude":17.6426716},"side":"Sender","start":1668584910280,"arHintsEnabled":"False","systemMemorySize":3587,"userType":"Host","joinerType":"Host","jobDescription":"","deviceModel":"Xiaomi Redmi Note 9 Pro","streamingRequestState":"Default","processorCount":8,"agoraId":"3365623184","companyName":"hyperspace03Tenant","version":"22.05.001","canBeCollaborator":true,"startBatteryPercentage":0.92,"proxy":false,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","endBatteryPercentage":0.92,"participantType":"Collaborator"}},"productName":"","type":"Assist"},{"sessionId":"8207d9fd-03bf-42c6-86ed-050b9dad91ef","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668583660769,"users":{"s4rqNa7OvIhep2y6s99IGbXK84v2":{"agoraId":"1127009453","streamingRequestState":"Default","userType":"Host","arHintsEnabled":"False","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","end":1668583800083,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","location":{"verticalAccuracy":4.317457,"longitude":78.65976,"horizontalAccuracy":4.317457,"latitude":17.6426716,"altitude":439.2646},"canBeCollaborator":true,"userId":"s4rqNa7OvIhep2y6s99IGbXK84v2","jobDescription":"","processorType":"ARM64 FP ASIMD AES","startBatteryPercentage":0.94,"side":"Sender","participantType":"Collaborator","companyName":"hyperspace03Tenant","joinerType":"Host","aspectRatio":"1080*2400*Portrait","stage":"Disconnected","region":"AREA_CODE_GLOB","version":"22.05.001","deviceModel":"Xiaomi Redmi Note 9 Pro","cameraState":0,"photoURL":"","groupId":"none","microphoneState":0,"deviceType":"nativeMobile","systemMemorySize":3587,"start":1668583660769,"proxy":false,"userName":"Hyperspacezerothree","processorCount":8,"endBatteryPercentage":0.94}},"productName":"","type":"Assist"},{"sessionId":"52761bd2-607b-48a5-98dd-b1e9baeb9cbd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668499644275,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"processorType":"ARM64 FP ASIMD AES","canBeCollaborator":true,"aspectRatio":"1080*2400*Portrait","region":"AREA_CODE_GLOB","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","deviceType":"nativeMobile","cameraState":0,"groupId":"autoGroup1","version":"22.05.001","startBatteryPercentage":0.8,"proxy":false,"userType":"Host","side":"Sender","systemMemorySize":3587,"participantType":"Collaborator","agoraId":"2690334247","jobDescription":"","arHintsEnabled":"False","location":{"verticalAccuracy":120.384,"latitude":17.4590778,"longitude":78.36822,"horizontalAccuracy":120.384,"altitude":518.4},"deviceModel":"Xiaomi Redmi Note 9 Pro","processorCount":8,"companyName":"hyperspace03Tenant","start":1668499644275,"endBatteryPercentage":0.8,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","photoURL":"","joinerType":"Host","streamingRequestState":"Default","userName":"Hyperspacezerosi","stage":"Connected","microphoneState":0}},"productName":"","type":"Assist"},{"sessionId":"a520a880-5d8a-4b7f-8ffd-4c2c2fa7db8d","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496824723,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"side":"Sender","joinerType":"Host","arHintsEnabled":"False","proxy":false,"operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","streamingRequestState":"Default","version":"22.05.001","processorType":"ARM64 FP ASIMD AES","participantType":"Collaborator","cameraState":0,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","aspectRatio":"1080*2400*Portrait","groupId":"autoGroup1","jobDescription":"","agoraId":"2808927703","region":"AREA_CODE_GLOB","systemMemorySize":7201,"canBeCollaborator":true,"companyName":"hyperspace03Tenant","stage":"Disconnected","start":1668496824723,"processorCount":8,"userName":"Hyperspacezerosi","userType":"Host","survey":{"syg91SNzYiu3f3T4o8G5":"ghuu","ZkgSigHV1ZnPYsqgwfW5":"4"},"location":{"altitude":65.6,"longitude":79.43406,"latitude":18.8709869,"verticalAccuracy":128.899,"horizontalAccuracy":128.899},"microphoneState":0,"deviceModel":"samsung SM-G991B","photoURL":"","deviceType":"nativeMobile","startBatteryPercentage":0.37,"end":1668496830315,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","endBatteryPercentage":0.37}},"productName":"","type":"Assist"},{"sessionId":"6df3ae96-d712-4276-9dda-2fec3e69dccc","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496477905,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"canBeCollaborator":true,"endBatteryPercentage":0.34,"userType":"Host","deviceModel":"samsung SM-G991B","region":"AREA_CODE_GLOB","jobDescription":"","agoraId":"372627155","deviceType":"nativeMobile","operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","processorType":"ARM64 FP ASIMD AES","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","systemMemorySize":7201,"survey":{"syg91SNzYiu3f3T4o8G5":"ohh god","hk92DE0RsYoFgLJ5EBts":"ohhh","ZkgSigHV1ZnPYsqgwfW5":"4"},"participantType":"Collaborator","cameraState":0,"companyName":"hyperspace03Tenant","photoURL":"","tenantId":"FOZvxI0W3z7R9Jh6CIm0","proxy":false,"userName":"Hyperspacezerosi","arHintsEnabled":"False","processorCount":8,"start":1668496477905,"joinerType":"Host","end":1668496486396,"microphoneState":0,"stage":"Disconnected","aspectRatio":"1080*2400*Portrait","groupId":"autoGroup1","startBatteryPercentage":0.34,"location":{"altitude":0,"latitude":18.8688068,"verticalAccuracy":2514,"longitude":79.44038,"horizontalAccuracy":2514},"streamingRequestState":"Default","version":"22.05.001","side":"Sender"}},"productName":"","type":"Assist"},{"sessionId":"3aa5e511-284e-4afe-957d-cf579ef988c6","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412386077,"users":{},"productName":"","type":"Instruct"},{"sessionId":"096dbc42-b97a-4b88-af9a-a36dec3067b0","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412385109,"users":{},"productName":"","type":"Instruct"},{"sessionId":"823a1fe1-6f30-40ef-b094-0153004ea6f5","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412384309,"users":{},"productName":"","type":"Instruct"},{"sessionId":"855b9a36-76d5-4a41-a519-e077c2662341","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412383508,"users":{},"productName":"","type":"Instruct"},{"sessionId":"e0a40235-4564-471f-9a16-913ae0e76f6b","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412382567,"users":{},"productName":"","type":"Instruct"},{"sessionId":"3c1716be-eb34-4f71-92ec-02e5021c2a6b","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412381620,"users":{},"productName":"","type":"Instruct"},{"sessionId":"55b3477b-0951-4629-ac8f-9735cdc0a507","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412380871,"users":{},"productName":"","type":"Instruct"},{"sessionId":"b18b0eca-c6a4-44bc-89fb-6dd3e57bfb41","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668412380034,"users":{},"productName":"","type":"Instruct"},{"sessionId":"6f543303-5458-400c-a457-db36ad24cefd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401113787,"users":{},"productName":"","type":"Instruct"},{"sessionId":"ef2f3a61-92c9-4a88-a35e-081a7ee478b6","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401112920,"users":{},"productName":"","type":"Instruct"},{"sessionId":"0b5afe6c-686d-4669-9445-fb9ed6c0ec95","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401112042,"users":{},"productName":"","type":"Instruct"},{"sessionId":"eb45c812-c003-4462-b3ae-0280a5690796","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401111099,"users":{},"productName":"","type":"Instruct"},{"sessionId":"68741b31-fea1-4c3f-9b8a-fbb85bc8a4d1","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401110031,"users":{},"productName":"","type":"Instruct"},{"sessionId":"937562e3-7f1f-4d48-9ee7-617e29d275e5","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401109105,"users":{},"productName":"","type":"Instruct"},{"sessionId":"f11abb59-1e3c-43bf-9270-bc040e9190f0","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401108210,"users":{},"productName":"","type":"Instruct"},{"sessionId":"fff45ca6-ddac-4c19-a615-711144149799","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668401107276,"users":{},"productName":"","type":"Instruct"},{"sessionId":"aed05fd6-5b06-4e56-8818-ba1d019a7a04","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340877211,"users":{},"productName":"","type":"Instruct"},{"sessionId":"14216cbf-e877-4791-abba-35b99597b295","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340876305,"users":{},"productName":"","type":"Instruct"},{"sessionId":"85c970c2-f322-47e8-b1db-6767c415012f","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340875384,"users":{},"productName":"","type":"Instruct"},{"sessionId":"1e5e677b-bdf1-433f-abf6-6a52588d06cd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340874493,"users":{},"productName":"","type":"Instruct"},{"sessionId":"2c4171df-093f-4887-b306-50d62e317df7","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340873589,"users":{},"productName":"","type":"Instruct"},{"sessionId":"9a8f8f15-3ef7-4b34-a1e0-fa4f9710c3a9","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340872656,"users":{},"productName":"","type":"Instruct"},{"sessionId":"fc4c2a49-a135-40b7-b71f-20bb9bcbc97a","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340871639,"users":{},"productName":"","type":"Instruct"},{"sessionId":"7bea81cf-0b4a-4d84-8fe3-5722baffc3ac","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668340870703,"users":{},"productName":"","type":"Instruct"}]
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 16, 2022 03:39:13 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 16, 2022 03:41:06 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='57%'><b>8</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>6</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"sessionsTenantFetchSessionsAPI":69.674
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 8,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 6
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

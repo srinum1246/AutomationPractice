@@ -1,0 +1,637 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 23, 2022 08:41:25 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">authRefreshToken</p>
+            <p class="text-sm">
+              <span>8:41:27 pm</span> / <span>00:00:35:979</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">authRefreshToken</h5>
+<span class='badge badge-success'>11.23.2022 8:41:27 pm</span>
+<span class='badge badge-danger'>11.23.2022 8:42:03 pm</span>
+<span class='badge badge-default'>00:00:35:979</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:27 pm</td>
+        <td>
+          *******************Starting of authRefreshToken test*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:27 pm</td>
+        <td>
+          ******************* Testing API URI 'https://dev.apiv2.carear.app/auth/refreshToken'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:28 pm</td>
+        <td>
+          *******************Testing for api_super_admin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:33 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:33 pm</td>
+        <td>
+          Response is: {"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQ2FyZUFSIEFQSSBTdXBlckFkbWluIiwidGVuYW50SWQiOiJDYXJlQVIiLCJyb2xlIjoiYXBpX3N1cGVyX2FkbWluIiwicmVnaW9uIjoidXMtY2VudHJhbCIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jYXJlYXItZGV2ZWxvcG1lbnQiLCJhdWQiOiJjYXJlYXItZGV2ZWxvcG1lbnQiLCJhdXRoX3RpbWUiOjE2NjkyMTYyOTAsInVzZXJfaWQiOiJEbzJnTFFIRXM4T21lOGV4ajYwYWcwaDl6bXUxIiwic3ViIjoiRG8yZ0xRSEVzOE9tZThleGo2MGFnMGg5em11MSIsImlhdCI6MTY2OTIxNjI5MiwiZXhwIjoxNjY5MjE5ODkyLCJlbWFpbCI6ImRldjAxLmFwaWF1dG9AZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImRldjAxLmFwaWF1dG9AZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.CQh3pomMkJpuAmLle4rCZptOvu4SIU2rUlJb6Wfg2DMolqnTvvqToI7s7NKg4LkBs8Q47cRRG-lqwbID650bWEsvLiAnyLXXoKMdMrzuljOOOcw9XyGdnLfmSSad33ozu4S36_zMaXM4RrRuAhnVfPF-EAyRZ0jrrx95zlcmO1BFsucOzV45pE6fnv8VswYid_FHmNtQWOrGX3W69q-s8wdfCP3fde15NZXom2v7XzVsd9l233S4k97sE6hlDIVRZvQ2qWSF00nXa--Yne5AC0SiYHq5Oyfch26KfQE6wBk6zbLnTU6xx_B4Wi6rdl3zBbQU-tnn_4oCfeN58ujZnw","refreshToken":"AOkPPWSidP_Naye9E3eMHhRSnXnNb1WvozqinLkN01BZ289hz6eAV7cYAEVdaScGd7lwSdep44AoiQbz5FlAjjtLg0JOq9ysZne6Y6pgSaDpXQDWGYc88hoRsdIJH9Z-HLN9E0LkeUGGiEd0Nu-WYB5TOy5mf_TKiHY2qySm_1N3QcV-QJa4Mzx_F-B1pHMHhsMO6UecsFSIPh9L1Ke_kCWsJJtL6cJO-UaV3HLqkqwhJxhrdGkMxaf3nPaD5Ad4agyKr_HPjUk9"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:33 pm</td>
+        <td>
+          *******************Testing for super_admin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:34 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:34 pm</td>
+        <td>
+          Response is: {"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQ2FyZUFSIFN1cGVyQWRtaW4iLCJ0ZW5hbnRJZCI6IkNhcmVBUiIsInJvbGUiOiJzdXBlcl9hZG1pbiIsInJlZ2lvbiI6InVzLWNlbnRyYWwiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2FyZWFyLWRldmVsb3BtZW50IiwiYXVkIjoiY2FyZWFyLWRldmVsb3BtZW50IiwiYXV0aF90aW1lIjoxNjY5MjE2MjkzLCJ1c2VyX2lkIjoiYm9ieXRpbXZmTlN3TVYzWjcydk45WExFUWNjMiIsInN1YiI6ImJvYnl0aW12Zk5Td01WM1o3MnZOOVhMRVFjYzIiLCJpYXQiOjE2NjkyMTYyOTQsImV4cCI6MTY2OTIxOTg5NCwiZW1haWwiOiJkZXYwMi5hcGlhdXRvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJkZXYwMi5hcGlhdXRvQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.Kv74YVaR74XGElxHB9kDbhD9aYdM0NRqtJzIXssz80gpq-mBwo3VxIN1BCYDw0eVTQYtk_5SqAcM8jY0P2rF3-kobfkZzxnex-t3iZkt2eieWTVjS_7A1k8M984Jh1Stn2PY0v6K8ICVNOH9st_RyatKShalLxMsadtbYLbL_Bc1JNTH5ZEqllW756tIfv1Xw7aKcEbglTMWuMHAmBen8h6Cml3Gwo4PjpyNSf67CaSgjGmZyF9tpjyv8B00xlxvQ2LzLnLEb1MCkm_XHlt_COmrq9v1GqXyZe5uTh_lF_Cq7mrzaSZIiQjKq3nxgwaMVb73Y_s5jgF5Smt85tBgcg","refreshToken":"AOkPPWSlPVhXpYi2bv9Wc-4ZSWqfnr2xTD2_8fwA1z8TT5_hoo-zSVy1W5HIMpebJQfsQgcXAnu2cc7e5E07cK3FgV1bIEEwCzTQrk6DA5Ig73m3b2Ch2xShQefD76m26eFpxeK4RZ54VD_qbKnb2xwIX3v4f_5Qqf2hWzitWifIEuJuPccDJB8laBjB9irGEiVOhRgXZC6O2l_92UMw2CCc5PDAWr7x8cZ0Fsrwf5SaItVaYUDKFiV6M7whkMDLD1cjmwiHJ7kx"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:34 pm</td>
+        <td>
+          *******************Testing for SystemAnalyst role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:36 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:36 pm</td>
+        <td>
+          Response is: {"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFN5c3RlbWFuYWx5c3QiLCJ0ZW5hbnRJZCI6IkNhcmVBUiIsInJvbGUiOiJzeXN0ZW1fYW5hbHlzdCIsInJlZ2lvbiI6InVzLWNlbnRyYWwiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2FyZWFyLWRldmVsb3BtZW50IiwiYXVkIjoiY2FyZWFyLWRldmVsb3BtZW50IiwiYXV0aF90aW1lIjoxNjY5MjE2Mjk1LCJ1c2VyX2lkIjoibE1BeTNpTU5kaldOU2dPaGdQWHlNUlNZRWJ4MSIsInN1YiI6ImxNQXkzaU1OZGpXTlNnT2hnUFh5TVJTWUVieDEiLCJpYXQiOjE2NjkyMTYyOTYsImV4cCI6MTY2OTIxOTg5NiwiZW1haWwiOiJkZXYwNy5hcGlhdXRvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJkZXYwNy5hcGlhdXRvQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.LatZm2vaPscJoWni9bkHfPDFQw2U2WVRU-jj-36OsxNwdsDpF5m4fh85flJldn1sLtkzWl68fsAjg_mkmYgEbnlQOxWHYMMqAu0ud4pq3YkLHBVK8qiPjZJRdAI0Da8sYFPoToQgkVWW3mRIoBfsdIdUlm1Q9qWl48DgLYzdzSlWUkbjo2QEUCQ3cLxMVNWi9Pc-7m9F-yUuUBY1a49hA6686NiXOlATsuo3egAYQlXgCfSjDZFOc-f4kUA6hvgb1XOO39G2crbqvT7ZbMB3aE7vMA-fgoGtsz3fTh1azH9sn91fj_PWFuqg4rYBAUUeBcIH8-Ls_TuSXN_OHAvYfg","refreshToken":"AOkPPWRXFBEwz3gOFEdwPE56wz-vnaifIRJ1rXfjP3zpKWvrlnE3Y2JHVOJh5dOwCeNaZ4Ut7pX_itjHD1CE6FNGXaH06K3qYj18-cM0L0JXDzXKPYOktfOoQivXlfYBm7xni64doX7KbK56TFnguXaWOwpTuRZPVcg2Aw0aNhQ8nVGFGfOa7wGAk2ckdEWAbmqqwPrvEtycVweCP3VqeOWMfJMym0qeMIMqv_hTyWkMPbKCm5eglj0GxK6HV9OZ8icRkTlyX8hE"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:36 pm</td>
+        <td>
+          *******************Testing for PartnerCreator role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:38 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:38 pm</td>
+        <td>
+          Response is: {"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFBhcnRuZXJjcmVhdGVyIiwidGVuYW50SWQiOiJDYXJlQVIiLCJyb2xlIjoicGFydG5lcl9jcmVhdG9yIiwicmVnaW9uIjoidXMtY2VudHJhbCIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jYXJlYXItZGV2ZWxvcG1lbnQiLCJhdWQiOiJjYXJlYXItZGV2ZWxvcG1lbnQiLCJhdXRoX3RpbWUiOjE2NjkyMTYyOTcsInVzZXJfaWQiOiJReG1WVHYzZ1FRUjJGV3VCeU94azV2MU1RdWgyIiwic3ViIjoiUXhtVlR2M2dRUVIyRld1QnlPeGs1djFNUXVoMiIsImlhdCI6MTY2OTIxNjI5OCwiZXhwIjoxNjY5MjE5ODk4LCJlbWFpbCI6ImRldjA4LmFwaWF1dG9AZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImRldjA4LmFwaWF1dG9AZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.FLIxZQiNu6FxHxHy_t0lQFudu_m0FtT3ra8oZiBvnSttCIf0u137t4cEww24fAopDhzpyTxlp9TfljLKZN0-cz5EQO3W_v959ZMwr2puNSooEmRczmEvfBeuYo2o-J-pPdtrRpL_qTL2ms4y5qi-o02DHqVaRz_xm9bnwZelym5XPwvUhHHv7fLC9aZADj2j8BJ3HpberXeFfVlHfbTOPoXOEa1UFBkrXnRoPFCbSoyrQmMTOKIGaBSrR8awgnfIUSYmRXbokRJkAZHg7Su58q9Bmb-Vve6_CEvsPOQikNMTQCPMKoQiln20XjeqCSJ_PYdsz7xaJf9emFSU1R7uVA","refreshToken":"AOkPPWROOdbz2VgHgBAI8KyknPBe_qc49JRfpoqW8Vs6a0IWHWhi5GNI5LEo_qTd_dkGjrYlAiR55gbcBzU-s1Auxky_QfaMK1Ssmo_yN71o21keQDgEIxfmGxpDlXrcdjcoEK9wpu8uKhkbqD0XdQgFwIEDJMB4gAEyYnbkkNO6wKe-21WcqSCqVrxshBhsRhAr17Srl0lvy2ZHnLYSNgyE95KpjZO3XkGq6M2Ld0d7im9wNJgCgdLB8K27KGukdmzXgX9CAHjf"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:38 pm</td>
+        <td>
+          *******************Testing for PrimaryTenantAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:40 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:40 pm</td>
+        <td>
+          Response is: {"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFRlbmFudCIsInRlbmFudElkIjoidU1iUWlYT2MxcEhzNDliNDZmY3AiLCJyb2xlIjoidGVuYW50X2FkbWluIiwicmVnaW9uIjoidXMtY2VudHJhbCIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jYXJlYXItZGV2ZWxvcG1lbnQiLCJhdWQiOiJjYXJlYXItZGV2ZWxvcG1lbnQiLCJhdXRoX3RpbWUiOjE2NjkyMTYyOTksInVzZXJfaWQiOiI3MGJMWHhKakRXVUY3VmxsNXZSSFRPNUN6RDMyIiwic3ViIjoiNzBiTFh4SmpEV1VGN1ZsbDV2UkhUTzVDekQzMiIsImlhdCI6MTY2OTIxNjMwMCwiZXhwIjoxNjY5MjE5OTAwLCJlbWFpbCI6ImRldjAzLmFwaWF1dG9AZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImRldjAzLmFwaWF1dG9AZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.nmEuAnPbt_jByVwnRjZri3MJqHHiHyh-zcXCRyjbxLCb7RQ_5AeaTRCZkS15Tmiau4VErta8FN3s4J9M8ngsYUnA4futjDGs6AUIEPtSIMsEtaJzvZQvlad_S2_K40YWf3LeQAnUBRBRBm6RDhdtcttXvb02yOfNFcUWa4rpyUuCwLzHr-hhbW8tzQKxMHh5Ci1xqRD3t_1WHk_vDXQEXNVQvdqOdRP07kT1sXv0Ypnf4NM4IBZwO10_sRYSOiCiIK2VIsDP44Wgj9eoOn-w3zUikNv7jLncYMC2RXABiPMHplYdv8-LJzjhTasWb2Lk5FMhHWhCZMSAbdc1tO9xqw","refreshToken":"AOkPPWTYkKWtOux8veblBt_a1U4UHwUUygk_JBDAcjeT2WJ4Fzn72O2siOwDhMsJr-3HxQrqXrTl4AeOj9HPTuUnx-pEFHPjwtM3Pr9Q4HFE7A69FX0fh1hJZOl4hpwhKL7zOfNWCbwHQ0OqhMbHCH5xsPQqptcytz15FfjIY_Fo1Gq8gDihvlE7NNotJngot6eBHbVI8bpmDBSiU_EzkloLVoZ9KCI59Bj59kwHPcboQP7rkMJtxYI"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:40 pm</td>
+        <td>
+          *******************Testing for SecondaryTenantAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:42 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:42 pm</td>
+        <td>
+          Response is: {"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFNlY3RlbmFudGFkbWluIiwidGVuYW50SWQiOiJ1TWJRaVhPYzFwSHM0OWI0NmZjcCIsInJvbGUiOiJ0ZW5hbnRfYWRtaW4iLCJyZWdpb24iOiJ1cy1jZW50cmFsIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NhcmVhci1kZXZlbG9wbWVudCIsImF1ZCI6ImNhcmVhci1kZXZlbG9wbWVudCIsImF1dGhfdGltZSI6MTY2OTIxNjMwMSwidXNlcl9pZCI6InVla0RJSXhyajNaMGdVN1JlYWZNY2ozNTVyaDEiLCJzdWIiOiJ1ZWtESUl4cmozWjBnVTdSZWFmTWNqMzU1cmgxIiwiaWF0IjoxNjY5MjE2MzAxLCJleHAiOjE2NjkyMTk5MDEsImVtYWlsIjoiZGV2MDQuYXBpYXV0b0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiZGV2MDQuYXBpYXV0b0BnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.hySsaOk2DI2N8eC1tg41rZyiZHaJO7Jjok38Fc6jp-WG62AfRZOdgKV5mRi-KRBoOHuL9G01ezqkMH7m15qKqsh3eDAY9mS5hpcsNgBeeoAqhLCvknky0RextOLYDqxJCQLKSkBh0pEWlDTq0dtmFmIZvB9EbuLWjzb2CZ8xYmIU1cfyKhJU_Y2N8MhHCFzQ2M58QpxloVK6D77OUhk7ihPHqZhMa2aN-rJEBHr4vlnu4xALGJwmZiLI0zv-rsIlViafa1MzX4xbq0vlltWaig7LUpomuF0CsoabyIXPzQ_FT9d7aLzolb6l1zmgb2qlqZlEa16hZULQ4eTuobdcxQ","refreshToken":"AOkPPWTHylc4ItK-Zyskoh8lP8AiRSe19kmM1BAni6PWcEIx4fNojv3-hCrCMJ-IU43uCfVRi_SP0eFWe37V8ETBjdzg2R2ftveu4BZ2kAHalm3xSDs0mY9Six2ATh5npMu961GfmcvQMPT-KFczO_mYzbCHWkh0EA8k1jbQNPAodHwijRQoUtRuRKOV1rHn17v4Jm6pwFB3fXkQbybNBy34uG0iloenJbUS25LITDBOnG2aGuQfE0qpA_Dvs4J5ykCADmPTOL0C"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:42 pm</td>
+        <td>
+          *******************Testing for Analyst role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:43 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:43 pm</td>
+        <td>
+          Response is: {"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IEFuYWx5c3QiLCJ0ZW5hbnRJZCI6InVNYlFpWE9jMXBIczQ5YjQ2ZmNwIiwicm9sZSI6ImFuYWx5c3QiLCJyZWdpb24iOiJ1cy1jZW50cmFsIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NhcmVhci1kZXZlbG9wbWVudCIsImF1ZCI6ImNhcmVhci1kZXZlbG9wbWVudCIsImF1dGhfdGltZSI6MTY2OTIxNjMwMiwidXNlcl9pZCI6IlRaZ2V0c3F0SEpPOUswT2dHOHk2ZzdrTXFRSDIiLCJzdWIiOiJUWmdldHNxdEhKTzlLME9nRzh5Nmc3a01xUUgyIiwiaWF0IjoxNjY5MjE2MzAzLCJleHAiOjE2NjkyMTk5MDMsImVtYWlsIjoiZGV2MDUuYXBpYXV0b0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiZGV2MDUuYXBpYXV0b0BnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.l18j3jUSBAIN0INVf1XRYYS8ObicqiG38-6BcUY7s5_rlDm4EPOBqGLClFkeJzUXGnjMm-QiapJNCrNWrbp-h94gX_C-bnWZA4wxPHjadXvF0Z7rM6KKBqnr27TXpOu1OoVkX9FaKkfYYhYZpY4RVfil8PbusEnrsUpOpiew2doE0tS0V556VNO5WNqwDGiHWV7MwcPEbu2Mb8mL8bJoIWnyXzCohEGEmYm9vppv2Wlecj9f1lx-wRjekqJb7Wh6goJAa4fxte6arHzavQ1Ff0MrvA0kGZf3w6DcPHAHK-XhKV3AecaPXkBBtmH_Bc9M1Prqh77KVkt7EbmrBH2puQ","refreshToken":"AOkPPWQjcIrkehIbc2pT5lMJt1cPUoVgcQQXXMpA7phsJkN037GSVHL2UjAPcbFvmfI0rhakkIipkaaFZzlaNrmX09-aiBidRMQ4Eg2GaqenBtgwrRTCAqJ2mwR_32EzFxEK7H148j392S5q3WxBuXDzpTRvMqspHq6ABN7xB9KT-nOkmcdSRWsSFShkOIfvPBoYobhFJQMRL7rknosbhopOUKK3Uo_GxJU-L3NafPss-Xb-FiAfMtU"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:43 pm</td>
+        <td>
+          *******************Testing for User role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:45 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:45 pm</td>
+        <td>
+          Response is: {"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFVzZXIiLCJ0ZW5hbnRJZCI6InVNYlFpWE9jMXBIczQ5YjQ2ZmNwIiwicm9sZSI6InVzZXIiLCJyZWdpb24iOiJ1cy1jZW50cmFsIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NhcmVhci1kZXZlbG9wbWVudCIsImF1ZCI6ImNhcmVhci1kZXZlbG9wbWVudCIsImF1dGhfdGltZSI6MTY2OTIxNjMwNCwidXNlcl9pZCI6IjdhNTdpS2pkQ2FQaDdxM0dsd3RLdWtRd1B5RTMiLCJzdWIiOiI3YTU3aUtqZENhUGg3cTNHbHd0S3VrUXdQeUUzIiwiaWF0IjoxNjY5MjE2MzA1LCJleHAiOjE2NjkyMTk5MDUsImVtYWlsIjoiZGV2MDYuYXBpYXV0b0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiZGV2MDYuYXBpYXV0b0BnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.EVlMbr992iyPWzIUnXuGXVOdsuHiWCCj-M8mEMBnPB6ByjRZLr-ChKj5YdKj9fxmI2X-7KcT-RMpwUjkTDzrR2NqYTrw5jWTv8ghBnOuHktSLUZodeCm70ShcHXNCl_qHGkDsdxuNIn-s-Pu_7w6WzhTvRvuyXKnuGK0PW7skBNHA67x4NuzS6nnK9IYETRqAsYiRK8JAISz7i4XIbkY-cfmx5VII4CcJ3GtiNXbPSc60NGXnYirZd0LJbhehKuag8X4rLc-xJX3rDwls38f4bySMoy1Km27qC28IDlG8NyYjbGMUi4Z3LI34ad9Oz8MfEJmg4T3G-TjjjIEPW3j2Q","refreshToken":"AOkPPWSYGnvWgVpJaq5jB79bS8aZNGE5MHUCJ6d5Vh1Sz7z_N33QecAyDdwVpTRiycxKEX_TBsPsp8w_bPms9_jx3NrJ6FI71sTgQRyz8dOlCicJJEITlrKh8DRtk471O3sSUZSjaVZTpp5sAJHmU5e6j9FRSAIdFfUFS42LkQx94RMOw8ayFYW6vK42GKsEZGWRa8OgK5bXEIBg12EX2AWvc4Ct4YYkeJjQQwCSKUiclZg9McAMi80"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:45 pm</td>
+        <td>
+          *******************Testing for Creator role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:47 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:47 pm</td>
+        <td>
+          Response is: {"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IENyZWF0b3IiLCJ0ZW5hbnRJZCI6InVNYlFpWE9jMXBIczQ5YjQ2ZmNwIiwicm9sZSI6ImNyZWF0b3IiLCJyZWdpb24iOiJ1cy1jZW50cmFsIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NhcmVhci1kZXZlbG9wbWVudCIsImF1ZCI6ImNhcmVhci1kZXZlbG9wbWVudCIsImF1dGhfdGltZSI6MTY2OTIxNjMwNiwidXNlcl9pZCI6Imczd3VHclhkMUZaMXBUd21oYm5Ld055TG1UTTIiLCJzdWIiOiJnM3d1R3JYZDFGWjFwVHdtaGJuS3dOeUxtVE0yIiwiaWF0IjoxNjY5MjE2MzA3LCJleHAiOjE2NjkyMTk5MDcsImVtYWlsIjoibW9oYW1tZWRuaXpoYXIucEBjYXJlYXIuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbIm1vaGFtbWVkbml6aGFyLnBAY2FyZWFyLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.BraAGNIvWvyS2kSrxYMC94ujCmufFkZTIfAEU3P1qhZxa5Tp521YtOzycDLMysLqOgAR14t5KBUqxYGCWTcaZwxz4MXRwcbLXLPmCNnFzT5IDONyc8qDZUS7dRj6iIQv8_6SzgrC-Trh3BbLcjrFeFrF5oNCcV7lYigdRcQLV7Ky2McZr2N21T6oUFiWxuezReUV_dHSufgghP3k6FjieARR6AqyqiQSGn5IxkSARCMfPnObXlBbWT2HXQCI6xJuuesxKcYtewHjwFgHDhS4H2oVkJ9a_QvApKRshiHT6YCOtvZs87uN1PXoolGlwj60NrQx9iuVpULQW1p_E-FzbQ","refreshToken":"AOkPPWRF9uGeNo7dCCWvilnRa_p9PvmLLLG8oSZanpzTae_xh27KuIIIgU-PMuzCEBQR-5-8Io2O1Hgbenp9SVirhnInS_87ANR-UMUigMzdR6V-NEsvQE0KU8AfjgEorIdvbe5shCIwqQeZxFyPCvCGQPWK5l4E0FVxJUkWboP0tudGbVPIm0MUli3iDLpw6eXYbah53HxDS5rnqrRgXeoc1VMNGpBmhmVBJRAV6djqsgLEeHBWOZ7P1IjHD-v5AsM-ms-LxlEC"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:47 pm</td>
+        <td>
+          *******************Testing for AnotherPrimaryTenantAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:49 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:49 pm</td>
+        <td>
+          Response is: {"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFByaW1hcnl0ZW5hbnQiLCJ0ZW5hbnRJZCI6IkQwVG9mcFBlWnhxRkZQS1g3U0dSIiwicm9sZSI6InRlbmFudF9hZG1pbiIsInJlZ2lvbiI6InVzLWNlbnRyYWwiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2FyZWFyLWRldmVsb3BtZW50IiwiYXVkIjoiY2FyZWFyLWRldmVsb3BtZW50IiwiYXV0aF90aW1lIjoxNjY5MjE2MzA4LCJ1c2VyX2lkIjoiUHBqWWRzSzBldmZ6enBBV2MxMGFKMXI4d1p2MSIsInN1YiI6IlBwallkc0swZXZmenpwQVdjMTBhSjFyOHdadjEiLCJpYXQiOjE2NjkyMTYzMDksImV4cCI6MTY2OTIxOTkwOSwiZW1haWwiOiJkZXZhbm90aGVyMDMuYXBpYXV0b0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiZGV2YW5vdGhlcjAzLmFwaWF1dG9AZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.IUoyVkDw7IT3XE4VRBv5BAnJ4mX5P-R5imn2-wiofunapDJb8lw8vVfPLiEB6VtxvgRFv43p-NThz9cqU10ZN-VgK6Q10NaH00X3-65x4cdK4n0bmN6nBmUv4PR1vBXgyyqRNP-l9iKB8ZdRJmX9GVu1VloAPHihiqTlMKHKdO08xuvUIRoJ32VGzerSvOWi_-X5nhfRg0rHNyOdpSASbvaQtmOtogAz3EUqcfIgefyBS7WrnkWD80D3-NvTHZnx6kZkVR7f1GTnF4PGgQQVayKx-HDruLsVGxABZclzsdFgj3Z4qR2jD-cq0vCvSaiIUvqVIk-CsbjWx9i7HYTlWA","refreshToken":"AOkPPWQTRPrvGflmuCVOK5saW-Ufo5P8BLAoWbIFE-kCFV9sdEVkNU2QYZk0SvzG_HAkQDI5_6p1tkHYgnbmlRcIzKmauUyloxN3XXXq-0JSZExNux70POLzh84aGPj5Lt-GFZM37JGB4WufiFRA_xnKaog-8IBKSn86SG3Tv0cnU4jf9b-Hm2GO3pXhZzGXSVZD1actlJHi60CfTXbSGlnV1d-qzq3Z-UHfkSKUSrUXJCdSZgL7m17_9bwg9gTxjMOhojDawRld"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:49 pm</td>
+        <td>
+          *******************Testing for SecTenantAdminFromDiffTenant role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:50 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:50 pm</td>
+        <td>
+          Response is: {"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFNlY29uZGFyeSB0ZW5hbnQgYWRtaW4iLCJ0ZW5hbnRJZCI6IkQwVG9mcFBlWnhxRkZQS1g3U0dSIiwicm9sZSI6InRlbmFudF9hZG1pbiIsInJlZ2lvbiI6InVzLWNlbnRyYWwiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2FyZWFyLWRldmVsb3BtZW50IiwiYXVkIjoiY2FyZWFyLWRldmVsb3BtZW50IiwiYXV0aF90aW1lIjoxNjY5MjE2MzA5LCJ1c2VyX2lkIjoibVN5bzVrUFRmb2VnNzJsSTdzWEkxTzNWNnBJMyIsInN1YiI6Im1TeW81a1BUZm9lZzcybEk3c1hJMU8zVjZwSTMiLCJpYXQiOjE2NjkyMTYzMTAsImV4cCI6MTY2OTIxOTkxMCwiZW1haWwiOiJkZXZhbm90aGVyMDMuYXBpYXV0bysxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJkZXZhbm90aGVyMDMuYXBpYXV0bysxQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.TJtBxHySL_zmXzC9IpvxvR0iz3-afyk6HdVI0KDZbJcQOCstP0Ax7BG8HEI3C3BS3AGp8EsV3_Ug1-mV31Yada8RJkvwOxIzGbQHlXLHbLWzWGoZVQv5oHl9G7m9uK4OY_ady_4ozEUaxivPmdrpVZKccltq1UyOj6iAjy58ZdJjX0PsrSTMXpMlhiLm1R1FUebbx4CoQBqrw7G4HvnlZt_-tyEQpUa6Pp5igqws5Pv2BKY2L_Mhu8ZYT29egL_nT9VclJ6mNTd48HJnimhzHcIGnchXNWqp51n2azKEAdSJQ4Bb7Kz0KsuTKxITjGRO4p1wW-6FKUGPgFob4hUNBg","refreshToken":"AOkPPWSdcjYbJ-r5eQ-EE1NM0thkzWtZTMBBbXk7m837eqMKs82RBfrsLz4ai46hLdmTO9TqCf5CUkMOy4Bp56l6PPoF5VNodhVoziBxPzO-4Dg41W8duuosoAPRBwurNICJSd_Iw_OWDiKuIkaPjySIlszrM_cBquAenRPAVkqYa5sSloGrgySW0EZXzykdOwUCY0gmqhPYeKc83OXYArvbkZS2OValr3Y3gCEs4VK9hZXzkQEnLfiCsRSktaPV1k468qx5c3IdsWZcu3fYASPN5XW5ENwwyA"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:50 pm</td>
+        <td>
+          *******************Testing for AnalystRoleFromDiffTenant role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:52 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:52 pm</td>
+        <td>
+          Response is: {"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IEFuYWx5c3QiLCJ0ZW5hbnRJZCI6IkQwVG9mcFBlWnhxRkZQS1g3U0dSIiwicm9sZSI6ImFuYWx5c3QiLCJyZWdpb24iOiJ1cy1jZW50cmFsIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NhcmVhci1kZXZlbG9wbWVudCIsImF1ZCI6ImNhcmVhci1kZXZlbG9wbWVudCIsImF1dGhfdGltZSI6MTY2OTIxNjMxMSwidXNlcl9pZCI6Im9WdkdMN09WUDhWd3d2Z1lSOTRhWnp6M2JNaDIiLCJzdWIiOiJvVnZHTDdPVlA4Vnd3dmdZUjk0YVp6ejNiTWgyIiwiaWF0IjoxNjY5MjE2MzEyLCJleHAiOjE2NjkyMTk5MTIsImVtYWlsIjoiZGV2YW5vdGhlcjAzLmFwaWF1dG8rMkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiZGV2YW5vdGhlcjAzLmFwaWF1dG8rMkBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.JS9OYl90ZystttomCZvxPSqTvdYhoFFasWaG3mlfOYXB92UfCrtFL64_q2ePiM7uNDb3YUJOhzERxmgGWQaoShp3Wbr9Xqq663B-lyF3rIsvGkGbxDdtdBkZfAoDiO-f_zfjEl53aomuTz73WTYB1f91Cx3R5Xtn0NnRrm1LvMWiooMDqDIl1qsAY5xfpuXuw23pJPA4rNJHnxH1Aygacmz5-vRRBL6R4dymPGCatZ7F_GIJpkBYUYzkA95E4-WuuJosaWXorwjFyT5w30kPbHaASmEIAhPHUY3Ts9Mj8tHHTknmLBEtmYuKEEI4jtyt-9fhFxgo0CafBXlQuaWTxA","refreshToken":"AOkPPWR1fygNS4SNRNF-XgyED0_WBl3b7F_yXsMzeKNbUibkz8QRK37EfvfyLRKx_G3B0y8iLF60cD8LCuszYcHhzsgimQ9sofBiky-lrMnThSa3wU9derpZifKRclY5h9gp_5UQFNUr4Ky9QOS3F3MzzVX9cMbrnyllwdKVIzIc8F74MRxNxVClJp6LdoN7oPLLRwcYbxR9iaspMD27XK4HIWKJCSASrlKiQ5nZ9TD9utdpNtEodczSiTf_gF82j5MoPPoS4v9u"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:52 pm</td>
+        <td>
+          *******************Testing for UserRoleFromDiffTenant role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:54 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:54 pm</td>
+        <td>
+          Response is: {"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFVzZXIiLCJ0ZW5hbnRJZCI6IkQwVG9mcFBlWnhxRkZQS1g3U0dSIiwicm9sZSI6InVzZXIiLCJyZWdpb24iOiJ1cy1jZW50cmFsIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NhcmVhci1kZXZlbG9wbWVudCIsImF1ZCI6ImNhcmVhci1kZXZlbG9wbWVudCIsImF1dGhfdGltZSI6MTY2OTIxNjMxMiwidXNlcl9pZCI6ImVDeXEzWENYWDBkQ0lOaHl6VU9RclJzSmhBNjMiLCJzdWIiOiJlQ3lxM1hDWFgwZENJTmh5elVPUXJSc0poQTYzIiwiaWF0IjoxNjY5MjE2MzEzLCJleHAiOjE2NjkyMTk5MTMsImVtYWlsIjoiZGV2YW5vdGhlcjAzLmFwaWF1dG8rM0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiZGV2YW5vdGhlcjAzLmFwaWF1dG8rM0BnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.P5yNqLVa93B9B05b8HyukxqeQcDF2cbNUGm-7HvBGImxda6HjLRBGEW39rJzOdAFEK3ECLmZFGvUfGxvP_IObS0NawWj27V4O5mS1C5Drjb4EMuJHY6qJVgUE_5OW74lpEMdmzJVhOyjbD4za8ygeiRANdEHqfKOlDOGUQGBM2MYmUQF0qhJ61Mtarvg3puteayVHhAmSh17s7hKBh6FRl4R5BOxeD225pXHt0S4eKK_b03zcjT978hk2p_NQxG_3mBaVJIJCFsoRwwxUgSps4hZ4xyc43rvpgrnDtFFQVJ2uODR24Nr0dzoTBcdK2t3XyMSbXW-dgevoih7m7ecqw","refreshToken":"AOkPPWTb7zaeithlyXWu25aONxOGY9ZuwYQDMmqJAsSrikX9MEpv0aB8qcPQtqRI2BAoZrv_21cP-rFyaPvU5-6ERtX-FlgDloG9O6EDtf9p9GHWyFigAF7M_5M9d87J0WQiBssAbrZcrnyEStlFQyTTf8xXgYwkpYiwwRy65j-LHuwBBuKL18XeY3iaQDTgXHdR37YwsDW1DqCAkM78HpQXeJZ2REnogB5rK-PTmLtBhen1HeQYS-Gh0UWF10aeXKWMJZ_PFTp0"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:54 pm</td>
+        <td>
+          *******************Testing for CreatorRoleUserFromDifferentTenant role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:55 pm</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:55 pm</td>
+        <td>
+          Response is: {"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImY4MDljZmYxMTZlNWJhNzQwNzQ1YmZlZGE1OGUxNmU4MmYzZmQ4MDUiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IENyZWF0b3IiLCJ0ZW5hbnRJZCI6IkQwVG9mcFBlWnhxRkZQS1g3U0dSIiwicm9sZSI6ImNyZWF0b3IiLCJyZWdpb24iOiJ1cy1jZW50cmFsIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NhcmVhci1kZXZlbG9wbWVudCIsImF1ZCI6ImNhcmVhci1kZXZlbG9wbWVudCIsImF1dGhfdGltZSI6MTY2OTIxNjMxNCwidXNlcl9pZCI6Iml3NHhhbDRJZktVQklvTVN4d3pRSFJrT1ZtNTMiLCJzdWIiOiJpdzR4YWw0SWZLVUJJb01TeHd6UUhSa09WbTUzIiwiaWF0IjoxNjY5MjE2MzE1LCJleHAiOjE2NjkyMTk5MTUsImVtYWlsIjoiZGV2YW5vdGhlcjAzLmFwaWF1dG8rNkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiZGV2YW5vdGhlcjAzLmFwaWF1dG8rNkBnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.UsNJMYhxhiE7Do_tZBuZNiyWBIuHMODuHZ829m9giykyLGUUuafd3w-h7NfyNDwGFMuzB0oFa6ljlILfFdF6a1OBSo88l8TlGFYYme8C8oQJm2DFzuVbaD3QM5jdbRy09nAhv0GOBMkIUkTufB9S3FaMUWivJenX2RMEKg6xNI3_l4v1GLBUt6Kgyy6L59heegzx5wp0kkvaL_hQXey_o9XCqCFayFLqncOkaR9pDO_pkCRihm99TAolgdhPAsjW4SOmH2kdrQvddnxOYT7cUJcgJhgnEVOZtjmDWT_6RK6dDlZ0gZYg9bjxy7ss1308h_Fnq8EtBJ-6kgziqK4uPg","refreshToken":"AOkPPWTcD-y1l-nuDt9UMltGmgPxfRWd4r-a-jvS_cHssV_yJl2uBnhz43iRAy66yqF4UkBfQiWiv7gMCIQsB_VSvcKddP8GUojiooeqXHKgkahVN98mmkW4_XZneArONVRgJCOq6E8T6lcXtY_WOAkn3pIZj_ZU5C2K8EEyQlZ4H8lj9tpZmsKSgelDA0dEbKQCdOs-mNwTLzD96-dO2lwyZJcsET4NZfd7CxNZp5gON-JvVMDcx3F9_Wv0_czzRcuDpKBwNXh-"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:55 pm</td>
+        <td>
+          *******************Testing for DifferentRegionAPISuperAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:41:57 pm</td>
+        <td>
+          Response status code is: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:41:57 pm</td>
+        <td>
+          Response is: {"message":"Bad request","errors":[{"msg":"refreshToken field cannot be empty","value":"","param":"refreshToken"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:57 pm</td>
+        <td>
+          *******************Testing for DifferentRegionSuperAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:41:59 pm</td>
+        <td>
+          Response status code is: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:41:59 pm</td>
+        <td>
+          Response is: {"message":"Bad request","errors":[{"msg":"refreshToken field cannot be empty","value":"","param":"refreshToken"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:59 pm</td>
+        <td>
+          *******************Testing for DifferentRegionSystemAnalyst role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:42:01 pm</td>
+        <td>
+          Response status code is: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:42:01 pm</td>
+        <td>
+          Response is: {"message":"Bad request","errors":[{"msg":"refreshToken field cannot be empty","value":"","param":"refreshToken"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:42:01 pm</td>
+        <td>
+          *******************Testing for DiffRegionPartnerCreator role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:42:03 pm</td>
+        <td>
+          Response status code is: 400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>8:42:03 pm</td>
+        <td>
+          Response is: {"message":"Bad request","errors":[{"msg":"refreshToken field cannot be empty","value":"","param":"refreshToken"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:42:03 pm</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 23, 2022 08:41:25 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 23, 2022 08:42:23 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='49%'><b>28</b> events passed</small></div>
+<div>
+<small data-tooltip='14%'><b>8</b> events failed,
+<b data-tooltip='%'>21</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"authRefreshToken":35.979
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 28,
+failEvents: 8,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 21
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

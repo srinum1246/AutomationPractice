@@ -1,0 +1,511 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 21, 2022 11:02:06 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">aiServicesAuthTenantExpIdReadOnly</p>
+            <p class="text-sm">
+              <span>11:02:09 pm</span> / <span>00:00:35:667</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">aiServicesAuthTenantExpIdReadOnly</h5>
+<span class='badge badge-success'>12.21.2022 11:02:09 pm</span>
+<span class='badge badge-danger'>12.21.2022 11:02:45 pm</span>
+<span class='badge badge-default'>00:00:35:667</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:09 pm</td>
+        <td>
+          *******************Starting of aiServicesAuthTenantExpIdReadOnlytest*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:09 pm</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app//aiServices/auth/:authType/tenant/:tenantId?tokenType=READ_ONLY'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:14 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for api_super_admin<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:14 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. api_super_admin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> deveu01.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>api_super_admin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:16 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for super_admin<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:16 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> deveu02.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>super_admin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://gateway-demo.eu.qa.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJQQVUxbEllR2RHTUotSXBMNDZUN3gySW40VDVtaW03cmNNSUJlam1qWkpRIn0.eyJleHAiOjE2NzE2NDQ1MzYsImlhdCI6MTY3MTY0MzkzNiwianRpIjoiNTQ3NWU0MzMtNWJiMi00NjYwLThiNjktYzJlYWY4OWJjYTg0IiwiaXNzIjoiaHR0cHM6Ly9wb3J0YWwtZGVtby5ldS5xYS5haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImFyLW1vZGVsLWRhdGEiXSwic3ViIjoiYzMxNzBjYjMtM2E0MS00ZjBhLWI5ZDktNzM1MmI0ZDNlYTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiMWNhYTE0OWEtOWEwNi00ZDE2LWFhODgtNDdiZGI1YjgzMTFkIiwic2Vzc2lvbl9zdGF0ZSI6IjdjNjY1MjIxLWFkMGEtNDdiNC05YmE3LTFjM2MwMGM5NGQ1ZCIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfSwiYXItbW9kZWwtZGF0YSI6eyJyb2xlcyI6WyJBUl9NT0RFTCJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCByZWFkX29ubHkiLCJjbGllbnRJZCI6IjFjYWExNDlhLTlhMDYtNGQxNi1hYTg4LTQ3YmRiNWI4MzExZCIsImNsaWVudEhvc3QiOiIzLjcxLjIzNS4yMzQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm9yZ2FuaXphdGlvbiI6ImExZjBmNmY5LTQ2MGMtNDBmYi04N2IyLWNiYzViNjBmMWJkNSIsInByb2plY3QiOiI3YTM1MTg1MC05ZWUwLTRhNmMtODUxYi05MWM5NjNiYWU4MmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtMWNhYTE0OWEtOWEwNi00ZDE2LWFhODgtNDdiZGI1YjgzMTFkIiwiY2xpZW50QWRkcmVzcyI6IjMuNzEuMjM1LjIzNCJ9.bn3e_b5L1QWTTQj8mXkIfBtY1ql6dqlx-xxT1qEgILJkG6NSDSENCAiS-3QMuZlaOngjaKOSRzX-f9k5CEzo-pyBsDBP9yQW3yxNP953kJ7yYNMVCk6J1CU9OsmMz_QJ3FjkwMGcd6MQGGMH6xJYpMVlpWO6517abvRFr9Qx6LOxqzEG3tk-vD5JEKqLOEKVCSTJvXkYgvmanBeWY-BTnEmDBsSpILx9YroarVWsKbnoA7MagTSc91oWmMREp6TqlBjxyx7KBSOvSw5r2WS1ECpKcgQAJbu3ssdr91fk7iqTtE65rFARnePuWx9SScQwJxgh1yAXOpjS_9f_FjBMiA","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:21 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SystemAnalyst<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:21 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SystemAnalyst is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SystemAnalyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://gateway-demo.eu.qa.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJQQVUxbEllR2RHTUotSXBMNDZUN3gySW40VDVtaW03cmNNSUJlam1qWkpRIn0.eyJleHAiOjE2NzE2NDQ1MzgsImlhdCI6MTY3MTY0MzkzOCwianRpIjoiY2VlNDY4ODQtOGJiNy00ZWIxLThkYzgtMDQ1NTBjMzY3MjgxIiwiaXNzIjoiaHR0cHM6Ly9wb3J0YWwtZGVtby5ldS5xYS5haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImFyLW1vZGVsLWRhdGEiXSwic3ViIjoiYzMxNzBjYjMtM2E0MS00ZjBhLWI5ZDktNzM1MmI0ZDNlYTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiMWNhYTE0OWEtOWEwNi00ZDE2LWFhODgtNDdiZGI1YjgzMTFkIiwic2Vzc2lvbl9zdGF0ZSI6ImU0N2FkNTUzLWUwNDUtNDI1Yy04ZDJlLWZmYzQxZGNhODMzOSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfSwiYXItbW9kZWwtZGF0YSI6eyJyb2xlcyI6WyJBUl9NT0RFTCJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCByZWFkX29ubHkiLCJjbGllbnRJZCI6IjFjYWExNDlhLTlhMDYtNGQxNi1hYTg4LTQ3YmRiNWI4MzExZCIsImNsaWVudEhvc3QiOiIzLjcxLjIzNS4yMzQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm9yZ2FuaXphdGlvbiI6ImExZjBmNmY5LTQ2MGMtNDBmYi04N2IyLWNiYzViNjBmMWJkNSIsInByb2plY3QiOiI3YTM1MTg1MC05ZWUwLTRhNmMtODUxYi05MWM5NjNiYWU4MmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtMWNhYTE0OWEtOWEwNi00ZDE2LWFhODgtNDdiZGI1YjgzMTFkIiwiY2xpZW50QWRkcmVzcyI6IjMuNzEuMjM1LjIzNCJ9.oCq3xBjtRFxz0w1IL35H05YIElCHdwpTwkUG6m-6YiEt5PMdfoM9UkokgCXMg_sXJrVUOWhJpDJrcN9U0I6pwDkNB5ZO0fmk03ObwLANKsEz6Pk5LrdhrMnWZSKZJwavA4gPjDE4DyVLgHHquM95WnsGpOir1zk6wKu39tTRXYPrih6MVAmDLyJmnYabMhoJSFA83LWs-CKGuoPM0RB_K6PR4KXCGFbyYZGCgyOYpZ8GQrOPZrdrQXiVI10UezOaUb784FKCUyKtX-IFeut0XLukJYIggiPorGw7MB9-JPKctMN9kppRo4Npq_M0M1BY0wde-H4dISuP79aIq4FKhQ","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:23 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PartnerCreator<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:23 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PartnerCreator is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda+1@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PartnerCreator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://gateway-demo.eu.qa.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJQQVUxbEllR2RHTUotSXBMNDZUN3gySW40VDVtaW03cmNNSUJlam1qWkpRIn0.eyJleHAiOjE2NzE2NDQ1NDMsImlhdCI6MTY3MTY0Mzk0MywianRpIjoiNTBlNTRiZGYtNTc3MC00OWZlLWI5YTYtZDM0NTdmYzg4MGEzIiwiaXNzIjoiaHR0cHM6Ly9wb3J0YWwtZGVtby5ldS5xYS5haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImFyLW1vZGVsLWRhdGEiXSwic3ViIjoiYzMxNzBjYjMtM2E0MS00ZjBhLWI5ZDktNzM1MmI0ZDNlYTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiMWNhYTE0OWEtOWEwNi00ZDE2LWFhODgtNDdiZGI1YjgzMTFkIiwic2Vzc2lvbl9zdGF0ZSI6ImJjNmNkMzQwLWQ2ZTAtNDFmNC1hZTVlLTkzMzc0YjJmYjI2YyIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfSwiYXItbW9kZWwtZGF0YSI6eyJyb2xlcyI6WyJBUl9NT0RFTCJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCByZWFkX29ubHkiLCJjbGllbnRJZCI6IjFjYWExNDlhLTlhMDYtNGQxNi1hYTg4LTQ3YmRiNWI4MzExZCIsImNsaWVudEhvc3QiOiIzLjcxLjIzNS4yMzQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm9yZ2FuaXphdGlvbiI6ImExZjBmNmY5LTQ2MGMtNDBmYi04N2IyLWNiYzViNjBmMWJkNSIsInByb2plY3QiOiI3YTM1MTg1MC05ZWUwLTRhNmMtODUxYi05MWM5NjNiYWU4MmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtMWNhYTE0OWEtOWEwNi00ZDE2LWFhODgtNDdiZGI1YjgzMTFkIiwiY2xpZW50QWRkcmVzcyI6IjMuNzEuMjM1LjIzNCJ9.W8ExxNAsJhnLsnEVbpho0e-qRBAEezmBSXhok5c0pE_GXGSXBYqBJATbGAiGafToc18wZ9iDGEWU6phRWNqn0IE9-zfgOxb5aFVw4EqFDksaVpqrGXHDfUtikiHb5lGO4WhPXcfx2BNj10YJmdcx1szxPiaGD8x-UJFFQQJF9tmCqZa7pCGcnKp-NOjGqpvF-G7ObVLPjCm0DHKsGqkQDjpgCEC-Z7j2w0r1hYoPUt1vX28rnnbpRtu4qKlqlO9nBtQCVb3K5YzPrUjzRhBmIEvICYnm7uO0Re65s2XYkpGVy9b8VT7JFYBIv3crQioJsW87hLePR0kCsV1hiMZwHw","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:25 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PrimaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:25 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+2@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PrimaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://gateway-demo.eu.qa.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJQQVUxbEllR2RHTUotSXBMNDZUN3gySW40VDVtaW03cmNNSUJlam1qWkpRIn0.eyJleHAiOjE2NzE2NDQ1NDUsImlhdCI6MTY3MTY0Mzk0NSwianRpIjoiNjUzZmYzNzctMDZjMi00ZDUyLTk2ZjQtNmJmMWUwODExNGEwIiwiaXNzIjoiaHR0cHM6Ly9wb3J0YWwtZGVtby5ldS5xYS5haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImFyLW1vZGVsLWRhdGEiXSwic3ViIjoiYzMxNzBjYjMtM2E0MS00ZjBhLWI5ZDktNzM1MmI0ZDNlYTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiMWNhYTE0OWEtOWEwNi00ZDE2LWFhODgtNDdiZGI1YjgzMTFkIiwic2Vzc2lvbl9zdGF0ZSI6Ijk0NzEzMWJlLTU5ZDItNDNiNC1hNzg4LTZhYmQzY2I2YzgwMCIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfSwiYXItbW9kZWwtZGF0YSI6eyJyb2xlcyI6WyJBUl9NT0RFTCJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCByZWFkX29ubHkiLCJjbGllbnRJZCI6IjFjYWExNDlhLTlhMDYtNGQxNi1hYTg4LTQ3YmRiNWI4MzExZCIsImNsaWVudEhvc3QiOiIzLjcxLjIzNS4yMzQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm9yZ2FuaXphdGlvbiI6ImExZjBmNmY5LTQ2MGMtNDBmYi04N2IyLWNiYzViNjBmMWJkNSIsInByb2plY3QiOiI3YTM1MTg1MC05ZWUwLTRhNmMtODUxYi05MWM5NjNiYWU4MmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtMWNhYTE0OWEtOWEwNi00ZDE2LWFhODgtNDdiZGI1YjgzMTFkIiwiY2xpZW50QWRkcmVzcyI6IjMuNzEuMjM1LjIzNCJ9.Y3G2JP1VK_4RSzfcCnR41sqLgk4G1sOZkODlqHtOXRiboiJZX2wbwq7WBsjv0lmV2YtNGkmP_Invwj2W_ayxJRXuH9sbxj3NRzFsJCiGutyRiGLe1VIqI4NwZVj4qPxSFFqOvjMVMR4p7K7ADQST0j9tcOJ9kqZnSmrHlDgZgyCuqidW_8rYdGAfPuRrK9087FLhZ1mWygen1p7qE8mIr9WilvwSfKTmYnifIeOJjtKadVbX4fB39xQ6WVeYASh2P7RyrWwVy1Ue0wyt5ZCVcTuxs1AV2PVZH6uOmVEMTiabINZEfbd2JkdT0QgwRcWBo9drfrA5h-ybvkOm15vqkQ","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:27 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecondaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:27 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+3@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SecondaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://gateway-demo.eu.qa.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJQQVUxbEllR2RHTUotSXBMNDZUN3gySW40VDVtaW03cmNNSUJlam1qWkpRIn0.eyJleHAiOjE2NzE2NDQ1NDcsImlhdCI6MTY3MTY0Mzk0NywianRpIjoiZGNiY2Q1NmYtMTUyMy00MmM1LWJlNTEtYzJmOTcxMjEzMzFiIiwiaXNzIjoiaHR0cHM6Ly9wb3J0YWwtZGVtby5ldS5xYS5haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImFyLW1vZGVsLWRhdGEiXSwic3ViIjoiYzMxNzBjYjMtM2E0MS00ZjBhLWI5ZDktNzM1MmI0ZDNlYTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiMWNhYTE0OWEtOWEwNi00ZDE2LWFhODgtNDdiZGI1YjgzMTFkIiwic2Vzc2lvbl9zdGF0ZSI6ImU3ODY3OTM0LWU3YmQtNGVlNC1iYmE0LWNlNjdmNzg3YjQ4OCIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfSwiYXItbW9kZWwtZGF0YSI6eyJyb2xlcyI6WyJBUl9NT0RFTCJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCByZWFkX29ubHkiLCJjbGllbnRJZCI6IjFjYWExNDlhLTlhMDYtNGQxNi1hYTg4LTQ3YmRiNWI4MzExZCIsImNsaWVudEhvc3QiOiIzLjcxLjIzNS4yMzQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm9yZ2FuaXphdGlvbiI6ImExZjBmNmY5LTQ2MGMtNDBmYi04N2IyLWNiYzViNjBmMWJkNSIsInByb2plY3QiOiI3YTM1MTg1MC05ZWUwLTRhNmMtODUxYi05MWM5NjNiYWU4MmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtMWNhYTE0OWEtOWEwNi00ZDE2LWFhODgtNDdiZGI1YjgzMTFkIiwiY2xpZW50QWRkcmVzcyI6IjMuNzEuMjM1LjIzNCJ9.lTHB2dEG9air1pmVnVDT6yv0HJtp0k778Luva_6EVkHmUJnv_dwumkHAkqd9nU_lIsrS6neNjGK4usK1pNXbF6VHcrDu_KLis42xSCAFpfBU7RnvbPtbEw6BJXM3B712hVPavADEbm6L-LC6TwbF9nDeWoiLMOo4VYU-KmaGzrhP9pgbwwU69h4cRpwZtpcIMBA2GktydxSeP6UfUusCvQQcuRJ9oTGDkdCy5psgUgWl1MXZACebjx_vKwCKj8dJyfBtL57fhAU72xyPgMCBHzTmD71wDmqxqGouU6EOHm1VpDP9cEOIB3EK1VCXkXplBBJ8n3SlaBkzNB5RY74GOQ","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:29 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Analyst<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:29 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Analyst is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+4@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>Analyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://gateway-demo.eu.qa.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJQQVUxbEllR2RHTUotSXBMNDZUN3gySW40VDVtaW03cmNNSUJlam1qWkpRIn0.eyJleHAiOjE2NzE2NDQ1NDksImlhdCI6MTY3MTY0Mzk0OSwianRpIjoiOTU0MmY0NjAtNzgzYi00MDVmLTg5ODItMmRlMTZhMTE3NmU1IiwiaXNzIjoiaHR0cHM6Ly9wb3J0YWwtZGVtby5ldS5xYS5haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImFyLW1vZGVsLWRhdGEiXSwic3ViIjoiYzMxNzBjYjMtM2E0MS00ZjBhLWI5ZDktNzM1MmI0ZDNlYTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiMWNhYTE0OWEtOWEwNi00ZDE2LWFhODgtNDdiZGI1YjgzMTFkIiwic2Vzc2lvbl9zdGF0ZSI6IjIzZWNkZDFlLTBjOWYtNGQ3OS1hZGJiLTIzMjgxNDdiOWI0NCIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfSwiYXItbW9kZWwtZGF0YSI6eyJyb2xlcyI6WyJBUl9NT0RFTCJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCByZWFkX29ubHkiLCJjbGllbnRJZCI6IjFjYWExNDlhLTlhMDYtNGQxNi1hYTg4LTQ3YmRiNWI4MzExZCIsImNsaWVudEhvc3QiOiIzLjcxLjIzNS4yMzQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm9yZ2FuaXphdGlvbiI6ImExZjBmNmY5LTQ2MGMtNDBmYi04N2IyLWNiYzViNjBmMWJkNSIsInByb2plY3QiOiI3YTM1MTg1MC05ZWUwLTRhNmMtODUxYi05MWM5NjNiYWU4MmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtMWNhYTE0OWEtOWEwNi00ZDE2LWFhODgtNDdiZGI1YjgzMTFkIiwiY2xpZW50QWRkcmVzcyI6IjMuNzEuMjM1LjIzNCJ9.h3EamqMX7dnQnDOXbSE2US28qp8ZjE07SkDTxfgATHsk4HpGsb-i_0TiX7lFuqmIJV_7xYsMPE90_RaegansDO2QWl2EGjhuTSoxUBYfkzVwkvEojD73Fd--363bsnEprpIvq3KRaPsPzq56v-tLWHHXGnhhRysiSivhF_7GLSKMYj2DAtNJbxlngkZkctHpReRWjdKQR7gxXUkJWX_fXMQWvHPv3AYBigIgpEc2xqIaCfDmuSQTBoxDNPcQm2jXa8GD2RkvEz3C3XSKKBnrOkS_0dUEaGXGjpfXeDLh0W3dCij-qNfJmL1CoTYawQwfcYSPQD-8aN91Tal5oQ-DyQ","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:30 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for User<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:30 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. User is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+6@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>User <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:32 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Creator<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:32 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+5@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>Creator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://gateway-demo.eu.qa.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJQQVUxbEllR2RHTUotSXBMNDZUN3gySW40VDVtaW03cmNNSUJlam1qWkpRIn0.eyJleHAiOjE2NzE2NDQ1NTIsImlhdCI6MTY3MTY0Mzk1MiwianRpIjoiYzNjMzU0Y2ItMjYyMS00ODBjLTkyNzItOTc1ZmI2OTEzODMyIiwiaXNzIjoiaHR0cHM6Ly9wb3J0YWwtZGVtby5ldS5xYS5haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImFyLW1vZGVsLWRhdGEiXSwic3ViIjoiYzMxNzBjYjMtM2E0MS00ZjBhLWI5ZDktNzM1MmI0ZDNlYTRjIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiMWNhYTE0OWEtOWEwNi00ZDE2LWFhODgtNDdiZGI1YjgzMTFkIiwic2Vzc2lvbl9zdGF0ZSI6IjgzNThkZGFiLTc2YWQtNGM3OS04N2VhLWE0ZGNlOTdhMTIxNSIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfSwiYXItbW9kZWwtZGF0YSI6eyJyb2xlcyI6WyJBUl9NT0RFTCJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCByZWFkX29ubHkiLCJjbGllbnRJZCI6IjFjYWExNDlhLTlhMDYtNGQxNi1hYTg4LTQ3YmRiNWI4MzExZCIsImNsaWVudEhvc3QiOiIzLjcxLjIzNS4yMzQiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm9yZ2FuaXphdGlvbiI6ImExZjBmNmY5LTQ2MGMtNDBmYi04N2IyLWNiYzViNjBmMWJkNSIsInByb2plY3QiOiI3YTM1MTg1MC05ZWUwLTRhNmMtODUxYi05MWM5NjNiYWU4MmUiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzZXJ2aWNlLWFjY291bnQtMWNhYTE0OWEtOWEwNi00ZDE2LWFhODgtNDdiZGI1YjgzMTFkIiwiY2xpZW50QWRkcmVzcyI6IjMuNzEuMjM1LjIzNCJ9.T1HKjlCJJXF08EBEZLQxbkmyyxoMh-IJGx_itRLxBnr4gCmfndAZIASSROjW28vyQrHWBzXMyDQzQKJD5ohJmlEc2ugnxbhLA36V4J6c01qehIz9t028-nMFbkwisvsfZ0j_tn4fZWqCKtRakyWxHy47yHQoe2PsMe2OQuYtAoXYgOk2T0CA970O5zzhOtwioKmnjKMLUBCUWjmUEuT3q21T8bnV0Utir74ECL-iPVLs20T4rxu8SCxNzXr8mcdijIywImlulG5-zXrAgcEbYyFHNS3fHEvuEnX2lIxJ_jjvlcyViZ9A_JH5PmZBz6XcaSS9kCcH7fOdxUWXzucgqQ","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:34 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for AnotherPrimaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:34 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. AnotherPrimaryTenantAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+7@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>AnotherPrimaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to login to AI Services","error":"Insufficient Permission"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:35 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecTenantAdminFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:35 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecTenantAdminFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+8@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SecTenantAdminFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to login to AI Services","error":"Insufficient Permission"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:37 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for AnalystRoleFromFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:37 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. AnalystRoleFromFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+9@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>AnalystRoleFromFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to login to AI Services","error":"Insufficient Permission"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:38 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for UserRoleFromFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:38 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. UserRoleFromFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+11@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>UserRoleFromFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:40 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for CreatorRoleUserFromDifferentTenant<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:40 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. CreatorRoleUserFromDifferentTenant is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+10@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>CreatorRoleUserFromDifferentTenant <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to login to AI Services","error":"Insufficient Permission"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:41 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionAPISuperAdmin<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:41 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionAPISuperAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> devca01.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionAPISuperAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:42 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSuperAdmin<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:42 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionSuperAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> devca02.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSuperAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:43 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSystemAnalyst<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:43 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionSystemAnalyst is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+12@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSystemAnalyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:45 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DiffRegionPartnerCreator<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:02:45 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DiffRegionPartnerCreator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/aiServices/auth/ar/tenant/02YQ6pnBCc9c9sxJOlYN?tokenType=READ_ONLY <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+13@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DiffRegionPartnerCreator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantExpIdReadOnly <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:02:45 pm</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 21, 2022 11:02:06 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 21, 2022 11:03:05 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='46%'><b>18</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>21</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"aiServicesAuthTenantExpIdReadOnly":35.667
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 18,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 21
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

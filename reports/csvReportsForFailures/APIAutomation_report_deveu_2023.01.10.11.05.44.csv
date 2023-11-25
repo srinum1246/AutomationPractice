@@ -1,0 +1,2 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Pass","Confluence - Allowed","ActualResult - NotAllowed","tenantmanagementSaveAiServicesConfigUpdateAPI",,"deveu02.apiauto@gmail.com","super_admin",,"{""password"":""xv"",""userName"":""789""}","400","{""msg"":""Failed to update AI service configuration"",""error"":""mandatory fields are missing"",""status"":400}"

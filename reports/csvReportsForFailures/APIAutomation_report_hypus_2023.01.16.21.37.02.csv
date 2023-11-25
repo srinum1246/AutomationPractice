@@ -1,0 +1,2 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Pass","Confluence - Allowed","ActualResult - Allowed","userRemoveUserAPI","https://hyperspace.apiv2.carear.app/user/0kMglaaw8JW0I0YPVp4n86dSaVs2/removeUser","hyperspace02.apiauto@gmail.com","super_admin","DELETE","NA","200","{""message"":""User has been deleted successfully""}"

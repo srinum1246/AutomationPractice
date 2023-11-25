@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="APITests">
+        <classes>
+            <class name="org.tests.apiTestCasesNegFlow">
+                <methods>
+                    <include name = "createTenantAPIManFieldAsEmpty"/>
+                    <include name = "createTenantAPIManFieldAndNonManFieldAsEmpty"/>
+                    <include name = "createTenantAPIManFieldAsInvalidVal"/>
+                    <include name = "createTenantAPIManFieldAndNonManFieldAsInvalidVal"/>
+                    <include name = "createTenantAPIManFieldInValNonManFieldValidVal"/>
+                    <include name = "createTenantAPIManFieldValNonManFieldInValidVal"/>
+                    <include name = "updateTenantAPIManFieldAsEmpty"/>
+                    <include name = "updateTenantAPIManFieldAndNonManFieldAsEmpty"/>
+                    <include name = "updateTenantAPIManFieldAsInvalidVal"/>
+                    <include name = "updateTenantAPIManFieldNonManFieldAsInvalidVal"/>
+                    <include name = "updateTenantAPIManFieldInValNonManFieldValidVal"/>
+                    <include name = "updateTenantAPIManFieldValNonManFieldInValidVal"/>
+                    <include name = "tenantAdminAddGroupAPIManFieldAsEmpty"/>
+                    <include name = "tenantAdminAddGroupAPIManFieldAsInvalidVal"/>
+                    <include name = "tenantAdminUpdateGroupAPIManFieldAsEmpty"/>
+                    <include name = "tenantAdminUpdateGroupAPIManFieldAsInvalidVal"/>
+                    <include name = "tenantAdminSaveNotificationsAPINonManFieldEmpty"/>
+                    <include name = "tenantAdminSaveNotificationsNonManFieldInvalidVal"/>
+                    <include name = "tenantAdminUpdatePluginStatusAPIInvalidVal"/>
+                    <include name = "tenantAdminUpdatePluginStatusAPIAsEmptyVal"/>
+                    <include name = "tenantAdminTenantFetchKpiAPIManFieldAsEmpty"/>
+                    <include name = "tenantAdminTenantFetchKpiAPIManFieldAsInvalid"/>
+                    <include name = "tenantAdminTenantIdExperiencesAddManFieldEmpty"/>
+                    <include name = "tenantAdminExperiencesAddManNonManFieldEmpty"/>
+                    <include name = "tenantAdminExperienceAddManValNonManInValidVal"/>
+                    <include name = "tenantAdminExperiencesUpdateAPIManFieldAsEmpty"/>
+                    <include name = "tenantAdminExperienceUpdateManNonManEmpty"/>
+                    <include name = "tenantAdminExperienceUpdateManValNonManInValVal"/>
+                    <include name = "tenantAdminSavePluginInfoUpdateManFieldEmpty"/>
+                    <include name = "tenantSavePluginInfoUpdateManNonManFieEmpty"/>
+                    <include name = "tenantAdminSavePluginInfoUpdateManFieldInvalidVal"/>
+                    <include name = "tenantSavePluginInfoUpdateManNonManFieInvalidVal"/>
+                    <include name = "tenantSavePluginInfoUpdateManInValNonManValidVal"/>
+                    <include name = "tenantSavePluginInfoUpdateManValNonManInValidVal"/>
+                    <include name = "SaveInstructBuilderExperienceManFieldAsEmpty"/>
+                    <include name = "SaveInstructBuilderExperienceManNonManFieldEmpty"/>
+                    <include name = "SaveInstructBuilderExperienceManFieldAsInvalidVal"/>
+                    <include name = "SaveInstructBuilderExperienceManNonManInvalidVal"/>
+                    <include name = "SaveInstructBuilderExpManInValNonManValidVal"/>
+                    <include name = "SaveInstructBuilderExpManValNonManInValidVal"/>
+                    <include name = "userUpdateUserAPIManFieldAsEmpty"/>
+                    <include name = "userUpdateUserAPIManFieldAndNonManFieldAsEmpty"/>
+                    <include name = "userUpdateUserAPIManFieldAsInvalidVal"/>
+                    <include name = "userUpdateUserAPIManFieldNonManFieldInvalidVal"/>
+                    <include name = "userUpdateUserAPIManInValNonManFieldValidVal"/>
+                    <include name = "userUpdateUserAPIManValNonManFieldInValidVal"/>
+                    <include name = "userSetFeatureFormsUpdateAPIManFieldAsEmpty"/>
+                    <include name = "userSetFeatureFormsUpdateManNonManFieldEmpty"/>
+                    <include name = "userSetFeatureFormsUpdateAPIManFieldAsInvalidVal"/>
+                    <include name = "userSetFeatureFormsUpdateManNonManFieInvalidVal"/>
+                    <include name = "userSetFeatureFormsUpdateManInValNonManValidVal"/>
+                    <include name = "secretManagerStoresNowSecretAPIManFieldAsEmpty"/>
+                    <include name = "secretManagerStoresNowSecretManFieldAsInvalidVal"/>
+                    <include name = "secretManagerAwsConfigAPIManFieldAsEmpty"/>
+                    <include name = "secretManagerAwsConfigAPIManNonManFieldEmpty"/>
+                    <include name = "secretManagerAwsConfigAPIManFieldAsInvalidVal"/>
+                    <include name = "secretManagerAwsConfigAPIManNonManInvalidVal"/>
+                    <include name = "secretManagerAwsConfigManInValNonManValidVal"/>
+                    <include name = "secretManagerAwsConfigManValNonManInValidVal"/>
+                    <include name = "secretManagerSfdcConfigAPIManFieldEmpty"/>
+                    <include name = "secretManagerSfdcConfigAPIManFieldInvalid"/>
+                    <include name = "sessionsTenantFetchSessionsAPINonManEmpty"/>
+                    <include name = "sessionsTenantFetchSessionsAPINonManInvalid"/>
+                    <include name = "authLoginManFieldEmpty"/>
+                    <include name = "authLoginManFieldInvalid"/>
+                    <include name = "authRefreshTokenManFieldEmpty"/>
+                    <include name = "authRefreshTokenManFieldInvalid"/>
+                    <include name = "authActivateUserFieldEmpty"/>
+                    <include name = "authActivateUserFieldInvalid"/>
+                    <include name = "downloadManagementSaveManFieldEmpty"/>
+                    <include name = "downloadManagementSaveManNonManFieldEmpty"/>
+                    <include name = "downloadManagementUpdateManFieldInvalid"/>
+                    <include name = "downloadManagementUpdateManNonManInvalidVal"/>
+                    <include name = "downloadManageUpdateManInValNonManValidVal"/>
+                    <include name = "downloadManageUpdateManValNonManInValidVal"/>
+                </methods>
+            </class>
+
+        </classes>
+
+    </test>
+</suite>

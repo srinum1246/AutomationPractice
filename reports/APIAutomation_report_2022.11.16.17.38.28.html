@@ -1,0 +1,427 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 16, 2022 05:38:28 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">sessionsFetchSessionsUserAPI</p>
+            <p class="text-sm">
+              <span>5:38:30 pm</span> / <span>00:00:10:479</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">sessionsFetchSessionsUserAPI</h5>
+<span class='badge badge-success'>11.16.2022 5:38:30 pm</span>
+<span class='badge badge-danger'>11.16.2022 5:38:40 pm</span>
+<span class='badge badge-default'>00:00:10:479</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:38:30 pm</td>
+        <td>
+          *******************Starting of sessionsFetchSessionsUserAPI test*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:38:30 pm</td>
+        <td>
+          ******************* Testing API URI 'https://hyperspace.apiv2.carear.app/sessions/fetchSessions/user/:uid/start/:start/rowsPerPage/:rowsPerPage/?searchString=<searchValue>'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:38:34 pm</td>
+        <td>
+          *******************Testing for api_super_admin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:38:34 pm</td>
+        <td>
+          Response status code is: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:38:34 pm</td>
+        <td>
+          Response is: {"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:38:35 pm</td>
+        <td>
+          *******************Testing for super_admin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:38:35 pm</td>
+        <td>
+          Response status code is: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:38:35 pm</td>
+        <td>
+          Response is: {"error":"Insufficient Permission","message":"Failed to authenticate the User","status":"Forbidden"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:38:36 pm</td>
+        <td>
+          *******************Testing for PrimaryTenantAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:38:36 pm</td>
+        <td>
+          Response status code is: 206
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:38:36 pm</td>
+        <td>
+          Response is: [{"sessionId":"e14b6cb8-4ad1-4bf2-94ff-74cdc0b64e68","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591410235,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"tenantId":"FOZvxI0W3z7R9Jh6CIm0","processorCount":8,"processorType":"ARM64 FP ASIMD AES","start":1668591410235,"photoURL":"","participantType":"Collaborator","cameraState":0,"location":{"verticalAccuracy":23.6,"altitude":0,"horizontalAccuracy":23.6,"longitude":78.6598053,"latitude":17.6426258},"deviceModel":"Xiaomi Redmi Note 9 Pro","canBeCollaborator":true,"companyName":"hyperspace03Tenant","side":"Sender","end":1668591442515,"agoraId":"3765530942","startBatteryPercentage":0.87,"stage":"Disconnected","groupId":"autoGroup1","streamingRequestState":"Default","userName":"Hyperspacezerosi","version":"22.05.001","aspectRatio":"720*1600*Portrait","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","systemMemorySize":3587,"deviceType":"nativeMobile","endBatteryPercentage":0.87,"arHintsEnabled":"False","region":"AREA_CODE_GLOB","userType":"Host","jobDescription":"","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","microphoneState":0,"joinerType":"Host","proxy":false}}},{"sessionId":"0eff6489-9d32-47cf-a5e5-980cbb239b29","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591093486,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"aspectRatio":"720*1600*Portrait","deviceModel":"Xiaomi Redmi Note 9 Pro","proxy":false,"userName":"Hyperspacezerosi","location":{"verticalAccuracy":23.6,"altitude":0,"latitude":17.6426258,"horizontalAccuracy":23.6,"longitude":78.6598053},"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","streamingRequestState":"Default","end":1668591126799,"systemMemorySize":3587,"deviceType":"nativeMobile","microphoneState":0,"cameraState":0,"region":"AREA_CODE_GLOB","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","groupId":"autoGroup1","participantType":"Collaborator","stage":"Disconnected","processorType":"ARM64 FP ASIMD AES","side":"Sender","processorCount":8,"startBatteryPercentage":0.88,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","photoURL":"","endBatteryPercentage":0.88,"companyName":"hyperspace03Tenant","jobDescription":"","version":"22.05.001","agoraId":"441562318","canBeCollaborator":true,"joinerType":"Host","start":1668591093486,"userType":"Host","arHintsEnabled":"False"}}},{"sessionId":"52761bd2-607b-48a5-98dd-b1e9baeb9cbd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668499644275,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"userType":"Host","companyName":"hyperspace03Tenant","groupId":"autoGroup1","side":"Sender","version":"22.05.001","deviceModel":"Xiaomi Redmi Note 9 Pro","canBeCollaborator":true,"microphoneState":0,"processorType":"ARM64 FP ASIMD AES","cameraState":0,"aspectRatio":"1080*2400*Portrait","region":"AREA_CODE_GLOB","streamingRequestState":"Default","start":1668499644275,"jobDescription":"","endBatteryPercentage":0.8,"joinerType":"Host","photoURL":"","proxy":false,"systemMemorySize":3587,"stage":"Connected","tenantId":"FOZvxI0W3z7R9Jh6CIm0","startBatteryPercentage":0.8,"arHintsEnabled":"False","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","processorCount":8,"userName":"Hyperspacezerosi","deviceType":"nativeMobile","participantType":"Collaborator","agoraId":"2690334247","location":{"latitude":17.4590778,"horizontalAccuracy":120.384,"verticalAccuracy":120.384,"longitude":78.36822,"altitude":518.4},"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)"}}},{"sessionId":"a520a880-5d8a-4b7f-8ffd-4c2c2fa7db8d","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496824723,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"aspectRatio":"1080*2400*Portrait","processorType":"ARM64 FP ASIMD AES","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","startBatteryPercentage":0.37,"location":{"latitude":18.8709869,"altitude":65.6,"longitude":79.43406,"verticalAccuracy":128.899,"horizontalAccuracy":128.899},"participantType":"Collaborator","deviceModel":"samsung SM-G991B","proxy":false,"cameraState":0,"photoURL":"","companyName":"hyperspace03Tenant","userName":"Hyperspacezerosi","tenantId":"FOZvxI0W3z7R9Jh6CIm0","end":1668496830315,"canBeCollaborator":true,"region":"AREA_CODE_GLOB","groupId":"autoGroup1","arHintsEnabled":"False","userType":"Host","endBatteryPercentage":0.37,"agoraId":"2808927703","start":1668496824723,"deviceType":"nativeMobile","jobDescription":"","survey":{"ZkgSigHV1ZnPYsqgwfW5":"4","syg91SNzYiu3f3T4o8G5":"ghuu"},"systemMemorySize":7201,"side":"Sender","joinerType":"Host","streamingRequestState":"Default","microphoneState":0,"stage":"Disconnected","processorCount":8,"version":"22.05.001"}}},{"sessionId":"6df3ae96-d712-4276-9dda-2fec3e69dccc","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496477905,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"systemMemorySize":7201,"userType":"Host","arHintsEnabled":"False","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","participantType":"Collaborator","microphoneState":0,"joinerType":"Host","companyName":"hyperspace03Tenant","side":"Sender","version":"22.05.001","startBatteryPercentage":0.34,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","proxy":false,"cameraState":0,"userName":"Hyperspacezerosi","agoraId":"372627155","operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","groupId":"autoGroup1","location":{"latitude":18.8688068,"horizontalAccuracy":2514,"longitude":79.44038,"verticalAccuracy":2514,"altitude":0},"deviceModel":"samsung SM-G991B","photoURL":"","canBeCollaborator":true,"processorCount":8,"jobDescription":"","region":"AREA_CODE_GLOB","end":1668496486396,"start":1668496477905,"survey":{"syg91SNzYiu3f3T4o8G5":"ohh god","ZkgSigHV1ZnPYsqgwfW5":"4","hk92DE0RsYoFgLJ5EBts":"ohhh"},"deviceType":"nativeMobile","aspectRatio":"1080*2400*Portrait","streamingRequestState":"Default","endBatteryPercentage":0.34,"stage":"Disconnected","processorType":"ARM64 FP ASIMD AES"}}}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:38:37 pm</td>
+        <td>
+          *******************Testing for SecondaryTenantAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:38:37 pm</td>
+        <td>
+          Response status code is: 206
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:38:37 pm</td>
+        <td>
+          Response is: [{"sessionId":"e14b6cb8-4ad1-4bf2-94ff-74cdc0b64e68","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591410235,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"companyName":"hyperspace03Tenant","start":1668591410235,"deviceType":"nativeMobile","deviceModel":"Xiaomi Redmi Note 9 Pro","systemMemorySize":3587,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","jobDescription":"","groupId":"autoGroup1","aspectRatio":"720*1600*Portrait","userType":"Host","processorType":"ARM64 FP ASIMD AES","region":"AREA_CODE_GLOB","participantType":"Collaborator","version":"22.05.001","photoURL":"","stage":"Disconnected","location":{"latitude":17.6426258,"longitude":78.6598053,"horizontalAccuracy":23.6,"verticalAccuracy":23.6,"altitude":0},"proxy":false,"joinerType":"Host","agoraId":"3765530942","userName":"Hyperspacezerosi","cameraState":0,"end":1668591442515,"arHintsEnabled":"False","startBatteryPercentage":0.87,"side":"Sender","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","processorCount":8,"endBatteryPercentage":0.87,"canBeCollaborator":true,"microphoneState":0,"streamingRequestState":"Default"}}},{"sessionId":"0eff6489-9d32-47cf-a5e5-980cbb239b29","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591093486,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"location":{"horizontalAccuracy":23.6,"verticalAccuracy":23.6,"altitude":0,"latitude":17.6426258,"longitude":78.6598053},"endBatteryPercentage":0.88,"end":1668591126799,"jobDescription":"","processorType":"ARM64 FP ASIMD AES","region":"AREA_CODE_GLOB","participantType":"Collaborator","version":"22.05.001","startBatteryPercentage":0.88,"deviceType":"nativeMobile","arHintsEnabled":"False","aspectRatio":"720*1600*Portrait","canBeCollaborator":true,"photoURL":"","companyName":"hyperspace03Tenant","deviceModel":"Xiaomi Redmi Note 9 Pro","side":"Sender","microphoneState":0,"agoraId":"441562318","groupId":"autoGroup1","userName":"Hyperspacezerosi","userType":"Host","start":1668591093486,"joinerType":"Host","proxy":false,"systemMemorySize":3587,"stage":"Disconnected","processorCount":8,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","tenantId":"FOZvxI0W3z7R9Jh6CIm0","streamingRequestState":"Default","cameraState":0,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)"}}},{"sessionId":"52761bd2-607b-48a5-98dd-b1e9baeb9cbd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668499644275,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"version":"22.05.001","region":"AREA_CODE_GLOB","side":"Sender","tenantId":"FOZvxI0W3z7R9Jh6CIm0","proxy":false,"stage":"Connected","companyName":"hyperspace03Tenant","start":1668499644275,"jobDescription":"","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","agoraId":"2690334247","streamingRequestState":"Default","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","aspectRatio":"1080*2400*Portrait","location":{"horizontalAccuracy":120.384,"latitude":17.4590778,"altitude":518.4,"verticalAccuracy":120.384,"longitude":78.36822},"canBeCollaborator":true,"cameraState":0,"endBatteryPercentage":0.8,"startBatteryPercentage":0.8,"microphoneState":0,"photoURL":"","processorCount":8,"arHintsEnabled":"False","deviceType":"nativeMobile","joinerType":"Host","deviceModel":"Xiaomi Redmi Note 9 Pro","groupId":"autoGroup1","participantType":"Collaborator","systemMemorySize":3587,"processorType":"ARM64 FP ASIMD AES","userName":"Hyperspacezerosi","userType":"Host"}}},{"sessionId":"a520a880-5d8a-4b7f-8ffd-4c2c2fa7db8d","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496824723,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"processorType":"ARM64 FP ASIMD AES","agoraId":"2808927703","microphoneState":0,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","deviceType":"nativeMobile","stage":"Disconnected","side":"Sender","userType":"Host","jobDescription":"","version":"22.05.001","survey":{"syg91SNzYiu3f3T4o8G5":"ghuu","ZkgSigHV1ZnPYsqgwfW5":"4"},"groupId":"autoGroup1","aspectRatio":"1080*2400*Portrait","participantType":"Collaborator","canBeCollaborator":true,"end":1668496830315,"processorCount":8,"userName":"Hyperspacezerosi","deviceModel":"samsung SM-G991B","operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","streamingRequestState":"Default","startBatteryPercentage":0.37,"companyName":"hyperspace03Tenant","arHintsEnabled":"False","cameraState":0,"endBatteryPercentage":0.37,"photoURL":"","start":1668496824723,"region":"AREA_CODE_GLOB","joinerType":"Host","location":{"latitude":18.8709869,"longitude":79.43406,"altitude":65.6,"horizontalAccuracy":128.899,"verticalAccuracy":128.899},"proxy":false,"tenantId":"FOZvxI0W3z7R9Jh6CIm0","systemMemorySize":7201}}},{"sessionId":"6df3ae96-d712-4276-9dda-2fec3e69dccc","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496477905,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","groupId":"autoGroup1","arHintsEnabled":"False","microphoneState":0,"userName":"Hyperspacezerosi","participantType":"Collaborator","agoraId":"372627155","location":{"longitude":79.44038,"verticalAccuracy":2514,"altitude":0,"horizontalAccuracy":2514,"latitude":18.8688068},"processorType":"ARM64 FP ASIMD AES","processorCount":8,"aspectRatio":"1080*2400*Portrait","streamingRequestState":"Default","userType":"Host","region":"AREA_CODE_GLOB","photoURL":"","side":"Sender","start":1668496477905,"joinerType":"Host","version":"22.05.001","companyName":"hyperspace03Tenant","tenantId":"FOZvxI0W3z7R9Jh6CIm0","jobDescription":"","stage":"Disconnected","startBatteryPercentage":0.34,"cameraState":0,"operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","proxy":false,"endBatteryPercentage":0.34,"survey":{"hk92DE0RsYoFgLJ5EBts":"ohhh","ZkgSigHV1ZnPYsqgwfW5":"4","syg91SNzYiu3f3T4o8G5":"ohh god"},"deviceType":"nativeMobile","end":1668496486396,"deviceModel":"samsung SM-G991B","systemMemorySize":7201,"canBeCollaborator":true}}}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:38:38 pm</td>
+        <td>
+          *******************Testing for Analyst role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:38:38 pm</td>
+        <td>
+          Response status code is: 206
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:38:38 pm</td>
+        <td>
+          Response is: [{"sessionId":"e14b6cb8-4ad1-4bf2-94ff-74cdc0b64e68","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591410235,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"startBatteryPercentage":0.87,"proxy":false,"agoraId":"3765530942","deviceType":"nativeMobile","location":{"latitude":17.6426258,"longitude":78.6598053,"horizontalAccuracy":23.6,"verticalAccuracy":23.6,"altitude":0},"version":"22.05.001","microphoneState":0,"systemMemorySize":3587,"jobDescription":"","end":1668591442515,"userName":"Hyperspacezerosi","companyName":"hyperspace03Tenant","stage":"Disconnected","aspectRatio":"720*1600*Portrait","userType":"Host","joinerType":"Host","arHintsEnabled":"False","processorCount":8,"streamingRequestState":"Default","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","tenantId":"FOZvxI0W3z7R9Jh6CIm0","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","deviceModel":"Xiaomi Redmi Note 9 Pro","participantType":"Collaborator","canBeCollaborator":true,"groupId":"autoGroup1","region":"AREA_CODE_GLOB","photoURL":"","endBatteryPercentage":0.87,"side":"Sender","start":1668591410235,"cameraState":0,"processorType":"ARM64 FP ASIMD AES"}}},{"sessionId":"0eff6489-9d32-47cf-a5e5-980cbb239b29","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591093486,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"stage":"Disconnected","tenantId":"FOZvxI0W3z7R9Jh6CIm0","region":"AREA_CODE_GLOB","start":1668591093486,"companyName":"hyperspace03Tenant","location":{"horizontalAccuracy":23.6,"verticalAccuracy":23.6,"altitude":0,"latitude":17.6426258,"longitude":78.6598053},"photoURL":"","agoraId":"441562318","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","systemMemorySize":3587,"processorCount":8,"userName":"Hyperspacezerosi","aspectRatio":"720*1600*Portrait","deviceType":"nativeMobile","deviceModel":"Xiaomi Redmi Note 9 Pro","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","microphoneState":0,"version":"22.05.001","side":"Sender","end":1668591126799,"endBatteryPercentage":0.88,"cameraState":0,"groupId":"autoGroup1","proxy":false,"participantType":"Collaborator","canBeCollaborator":true,"startBatteryPercentage":0.88,"processorType":"ARM64 FP ASIMD AES","joinerType":"Host","arHintsEnabled":"False","userType":"Host","jobDescription":"","streamingRequestState":"Default"}}},{"sessionId":"52761bd2-607b-48a5-98dd-b1e9baeb9cbd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668499644275,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"arHintsEnabled":"False","side":"Sender","groupId":"autoGroup1","start":1668499644275,"agoraId":"2690334247","canBeCollaborator":true,"userName":"Hyperspacezerosi","processorType":"ARM64 FP ASIMD AES","userType":"Host","stage":"Connected","photoURL":"","streamingRequestState":"Default","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","tenantId":"FOZvxI0W3z7R9Jh6CIm0","region":"AREA_CODE_GLOB","systemMemorySize":3587,"proxy":false,"processorCount":8,"endBatteryPercentage":0.8,"microphoneState":0,"companyName":"hyperspace03Tenant","participantType":"Collaborator","startBatteryPercentage":0.8,"version":"22.05.001","deviceType":"nativeMobile","location":{"longitude":78.36822,"altitude":518.4,"latitude":17.4590778,"verticalAccuracy":120.384,"horizontalAccuracy":120.384},"jobDescription":"","joinerType":"Host","aspectRatio":"1080*2400*Portrait","cameraState":0,"deviceModel":"Xiaomi Redmi Note 9 Pro"}}},{"sessionId":"a520a880-5d8a-4b7f-8ffd-4c2c2fa7db8d","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496824723,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"streamingRequestState":"Default","participantType":"Collaborator","groupId":"autoGroup1","agoraId":"2808927703","systemMemorySize":7201,"version":"22.05.001","processorType":"ARM64 FP ASIMD AES","userType":"Host","endBatteryPercentage":0.37,"companyName":"hyperspace03Tenant","survey":{"ZkgSigHV1ZnPYsqgwfW5":"4","syg91SNzYiu3f3T4o8G5":"ghuu"},"end":1668496830315,"photoURL":"","microphoneState":0,"joinerType":"Host","location":{"verticalAccuracy":128.899,"latitude":18.8709869,"altitude":65.6,"longitude":79.43406,"horizontalAccuracy":128.899},"cameraState":0,"jobDescription":"","processorCount":8,"arHintsEnabled":"False","side":"Sender","userName":"Hyperspacezerosi","startBatteryPercentage":0.37,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","proxy":false,"canBeCollaborator":true,"stage":"Disconnected","tenantId":"FOZvxI0W3z7R9Jh6CIm0","deviceModel":"samsung SM-G991B","region":"AREA_CODE_GLOB","deviceType":"nativeMobile","aspectRatio":"1080*2400*Portrait","start":1668496824723,"operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)"}}},{"sessionId":"6df3ae96-d712-4276-9dda-2fec3e69dccc","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496477905,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"jobDescription":"","operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","proxy":false,"aspectRatio":"1080*2400*Portrait","cameraState":0,"location":{"horizontalAccuracy":2514,"verticalAccuracy":2514,"longitude":79.44038,"altitude":0,"latitude":18.8688068},"endBatteryPercentage":0.34,"stage":"Disconnected","arHintsEnabled":"False","processorCount":8,"survey":{"syg91SNzYiu3f3T4o8G5":"ohh god","hk92DE0RsYoFgLJ5EBts":"ohhh","ZkgSigHV1ZnPYsqgwfW5":"4"},"participantType":"Collaborator","end":1668496486396,"deviceModel":"samsung SM-G991B","processorType":"ARM64 FP ASIMD AES","startBatteryPercentage":0.34,"photoURL":"","start":1668496477905,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","companyName":"hyperspace03Tenant","side":"Sender","canBeCollaborator":true,"joinerType":"Host","groupId":"autoGroup1","microphoneState":0,"systemMemorySize":7201,"streamingRequestState":"Default","version":"22.05.001","tenantId":"FOZvxI0W3z7R9Jh6CIm0","userName":"Hyperspacezerosi","userType":"Host","region":"AREA_CODE_GLOB","deviceType":"nativeMobile","agoraId":"372627155"}}}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:38:39 pm</td>
+        <td>
+          *******************Testing for User role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:38:39 pm</td>
+        <td>
+          Response status code is: 206
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:38:39 pm</td>
+        <td>
+          Response is: [{"sessionId":"e14b6cb8-4ad1-4bf2-94ff-74cdc0b64e68","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591410235,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","groupId":"autoGroup1","processorCount":8,"proxy":false,"side":"Sender","systemMemorySize":3587,"participantType":"Collaborator","aspectRatio":"720*1600*Portrait","tenantId":"FOZvxI0W3z7R9Jh6CIm0","microphoneState":0,"userType":"Host","end":1668591442515,"start":1668591410235,"version":"22.05.001","jobDescription":"","endBatteryPercentage":0.87,"processorType":"ARM64 FP ASIMD AES","companyName":"hyperspace03Tenant","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","userName":"Hyperspacezerosi","photoURL":"","arHintsEnabled":"False","cameraState":0,"stage":"Disconnected","canBeCollaborator":true,"joinerType":"Host","region":"AREA_CODE_GLOB","streamingRequestState":"Default","startBatteryPercentage":0.87,"location":{"verticalAccuracy":23.6,"latitude":17.6426258,"longitude":78.6598053,"horizontalAccuracy":23.6,"altitude":0},"deviceModel":"Xiaomi Redmi Note 9 Pro","deviceType":"nativeMobile","agoraId":"3765530942"}}},{"sessionId":"0eff6489-9d32-47cf-a5e5-980cbb239b29","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668591093486,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"processorCount":8,"photoURL":"","companyName":"hyperspace03Tenant","tenantId":"FOZvxI0W3z7R9Jh6CIm0","aspectRatio":"720*1600*Portrait","userType":"Host","start":1668591093486,"jobDescription":"","version":"22.05.001","participantType":"Collaborator","cameraState":0,"microphoneState":0,"userName":"Hyperspacezerosi","end":1668591126799,"groupId":"autoGroup1","deviceType":"nativeMobile","agoraId":"441562318","stage":"Disconnected","deviceModel":"Xiaomi Redmi Note 9 Pro","systemMemorySize":3587,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","location":{"altitude":0,"longitude":78.6598053,"verticalAccuracy":23.6,"latitude":17.6426258,"horizontalAccuracy":23.6},"arHintsEnabled":"False","operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","endBatteryPercentage":0.88,"startBatteryPercentage":0.88,"joinerType":"Host","streamingRequestState":"Default","side":"Sender","proxy":false,"region":"AREA_CODE_GLOB","processorType":"ARM64 FP ASIMD AES","canBeCollaborator":true}}},{"sessionId":"52761bd2-607b-48a5-98dd-b1e9baeb9cbd","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668499644275,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"companyName":"hyperspace03Tenant","cameraState":0,"aspectRatio":"1080*2400*Portrait","side":"Sender","proxy":false,"userName":"Hyperspacezerosi","version":"22.05.001","processorCount":8,"operatingSystem":"Android OS 11 / API-30 (RKQ1.200826.002/V12.5.2.0.RJWINXM)","stage":"Connected","userType":"Host","endBatteryPercentage":0.8,"deviceModel":"Xiaomi Redmi Note 9 Pro","photoURL":"","participantType":"Collaborator","streamingRequestState":"Default","region":"AREA_CODE_GLOB","groupId":"autoGroup1","location":{"horizontalAccuracy":120.384,"verticalAccuracy":120.384,"latitude":17.4590778,"longitude":78.36822,"altitude":518.4},"processorType":"ARM64 FP ASIMD AES","userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","deviceType":"nativeMobile","joinerType":"Host","tenantId":"FOZvxI0W3z7R9Jh6CIm0","microphoneState":0,"startBatteryPercentage":0.8,"systemMemorySize":3587,"start":1668499644275,"canBeCollaborator":true,"arHintsEnabled":"False","agoraId":"2690334247","jobDescription":""}}},{"sessionId":"a520a880-5d8a-4b7f-8ffd-4c2c2fa7db8d","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496824723,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"proxy":false,"companyName":"hyperspace03Tenant","agoraId":"2808927703","aspectRatio":"1080*2400*Portrait","userName":"Hyperspacezerosi","arHintsEnabled":"False","location":{"horizontalAccuracy":128.899,"altitude":65.6,"latitude":18.8709869,"verticalAccuracy":128.899,"longitude":79.43406},"microphoneState":0,"joinerType":"Host","startBatteryPercentage":0.37,"endBatteryPercentage":0.37,"deviceType":"nativeMobile","groupId":"autoGroup1","side":"Sender","streamingRequestState":"Default","participantType":"Collaborator","systemMemorySize":7201,"stage":"Disconnected","version":"22.05.001","userType":"Host","photoURL":"","jobDescription":"","processorCount":8,"deviceModel":"samsung SM-G991B","tenantId":"FOZvxI0W3z7R9Jh6CIm0","processorType":"ARM64 FP ASIMD AES","cameraState":0,"survey":{"syg91SNzYiu3f3T4o8G5":"ghuu","ZkgSigHV1ZnPYsqgwfW5":"4"},"end":1668496830315,"operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","region":"AREA_CODE_GLOB","canBeCollaborator":true,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","start":1668496824723}}},{"sessionId":"6df3ae96-d712-4276-9dda-2fec3e69dccc","tenantId":"FOZvxI0W3z7R9Jh6CIm0","sessionStartTime":1668496477905,"users":{"iv419FqNelg3Icwhnt0VEgC8Vuv2":{"cameraState":0,"start":1668496477905,"end":1668496486396,"userId":"iv419FqNelg3Icwhnt0VEgC8Vuv2","processorCount":8,"deviceType":"nativeMobile","aspectRatio":"1080*2400*Portrait","canBeCollaborator":true,"jobDescription":"","tenantId":"FOZvxI0W3z7R9Jh6CIm0","userName":"Hyperspacezerosi","stage":"Disconnected","userType":"Host","endBatteryPercentage":0.34,"survey":{"syg91SNzYiu3f3T4o8G5":"ohh god","ZkgSigHV1ZnPYsqgwfW5":"4","hk92DE0RsYoFgLJ5EBts":"ohhh"},"startBatteryPercentage":0.34,"joinerType":"Host","participantType":"Collaborator","region":"AREA_CODE_GLOB","operatingSystem":"Android OS 12 / API-31 (SP1A.210812.016/G991BXXS5CVIF)","streamingRequestState":"Default","photoURL":"","systemMemorySize":7201,"deviceModel":"samsung SM-G991B","location":{"latitude":18.8688068,"verticalAccuracy":2514,"longitude":79.44038,"altitude":0,"horizontalAccuracy":2514},"proxy":false,"agoraId":"372627155","microphoneState":0,"groupId":"autoGroup1","companyName":"hyperspace03Tenant","version":"22.05.001","arHintsEnabled":"False","side":"Sender","processorType":"ARM64 FP ASIMD AES"}}}]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:38:39 pm</td>
+        <td>
+          *******************Testing for SystemAnalyst role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:38:39 pm</td>
+        <td>
+          Response status code is: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:38:39 pm</td>
+        <td>
+          Response is: {"error":"Insufficient Permission","message":"Failed to authenticate the User","status":"Forbidden"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:38:40 pm</td>
+        <td>
+          *******************Testing for PartnerCreator role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:38:40 pm</td>
+        <td>
+          Response status code is: 403
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:38:40 pm</td>
+        <td>
+          Response is: {"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:38:40 pm</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 16, 2022 05:38:28 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 16, 2022 05:39:00 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='29%'><b>8</b> events passed</small></div>
+<div>
+<small data-tooltip='29%'><b>8</b> events failed,
+<b data-tooltip='%'>11</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"sessionsFetchSessionsUserAPI":10.479
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 8,
+failEvents: 8,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 11
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

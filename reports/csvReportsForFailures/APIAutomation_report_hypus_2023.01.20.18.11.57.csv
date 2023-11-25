@@ -1,0 +1,3 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Pass","Confluence - Allowed","ActualResult - NotAllowed","updateTenantAPIManField",,"hyperspace01.apiauto@gmail.com","api_super_admin",,"{""tenantId"":""""}","400","{""message"":""Bad request"",""errors"":[{""msg"":""tenantId field cannot be empty"",""value"":"""",""param"":""tenantId""}]}"
+"Pass","Confluence - Allowed","ActualResult - NotAllowed","updateTenantAPIManField",,"hyperspace02.apiauto@gmail.com","super_admin",,"{""tenantId"":""""}","400","{""message"":""Bad request"",""errors"":[{""msg"":""tenantId field cannot be empty"",""value"":"""",""param"":""tenantId""}]}"

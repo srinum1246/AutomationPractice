@@ -1,0 +1,2 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","userRemoveUserAPI","https://hyperspace.apiv2.carear.app/user/0/removeUser","hyperspace01.apiauto@gmail.com","api_super_admin","DELETE","NA","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"

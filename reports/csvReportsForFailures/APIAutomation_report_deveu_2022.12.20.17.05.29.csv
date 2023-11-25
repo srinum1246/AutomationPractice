@@ -1,0 +1,2 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","deleteTenantAPI","https://emea.dev.apiv2.carear.app/tenantManagement/deleteTenant/","deveu01.apiauto@gmail.com","api_super_admin","DELETE","NA","404","{""message"":""Failed to delete the tenant data"",""status"":404,""error"":""Not Found""}"

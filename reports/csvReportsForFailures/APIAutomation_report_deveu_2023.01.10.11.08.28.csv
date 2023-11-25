@@ -1,0 +1,2 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Fail","Confluence - Allowed","ActualResult - Allowed","tenantmanagementSaveAiServicesConfigUpdateAPI","https://emea.dev.apiv2.carear.app/tenantManagement/saveAIServiceConfig","deveu02.apiauto@gmail.com","super_admin","POST","{""password"":""xv"",""aiDNS"":""345"",""userName"":""789""}","500","{""msg"":""Failed to update AI service configuration"",""error"":""Invalid aiDNS"",""status"":500}"

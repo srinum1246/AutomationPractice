@@ -1,0 +1,2 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminFetchKpiBuilderData","https://hyperspace.apiv2.carear.app/tenantAdmin/tenant/awx3VL8onlQIH8jVAleB/fetchBuilderKPI?surveyId=02qJ9A3JTBeFAEOGxQEh","hyperspace01.apiauto@gmail.com","api_super_admin","GET","NA","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"

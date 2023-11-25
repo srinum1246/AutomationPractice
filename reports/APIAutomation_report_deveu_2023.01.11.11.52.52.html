@@ -1,0 +1,2644 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 11, 2023 11:52:52 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createTenantAPI</p>
+            <p class="text-sm">
+              <span>11:52:54 am</span> / <span>00:00:06:730</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">createTenantAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:52:54 am</span>
+<span class='badge badge-danger'>01.11.2023 11:53:01 am</span>
+<span class='badge badge-default'>00:00:06:730</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:54 am</td>
+        <td>
+          ***<b> Starting of createTenantAPItest - createTenantAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:55 am</td>
+        <td>
+          ***  Testing API URI <b>'https://emea.dev.apiv2.carear.app/tenantManagement/createTenant' </b> ***
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:55 am</td>
+        <td>
+          *** Starting of <b>: createTenantAPI - Input Field Validation </b>***
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:52:59 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>api_super_admin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:52:59 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. api_super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"tenantPhysicalAddress":"","salesforceConnectorEntitlement":"dca","customerSuccessManager":"","resellerOfRecord":"","assistUsageType":"456","gcpTenantId":"","customerPlan":"234","transactionReason":"purchase","customerStatus":"431","expiryDate":"{seconds: 1684693799, nanoseconds: 999000000}","tenantAdminLastName":"456","contractEffectiveDate":"xy/x/zz","numberUsers":"no","joinDate":"{seconds: 1669026576, nanoseconds: 771000000}","tenantName":"12345","azTenantId":"","azAppId":"","referralCode":"","imageRecognitionEntitlement":"gv3","tenantAdminFirstName":"123","tierLevel":"mnb","disabled":"789","customerCRMID":"","zQuoteID":"","azAppSecret":"","tenantAdminEmail":"123456@xyz.com","aiEnabled":"345","subscriptionTerm":"bcd","numberVideoRecordingUsers":"fgh","servicePackage":"2345","createdBy":"678","serviceNowConnectorEntitlement":"mnv1","instructSessionsPurchased":"xvb"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Service Package must have any one of the values Flex, Pro, Premium, PremiumPlus","value":"2345","param":"servicePackage"},{"msg":"Invalid First Name value","value":"123","param":"tenantAdminFirstName"},{"msg":"Invalid Last Name value","value":"456","param":"tenantAdminLastName"},{"msg":"Invalid Created By value. Valid values are 'Zuora','Salesforce','AR Enabled Support','Manual'","value":"678","param":"createdBy"},{"msg":"Assist Usage type is not requried when customer plan is not platform","value":"456","param":"assistUsageType"},{"msg":"disabled field should be a boolean","value":"789","param":"disabled"},{"msg":"Service Now Connector Entitlement field should be a boolean","value":"mnv1","param":"serviceNowConnectorEntitlement"},{"msg":"Salesforce Connector Entitlement field should be a boolean","value":"dca","param":"salesforceConnectorEntitlement"},{"msg":"Instruct Session Purchased should be an Integer","value":"xvb","param":"instructSessionsPurchased"},{"msg":"Please enter valid Contract Effective Date with MM/DD/YYYY format","value":"xy/x/zz","param":"contractEffectiveDate"},{"msg":"Tier Level should be an integer","value":"mnb","param":"tierLevel"},{"msg":"Number of Video Recording Users should be an integer","value":"fgh","param":"numberVideoRecordingUsers"},{"msg":"Invalid Customer Status. Valid values are 'suspended', 'paying', 'trial' or 'pendingDeletion'","value":"431","param":"customerStatus"},{"msg":"Maximum Subscribers should be an integer within 10 to 10000","value":"no","param":"numberUsers"},{"msg":"Subcription Term should be an integer greater than 0","value":"bcd","param":"subscriptionTerm"},{"msg":"AI Service Enabled field should be a boolean","value":"345","param":"aiEnabled"},{"msg":"Invalid Plan Type. Valid values are 'core', 'enterprise', 'trial' or platform","value":"234","param":"customerPlan"},{"msg":"Image Recognition Entitlement field should be a boolean","value":"gv3","param":"imageRecognitionEntitlement"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:01 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:01 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"tenantPhysicalAddress":"","salesforceConnectorEntitlement":"dca","customerSuccessManager":"","resellerOfRecord":"","assistUsageType":"456","gcpTenantId":"","customerPlan":"234","transactionReason":"purchase","customerStatus":"431","expiryDate":"{seconds: 1684693799, nanoseconds: 999000000}","tenantAdminLastName":"456","contractEffectiveDate":"xy/x/zz","numberUsers":"no","joinDate":"{seconds: 1669026576, nanoseconds: 771000000}","tenantName":"12345","azTenantId":"","azAppId":"","referralCode":"","imageRecognitionEntitlement":"gv3","tenantAdminFirstName":"123","tierLevel":"mnb","disabled":"789","customerCRMID":"","zQuoteID":"","azAppSecret":"","tenantAdminEmail":"123456@xyz.com","aiEnabled":"345","subscriptionTerm":"bcd","numberVideoRecordingUsers":"fgh","servicePackage":"2345","createdBy":"678","serviceNowConnectorEntitlement":"mnv1","instructSessionsPurchased":"xvb"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Service Package must have any one of the values Flex, Pro, Premium, PremiumPlus","value":"2345","param":"servicePackage"},{"msg":"Invalid First Name value","value":"123","param":"tenantAdminFirstName"},{"msg":"Invalid Last Name value","value":"456","param":"tenantAdminLastName"},{"msg":"Invalid Created By value. Valid values are 'Zuora','Salesforce','AR Enabled Support','Manual'","value":"678","param":"createdBy"},{"msg":"Assist Usage type is not requried when customer plan is not platform","value":"456","param":"assistUsageType"},{"msg":"disabled field should be a boolean","value":"789","param":"disabled"},{"msg":"Service Now Connector Entitlement field should be a boolean","value":"mnv1","param":"serviceNowConnectorEntitlement"},{"msg":"Salesforce Connector Entitlement field should be a boolean","value":"dca","param":"salesforceConnectorEntitlement"},{"msg":"Instruct Session Purchased should be an Integer","value":"xvb","param":"instructSessionsPurchased"},{"msg":"Please enter valid Contract Effective Date with MM/DD/YYYY format","value":"xy/x/zz","param":"contractEffectiveDate"},{"msg":"Tier Level should be an integer","value":"mnb","param":"tierLevel"},{"msg":"Number of Video Recording Users should be an integer","value":"fgh","param":"numberVideoRecordingUsers"},{"msg":"Invalid Customer Status. Valid values are 'suspended', 'paying', 'trial' or 'pendingDeletion'","value":"431","param":"customerStatus"},{"msg":"Maximum Subscribers should be an integer within 10 to 10000","value":"no","param":"numberUsers"},{"msg":"Subcription Term should be an integer greater than 0","value":"bcd","param":"subscriptionTerm"},{"msg":"AI Service Enabled field should be a boolean","value":"345","param":"aiEnabled"},{"msg":"Invalid Plan Type. Valid values are 'core', 'enterprise', 'trial' or platform","value":"234","param":"customerPlan"},{"msg":"Image Recognition Entitlement field should be a boolean","value":"gv3","param":"imageRecognitionEntitlement"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:01 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">updateTenantAPI</p>
+            <p class="text-sm">
+              <span>11:53:01 am</span> / <span>00:00:33:743</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">updateTenantAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:53:01 am</span>
+<span class='badge badge-danger'>01.11.2023 11:53:35 am</span>
+<span class='badge badge-default'>00:00:33:743</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:01 am</td>
+        <td>
+          ***<b> Starting of updateTenantAPItest - updateTenantAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:01 am</td>
+        <td>
+          ***  Testing API URI <b>'https://emea.dev.apiv2.carear.app/tenantManagement/createTenant' </b> ***
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:01 am</td>
+        <td>
+          *** Starting of <b>: updateTenantAPI - Input Field Validation </b>***
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:19 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>api_super_admin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:19 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. api_super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"tenantPhysicalAddress":"234","customerSuccessManager":"3456","resellerOfRecord":"3456","numberVideoRecordingUsers":"wert","tenantAdminLastName":"54321","numberUsers":"abc","tenantName":"345","createdBy":"123","isServiceNowCustomer":"67","referralCode":"3546","tenantId":"3MC3NBSLTHFD8RtXjRfH","tenantAdminFirstName":"2345","tierLevel":"asd","disabled":"34","customerCRMID":"abc","zQuoteID":"123"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Invalid Created By value. Valid values are 'Zuora','Salesforce','AR Enabled Support','Manual'","value":"123","param":"createdBy"},{"msg":"Maximum Subscribers should be an integer within 10 to 10000","value":"abc","param":"numberUsers"},{"msg":"disabled field should be a boolean","value":"34","param":"disabled"},{"msg":"Number of Video Recording Users should be an integer","value":"wert","param":"numberVideoRecordingUsers"},{"msg":"Tier Level should be an integer","value":"asd","param":"tierLevel"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:35 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:35 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"tenantPhysicalAddress":"234","customerSuccessManager":"3456","resellerOfRecord":"3456","numberVideoRecordingUsers":"wert","tenantAdminLastName":"54321","numberUsers":"abc","tenantName":"345","createdBy":"123","isServiceNowCustomer":"67","referralCode":"3546","tenantId":"hWd1o3pyH1lFT4qIpNjH","tenantAdminFirstName":"2345","tierLevel":"asd","disabled":"34","customerCRMID":"abc","zQuoteID":"123"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Invalid Created By value. Valid values are 'Zuora','Salesforce','AR Enabled Support','Manual'","value":"123","param":"createdBy"},{"msg":"Maximum Subscribers should be an integer within 10 to 10000","value":"abc","param":"numberUsers"},{"msg":"disabled field should be a boolean","value":"34","param":"disabled"},{"msg":"Number of Video Recording Users should be an integer","value":"wert","param":"numberVideoRecordingUsers"},{"msg":"Tier Level should be an integer","value":"asd","param":"tierLevel"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:35 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminAddGroupAPI</p>
+            <p class="text-sm">
+              <span>11:53:35 am</span> / <span>00:00:04:289</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tenantAdminAddGroupAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:53:35 am</span>
+<span class='badge badge-danger'>01.11.2023 11:53:39 am</span>
+<span class='badge badge-default'>00:00:04:289</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:35 am</td>
+        <td>
+          ***<b> Starting of tenantAdminAddGroupAPItest - tenantAdminAddGroupAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:35 am</td>
+        <td>
+          ***  Testing API URI <b>'https://emea.dev.apiv2.carear.app/tenantManagement/createTenant' </b> ***
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:35 am</td>
+        <td>
+          *** Starting of <b>: tenantAdminAddGroupAPI - Input Field Validation </b>***
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:36 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:36 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"tenantId":"02YQ6pnBCc9c9sxJOlYN","group":"V"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Group value should have minimum 2 and maximum 16 characters","value":"V","param":"group"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:38 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:38 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"tenantId":"02YQ6pnBCc9c9sxJOlYN","group":"V"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Group value should have minimum 2 and maximum 16 characters","value":"V","param":"group"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:39 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecondaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:39 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"tenantId":"02YQ6pnBCc9c9sxJOlYN","group":"H"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Group value should have minimum 2 and maximum 16 characters","value":"H","param":"group"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:39 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminUpdateGroupAPI</p>
+            <p class="text-sm">
+              <span>11:53:39 am</span> / <span>00:00:07:166</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tenantAdminUpdateGroupAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:53:39 am</span>
+<span class='badge badge-danger'>01.11.2023 11:53:46 am</span>
+<span class='badge badge-default'>00:00:07:166</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:39 am</td>
+        <td>
+          ***<b> Starting of tenantAdminUpdateGroupAPItest - tenantAdminUpdateGroupAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:39 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/tenantAdmin/groups/updateGroup'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:41 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:41 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"tenantId":"02YQ6pnBCc9c9sxJOlYN","newGroup":"F","oldGroup":"Ekmxxvbyom"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Group value should have minimum 2 and maximum 16 characters","value":"F","param":"newGroup"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:44 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:44 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"tenantId":"02YQ6pnBCc9c9sxJOlYN","newGroup":"F","oldGroup":"Jjbkvjmybn"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Group value should have minimum 2 and maximum 16 characters","value":"F","param":"newGroup"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:46 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecondaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:46 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"tenantId":"02YQ6pnBCc9c9sxJOlYN","newGroup":"C","oldGroup":"Irzzlatess"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Group value should have minimum 2 and maximum 16 characters","value":"C","param":"newGroup"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:46 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminSaveNotificationsAPI</p>
+            <p class="text-sm">
+              <span>11:53:46 am</span> / <span>00:00:04:263</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tenantAdminSaveNotificationsAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:53:46 am</span>
+<span class='badge badge-danger'>01.11.2023 11:53:51 am</span>
+<span class='badge badge-default'>00:00:04:263</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:46 am</td>
+        <td>
+          ***<b> Starting of tenantAdminSaveNotificationsAPItest - tenantAdminSaveNotificationsAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:46 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/saveNotificationSettings'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:48 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:48 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+2@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":"acs","reminderThree":"yui","reminderFour":"wds","reminderTwo":"ybd"}},"assist":{"sessions":{"reminderOne":"we","reminderThree":"d","reminderFour":"w","reminderTwo":"yu"},"minutes":{"reminderOne":"qwe","reminderThree":"wds","reminderFour":"vb","reminderTwo":"qs"}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Reminder one should be valid integer and should be greater than reminder two,three and four","value":{"instruct":{"sessions":{"reminderOne":"acs","reminderThree":"yui","reminderFour":"wds","reminderTwo":"ybd"}},"assist":{"sessions":{"reminderOne":"we","reminderThree":"d","reminderFour":"w","reminderTwo":"yu"},"minutes":{"reminderOne":"qwe","reminderThree":"wds","reminderFour":"vb","reminderTwo":"qs"}}},"param":"notificationSettings"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:49 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:49 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+2@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":"acs","reminderThree":"yui","reminderFour":"wds","reminderTwo":"ybd"}},"assist":{"sessions":{"reminderOne":"we","reminderThree":"d","reminderFour":"w","reminderTwo":"yu"},"minutes":{"reminderOne":"qwe","reminderThree":"wds","reminderFour":"vb","reminderTwo":"qs"}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Reminder one should be valid integer and should be greater than reminder two,three and four","value":{"instruct":{"sessions":{"reminderOne":"acs","reminderThree":"yui","reminderFour":"wds","reminderTwo":"ybd"}},"assist":{"sessions":{"reminderOne":"we","reminderThree":"d","reminderFour":"w","reminderTwo":"yu"},"minutes":{"reminderOne":"qwe","reminderThree":"wds","reminderFour":"vb","reminderTwo":"qs"}}},"param":"notificationSettings"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:51 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecondaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:51 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+2@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":"acs","reminderThree":"yui","reminderFour":"wds","reminderTwo":"ybd"}},"assist":{"sessions":{"reminderOne":"we","reminderThree":"d","reminderFour":"w","reminderTwo":"yu"},"minutes":{"reminderOne":"qwe","reminderThree":"wds","reminderFour":"vb","reminderTwo":"qs"}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Reminder one should be valid integer and should be greater than reminder two,three and four","value":{"instruct":{"sessions":{"reminderOne":"acs","reminderThree":"yui","reminderFour":"wds","reminderTwo":"ybd"}},"assist":{"sessions":{"reminderOne":"we","reminderThree":"d","reminderFour":"w","reminderTwo":"yu"},"minutes":{"reminderOne":"qwe","reminderThree":"wds","reminderFour":"vb","reminderTwo":"qs"}}},"param":"notificationSettings"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:51 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminUpdatePluginStatusAPI</p>
+            <p class="text-sm">
+              <span>11:53:51 am</span> / <span>00:00:04:545</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tenantAdminUpdatePluginStatusAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:53:51 am</span>
+<span class='badge badge-danger'>01.11.2023 11:53:55 am</span>
+<span class='badge badge-default'>00:00:04:545</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:51 am</td>
+        <td>
+          ***<b> Starting of tenantAdminUpdatePluginStatusAPItest - tenantAdminUpdatePluginStatusAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:51 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/tenantAdmin/updatePluginStatus'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:52 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:52 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"pluginId":"345","tenantId":"02YQ6pnBCc9c9sxJOlYN","pluginStatus":"7cv"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to save connector status","error":"Plug-in status must be true or false"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:54 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:54 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"pluginId":"345","tenantId":"02YQ6pnBCc9c9sxJOlYN","pluginStatus":"7cv"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to save connector status","error":"Plug-in status must be true or false"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:55 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecondaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:55 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"pluginId":"345","tenantId":"02YQ6pnBCc9c9sxJOlYN","pluginStatus":"7cv"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to save connector status","error":"Plug-in status must be true or false"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:55 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminTenantFetchKpiAPI</p>
+            <p class="text-sm">
+              <span>11:53:55 am</span> / <span>00:00:08:149</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tenantAdminTenantFetchKpiAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:53:55 am</span>
+<span class='badge badge-danger'>01.11.2023 11:54:03 am</span>
+<span class='badge badge-default'>00:00:08:149</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:55 am</td>
+        <td>
+          ***<b> Starting of tenantAdminTenantFetchKpiAPItest - tenantAdminTenantFetchKpiAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:55 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/tenantAdmin/tenant/fetchKPI'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:56 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:56 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"fromDate":"xxxx/yy/zz","toDate":"xxxx/yy/zz","tenantId":"02YQ6pnBCc9c9sxJOlYN"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to fetch KPI data","error":"please add correct date with YYYY/MM/DD format and from date <= to Date"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:58 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SystemAnalyst</b>  <br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:58 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SystemAnalyst is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"fromDate":"xxxx/yy/zz","toDate":"xxxx/yy/zz","tenantId":"02YQ6pnBCc9c9sxJOlYN"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to fetch KPI data","error":"please add correct date with YYYY/MM/DD format and from date <= to Date"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:53:59 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:53:59 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"fromDate":"xxxx/yy/zz","toDate":"xxxx/yy/zz","tenantId":"02YQ6pnBCc9c9sxJOlYN"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to fetch KPI data","error":"please add correct date with YYYY/MM/DD format and from date <= to Date"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:01 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecondaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:01 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"fromDate":"xxxx/yy/zz","toDate":"xxxx/yy/zz","tenantId":"02YQ6pnBCc9c9sxJOlYN"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to fetch KPI data","error":"please add correct date with YYYY/MM/DD format and from date <= to Date"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:02 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>Analyst</b>  <br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:02 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Analyst is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"fromDate":"xxxx/yy/zz","toDate":"xxxx/yy/zz","tenantId":"02YQ6pnBCc9c9sxJOlYN"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to fetch KPI data","error":"please add correct date with YYYY/MM/DD format and from date <= to Date"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:03 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>Creator</b>  <br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:03 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"fromDate":"xxxx/yy/zz","toDate":"xxxx/yy/zz","tenantId":"02YQ6pnBCc9c9sxJOlYN"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to fetch KPI data","error":"please add correct date with YYYY/MM/DD format and from date <= to Date"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:03 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminTenantIdExperiencesAddAPI</p>
+            <p class="text-sm">
+              <span>11:54:03 am</span> / <span>00:00:07:679</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tenantAdminTenantIdExperiencesAddAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:54:03 am</span>
+<span class='badge badge-danger'>01.11.2023 11:54:11 am</span>
+<span class='badge badge-default'>00:00:07:679</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:03 am</td>
+        <td>
+          ***<b> Starting of tenantAdminTenantIdExperiencesAddAPItest - tenantAdminTenantIdExperiencesAddAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:03 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/experiences'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:05 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:05 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"authenticated":"1245","qrCode":"1","experienceDescription":"","experienceName":"","bundleLocation":"3456"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Experience Name cannot be empty","value":"","param":"experienceName"},{"msg":"Authenticated flag should be a boolean","value":"1245","param":"authenticated"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:06 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PartnerCreator</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:06 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PartnerCreator is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"authenticated":"1245","qrCode":"1","experienceDescription":"","experienceName":"","bundleLocation":"3456"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Experience Name cannot be empty","value":"","param":"experienceName"},{"msg":"Authenticated flag should be a boolean","value":"1245","param":"authenticated"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:08 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:08 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"authenticated":"1245","qrCode":"1","experienceDescription":"","experienceName":"","bundleLocation":"3456"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Experience Name cannot be empty","value":"","param":"experienceName"},{"msg":"Authenticated flag should be a boolean","value":"1245","param":"authenticated"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:09 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecondaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:09 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"authenticated":"1245","qrCode":"1","experienceDescription":"","experienceName":"","bundleLocation":"3456"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Experience Name cannot be empty","value":"","param":"experienceName"},{"msg":"Authenticated flag should be a boolean","value":"1245","param":"authenticated"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:11 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>Creator</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:11 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"authenticated":"1245","qrCode":"1","experienceDescription":"","experienceName":"","bundleLocation":"3456"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Experience Name cannot be empty","value":"","param":"experienceName"},{"msg":"Authenticated flag should be a boolean","value":"1245","param":"authenticated"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:11 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminTenantIdExperiencesUpdateAPI</p>
+            <p class="text-sm">
+              <span>11:54:11 am</span> / <span>00:00:22:518</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tenantAdminTenantIdExperiencesUpdateAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:54:11 am</span>
+<span class='badge badge-danger'>01.11.2023 11:54:34 am</span>
+<span class='badge badge-default'>00:00:22:518</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:11 am</td>
+        <td>
+          ***<b> Starting of tenantAdminTenantIdExperiencesUpdateAPItest - tenantAdminTenantIdExperiencesUpdateAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:11 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/experiences/:experienceId'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:14 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:14 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"experienceName":""} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Experience Name cannot be empty","value":"","param":"experienceName"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:19 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PartnerCreator</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:19 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PartnerCreator is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"experienceName":""} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Experience Name cannot be empty","value":"","param":"experienceName"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:23 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:23 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"experienceName":""} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Experience Name cannot be empty","value":"","param":"experienceName"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:28 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecondaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:28 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"experienceName":""} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Experience Name cannot be empty","value":"","param":"experienceName"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:32 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>Creator</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:32 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"experienceName":""} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"Experience Name cannot be empty","value":"","param":"experienceName"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:34 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminSavePluginSystemInfoUpdateAPI</p>
+            <p class="text-sm">
+              <span>11:54:34 am</span> / <span>00:00:04:284</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tenantAdminSavePluginSystemInfoUpdateAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:54:34 am</span>
+<span class='badge badge-danger'>01.11.2023 11:54:38 am</span>
+<span class='badge badge-default'>00:00:04:284</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:34 am</td>
+        <td>
+          ***<b> Starting of tenantAdminSavePluginSystemInfoUpdateAPItest - tenantAdminSavePluginSystemInfoUpdateAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:34 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/tenants/:tenantId/savePluginSystemInfo'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:35 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:35 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"password":"dc","apiURL":"123","fqdn":"","iName":"23","tenantId":"02YQ6pnBCc9c9sxJOlYN","username":"mohammednizhar.p+2@carear.com","token":"vcvd"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"fqdn field is required & cannot be empty","value":"","param":"fqdn"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:36 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:36 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"password":"dc","apiURL":"123","fqdn":"","iName":"23","tenantId":"02YQ6pnBCc9c9sxJOlYN","username":"mohammednizhar.p+2@carear.com","token":"vcvd"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"fqdn field is required & cannot be empty","value":"","param":"fqdn"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:38 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecondaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:38 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"password":"dc","apiURL":"123","fqdn":"","iName":"23","tenantId":"02YQ6pnBCc9c9sxJOlYN","username":"mohammednizhar.p+2@carear.com","token":"vcvd"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"fqdn field is required & cannot be empty","value":"","param":"fqdn"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:38 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminSaveInstructBuilderExperienceAPI</p>
+            <p class="text-sm">
+              <span>11:54:38 am</span> / <span>00:00:07:128</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tenantAdminSaveInstructBuilderExperienceAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:54:38 am</span>
+<span class='badge badge-danger'>01.11.2023 11:54:45 am</span>
+<span class='badge badge-default'>00:00:07:128</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:38 am</td>
+        <td>
+          ***<b> Starting of tenantAdminSaveInstructBuilderExperienceAPItest - tenantAdminSaveInstructBuilderExperienceAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:38 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/tenantAdmin/instructExperience/saveInstructBuilder'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:39 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:39 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"pages":"","tenantId":"02YQ6pnBCc9c9sxJOlYN","edges":"","description":"","id":"wsF3muRAHWsPI8JRktaw","title":"1","navigationNodes":""} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add the Instruct builder experience","error":"Required fields are missing"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:41 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PartnerCreator</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:41 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PartnerCreator is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"pages":"","tenantId":"02YQ6pnBCc9c9sxJOlYN","edges":"","description":"","id":"wsF3muRAHWsPI8JRktaw","title":"1","navigationNodes":""} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add the Instruct builder experience","error":"Required fields are missing"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:42 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:42 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"pages":"","tenantId":"02YQ6pnBCc9c9sxJOlYN","edges":"","description":"","id":"wsF3muRAHWsPI8JRktaw","title":"1","navigationNodes":""} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add the Instruct builder experience","error":"Required fields are missing"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:44 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecondaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:44 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"pages":"","tenantId":"02YQ6pnBCc9c9sxJOlYN","edges":"","description":"","id":"wsF3muRAHWsPI8JRktaw","title":"1","navigationNodes":""} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add the Instruct builder experience","error":"Required fields are missing"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:45 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>Creator</b>  <br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:54:45 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"pages":"","tenantId":"02YQ6pnBCc9c9sxJOlYN","edges":"","description":"","id":"wsF3muRAHWsPI8JRktaw","title":"1","navigationNodes":""} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add the Instruct builder experience","error":"Required fields are missing"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:45 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">userUpdateUserAPI</p>
+            <p class="text-sm">
+              <span>11:54:45 am</span> / <span>00:00:11:784</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">userUpdateUserAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:54:45 am</span>
+<span class='badge badge-danger'>01.11.2023 11:54:57 am</span>
+<span class='badge badge-default'>00:00:11:784</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:45 am</td>
+        <td>
+          ***<b> Starting of userUpdateUserAPItest - userUpdateUserAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:45 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/user/updateUser'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:57 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">userGetFeatureFormsUpdateAPI</p>
+            <p class="text-sm">
+              <span>11:54:57 am</span> / <span>00:00:05:626</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">userGetFeatureFormsUpdateAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:54:57 am</span>
+<span class='badge badge-danger'>01.11.2023 11:55:02 am</span>
+<span class='badge badge-default'>00:00:05:626</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:57 am</td>
+        <td>
+          ***<b> Starting of userGetFeatureFormsUpdateAPItest - userGetFeatureFormsUpdateAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:54:57 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/user/setFeatureTeacherParms'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:02 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">secretManagerStoresNowSecretAPI</p>
+            <p class="text-sm">
+              <span>11:55:02 am</span> / <span>00:00:04:384</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">secretManagerStoresNowSecretAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:55:02 am</span>
+<span class='badge badge-danger'>01.11.2023 11:55:07 am</span>
+<span class='badge badge-default'>00:00:04:384</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:02 am</td>
+        <td>
+          ***<b> Starting of secretManagerStoresNowSecretAPItest - secretManagerStoresNowSecretAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:02 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/secretManager/storeSnowSecret'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:04 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:04 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"password":"12","tenantId":"tenantIDVal","username":"1234"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to store the Tenant's ServiceNow Key","error":"Tenant does not exist"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:07 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">secretManagerAwsConfigAPI</p>
+            <p class="text-sm">
+              <span>11:55:07 am</span> / <span>00:00:04:403</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">secretManagerAwsConfigAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:55:07 am</span>
+<span class='badge badge-danger'>01.11.2023 11:55:11 am</span>
+<span class='badge badge-default'>00:00:04:403</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:07 am</td>
+        <td>
+          ***<b> Starting of secretManagerAwsConfigAPItest - secretManagerAwsConfigAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:07 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/secretManager/storeAwsConfig'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:08 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:08 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"bucketRegion":"rc.v","bucketName":"1","bucketSecretKey":"mcv12","bucketARN":"1w","recordingEnabled":"190","awsAccountNumber":"duv1","tenantId":"02YQ6pnBCc9c9sxJOlYN","bucketAccessKey":"12da"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"recordingEnabled should be a boolean","value":"190","param":"recordingEnabled"},{"msg":"Invalid bucketRegion value","value":"rc.v","param":"bucketRegion"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:10 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:10 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"bucketRegion":"rc.v","bucketName":"1","bucketSecretKey":"mcv12","bucketARN":"1w","recordingEnabled":"190","awsAccountNumber":"duv1","tenantId":"02YQ6pnBCc9c9sxJOlYN","bucketAccessKey":"12da"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"recordingEnabled should be a boolean","value":"190","param":"recordingEnabled"},{"msg":"Invalid bucketRegion value","value":"rc.v","param":"bucketRegion"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:11 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecondaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:11 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"bucketRegion":"rc.v","bucketName":"1","bucketSecretKey":"mcv12","bucketARN":"1w","recordingEnabled":"190","awsAccountNumber":"duv1","tenantId":"02YQ6pnBCc9c9sxJOlYN","bucketAccessKey":"12da"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"recordingEnabled should be a boolean","value":"190","param":"recordingEnabled"},{"msg":"Invalid bucketRegion value","value":"rc.v","param":"bucketRegion"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:11 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">secretManagerSfdcConfigAPI</p>
+            <p class="text-sm">
+              <span>11:55:11 am</span> / <span>00:00:11:561</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">secretManagerSfdcConfigAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:55:11 am</span>
+<span class='badge badge-danger'>01.11.2023 11:55:23 am</span>
+<span class='badge badge-default'>00:00:11:561</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:11 am</td>
+        <td>
+          ***<b> Starting of secretManagerSfdcConfigAPItest - secretManagerSfdcConfigAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:11 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/secretManager/storeSFDCConfig'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:23 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">sessionsTenantFetchSessionsAPI</p>
+            <p class="text-sm">
+              <span>11:55:23 am</span> / <span>00:00:10:311</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">sessionsTenantFetchSessionsAPI</h5>
+<span class='badge badge-success'>01.11.2023 11:55:23 am</span>
+<span class='badge badge-danger'>01.11.2023 11:55:33 am</span>
+<span class='badge badge-default'>00:00:10:311</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:23 am</td>
+        <td>
+          ***<b> Starting of sessionsTenantFetchSessionsAPItest - sessionsTenantFetchSessionsAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:23 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/sessions/tenant/fetchSessions'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:24 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; User ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:24 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"fromDate":"xxxx/yy/zz","toDate":"xxxx/yy/zz","tenantId":"02YQ6pnBCc9c9sxJOlYN","type":"1232"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to fetch the sessions data","error":"Please add correct date with YYYY/MM/DD format and from date <= to Date"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:26 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SystemAnalyst</b>  <br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; User ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:26 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SystemAnalyst is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"fromDate":"xxxx/yy/zz","toDate":"xxxx/yy/zz","tenantId":"02YQ6pnBCc9c9sxJOlYN","type":"1232"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to fetch the sessions data","error":"Please add correct date with YYYY/MM/DD format and from date <= to Date"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:27 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; User ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:27 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"fromDate":"xxxx/yy/zz","toDate":"xxxx/yy/zz","tenantId":"02YQ6pnBCc9c9sxJOlYN","type":"1232"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to fetch the sessions data","error":"Please add correct date with YYYY/MM/DD format and from date <= to Date"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:29 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecondaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; User ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:29 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"fromDate":"xxxx/yy/zz","toDate":"xxxx/yy/zz","tenantId":"02YQ6pnBCc9c9sxJOlYN","type":"1232"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to fetch the sessions data","error":"Please add correct date with YYYY/MM/DD format and from date <= to Date"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:30 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>Analyst</b>  <br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; User ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:30 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Analyst is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"fromDate":"xxxx/yy/zz","toDate":"xxxx/yy/zz","tenantId":"02YQ6pnBCc9c9sxJOlYN","type":"1232"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to fetch the sessions data","error":"Please add correct date with YYYY/MM/DD format and from date <= to Date"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:32 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>User</b>  <br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; User ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:32 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. User is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"fromDate":"xxxx/yy/zz","toDate":"xxxx/yy/zz","tenantId":"02YQ6pnBCc9c9sxJOlYN","type":"1232"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to fetch the sessions data","error":"Please add correct date with YYYY/MM/DD format and from date <= to Date"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:33 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>Creator</b>  <br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; User ; Analyst ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:33 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"fromDate":"xxxx/yy/zz","toDate":"xxxx/yy/zz","tenantId":"02YQ6pnBCc9c9sxJOlYN","type":"1232"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to fetch the sessions data","error":"Please add correct date with YYYY/MM/DD format and from date <= to Date"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:33 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">authLogin</p>
+            <p class="text-sm">
+              <span>11:55:33 am</span> / <span>00:00:06:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">authLogin</h5>
+<span class='badge badge-success'>01.11.2023 11:55:33 am</span>
+<span class='badge badge-danger'>01.11.2023 11:55:39 am</span>
+<span class='badge badge-default'>00:00:06:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:33 am</td>
+        <td>
+          ***<b> Starting of authLogintest - authLogin
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:33 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/auth/login'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:34 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>api_super_admin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:34 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. api_super_admin is allowed as per confluence and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Payload DATA </b>. <b> Here the response code is other than 400, and in the range of 400 series, hence manual verifcation is needed</b> <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"password":"567dc","email":"xyz@zyx.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to Log in","error":"Invalid Email or Password"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:35 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:35 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Payload DATA </b>. <b> Here the response code is other than 400, and in the range of 400 series, hence manual verifcation is needed</b> <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"password":"567dc","email":"xyz@zyx.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to Log in","error":"Invalid Email or Password"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:35 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SystemAnalyst</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:35 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SystemAnalyst is allowed as per confluence and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Payload DATA </b>. <b> Here the response code is other than 400, and in the range of 400 series, hence manual verifcation is needed</b> <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"password":"567dc","email":"xyz@zyx.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to Log in","error":"Invalid Email or Password"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:36 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PartnerCreator</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:36 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PartnerCreator is allowed as per confluence and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Payload DATA </b>. <b> Here the response code is other than 400, and in the range of 400 series, hence manual verifcation is needed</b> <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"password":"567dc","email":"xyz@zyx.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to Log in","error":"Invalid Email or Password"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:36 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:36 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Payload DATA </b>. <b> Here the response code is other than 400, and in the range of 400 series, hence manual verifcation is needed</b> <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"password":"567dc","email":"xyz@zyx.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to Log in","error":"Invalid Email or Password"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:37 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecondaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:37 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Payload DATA </b>. <b> Here the response code is other than 400, and in the range of 400 series, hence manual verifcation is needed</b> <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"password":"567dc","email":"xyz@zyx.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to Log in","error":"Invalid Email or Password"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:38 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>Analyst</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:38 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Analyst is allowed as per confluence and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Payload DATA </b>. <b> Here the response code is other than 400, and in the range of 400 series, hence manual verifcation is needed</b> <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"password":"567dc","email":"xyz@zyx.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to Log in","error":"Invalid Email or Password"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:38 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>User</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:38 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. User is allowed as per confluence and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Payload DATA </b>. <b> Here the response code is other than 400, and in the range of 400 series, hence manual verifcation is needed</b> <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"password":"567dc","email":"xyz@zyx.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to Log in","error":"Invalid Email or Password"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:39 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>Creator</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:39 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is allowed as per confluence and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Payload DATA </b>. <b> Here the response code is other than 400, and in the range of 400 series, hence manual verifcation is needed</b> <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"password":"567dc","email":"xyz@zyx.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to Log in","error":"Invalid Email or Password"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:39 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">authRefreshToken</p>
+            <p class="text-sm">
+              <span>11:55:39 am</span> / <span>00:00:12:990</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">authRefreshToken</h5>
+<span class='badge badge-success'>01.11.2023 11:55:39 am</span>
+<span class='badge badge-danger'>01.11.2023 11:55:52 am</span>
+<span class='badge badge-default'>00:00:12:990</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:39 am</td>
+        <td>
+          ***<b> Starting of authRefreshTokentest - authRefreshToken
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:39 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/auth/refreshToken'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:40 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>api_super_admin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:40 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. api_super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"refreshToken":"2345xyz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to refresh the session","status":400,"error":{"error":{"code":400,"message":"INVALID_REFRESH_TOKEN","status":"INVALID_ARGUMENT"}}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:42 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:42 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"refreshToken":"2345xyz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to refresh the session","status":400,"error":{"error":{"code":400,"message":"INVALID_REFRESH_TOKEN","status":"INVALID_ARGUMENT"}}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:43 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SystemAnalyst</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:43 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SystemAnalyst is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"refreshToken":"2345xyz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to refresh the session","status":400,"error":{"error":{"code":400,"message":"INVALID_REFRESH_TOKEN","status":"INVALID_ARGUMENT"}}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:45 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PartnerCreator</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:45 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PartnerCreator is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"refreshToken":"2345xyz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to refresh the session","status":400,"error":{"error":{"code":400,"message":"INVALID_REFRESH_TOKEN","status":"INVALID_ARGUMENT"}}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:47 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:47 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"refreshToken":"2345xyz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to refresh the session","status":400,"error":{"error":{"code":400,"message":"INVALID_REFRESH_TOKEN","status":"INVALID_ARGUMENT"}}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:48 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecondaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:48 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"refreshToken":"2345xyz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to refresh the session","status":400,"error":{"error":{"code":400,"message":"INVALID_REFRESH_TOKEN","status":"INVALID_ARGUMENT"}}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:49 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>Analyst</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:49 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Analyst is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"refreshToken":"2345xyz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to refresh the session","status":400,"error":{"error":{"code":400,"message":"INVALID_REFRESH_TOKEN","status":"INVALID_ARGUMENT"}}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:51 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>User</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:51 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. User is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"refreshToken":"2345xyz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to refresh the session","status":400,"error":{"error":{"code":400,"message":"INVALID_REFRESH_TOKEN","status":"INVALID_ARGUMENT"}}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:52 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>Creator</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:52 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"refreshToken":"2345xyz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to refresh the session","status":400,"error":{"error":{"code":400,"message":"INVALID_REFRESH_TOKEN","status":"INVALID_ARGUMENT"}}}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:52 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">authActivateUser</p>
+            <p class="text-sm">
+              <span>11:55:52 am</span> / <span>00:00:20:275</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">authActivateUser</h5>
+<span class='badge badge-success'>01.11.2023 11:55:52 am</span>
+<span class='badge badge-danger'>01.11.2023 11:56:12 am</span>
+<span class='badge badge-default'>00:00:20:275</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:52 am</td>
+        <td>
+          ***<b> Starting of authActivateUsertest - authActivateUser
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:52 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/auth/activateUser'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:54 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>api_super_admin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator ; AnotherPrimaryTenantAdmin ; SecTenantAdminFromAnotherTenantUnderSameRegion ; AnalystRoleFromFromAnotherTenantUnderSameRegion ; UserRoleFromFromAnotherTenantUnderSameRegion ; CreatorRoleUserFromDifferentTenant. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:54 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. api_super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"uid":"1234xz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add custom claim","error":"Value for argument \"documentPath\" is not a valid resource path. Path must be a non-empty string."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:55 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator ; AnotherPrimaryTenantAdmin ; SecTenantAdminFromAnotherTenantUnderSameRegion ; AnalystRoleFromFromAnotherTenantUnderSameRegion ; UserRoleFromFromAnotherTenantUnderSameRegion ; CreatorRoleUserFromDifferentTenant. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:55 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"uid":"1234xz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add custom claim","error":"Value for argument \"documentPath\" is not a valid resource path. Path must be a non-empty string."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:57 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SystemAnalyst</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator ; AnotherPrimaryTenantAdmin ; SecTenantAdminFromAnotherTenantUnderSameRegion ; AnalystRoleFromFromAnotherTenantUnderSameRegion ; UserRoleFromFromAnotherTenantUnderSameRegion ; CreatorRoleUserFromDifferentTenant. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:57 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SystemAnalyst is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"uid":"1234xz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add custom claim","error":"Value for argument \"documentPath\" is not a valid resource path. Path must be a non-empty string."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:55:58 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PartnerCreator</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator ; AnotherPrimaryTenantAdmin ; SecTenantAdminFromAnotherTenantUnderSameRegion ; AnalystRoleFromFromAnotherTenantUnderSameRegion ; UserRoleFromFromAnotherTenantUnderSameRegion ; CreatorRoleUserFromDifferentTenant. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:55:58 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PartnerCreator is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"uid":"1234xz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add custom claim","error":"Value for argument \"documentPath\" is not a valid resource path. Path must be a non-empty string."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:00 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>PrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator ; AnotherPrimaryTenantAdmin ; SecTenantAdminFromAnotherTenantUnderSameRegion ; AnalystRoleFromFromAnotherTenantUnderSameRegion ; UserRoleFromFromAnotherTenantUnderSameRegion ; CreatorRoleUserFromDifferentTenant. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:56:00 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"uid":"1234xz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add custom claim","error":"Value for argument \"documentPath\" is not a valid resource path. Path must be a non-empty string."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:01 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecondaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator ; AnotherPrimaryTenantAdmin ; SecTenantAdminFromAnotherTenantUnderSameRegion ; AnalystRoleFromFromAnotherTenantUnderSameRegion ; UserRoleFromFromAnotherTenantUnderSameRegion ; CreatorRoleUserFromDifferentTenant. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:56:01 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"uid":"1234xz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add custom claim","error":"Value for argument \"documentPath\" is not a valid resource path. Path must be a non-empty string."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:02 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>Analyst</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator ; AnotherPrimaryTenantAdmin ; SecTenantAdminFromAnotherTenantUnderSameRegion ; AnalystRoleFromFromAnotherTenantUnderSameRegion ; UserRoleFromFromAnotherTenantUnderSameRegion ; CreatorRoleUserFromDifferentTenant. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:56:02 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Analyst is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"uid":"1234xz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add custom claim","error":"Value for argument \"documentPath\" is not a valid resource path. Path must be a non-empty string."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:04 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>User</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator ; AnotherPrimaryTenantAdmin ; SecTenantAdminFromAnotherTenantUnderSameRegion ; AnalystRoleFromFromAnotherTenantUnderSameRegion ; UserRoleFromFromAnotherTenantUnderSameRegion ; CreatorRoleUserFromDifferentTenant. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:56:04 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. User is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"uid":"1234xz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add custom claim","error":"Value for argument \"documentPath\" is not a valid resource path. Path must be a non-empty string."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:05 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>Creator</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator ; AnotherPrimaryTenantAdmin ; SecTenantAdminFromAnotherTenantUnderSameRegion ; AnalystRoleFromFromAnotherTenantUnderSameRegion ; UserRoleFromFromAnotherTenantUnderSameRegion ; CreatorRoleUserFromDifferentTenant. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:56:05 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"uid":"1234xz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add custom claim","error":"Value for argument \"documentPath\" is not a valid resource path. Path must be a non-empty string."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:07 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>AnotherPrimaryTenantAdmin</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator ; AnotherPrimaryTenantAdmin ; SecTenantAdminFromAnotherTenantUnderSameRegion ; AnalystRoleFromFromAnotherTenantUnderSameRegion ; UserRoleFromFromAnotherTenantUnderSameRegion ; CreatorRoleUserFromDifferentTenant. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:56:07 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. AnotherPrimaryTenantAdmin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"uid":"1234xz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add custom claim","error":"Value for argument \"documentPath\" is not a valid resource path. Path must be a non-empty string."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:08 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>SecTenantAdminFromAnotherTenantUnderSameRegion</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator ; AnotherPrimaryTenantAdmin ; SecTenantAdminFromAnotherTenantUnderSameRegion ; AnalystRoleFromFromAnotherTenantUnderSameRegion ; UserRoleFromFromAnotherTenantUnderSameRegion ; CreatorRoleUserFromDifferentTenant. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:56:08 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecTenantAdminFromAnotherTenantUnderSameRegion is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"uid":"1234xz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add custom claim","error":"Value for argument \"documentPath\" is not a valid resource path. Path must be a non-empty string."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:10 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>AnalystRoleFromFromAnotherTenantUnderSameRegion</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator ; AnotherPrimaryTenantAdmin ; SecTenantAdminFromAnotherTenantUnderSameRegion ; AnalystRoleFromFromAnotherTenantUnderSameRegion ; UserRoleFromFromAnotherTenantUnderSameRegion ; CreatorRoleUserFromDifferentTenant. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:56:10 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. AnalystRoleFromFromAnotherTenantUnderSameRegion is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"uid":"1234xz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add custom claim","error":"Value for argument \"documentPath\" is not a valid resource path. Path must be a non-empty string."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:11 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>UserRoleFromFromAnotherTenantUnderSameRegion</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator ; AnotherPrimaryTenantAdmin ; SecTenantAdminFromAnotherTenantUnderSameRegion ; AnalystRoleFromFromAnotherTenantUnderSameRegion ; UserRoleFromFromAnotherTenantUnderSameRegion ; CreatorRoleUserFromDifferentTenant. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:56:11 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. UserRoleFromFromAnotherTenantUnderSameRegion is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"uid":"1234xz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add custom claim","error":"Value for argument \"documentPath\" is not a valid resource path. Path must be a non-empty string."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:12 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>CreatorRoleUserFromDifferentTenant</b>  <br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator ; AnotherPrimaryTenantAdmin ; SecTenantAdminFromAnotherTenantUnderSameRegion ; AnalystRoleFromFromAnotherTenantUnderSameRegion ; UserRoleFromFromAnotherTenantUnderSameRegion ; CreatorRoleUserFromDifferentTenant. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:56:12 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. CreatorRoleUserFromDifferentTenant is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"uid":"1234xz"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Failed to add custom claim","error":"Value for argument \"documentPath\" is not a valid resource path. Path must be a non-empty string."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:12 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">downloadManagementSave</p>
+            <p class="text-sm">
+              <span>11:56:12 am</span> / <span>00:00:01:520</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">downloadManagementSave</h5>
+<span class='badge badge-success'>01.11.2023 11:56:12 am</span>
+<span class='badge badge-danger'>01.11.2023 11:56:14 am</span>
+<span class='badge badge-default'>00:00:01:520</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:12 am</td>
+        <td>
+          ***<b> Starting of downloadManagementSavetest - downloadManagementSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:12 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/downloadManagement/downloads/save'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:14 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">downloadManagementUpdate</p>
+            <p class="text-sm">
+              <span>11:56:14 am</span> / <span>00:00:03:178</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">downloadManagementUpdate</h5>
+<span class='badge badge-success'>01.11.2023 11:56:14 am</span>
+<span class='badge badge-danger'>01.11.2023 11:56:17 am</span>
+<span class='badge badge-default'>00:00:03:178</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:14 am</td>
+        <td>
+          ***<b> Starting of downloadManagementUpdatetest - downloadManagementUpdate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:14 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/downloadManagement/downloads/update/{{downloaderDocId}}'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:17 am</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for <b>super_admin</b>  <br><b>2.</b> The allowed roles are: super_admin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:56:17 am</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence but as per payload it should fail and in actual response it is showing as <b> NOT </b> allowed <b>i.e : Invalid Input Payload DATA </b> . <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. BodyORPayload is : </FONT></b>{"tenantId":"02YQ6pnBCc9c9sxJOlYN","name":"456","platformType":"890","index":"vb","disabled":"56","fileLocation":"vgp","logoURL":"c23","versionNumber":"hjkl"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Response is: </FONT></b>{"message":"Bad request","errors":[{"value":"56","msg":"disabled should be boolean","param":"disabled","location":"body"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:17 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">authGetScore</p>
+            <p class="text-sm">
+              <span>11:56:17 am</span> / <span>00:00:23:121</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">authGetScore</h5>
+<span class='badge badge-success'>01.11.2023 11:56:17 am</span>
+<span class='badge badge-danger'>01.11.2023 11:56:40 am</span>
+<span class='badge badge-default'>00:00:23:121</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:17 am</td>
+        <td>
+          ***<b> Starting of authGetScoretest - authGetScore
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:17 am</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/auth/getScore'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:56:40 am</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 11, 2023 11:52:52 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 11, 2023 11:56:40 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>23</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>23</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='35%'><b>84</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>156</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"createTenantAPI":6.73,"updateTenantAPI":33.743,"tenantAdminAddGroupAPI":4.289,"tenantAdminUpdateGroupAPI":7.166,"tenantAdminSaveNotificationsAPI":4.263,"tenantAdminUpdatePluginStatusAPI":4.545,"tenantAdminTenantFetchKpiAPI":8.149,"tenantAdminTenantIdExperiencesAddAPI":7.679,"tenantAdminTenantIdExperiencesUpdateAPI":22.518,"tenantAdminSavePluginSystemInfoUpdateAPI":4.284,"tenantAdminSaveInstructBuilderExperienceAPI":7.128,"userUpdateUserAPI":11.784,"userGetFeatureFormsUpdateAPI":5.626,"secretManagerStoresNowSecretAPI":4.384,"secretManagerAwsConfigAPI":4.403,"secretManagerSfdcConfigAPI":11.561,"sessionsTenantFetchSessionsAPI":10.311,"authLogin":6.001,"authRefreshToken":12.99,"authActivateUser":20.275,"downloadManagementSave":1.52,"downloadManagementUpdate":3.178,"authGetScore":23.121
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 23,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 84,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 156
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

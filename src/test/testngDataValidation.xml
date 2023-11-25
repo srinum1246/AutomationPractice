@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="APITests">
+        <classes>
+            <class name="org.tests.apiTestCasesDataValidation">
+                <methods>
+                    <include name = "createTenantAPI"/>
+                    <include name = "createTenantCoreAPI"/>
+                    <include name = "createTenantEnterpriseAPI"/>
+                    <include name = "createTenantTrialAPI"/>
+                    <include name = "createTenantPlatformWithFlexAPI"/>
+                    <include name = "createTenantPlatformWithProAPI"/>
+                    <include name = "createTenantPlatformWithPremiumAPI"/>
+                    <include name = "updateTenantAPI"/>
+                    <exclude name = "tenantmanagementSaveAiServicesConfigUpdateAPI"/>
+                    <exclude name = "tenantAdminAddGroupAPI"/>
+                    <exclude name = "tenantAdminUpdateGroupAPI"/>
+                    <exclude name = "tenantAdminSaveNotificationsAPI"/>
+                    <exclude name = "tenantAdminUpdatePermissionDataAPI"/>
+                    <exclude name = "tenantAdminUpdatePluginStatusAPI"/>
+                    <exclude name = "tenantAdminTenantFetchKpiAPI"/>
+                    <include name = "tenantAdminTenantIdExperiencesAddAPI"/>
+                    <include name = "tenantAdminTenantIdExperiencesUpdateAPI"/>
+                    <include name = "tenantAdminSavePluginSystemInfoUpdateAPI"/>
+                    <include name = "tenantAdminSaveInstructBuilderExperienceAPI"/>
+                    <exclude name = "userTenantsGroupAPI"/>
+                    <exclude name = "userUpdateUserAPI"/>
+                    <exclude name = "userGetFeatureFormsUpdateAPI"/>
+                    <exclude name = "secretManagerStoresNowSecretAPI"/>
+                    <exclude name = "secretManagerAwsConfigAPI"/>
+                    <exclude name = "secretManagerSfdcConfigAPI"/>
+                    <exclude name = "sessionsTenantFetchSessionsAPI"/>
+                    <include name = "downloadManagementSave"/>
+                    <include name = "downloadManagementUpdate"/>
+                </methods>
+            </class>
+
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,441 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 21, 2022 08:06:51 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">authRefreshToken</p>
+            <p class="text-sm">
+              <span>8:06:54 pm</span> / <span>00:00:24:979</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">authRefreshToken</h5>
+<span class='badge badge-success'>12.21.2022 8:06:54 pm</span>
+<span class='badge badge-danger'>12.21.2022 8:07:19 pm</span>
+<span class='badge badge-default'>00:00:24:979</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:06:54 pm</td>
+        <td>
+          *******************Starting of authRefreshTokentest*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:06:54 pm</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/auth/refreshToken'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:06:58 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for api_super_admin<br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:06:58 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. api_super_admin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/auth/refreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> deveu01.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>api_super_admin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>authRefreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"refreshToken":"AOkPPWQ7AF0opRwF3FMRU9at2CgmW4ofPUKOd4eXauA_0nRzelkUg-v6eKNmcV7bJNtRowZvJyd8FnVBvFJUnyS4O8v-pX-PHKcF4XFj7idWYpc5ZocKa1C-A1fxZQrlQSHTsVl13o5LLJ6WYEWFoxZZhJUKRXGCfCgho8cGlLwbsCZ8x9Bc42KhR7dLu8eax3LZPBviLI4JbqxqOOGPdwHwdX3m56_HIy23dvCVZYKQkCD2Qx8ywpKNuttXJ5SmWWcJ8H9CxXiT"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmZjFlNDJlNDE0M2I4MTQxM2VjMTI1MzQwOTcwODUxZThiNDdiM2YiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQ2FyZUFSIEFQSSBTdXBlckFkbWluIiwidGVuYW50SWQiOiJDYXJlQVIiLCJyb2xlIjoiYXBpX3N1cGVyX2FkbWluIiwicmVnaW9uIjoidXMtY2VudHJhbCIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jYXJlYXItZW1lYS1kZXYiLCJhdWQiOiJjYXJlYXItZW1lYS1kZXYiLCJhdXRoX3RpbWUiOjE2NzE2MzM0MTYsInVzZXJfaWQiOiJEdWpBT2RaTzJUT05xSDdhdUw1bEtPOVNoNE4yIiwic3ViIjoiRHVqQU9kWk8yVE9OcUg3YXVMNWxLTzlTaDROMiIsImlhdCI6MTY3MTYzMzQxOCwiZXhwIjoxNjcxNjM3MDE4LCJlbWFpbCI6ImRldmV1MDEuYXBpYXV0b0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiZGV2ZXUwMS5hcGlhdXRvQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.hcfm6vFH9kOKisiWJniPxx9AUlRJ-L58G7h19L-2wAHT21cDopQJoVjSvlsQoEIU67ZBhUVvpnym-1m6JWUKYGM407sMjS8qfg3QPcRvQ0VXlaSpnVRgoywRd-tyiCZilUlpJf9GlYKv9eVAPBPWcGQ24XMYZdOY6LMCxWjaYMpe6CcMPdSIHZ4qCmLlj2h141HU9gSH_aGe0hJJAotPxSTNXXyXKlnS6y8aj00j-3dhCkUOS56tZZBd6Nn1XDNxin390ciRPmFm1gV8NBMtFKC0ulqSnAZmyT9R1tLifd-U3hpjeLN4qyR1Dk5Ce4Ay6S4baC1zLwMQbfvwE_-vdQ","refreshToken":"AOkPPWQ7AF0opRwF3FMRU9at2CgmW4ofPUKOd4eXauA_0nRzelkUg-v6eKNmcV7bJNtRowZvJyd8FnVBvFJUnyS4O8v-pX-PHKcF4XFj7idWYpc5ZocKa1C-A1fxZQrlQSHTsVl13o5LLJ6WYEWFoxZZhJUKRXGCfCgho8cGlLwbsCZ8x9Bc42KhR7dLu8eax3LZPBviLI4JbqxqOOGPdwHwdX3m56_HIy23dvCVZYKQkCD2Qx8ywpKNuttXJ5SmWWcJ8H9CxXiT"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:06:59 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for super_admin<br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:06:59 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/auth/refreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> deveu02.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>super_admin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>authRefreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"refreshToken":"AOkPPWQs-juPX-rXMPoO5E-VZYUG_Zvc3BuZfhEGjS1Tct5ki8Zq3HdAirrGaHj-1NNhPL4LXBzWFP-BStqhLM3wKzwPNSzZn_gP_BL4HFchDlcNqwfWlTbkgpk7bWKKoGqVeAkC3AsY4FnyUCY3sZ_JiOpW8mi-0jSnwpebhB1AWmJ9UHhd8-bXYPkO3j97hXYzal-w5KGjo6ESKASY2AvpeHPsRUo_BplkH1uCOQ7IRWYNmv9V4AMY2Qs8GQ7HIS8FC_wItPdZ"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmZjFlNDJlNDE0M2I4MTQxM2VjMTI1MzQwOTcwODUxZThiNDdiM2YiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQ2FyZUFSIFN1cGVyQWRtaW4iLCJ0ZW5hbnRJZCI6IkNhcmVBUiIsInJvbGUiOiJzdXBlcl9hZG1pbiIsInJlZ2lvbiI6InVzLWNlbnRyYWwiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2FyZWFyLWVtZWEtZGV2IiwiYXVkIjoiY2FyZWFyLWVtZWEtZGV2IiwiYXV0aF90aW1lIjoxNjcxNjMzNDE4LCJ1c2VyX2lkIjoiVjNNQnA0WlZ2c2VmYUhWUUpPc2pCUXY3WVBmMiIsInN1YiI6IlYzTUJwNFpWdnNlZmFIVlFKT3NqQlF2N1lQZjIiLCJpYXQiOjE2NzE2MzM0MTksImV4cCI6MTY3MTYzNzAxOSwiZW1haWwiOiJkZXZldTAyLmFwaWF1dG9AZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImRldmV1MDIuYXBpYXV0b0BnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.X3hStCGYdMcIa6ex_LnQ19EqVaTFw4syS-aNia7qOUXhwcmgEZhz0giqCYy9tNnyFX6ATwvFc7PxUT2HN68SYolPJg5ogKHkLNgv6tYC7zqqxl7A2BpcQB_u6zWQ4wGPIJIxrnoOYdbJW7M-n73wolJarLWKubEKfQbzOMlWqV3krYsXryjEsU__3mSz0_K6cewWUbvAfY5vpglIXndgXnOlT8W7kq7gi4MwvA7RuihP5NMuQrMqhvLEIZFCbJIL9JKfg0SXyFh7Knq2fi5jJ0Op0foGDIwB6SBuJ5D-czca8k7u02NjD_HkDK76c14OBpDY0JAZUibtCTjxdZT-aw","refreshToken":"AOkPPWQs-juPX-rXMPoO5E-VZYUG_Zvc3BuZfhEGjS1Tct5ki8Zq3HdAirrGaHj-1NNhPL4LXBzWFP-BStqhLM3wKzwPNSzZn_gP_BL4HFchDlcNqwfWlTbkgpk7bWKKoGqVeAkC3AsY4FnyUCY3sZ_JiOpW8mi-0jSnwpebhB1AWmJ9UHhd8-bXYPkO3j97hXYzal-w5KGjo6ESKASY2AvpeHPsRUo_BplkH1uCOQ7IRWYNmv9V4AMY2Qs8GQ7HIS8FC_wItPdZ"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:00 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SystemAnalyst<br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:07:00 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SystemAnalyst is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/auth/refreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SystemAnalyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>authRefreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"refreshToken":"AOkPPWQBC2p2YggMG_iwxzArWwXfw_CKfFcoKNeJqHLpUnRdOywe7guqihBHCAeOMkeZC59RbpJOqbnYsVKLovzsGBngjVxCXW_rShiJjKrZWm_nkIJa5zIPtzgbCimdmxrw_h_duM5WsBX11IQLkusc2qQWfzv_IgPwXhOt8_OnS2oB33DbOBJih2nescn6G7U60krn1Jj3GX6ww7OfrzADKhAl5RtdlFZ7tNN3WdAqVyPrqfIeY0dk0oMilXMAoQAnpPRJfdMi"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmZjFlNDJlNDE0M2I4MTQxM2VjMTI1MzQwOTcwODUxZThiNDdiM2YiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiVmVua2F0YSBKb25uYWxhZ2FkZGEiLCJ0ZW5hbnRJZCI6IkNhcmVBUiIsInJvbGUiOiJzeXN0ZW1fYW5hbHlzdCIsInJlZ2lvbiI6InVzLWNlbnRyYWwiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2FyZWFyLWVtZWEtZGV2IiwiYXVkIjoiY2FyZWFyLWVtZWEtZGV2IiwiYXV0aF90aW1lIjoxNjcxNjMzNDIwLCJ1c2VyX2lkIjoiWnBwOUZMTjBuSFlOWXljNnVERUhOZXRoSkwyMyIsInN1YiI6IlpwcDlGTE4wbkhZTll5YzZ1REVITmV0aEpMMjMiLCJpYXQiOjE2NzE2MzM0MjAsImV4cCI6MTY3MTYzNzAyMCwiZW1haWwiOiJ2ZW5rYXRhLmpvbm5hbGFnYWRkYUBjYXJlYXIuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbInZlbmthdGEuam9ubmFsYWdhZGRhQGNhcmVhci5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.A7wbEH4vJOI1ZK1_0PxGp6xxm_p5o5yIQzo800dSCRRdLxmSEwicAr3YzXKl3oUZnG1XpjJwr_jmuAWVTCn7nnIBjK0qDhaYJYRgZ-StMegV6HPZo7VSE0xoAh0b4X3q1ZtHpCWJ9rwSs28v6ZzfSS191_exe7rg3ThvHQi-rps228UbnHJSepjuPX4OS4IJlqxBHsTCnom_Jey_XCjAN5yIpUVmgw4CXk3tK8i9mzAabeTgz0XbL3vhGPaedy3tpcSXdlXAsImBPM7bMCzvy6MmBc6LumjfGNbeKH7YUp5d2Z13ko1pgjzMGl61e2RmHPxBg9WSNUquL8KGgIBi5w","refreshToken":"AOkPPWQBC2p2YggMG_iwxzArWwXfw_CKfFcoKNeJqHLpUnRdOywe7guqihBHCAeOMkeZC59RbpJOqbnYsVKLovzsGBngjVxCXW_rShiJjKrZWm_nkIJa5zIPtzgbCimdmxrw_h_duM5WsBX11IQLkusc2qQWfzv_IgPwXhOt8_OnS2oB33DbOBJih2nescn6G7U60krn1Jj3GX6ww7OfrzADKhAl5RtdlFZ7tNN3WdAqVyPrqfIeY0dk0oMilXMAoQAnpPRJfdMi"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:01 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PartnerCreator<br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:07:01 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PartnerCreator is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/auth/refreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda+1@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PartnerCreator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>authRefreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"refreshToken":"AOkPPWTCRQf4mIOENEbwEuLNwL5BQjfnYDIGCi0CdHnEnu1Mdc8SHZiANvlLSXLWpkWszkH6wYwozX1bIGiS9v1DLOjhcDuwX-D4bih_4G1iqw1yhEzS8L-iZpEZXugL1WXeGiObxHEeK83f7lu8GNbazBxG6EpNq071yxFcoVfux4b5Ngr43vQ42vXU60yjnq3MiM4aVZja-A7OBz7YsMjb3t2bay9307c2V9y2YVjNM-3bbZk8iR3kaNTjBgXg_YHmNjIZDGrp"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmZjFlNDJlNDE0M2I4MTQxM2VjMTI1MzQwOTcwODUxZThiNDdiM2YiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiVmVua2F0YWpvbm5hbGFnYWRkYSBPbmUiLCJ0ZW5hbnRJZCI6IkNhcmVBUiIsInJvbGUiOiJwYXJ0bmVyX2NyZWF0b3IiLCJyZWdpb24iOiJ1cy1jZW50cmFsIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NhcmVhci1lbWVhLWRldiIsImF1ZCI6ImNhcmVhci1lbWVhLWRldiIsImF1dGhfdGltZSI6MTY3MTYzMzQyMSwidXNlcl9pZCI6IlVjelJaSHc2MnlRMUI1NWdHVnRxdzg1Y2IzejEiLCJzdWIiOiJVY3pSWkh3NjJ5UTFCNTVnR1Z0cXc4NWNiM3oxIiwiaWF0IjoxNjcxNjMzNDIyLCJleHAiOjE2NzE2MzcwMjIsImVtYWlsIjoidmVua2F0YS5qb25uYWxhZ2FkZGErMUBjYXJlYXIuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbInZlbmthdGEuam9ubmFsYWdhZGRhKzFAY2FyZWFyLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.lQyrTCdxZVj_MzXpFDIU5KQpLHHHsleejdj5EvJmlGSLSWEDnEFToRJVCHuGDWwbcGQKMDYHjWYea8NzQVaSf0IA4KdmhVumDVSeLUyNYCq5ViEVIhybiiq10_jy0sC6DMrjV_Kg_YcOvIb7FRuie478rcJcC_jkd_EG-sM__WHwukB8xi7lS-Hxplnwmbwi6mQXmQ6h0XzaqjDbkQd-XDyoQ9M6jf16CmrDKF3jZRtyEktTz70AYVAzCMsCjPWRUXPW40E_jL2SjSzCD_BG_9MOm5qfLa2wbHPx9lX-_M9jtPrYfp7dpRRQgzZSAGY-Z50f4FyKbISucK64bAgv2A","refreshToken":"AOkPPWTCRQf4mIOENEbwEuLNwL5BQjfnYDIGCi0CdHnEnu1Mdc8SHZiANvlLSXLWpkWszkH6wYwozX1bIGiS9v1DLOjhcDuwX-D4bih_4G1iqw1yhEzS8L-iZpEZXugL1WXeGiObxHEeK83f7lu8GNbazBxG6EpNq071yxFcoVfux4b5Ngr43vQ42vXU60yjnq3MiM4aVZja-A7OBz7YsMjb3t2bay9307c2V9y2YVjNM-3bbZk8iR3kaNTjBgXg_YHmNjIZDGrp"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:09 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PrimaryTenantAdmin<br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:07:09 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/auth/refreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+2@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PrimaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>authRefreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"refreshToken":"AOkPPWQENSDDhGNXbSUzSgh4t-tsOkrborXsI6I3h_wb0sZbk_3GK2KFD-DAVfMJ4K3xRJIT8-TtTxJUeZBfrxpd8SSjDKd6V0cutzV81Ihud4IrJNnlj2UOlspcvRuO04WcxEcPAcqHfaBfPTMD1pSQQSiKoZJfuW96IDsZwwtZuho8AU_KajOJKg0LqPLJfCje_KMBH8V75l16ZUlrpqub2jARvd6h1Ka0kyuBgI4-LN_CkWptXOmYRgSSOxNLYaPBWKT_yId7"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmZjFlNDJlNDE0M2I4MTQxM2VjMTI1MzQwOTcwODUxZThiNDdiM2YiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFByaW1hcnl0ZW5hbnQiLCJ0ZW5hbnRJZCI6IjAyWVE2cG5CQ2M5YzlzeEpPbFlOIiwicm9sZSI6InRlbmFudF9hZG1pbiIsInJlZ2lvbiI6InVzLWNlbnRyYWwiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2FyZWFyLWVtZWEtZGV2IiwiYXVkIjoiY2FyZWFyLWVtZWEtZGV2IiwiYXV0aF90aW1lIjoxNjcxNjMzNDI5LCJ1c2VyX2lkIjoiNWE4czN5OE04alRsaXpKcjB2bGV0R1I3cXJsMSIsInN1YiI6IjVhOHMzeThNOGpUbGl6SnIwdmxldEdSN3FybDEiLCJpYXQiOjE2NzE2MzM0MjksImV4cCI6MTY3MTYzNzAyOSwiZW1haWwiOiJtb2hhbW1lZG5pemhhci5wKzJAY2FyZWFyLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJtb2hhbW1lZG5pemhhci5wKzJAY2FyZWFyLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.Y-LbFfbIYaDVGXDvxfn_9TciikmdQOQtS-jiWVndvgQIMjqjVfsBzFbCeO38V7bXRIaTg5q6waLCpZyXAIkY-uZIvc044wEuiLpu1rW7jrfpIfNR0Q-UkX0xXdudFQ9_UWtqlfDzBAcLi7bJwM8KFOVS6F_xL5TxJXJlQFlLsprUXRR48oIz6i4RVc-8zYYZ0gyGdpHdNq7KwMVFKbgkkVHwVbp1h9tfDLGd0MsAqtg2JBjYY9RxbR1gT_4pqPURM1NtHCZeL58ZoPirYkCs8SoZw5hrGxVdAS2Z52ktHbMEbkQN56wD6ZxdT-RzrXJU_XHLXknImokWJSsomxqyeQ","refreshToken":"AOkPPWQENSDDhGNXbSUzSgh4t-tsOkrborXsI6I3h_wb0sZbk_3GK2KFD-DAVfMJ4K3xRJIT8-TtTxJUeZBfrxpd8SSjDKd6V0cutzV81Ihud4IrJNnlj2UOlspcvRuO04WcxEcPAcqHfaBfPTMD1pSQQSiKoZJfuW96IDsZwwtZuho8AU_KajOJKg0LqPLJfCje_KMBH8V75l16ZUlrpqub2jARvd6h1Ka0kyuBgI4-LN_CkWptXOmYRgSSOxNLYaPBWKT_yId7"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:11 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecondaryTenantAdmin<br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:07:11 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/auth/refreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+3@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SecondaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>authRefreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"refreshToken":"AOkPPWRooOzrLEfnBeKmgHQfcvtzN2v0Hw3Hs4x-BGalXajM_JspD5q20XC3Ay3961ks3cdLYQtEDkNLZBebmAyFZWiS0gb4DIF_UE6LHwykmY8BGfSXp7i9hkUHxRozxPeO3SJQ28iNCK7VxMfyal3l_p096YDiGRVZVP77mj7yadP5uNlNiuMnerb03NKnkNc1zXJhyEZzsPYUItViBFkqRbjBOWywLJPIRnf_si1zBkle3dFYPI850AWh9dIfzk8Oma09Y57i"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmZjFlNDJlNDE0M2I4MTQxM2VjMTI1MzQwOTcwODUxZThiNDdiM2YiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFNlY29uZGFyeSB0ZW5hbnQgYWRtaW4iLCJ0ZW5hbnRJZCI6IjAyWVE2cG5CQ2M5YzlzeEpPbFlOIiwicm9sZSI6InRlbmFudF9hZG1pbiIsInJlZ2lvbiI6InVzLWNlbnRyYWwiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2FyZWFyLWVtZWEtZGV2IiwiYXVkIjoiY2FyZWFyLWVtZWEtZGV2IiwiYXV0aF90aW1lIjoxNjcxNjMzNDMwLCJ1c2VyX2lkIjoiTHREYUlFZWxzSFV3cUxZTzE0UldoT09RN2ZHMyIsInN1YiI6Ikx0RGFJRWVsc0hVd3FMWU8xNFJXaE9PUTdmRzMiLCJpYXQiOjE2NzE2MzM0MzEsImV4cCI6MTY3MTYzNzAzMSwiZW1haWwiOiJtb2hhbW1lZG5pemhhci5wKzNAY2FyZWFyLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJtb2hhbW1lZG5pemhhci5wKzNAY2FyZWFyLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.BBem3Xmxuhr-JZ-K04FQ-QlxwmTorN8hHn1jtTbauMEpm88J4asQgOQvAgM69ivGBX9bs2TY4gc9mWFKrim9VZwIza9z-Wnf0JcbTQjxaB35rjV44472k72I_MRCN3GtnagjCbnw6eT3gxcKds-sKrSMe1Jiy6TqhHQ_Rq2Gq4fCpAUZ2yohQdnWx4gUv-qWYzqClfwy2AjUdvJ144cvx0kS6PEfvUhKroQOog6DFjhPTqMkISOpNfDdH9_CS_8iHR1JH1-DnYUeHB_1R7-PCeUpJ9pENnf-dJxcATLcxNog3kU7te9fdhtUmXxEjJXi3YtMz26mdu_9MxNdHLYF-A","refreshToken":"AOkPPWRooOzrLEfnBeKmgHQfcvtzN2v0Hw3Hs4x-BGalXajM_JspD5q20XC3Ay3961ks3cdLYQtEDkNLZBebmAyFZWiS0gb4DIF_UE6LHwykmY8BGfSXp7i9hkUHxRozxPeO3SJQ28iNCK7VxMfyal3l_p096YDiGRVZVP77mj7yadP5uNlNiuMnerb03NKnkNc1zXJhyEZzsPYUItViBFkqRbjBOWywLJPIRnf_si1zBkle3dFYPI850AWh9dIfzk8Oma09Y57i"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:12 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Analyst<br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:07:12 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Analyst is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/auth/refreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+4@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>Analyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>authRefreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"refreshToken":"AOkPPWT5QdbQQdPBkaXM_nKnB7kcc83sMJp3W6kTh2s-EldTzkZKoMByTRf8Jhb-z6jOgDcAXAHgeFNAeS2KXTITr42YKun4RhrFB-0kW1sTeBf9gB3_7Ym_zO_fqXehiMlCJRv7q54ir_1oRTVC9Y9DMKgTGa_4bkl6XhRUdPCSKqOuCBT0NkFoaADYRQjQLJMRQw-38LXDGYNMo_TMNBP6lXVo1NJMnajTmwR2lObEog0Kj4Zfs_E"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmZjFlNDJlNDE0M2I4MTQxM2VjMTI1MzQwOTcwODUxZThiNDdiM2YiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IEFuYWx5c3QiLCJ0ZW5hbnRJZCI6IjAyWVE2cG5CQ2M5YzlzeEpPbFlOIiwicm9sZSI6ImFuYWx5c3QiLCJyZWdpb24iOiJ1cy1jZW50cmFsIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NhcmVhci1lbWVhLWRldiIsImF1ZCI6ImNhcmVhci1lbWVhLWRldiIsImF1dGhfdGltZSI6MTY3MTYzMzQzMSwidXNlcl9pZCI6IlVyZERUdzRKZ2pTdkM2YjVxakZOSU1CYXIzUjIiLCJzdWIiOiJVcmREVHc0SmdqU3ZDNmI1cWpGTklNQmFyM1IyIiwiaWF0IjoxNjcxNjMzNDMyLCJleHAiOjE2NzE2MzcwMzIsImVtYWlsIjoibW9oYW1tZWRuaXpoYXIucCs0QGNhcmVhci5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsibW9oYW1tZWRuaXpoYXIucCs0QGNhcmVhci5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.SJZnh8IjSJgR1ojg5y2kkO9pKyCvjLaKFAdISRy1RgF-c4nSdHfBOruO8U5fv8ljjtZQNm6WPeVab-5W-B1Wd-c3XFVAzOy0uyYpL7AxlD_xMuccskA3SnRC4sQtcLSiN49IaQ_PdxuwNcyuKqx2bh1joyOBWektjMGFzvhNNaUX0kNNQjchV2LigrgJ-prdIeF7hRcBtrFsDPGwtCfpJfF2jzi6OVMhIz-67QVuHniS9JVEWoSOQawddBpNeQLkAXdlmCpmgYfGJKvaxZzNObkWwx8jz_2gqFPntTRr80cQ6QRB0_seC2PzroMzL9K0Bd9wmthzN8dpqM7R-1xkog","refreshToken":"AOkPPWT5QdbQQdPBkaXM_nKnB7kcc83sMJp3W6kTh2s-EldTzkZKoMByTRf8Jhb-z6jOgDcAXAHgeFNAeS2KXTITr42YKun4RhrFB-0kW1sTeBf9gB3_7Ym_zO_fqXehiMlCJRv7q54ir_1oRTVC9Y9DMKgTGa_4bkl6XhRUdPCSKqOuCBT0NkFoaADYRQjQLJMRQw-38LXDGYNMo_TMNBP6lXVo1NJMnajTmwR2lObEog0Kj4Zfs_E"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:13 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for User<br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:07:13 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. User is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/auth/refreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+6@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>User <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>authRefreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"refreshToken":"AOkPPWQDq5VtMRVA3TU6RiOWFx4tPiblAHT3Qj1WeqbSMMlltCbbBPn17Rr-ia0M6bjfj9wgI9gISu-jq8SzXM5RDJzDrIT6yx8V82MxaBr9RmiKN4xAi3_nfufQ-v64kzqGpNYCYlcCmRlMaxnedEGJ9OhnlmMaJUzWCI0OdOB1XE4xErYGCei75NEeewYLAJk7IGZ12K3xE6oY0OpDsvkQMqR-EaYCZpbys_r9oBHF-xqoYe3r-PY"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmZjFlNDJlNDE0M2I4MTQxM2VjMTI1MzQwOTcwODUxZThiNDdiM2YiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFVzZXIiLCJ0ZW5hbnRJZCI6IjAyWVE2cG5CQ2M5YzlzeEpPbFlOIiwicm9sZSI6InVzZXIiLCJyZWdpb24iOiJ1cy1jZW50cmFsIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NhcmVhci1lbWVhLWRldiIsImF1ZCI6ImNhcmVhci1lbWVhLWRldiIsImF1dGhfdGltZSI6MTY3MTYzMzQzMywidXNlcl9pZCI6IjRDa1VGV2hWYU5UdW5YRWp1TUhuSXhDNGJPazIiLCJzdWIiOiI0Q2tVRldoVmFOVHVuWEVqdU1Ibkl4QzRiT2syIiwiaWF0IjoxNjcxNjMzNDMzLCJleHAiOjE2NzE2MzcwMzMsImVtYWlsIjoibW9oYW1tZWRuaXpoYXIucCs2QGNhcmVhci5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsibW9oYW1tZWRuaXpoYXIucCs2QGNhcmVhci5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.Ec0b1ZRzbDX8QlIQJ2Kmp3llHMJQWxPuFYCb0Bymlj8mVn07Kswnud7MvumQt4eetqq5XNC2XZ8wVg000U7wgVgCWTVzBKtnqXYcA-y_w1eiqC7HB7OB4QyS3yvK7rGw-LR0gj4GTmwHiM6C1aLlnAvox-zO5Aqy9ARgVmFb6EKEymWCYC0E_hhB3T3aPaaiio7oZWeTuYJUm1MbUQyzFqThFQpt2HJkFpuYv3Q9c4ZVE-xSJ2zDLaegbdEkJCW_q0XfdPE774QSonfun0Lnd2DHDfCb6R0w5Eb1kvOf5a34iQ11YmcoUcST8QXRhEmM_p_FkjR4_acRI_s9EGkonA","refreshToken":"AOkPPWQDq5VtMRVA3TU6RiOWFx4tPiblAHT3Qj1WeqbSMMlltCbbBPn17Rr-ia0M6bjfj9wgI9gISu-jq8SzXM5RDJzDrIT6yx8V82MxaBr9RmiKN4xAi3_nfufQ-v64kzqGpNYCYlcCmRlMaxnedEGJ9OhnlmMaJUzWCI0OdOB1XE4xErYGCei75NEeewYLAJk7IGZ12K3xE6oY0OpDsvkQMqR-EaYCZpbys_r9oBHF-xqoYe3r-PY"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:15 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Creator<br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:07:15 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/auth/refreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+5@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>Creator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>authRefreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"refreshToken":"AOkPPWS3SNw6WiW_QyFGFaY37X4AyEaymL0oEYJWy6uHekIPaNvjuqa3iFF9lPagn59a3rO2AR5mTLktDzBT96g2yDeTu2yO3CCOJw38qnTRTdRBubefHRcr554w8KChyEbx_6meZMdJLoKzHTgo6FDe6UBMZ6DagGooniTPkJMYjYjt4a_prnru3BMQSnSMFNphLeSmgYt08cQ6w1iwZg_uCj453JI67VAkmSVvIV4ed73tu5N6QwY"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Successfully refreshed the session","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImFmZjFlNDJlNDE0M2I4MTQxM2VjMTI1MzQwOTcwODUxZThiNDdiM2YiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IENyZWF0b3IiLCJ0ZW5hbnRJZCI6IjAyWVE2cG5CQ2M5YzlzeEpPbFlOIiwicm9sZSI6ImNyZWF0b3IiLCJyZWdpb24iOiJ1cy1jZW50cmFsIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NhcmVhci1lbWVhLWRldiIsImF1ZCI6ImNhcmVhci1lbWVhLWRldiIsImF1dGhfdGltZSI6MTY3MTYzMzQzNCwidXNlcl9pZCI6InU0Q0xzMnh5NnNROWRoRDF0WXB2T1UxT3NCbTIiLCJzdWIiOiJ1NENMczJ4eTZzUTlkaEQxdFlwdk9VMU9zQm0yIiwiaWF0IjoxNjcxNjMzNDM1LCJleHAiOjE2NzE2MzcwMzUsImVtYWlsIjoibW9oYW1tZWRuaXpoYXIucCs1QGNhcmVhci5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsibW9oYW1tZWRuaXpoYXIucCs1QGNhcmVhci5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.L3q0zj4RPVGaIpt-VLZgz6Sbh2-SeUYDORGaXxVl3_OtFRIIhGJ6zk7wEuGSWb7lXHWzIkuKaEP1xqShs8GDDCGuYCdqcINhSQohckcNQ_pQWlkWSDpBpdAmAXHTUF5xv6xNxC27Rjj1D4CR3FnlyctfqbXdzlxjh7wBVizPEagya4exsHQQVzWpJZ0Ku51kkN8PinYEC3UorpO88hZ5L1qu1GOnQuFcOfxjHUCxJyKigTmCOzK8ymIZTI6B0F1_hM3NsyJijHZLyLwlYfkdzBVlL_Hpw0r0lwKYkkkvIUXbxoTDypmw5I53dXkjYyTQcmGfM6wdciSvps7bH5RfQg","refreshToken":"AOkPPWS3SNw6WiW_QyFGFaY37X4AyEaymL0oEYJWy6uHekIPaNvjuqa3iFF9lPagn59a3rO2AR5mTLktDzBT96g2yDeTu2yO3CCOJw38qnTRTdRBubefHRcr554w8KChyEbx_6meZMdJLoKzHTgo6FDe6UBMZ6DagGooniTPkJMYjYjt4a_prnru3BMQSnSMFNphLeSmgYt08cQ6w1iwZg_uCj453JI67VAkmSVvIV4ed73tu5N6QwY"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:16 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionAPISuperAdmin<br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:07:16 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionAPISuperAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/auth/refreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> devca01.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionAPISuperAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>authRefreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"refreshToken field cannot be empty","value":"","param":"refreshToken"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:17 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSuperAdmin<br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:07:17 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionSuperAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/auth/refreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> devca02.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSuperAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>authRefreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"refreshToken field cannot be empty","value":"","param":"refreshToken"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:18 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSystemAnalyst<br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:07:18 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionSystemAnalyst is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/auth/refreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+12@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSystemAnalyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>authRefreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"refreshToken field cannot be empty","value":"","param":"refreshToken"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:19 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DiffRegionPartnerCreator<br><b>2.</b> The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:07:19 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DiffRegionPartnerCreator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://emea.dev.apiv2.carear.app/auth/refreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+13@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DiffRegionPartnerCreator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>authRefreshToken <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Bad request","errors":[{"msg":"refreshToken field cannot be empty","value":"","param":"refreshToken"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:19 pm</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 21, 2022 08:06:51 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 21, 2022 08:07:39 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='44%'><b>13</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>16</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"authRefreshToken":24.979
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 13,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 16
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="APITests">
+        <classes>
+            <class name="org.tests.userDelete">
+                   <methods>
+                       <include name = "tenantmanagementFetchTenantAiEnabledAPI"/>
+                       <include name = "tenantmanagementGetAiServiceConfigAPI"/>
+                       <include name = "tenantmanagementSaveAiServicesConfigUpdateAPI"/>
+                       <include name = "tenantAdminAddGroupAPI"/>
+                       <include name = "tenantAdminUpdateGroupAPI"/>
+                       <include name = "tenantAdminRemoveGroupAPI"/>
+                       <include name = "tenantAdminGetPluginConfigurationFetchAPI"/>
+                   </methods>
+            </class>
+
+        </classes>
+
+    </test>
+</suite>

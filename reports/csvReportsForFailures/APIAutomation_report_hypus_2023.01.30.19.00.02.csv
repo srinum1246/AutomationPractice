@@ -1,0 +1,199 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/52KyeqGLUcLnSjNqaeEr","hyperspace01.apiauto@gmail.com","api_super_admin","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/52KyeqGLUcLnSjNqaeEr</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/52KyeqGLUcLnSjNqaeEr","hyperspace02.apiauto@gmail.com","super_admin","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/52KyeqGLUcLnSjNqaeEr</pre>
+</body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/52KyeqGLUcLnSjNqaeEr","mohammednizhar.p+25@carear.com","SystemAnalyst","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/52KyeqGLUcLnSjNqaeEr</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/52KyeqGLUcLnSjNqaeEr","mohammednizhar.p+26@carear.com","PartnerCreator","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/52KyeqGLUcLnSjNqaeEr</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/52KyeqGLUcLnSjNqaeEr","Venkata.Jonnalagadda@carear.com","PrimaryTenantAdmin","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/52KyeqGLUcLnSjNqaeEr</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/52KyeqGLUcLnSjNqaeEr","mohammednizhar.p+27@carear.com","SecondaryTenantAdmin","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/52KyeqGLUcLnSjNqaeEr</pre>
+</body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/4VGEq2fN1l9cHfy0VgnK","mohammednizhar.p+28@carear.com","Analyst","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/4VGEq2fN1l9cHfy0VgnK</pre>
+</body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/4VGEq2fN1l9cHfy0VgnK","mohammednizhar.p+29@carear.com","User","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/4VGEq2fN1l9cHfy0VgnK</pre>
+</body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/4VGEq2fN1l9cHfy0VgnK","Venkata.Jonnalagadda+1@carear.com","Creator","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/4VGEq2fN1l9cHfy0VgnK</pre>
+</body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/4VGEq2fN1l9cHfy0VgnK","mohammednizhar.p+30@carear.com","AnotherPrimaryTenantAdmin","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/4VGEq2fN1l9cHfy0VgnK</pre>
+</body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/4VGEq2fN1l9cHfy0VgnK","mohammednizhar.p+31@carear.com","SecTenantAdminFromAnotherTenantUnderSameRegion","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/4VGEq2fN1l9cHfy0VgnK</pre>
+</body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/4VGEq2fN1l9cHfy0VgnK","mohammednizhar.p+32@carear.com","AnalystRoleFromFromAnotherTenantUnderSameRegion","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/4VGEq2fN1l9cHfy0VgnK</pre>
+</body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/137s7WD1ZbL0ABl2oiNl","mohammednizhar.p+33@carear.com","UserRoleFromFromAnotherTenantUnderSameRegion","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/137s7WD1ZbL0ABl2oiNl</pre>
+</body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/137s7WD1ZbL0ABl2oiNl","mohammednizhar.p+34@carear.com","CreatorRoleUserFromDifferentTenant","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/137s7WD1ZbL0ABl2oiNl</pre>
+</body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/137s7WD1ZbL0ABl2oiNl","hyperspaceeu01.apiauto@gmail.com","DifferentRegionAPISuperAdmin","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/137s7WD1ZbL0ABl2oiNl</pre>
+</body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/137s7WD1ZbL0ABl2oiNl","hyperspaceeu02.apiauto@gmail.com","DifferentRegionSuperAdmin","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/137s7WD1ZbL0ABl2oiNl</pre>
+</body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/137s7WD1ZbL0ABl2oiNl","mohammednizhar.p+35@carear.com","DifferentRegionSystemAnalyst","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/137s7WD1ZbL0ABl2oiNl</pre>
+</body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminSurveyDelete","https://hyperspace.apiv2.carear.app/tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/137s7WD1ZbL0ABl2oiNl","mohammednizhar.p+36@carear.com","DiffRegionPartnerCreator","DELETE","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /tenantAdmin/tenants/awx3VL8onlQIH8jVAleB/survey/137s7WD1ZbL0ABl2oiNl</pre>
+</body>
+</html>
+"

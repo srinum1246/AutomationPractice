@@ -1,0 +1,511 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 21, 2023 07:26:38 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed</p>
+            <p class="text-sm">
+              <span>7:26:41 pm</span> / <span>00:00:50:919</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed</h5>
+<span class='badge badge-success'>02.21.2023 7:26:41 pm</span>
+<span class='badge badge-danger'>02.21.2023 7:27:32 pm</span>
+<span class='badge badge-default'>00:00:50:919</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:26:41 pm</td>
+        <td>
+          *** Starting of <b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed</b> test ***
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:26:41 pm</td>
+        <td>
+          *** Testing API URI 'https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId' ***
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:26:51 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for api_super_admin<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:26:51 pm</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. api_super_admin is NOT allowed as per confluence and in actual response it is showing as allowed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> hyperspace01.apiauto@gmail.com<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>api_super_admin<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0MTEsImlhdCI6MTY3Njk4NzgxMSwianRpIjoiNzQzNGQ1MWYtNGYzOC00MDE2LWEzYTgtMjNkNDE0ZGExOWNhIiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.DV-7jYgRImj3-B_Po11n7C6Y72VUJC4PQ-YegD3u6xSaEBlMOVL66ABBpsJioDpc95fh_FawjZeEUBrHgsLWkpj-saZlEg1ufmxA8qZIVNuHzHfNRjuMUZ898DeDM4AXQH_B57RvBV9dqMcLCg-bDZ3-qevV-eJmYnt-fNmNTUauDoB3fGImDnMp1l_9TkRslq29bqAu9PG69RJFwDUBXfNGoR9JIt7yGKMbgmRuOlEgE0UpcDtnwlS3Kqi-5kZLTlPysORVBqJvqefkXo1No2k8NW1aEuTStBZQnC4GQYm0b0ZL9cA9RyHXrJSvhRNhM_QG55Up-YUzf_X4cvmrVw","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:26:54 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for super_admin<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:26:54 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence and in actual response it is showing as allowed <br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> hyperspace02.apiauto@gmail.com<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>super_admin<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0MTQsImlhdCI6MTY3Njk4NzgxNCwianRpIjoiOTliNjhlMjgtZjFiMC00ZmJkLTg0NjYtMGVkZThkYWE0YjIzIiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.mpYz-uHBEaEJUP1tdJ5L3yHyYNUZ1fhCcYfhHPeBnl9iTV9hM6m5JnW_UUgnVYZtprfq-JFnkwfsprGIOYvl1VpKgwzhePEai4Md4Z069gJKk3ce0lhSucE_il507-fO9sTFvUMS76m_o63GRbO4Y5Veckwq-9Z8nEwtPxbhdh32LiNzWEZrj8VWXZ0Y6_SPHNSY2PUsnsT3-lN0I6yp-EIu-n0Q3ufVoGOzT1fkcbaUGbEXYFcD8X3wLyD2yFWibF4zUAZEAr_M4g97qslfkiyh5hhLz2qiI4sctU0eSgFBQqNMTB0eTeBwvnACxSWtbRV_RSAxsroS3k7UiyeBYQ","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:26:56 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SystemAnalyst<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:26:56 pm</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. SystemAnalyst is NOT allowed as per confluence and in actual response it is showing as allowed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+25@carear.com<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>SystemAnalyst<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0MTYsImlhdCI6MTY3Njk4NzgxNiwianRpIjoiN2NmMzc2N2EtNWY4Mi00MWMxLWIyM2ItYjYxNmUxYzk0NDU5IiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.JdomrZ9QLWVMqCJeVuzTCYEYWVJOAqGTTynWnxxuWSLtBeuE8BBDOhH3Q5ocmgj2KIYzYMRatwYcraNxCc0aIlIuASp9Wn8g0_w8DfAJOQA5fDexeBJed6J9ncDJChNvGa7_IL3xOwdhjBHF8rr5hfYssfATVbnuVdNrRmxY_6tgXfRU6C6tvI_yhrfTQTQxcSdu9m_DMrcOKA1Mwpy9KAEhDZkJWDXObALukY2mh5y-1fkVcGNMu-2SBRCTqEs27v7BBGj-N6UNggajW00hOViBflWSkTRKam2B-ipdyF4tBd9qBYPcSP962KRghmA84Xzha4R78Xw7BUwYfQf6xg","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:26:58 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PartnerCreator<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:26:58 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PartnerCreator is allowed as per confluence and in actual response it is showing as allowed <br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+26@carear.com<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PartnerCreator<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0MTgsImlhdCI6MTY3Njk4NzgxOCwianRpIjoiZjdmNmYyMWUtZDBlNC00YmZjLThjOGItNjI2MWU3ZjJlNDVjIiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.aDbG7AxqmWFFht_KmjJykZF2zQ4pyrknxH7jDcd_ZxvMUjRgu5BwjoOW9DsMKz2V9-_IFuR842Z16vMEzXKol6b9LjwN0LXAPzFyuLthJ9HtaxZ3etmbIKTC3624tvMgvtfGfsmrYx3De5TOVKZYr_Ecljjqa7hJ_csyWaA3QJi_tLj_MnJEvhhOcU-0myhy6NZRCJqGz19CuSX3nDI5mdefvh9gfPsQZ3k7itntP0qbBlotYVEnPqF7nZNNSJK0xpZMqUO9QcZ_BHZBO-k2lYdOqjIVYabOHuSl82IPhUzt2Y_LKhCuhYQK85PK031FA0lc66Dr2zEVdFYkk8tuqw","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:01 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PrimaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:27:01 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed <br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda@carear.com<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PrimaryTenantAdmin<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0MjEsImlhdCI6MTY3Njk4NzgyMSwianRpIjoiNjU5YTc5MjUtNjFjYy00NTViLTg3OWQtMmFlOTNkYWI3MzEzIiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.j_CwptU68YFW4SUZG5ktFEcF0NA_Ga-L2xltFBRyc5Dcwf0iiuiYe6U97iHveCWkCSdwm5OfGHL8uITBrgPzHXwazHNQeI7ZfqjfMMDQFlID4YqgaDGU55-J1ykjkw3jxGuShDW-rM2QHij1pZnBZx_25yyOQUC3CJZR2AAl-vS2xiRorV3sKPWCB9NCPNujF6gA2OkKdvISNIvqqzeZFTdq9ASZlM-GF0LQQN2ovam214pRoVcx_sM2Zxng096GTfWj5mtk9yVRKZFt4khOHCJV3DMEtV1jiwnAoXiBrM0hsiwRkfBKObFYmF2erfAeqFcWBFWCMmQFX3v98v_f0w","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:03 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecondaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:27:03 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed <br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+27@carear.com<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SecondaryTenantAdmin<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0MjMsImlhdCI6MTY3Njk4NzgyMywianRpIjoiM2ExNGMyNjMtZDFiZS00NDA2LTkwZDEtNjYwNDQ1NmRmYjc2IiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.dZLUwPoKrGKZWIaBi-q-EbYV6ntGIYx_6k8T48cnEagu-XzcTyUwU84v6oozjElEnV2Pr3CwXTqcA0uIRIPAe2U4JXo5Z1LjjIHEGtywu6xG73BMWPEWuK4NJWkDQbHP4bR729euOjpzgD3o4stUVbP44vksnL55LFJhEYmxl818E3VZjkwN5eAdZVfj8QOCJXWYE7ixEEjlaBgjzyqiCxGCAu_QMk6eUljXfI3IjMexHPRDee5sEoZmrLj64eysOr_91b6nIa1-rQjpdQHzkN7_2Qnlw-nXeVlPYFDRU27yZxl6RD20ceZxzCQZZ3bMPCWg9CZx903WWC-sugdEFQ","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:06 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Analyst<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:27:06 pm</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. Analyst is NOT allowed as per confluence and in actual response it is showing as allowed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+28@carear.com<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>Analyst<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0MjYsImlhdCI6MTY3Njk4NzgyNiwianRpIjoiMDM1M2UxMmUtZWE0My00ODcxLWFlNjMtMmEyOTA0MmM3ZDBlIiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.Mw2itGK00PmCyEeJzCkdn0-Vr-6Hxkb8MLUP_no_ULfpKMjstYMM6DZMxxcjQqn6ihJ8_-C9W5HT8vD5drfJGYjZefUsDFxJC2SBmbw_wR7qjZJHVjhXjdy2g8c-UB16Y4lWXU2Rp4FpxfHpFNibH3sZO7ypCq-ZBjUfHAirj-xfAGrTamWlKoJg7l4wN9lbOZCrdKUDLcXdGF9WL2xRJi9vC15ajKY9NJxKCrYFgklOiWTwjw11XbIAmsXLorZ_-PrR82yrrq87V6FaO74kva3yvmBclfnfjBtrsdEcWclaASs9S8lMVtHqZFBfsVE2pYXEXXGmnzaPsMq3UEic3Q","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:08 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for User<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:27:08 pm</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. User is NOT allowed as per confluence and in actual response it is showing as allowed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+29@carear.com<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>User<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0MjgsImlhdCI6MTY3Njk4NzgyOCwianRpIjoiM2M4ZDJiYzYtMDgzZS00NDU0LWJhMTUtNDQxMzFkMjgzNjQyIiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.Sd564ZOdlCWnQlGFxMX8nFQnr8PFtmCRRNkS0wcAJWrXYkvEAQotBpfeEmM2tw1oZZLbKKu5WajsXiLzsH6KROz1u_EMrtNvoA0IAXt7MjRbs1U2G3tC_MgMzPFouahhjxYq3HH8LJdt85XyTW4Z7Vi6nNfroIasDomsFkqBz5EMv283h61OPVdDKPJ9fM1hAhje0rZgEfo1VP0VvhinDbSToYLPyUkcu8VVxsAhTxBi-x0384HqMVpqeRw1-aDGVA4JN3u0iz63LSRRLs3C38iSr8n2p4kV1P0IjEq_w0WpSbCAhl9IQ_uVOeza2Xo8mOxbN81olcyFCC7NWFDR6A","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:10 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Creator<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:27:10 pm</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is allowed as per confluence and in actual response it is showing as allowed <br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda+1@carear.com<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>Creator<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0MzAsImlhdCI6MTY3Njk4NzgzMCwianRpIjoiYTcxYjc4YjMtMzM3Ni00ZjliLTkyMzktYTYxMDdlNzhjMzU1IiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.FcFVIGKnmC35Y3PAjiN1ArT91risuXWteH3g4duHKgm-Pf2Cx5mmYxCPhDfl4Oj5ZwWzRkbinQjk-9dHfTSGjMEhLl_Mqqniv6L-6sOvlMynzCN3PY6uMKONKWBjPGBcD7nQ6FZY7Mo0Ailp7EY7N0YMnTNtFFidyFMdAIa-u_9s0RYSfFIVF9ZePi8ei77EbBDAyBILUSJS734rf85MsvGYoIaMDCKHLg6U3vEHOmZjEl_Hgjky6l9Twm6wiSHKlft9p4lEocxqJOguex6KelSTWF58IgCnaajxSRfwkLtTTfyCHHZc4uBK4bSSGIIDelC_7uZBin4Mz1AAY6tYGQ","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:13 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for AnotherPrimaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:27:13 pm</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. AnotherPrimaryTenantAdmin is NOT allowed as per confluence and in actual response it is showing as allowed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+30@carear.com<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>AnotherPrimaryTenantAdmin<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0MzIsImlhdCI6MTY3Njk4NzgzMiwianRpIjoiMGE5ZTQ0YzAtNGI5YS00NGI0LTk2ZTQtMDEzYWFiYjYyM2M2IiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.MJbjs5WQZHggkthLviYR4ofR8qPQLRuVet_M7yvCpLq7kSVqqrH7Ci8D4JGQsxCSMvsS6dQfb-ec8yeEjv30U6OKEBCP42GXgDJx89nHLC5FbVAgVrz8YA_9LbVvFww1Xyy7qybvRsJd89OC0SKDnR3Om_HiAHRbma7TN7cHQwXbrx3QLtN4sfxkzhenyHM0c5OrOCKp8L4UwnEXemr2l9DnJZxrC88cU8HRV44l3WQB9VanOElnYLxSBf5Ys9WcNUImrDJpgKG07KrG0T6nBBFCcUye9FMMShsDgYiENSEQpRjmu14WIPgleA35ZFmvhBVSquG1s1Pk-V48BaROOw","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:16 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecTenantAdminFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:27:16 pm</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. SecTenantAdminFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as allowed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+31@carear.com<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>SecTenantAdminFromAnotherTenantUnderSameRegion<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0MzYsImlhdCI6MTY3Njk4NzgzNiwianRpIjoiZTkyYjg0MjItOTUwMC00ZThhLWIwYWUtNzViNjM1ZjA1M2MyIiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.Z2hmCa0aJAjZQuQ04-WAbhhy2QMDY4cJrYALJxguKZnTntzPzWtXYyl3JLcb1Ar0ihVRgwJNON6k1KOsO45pETXl4UTibQ4G3nNxj5BoE0fcnW9GeepQ6IUydHMsBuWi5IZZtvrOnBPtzfjPukv19sdaLE_Vjr7Ao8BXsG5TVogDNKNzfxKzqhrzitD-quGvPeAa-ePmg-G5fAc5zR6Gi3eayC_BzNeFMN10nYgdnr-4etsoLzrWmYkWKuFJNSUm4ha-CF5huGOzhIMRU0X7BH1Svz9Vq3N6E_EK7RC_8z1bu7Hu-Fo-9OHDD9myBZlwY0_lFjWnilYN2eXCABG3Hg","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:18 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for AnalystRoleFromFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:27:18 pm</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. AnalystRoleFromFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as allowed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+32@carear.com<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>AnalystRoleFromFromAnotherTenantUnderSameRegion<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0MzgsImlhdCI6MTY3Njk4NzgzOCwianRpIjoiYWEwZThlZGMtZTJjNi00M2EyLThhZGItZmE3YWE1YzhmNDcxIiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.BYDGJh-yhGVJmBZUKw2QNxLsodt7KSSh6o47VSaqS-iDyZLL5Cz2KDZIFvPQQvJkuBsg6ZYdYlk_FYU3-geg7Eb0hhuGpspyOp1ZwmOQVEVyfY8tcgc6MUTDIp74_jN6OLqE4hJ0a7EmaOT96RyA1tnNxeh0AHsNXLyRN7VoeDFV4tLJ73puUhYC_bdgwiiBwx7yzvIZ7MfPQDv18KyoohMoxjIMpbNtb8n5Er7qGAYkhrJPD6PxTfnPdMNAmU-E8OCZhm7uzoP6n2QjIPFUai-PEOZIPVRIXJNv08JmhiyMZ65Ax_6lnrSkeW7scFsR7c8RgapRonXJ1ALmm8CIcA","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:20 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for UserRoleFromFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:27:20 pm</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. UserRoleFromFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as allowed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+33@carear.com<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>UserRoleFromFromAnotherTenantUnderSameRegion<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0NDAsImlhdCI6MTY3Njk4Nzg0MCwianRpIjoiZDFiNTI2NTAtNjljZS00NmE4LThhY2UtMzM3ODljZmVlMTZmIiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.Yp2fkSYvEtE8CCGaPq-W7P9LPjKjUqXSPTN5vx4WCtDnM_xy3yR8Tfj9XOOLi3nE1BUZZgOq1Pw85nh8YjPAu0ShjCupotG8CcrWjKiTMUjSP7JzIxvF2nAMFUHHQQLu198bAkhOGYH3f6bsmtVawbCJH3FcB4yDecWLWamijZ8jc_73duDm3MecnpKSf1FSOO7d3KBk5yB8ifirRMRm-J8O9babDLcyhZk0PJA08_C8zvmGa8LaaH3YGYdQcPvsSbLHeyzZ7XJe6CPZiN42GNAEYoNzwa_Sg58yU_ousoJIigM6qTAiTSuEEt4mxMNwbK5EjnNFkLM0kpS6O-byGA","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:22 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for CreatorRoleUserFromDifferentTenant<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:27:22 pm</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. CreatorRoleUserFromDifferentTenant is NOT allowed as per confluence and in actual response it is showing as allowed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+34@carear.com<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>CreatorRoleUserFromDifferentTenant<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0NDIsImlhdCI6MTY3Njk4Nzg0MiwianRpIjoiMmVjZDczYzktYzMzZi00MGU3LWI4NWMtMzY1YmZlZmVhZTgzIiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.j76GYWQqGvSDf5gdFFSYodP30XM-BFoUD3LP2URiYhgnXlNSSzrIuYPZOgdYkIGOa3ttiPwaJaELDHlj9VMzQgKThkVaSyNiSPr8H-yTWEGNe8k9VaOD21D1RIMFfuFYDBMF8BzTkIQkf2rhEMR-xl_jTnwyEEn9yjfd0cB64Plt53H6jULPL8zverfG3pa0hTB1qmXQS_aVTLsfdpW4NQSMUKXFafUoPxXi8YBLYjYCbznbPSEsKopzOSvWzuqofpOmWYz6iZ7tQdzgjYFx8g7deUBp1FzqvfhPi3mWeAbWfpdJu_2--LDdOEIIHHRBuHfz79MafV9DwcE-KZ0C-g","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:25 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionAPISuperAdmin<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:27:25 pm</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. DifferentRegionAPISuperAdmin is NOT allowed as per confluence and in actual response it is showing as allowed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> hyperspaceeu01.apiauto@gmail.com<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionAPISuperAdmin<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0NDUsImlhdCI6MTY3Njk4Nzg0NSwianRpIjoiNDMzYTM1MDctN2M0Mi00NGZiLWE3ZWQtNTk4MWNkZTFmNmMxIiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.m7d4YRX7gOsyTakEasL35qBwVVLp3SxCPhMsjDiYF5ZJtcIhIMiTMfmNeY7_aW2607KXT1RlnVVotjeMmaVPCe4hRrBhwCTrlcYJcTlf7PgnPvqM0QaBwOcy9qH-RsVkQX2RSytEDucfNEfWUUENG0Mv56O-kRtvkcd-Mhs9KuBIKQCYNE4WbhfpLtr-e7dCq6ONQG_XzdJ_a5PGFE0UDXityXcR_ThbDamuLGtBzE3HLKnSEZDhdchrU6CX6wbTlZkkk7xp8rqBir_U74qXhZDvPSHmsoYESE7g-8ZSuXMMV-1513rp21lGPNluBxQm2SDvoXkq9Eq6IOi7e6jjmQ","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:27 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSuperAdmin<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:27:27 pm</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. DifferentRegionSuperAdmin is NOT allowed as per confluence and in actual response it is showing as allowed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> hyperspaceeu02.apiauto@gmail.com<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSuperAdmin<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0NDcsImlhdCI6MTY3Njk4Nzg0NywianRpIjoiMTM1Mjg5MGQtMDVjMi00NjdiLWI1MzEtOWEwNmMzNjQ2ZDUxIiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.HxYdlqfe4WBPIfItqlHkK6Zf3ppDBPLcB66h8LDOk_8wMfEBmZ1G-nlPfknhXXaYaT5B6ntuQkd8ynxuFC8vcaZp2OhJ-1FPZH-a4EkxLhrbz-7jaHXff0E-WRoeTaXL-TPE3S7z9uWH1J4tXPmgXEpaBRtuwztZ9CKNhpO6YxVuj-xpK2gO1RO1OeqElsn20mhkjhodWXXXaM4Gfp6sUfIEXlhTYJFskqravsbBn0wOLCkXLOdtLBdl6j1mD59nuDT3FbNpmwijSjt4tcTWpr7WY6N7mUXoV7OpIZD7v6buqoI7nxxbKDWmTTeyQxDL2LJSgfj9wFhZb5UORAmksQ","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:29 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSystemAnalyst<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:27:29 pm</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. DifferentRegionSystemAnalyst is NOT allowed as per confluence and in actual response it is showing as allowed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+35@carear.com<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSystemAnalyst<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0NDksImlhdCI6MTY3Njk4Nzg0OSwianRpIjoiNzNkMGI5M2ItMjliZi00NmUyLTk2N2MtZDc5ODQ0ZTBjZmEyIiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.doodBvr-tOGA9ydZjscL6A37OfzT1dQ902wzhbZKphymb44g6YAKiFsrccgGGeiWFtjvr6ShpEXcMVkwTAY_-zVQvkqhSgqrGYZTbxo-mhDCvDoFyMMo8o8lCfkfYu9nHkFxNvi464UV0k-qrz5rN7MxQXM-VAOkq93jVd5K2sz6k0Isa9HzTrAbsiVKBksiw9WHOPjMnFvT7s5mFjgVuJ0KCp45cnoPvI_xPfWPK5jSUfnqXnmQ2CRI1_mVf26yYSccYolcCL7iLBtIEFW_b8E6wY_OVc3za0bsyQggseY50m4l87aIA6Gu7CHZeyVq1v6fMHLePUsSUG_EraNUJg","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:32 pm</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DiffRegionPartnerCreator<br><b>2.</b> The allowed roles are: super_admin ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>7:27:32 pm</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. DiffRegionPartnerCreator is NOT allowed as per confluence and in actual response it is showing as allowed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://hyperspace.apiv2.carear.app//aiServices/auth/:authType/experience/:experienceId/tenant/:tenantId<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+36@carear.com<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>DiffRegionPartnerCreator<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>GET<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>200<br> <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"baseUrl":"https://app.ai.carear.app/api","accessToken":"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSSHZKMGZNbmw5ZUo2OF9Vbk8wVmlfc2FwYk54R0pQQWwzVUZiZnltcC1ZIn0.eyJleHAiOjE2NzY5ODg0NTIsImlhdCI6MTY3Njk4Nzg1MiwianRpIjoiOWI1ZjE2MDctNzYyOC00ZTZhLTk3ZDgtZmI3ZDkyNmJlNjc4IiwiaXNzIjoiaHR0cHM6Ly9haS5jYXJlYXIuYXBwL2F1dGgvcmVhbG1zL2FsdG8iLCJhdWQiOlsiYWNjb3VudCIsImludGVsbGlnZW50LXNlYXJjaCJdLCJzdWIiOiJiNzM3YzM3Ni1jMzFiLTRmZjYtYWNlNi0yY2VlZjllZDU0YmMiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJkMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVsbGlnZW50LXNlYXJjaCI6eyJyb2xlcyI6WyJJTlRFTExJR0VOVF9TRUFSQ0hfUkVBRF9PTkxZX1JPTEUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwgcmVhZF9vbmx5IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJjbGllbnRJZCI6ImQxOTk2NDk2LTI3NzMtNGQzNS05NmY2LWRhMzVkNmJjMTI3OCIsImNsaWVudEhvc3QiOiI1Mi4yMDAuMzIuMjI4Iiwib3JnYW5pemF0aW9uIjoiOWQxYTYzNWEtYWQ5Ny00YWM2LWFlOTktMzBjZTAwZDY0ZmI1IiwicHJvamVjdCI6IjE0ZjdhZGRmLTNkODItNDdjNS05NDc2LTdhM2Q1ODllZmJkZiIsInByZWZlcnJlZF91c2VybmFtZSI6InNlcnZpY2UtYWNjb3VudC1kMTk5NjQ5Ni0yNzczLTRkMzUtOTZmNi1kYTM1ZDZiYzEyNzgiLCJjbGllbnRBZGRyZXNzIjoiNTIuMjAwLjMyLjIyOCJ9.EciRdpFbsqKDGe_bIb58BrS-WkE-vFbiLL8DRD2v9Ovp7XqcDrO5AXvnNJt2Qn4A2c-7SLG2TDpEK3QLCNDQOlr5ex4cafbjVOwaA8j3_wJuOEB9R3BBh2TX_OqlCerI664vMiE--c0ob5Ng1dc24wVrpjrW57Nf-qZmI8xansHDc6PMja_MflqYClZdqdz-p7PbGmnQgsL_KPjxbedxexmrJ0nAWVErNS5SOgqYVsC7iZt50NmsveBVcFW0Mja2WP9MdMos6qof8CHqGx0RSOl2XX36dBY3ex1-pbHrmcIHf9UDgqq1VRFbY_R4D3wDDaCVoOsa9eAsJZ3l0L67yg","expiresIn":600}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:27:32 pm</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 21, 2023 07:26:38 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 21, 2023 07:27:32 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='12%'><b>5</b> events passed</small></div>
+<div>
+<small data-tooltip='33%'><b>13</b> events failed,
+<b data-tooltip='%'>21</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"aiServicesAuthTenantAiEnabledExpIdIntelliSearchUsed":50.919
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 5,
+failEvents: 13,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 21
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

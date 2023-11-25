@@ -1,0 +1,714 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 2, 2022 07:55:19 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">authLogin</p>
+            <p class="text-sm">
+              <span>7:55:23 PM</span> / <span>00:00:16:781</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">authLogin</h5>
+<span class='badge badge-success'>12.02.2022 7:55:23 PM</span>
+<span class='badge badge-danger'>12.02.2022 7:55:40 PM</span>
+<span class='badge badge-default'>00:00:16:781</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:23 PM</td>
+        <td>
+          *******************Starting of authLogin test*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:23 PM</td>
+        <td>
+          ******************* Testing API URI 'https://canada.dev.apiv2.carear.app/auth/login'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:26 PM</td>
+        <td>
+          *******************Testing for api_super_admin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:26 PM</td>
+        <td>
+          *******************The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:30 PM</td>
+        <td>
+          This role i.e. api_super_admin is allowed as per confluence and in actual response it is showing as allowed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:30 PM</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:30 PM</td>
+        <td>
+          Response is: {"message":"Successfully Logged in","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk1MWMwOGM1MTZhZTM1MmI4OWU0ZDJlMGUxNDA5NmY3MzQ5NDJhODciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQ2FyZUFSIEFQSSBTdXBlckFkbWluIiwidGVuYW50SWQiOiJDYXJlQVIiLCJyb2xlIjoiYXBpX3N1cGVyX2FkbWluIiwicmVnaW9uIjoidXMtY2VudHJhbCIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jYXJlYXItY2FuYWRhLWRldiIsImF1ZCI6ImNhcmVhci1jYW5hZGEtZGV2IiwiYXV0aF90aW1lIjoxNjY5OTkxMTI5LCJ1c2VyX2lkIjoiWWtzZG04SjVWVmRoZURuTVdHcFkzY0pjQmd1MiIsInN1YiI6Illrc2RtOEo1VlZkaGVEbk1XR3BZM2NKY0JndTIiLCJpYXQiOjE2Njk5OTExMjksImV4cCI6MTY2OTk5NDcyOSwiZW1haWwiOiJkZXZjYTAxLmFwaWF1dG9AZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbImRldmNhMDEuYXBpYXV0b0BnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.mBL6cxk4C0BzlPTtWPbQu-fE-EBhkdbxq0zqn28rGnHYOyA-takd_x73x8b7_LwzLqw7A9_YqhA5-_JWlXKKKAnXA7iaqN4kTkfHtPImELwjoPBFw_-l86Jd4NDpjo0HXHnGbx2OhOR_iXoMdABF75glTMoqgRD6icLH4rc7J0es50zJABs7iTg4zvs9xPZU5PFz_tMZDhaiW-C_96NbDllG69hZIiW_6vsVAnb8Zm1LoZwVZfo7i55SIRlniWhxQWAjhOXLane52VyWrrJ5MMtNTFsvC9_nsPEzOg6VzxGd65XWxmr-8kWSd4Mk2904PDMIBtW4i_d3qzv2KniPpw","refreshToken":"AOkPPWT6lztZSXQewO7DRbgWPHZUtw4kAry2qh650SZs-in9cFKAjjyKXhIVslNGM3lKRg7v54k_HdZoaOn94x1Xt5YH-kKyQk4rmuzxtnWYc8AmaNjzn7FsK2fN6zQwBHukhtmtCG4P9vxThAODCcWZPrDAe5KK4LDjfwZ8f-l9g6GNerK31-SpFrwZ0nbwtZzGF3pnkX7nnMgV7ruk-cHa7-pbdX9CK2FHs3deByi4qgX9chUEA3vyg2zcnAU95CxLwA6Kr77b"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:30 PM</td>
+        <td>
+          *******************Testing for super_admin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:30 PM</td>
+        <td>
+          *******************The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:30 PM</td>
+        <td>
+          This role i.e. super_admin is allowed as per confluence and in actual response it is showing as allowed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:30 PM</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:30 PM</td>
+        <td>
+          Response is: {"message":"Successfully Logged in","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk1MWMwOGM1MTZhZTM1MmI4OWU0ZDJlMGUxNDA5NmY3MzQ5NDJhODciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiQ2FyZUFSIFN1cGVyQWRtaW4iLCJ0ZW5hbnRJZCI6IkNhcmVBUiIsInJvbGUiOiJzdXBlcl9hZG1pbiIsInJlZ2lvbiI6InVzLWNlbnRyYWwiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2FyZWFyLWNhbmFkYS1kZXYiLCJhdWQiOiJjYXJlYXItY2FuYWRhLWRldiIsImF1dGhfdGltZSI6MTY2OTk5MTEzMCwidXNlcl9pZCI6IlBxUnRlVXdPSGZoVGtEWlFqQ1JaQXBwTUk4eTIiLCJzdWIiOiJQcVJ0ZVV3T0hmaFRrRFpRakNSWkFwcE1JOHkyIiwiaWF0IjoxNjY5OTkxMTMwLCJleHAiOjE2Njk5OTQ3MzAsImVtYWlsIjoiZGV2Y2EwMi5hcGlhdXRvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJkZXZjYTAyLmFwaWF1dG9AZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.CNZR1rTjV5BrvPGON6EM_A6pMfn4PbERioUK2xJS_-paJ-53Ig5ZeyQLnRTWnIluyCVObHIY4Lf-6HIxMN9QbqoBqLETo_yJTWobLL4SfszEpzpc8cN6CKqAzSyhYM56xDhwfmXXOZVh1QfraqyMZh0qhohpLmgU7BMKn_0xjpfi8Gd4HsjBS9OTWN53DX9PrWEBUH0Scv9Nrop7spvJ3NVRaylinQd_NyDYjZLwEDup_K8lAqzvuVDE7aR37RjAQ_IuYyJkq8YjT-o9y9eN6BLQTKOHKW9n3fdjNcrQI9hyCCVpF-XbP5Q-V7dGRJlVqnbzJJymn_hn2cTNW-h_KQ","refreshToken":"AOkPPWTDFDFthtJnpBFYShXjmxHor7vk6IGdIzlAlHBNyaVhdf01RIS1kAIeCCvhdvaXhrgNniRJmkkrBuTO2LgWTLm0RRcVS60DPeCoGGF1vN5PMmZuXyuBJsVlxllkJk_3OcC_l4nCZ1J5Wy_epPRbzytDXnbLKQqwFlVrtpEvPJio6WJHTA6nWqhPAaIWBC-mSWalYC22-eVF03YHpU_qO8EojCvuiyJbe6_DPLU44kzLc2XXRT7k2k2-4RIG9wOIDLjjhesy"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:30 PM</td>
+        <td>
+          *******************Testing for SystemAnalyst role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:30 PM</td>
+        <td>
+          *******************The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:31 PM</td>
+        <td>
+          This role i.e. SystemAnalyst is allowed as per confluence and in actual response it is showing as allowed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:31 PM</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:31 PM</td>
+        <td>
+          Response is: {"message":"Successfully Logged in","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk1MWMwOGM1MTZhZTM1MmI4OWU0ZDJlMGUxNDA5NmY3MzQ5NDJhODciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFN5c3RlbWFuYWx5c3QiLCJ0ZW5hbnRJZCI6IkNhcmVBUiIsInJvbGUiOiJzeXN0ZW1fYW5hbHlzdCIsInJlZ2lvbiI6InVzLWNlbnRyYWwiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2FyZWFyLWNhbmFkYS1kZXYiLCJhdWQiOiJjYXJlYXItY2FuYWRhLWRldiIsImF1dGhfdGltZSI6MTY2OTk5MTEzMSwidXNlcl9pZCI6ImFuaG50Vk9ITGhWbkhnQWR4RzRLMlVBTkJkNzIiLCJzdWIiOiJhbmhudFZPSExoVm5IZ0FkeEc0SzJVQU5CZDcyIiwiaWF0IjoxNjY5OTkxMTMxLCJleHAiOjE2Njk5OTQ3MzEsImVtYWlsIjoibW9oYW1tZWRuaXpoYXIucCsxMkBjYXJlYXIuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbIm1vaGFtbWVkbml6aGFyLnArMTJAY2FyZWFyLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.vVIaaWYXQ9baerlIx7FLLZY0B0Wj0sc2afjRTZP3ifDdSjX6_V6jch5ALjwMRJRIVjjNdIIcWWtJDOwEm9ZdoVvOg4ou22Aeesfx2yFG4Y1MC7YFMoN8pxkjxyJv0hbNfSwVbZsRAKtl6jyPFYZuw4jwLH73SET9D_GfQnnHGjgZqhnCky67TV1oq7rF02alvJm8rBwPglCVz80eFe9CVjYmarwOlKRsPh7Lh5moVlUz2b-QjmABS4ffWcFdApCNKMPZWsc82yyXY4mw-avmgw1q9he3jNWoXyowO-8wAbpZYdhh9tAK8EgKXFuSWiNgLe3UX9Y8ri5MMJdG9VC0NQ","refreshToken":"AOkPPWSWEFKuz8Nbn3a-idsx1wKI0J481gsTJ0ht1A4YgE5QQ1_X5fg0eaUfsKdSrr6J9NN01Nvhf1Ox7e17NIt2AziQ36sPwrXqIOJz0VaT2I92qytXnSnB3x2j4G2mlWXAxwX4IN3QnJKzNC5aZf-JNU8KFTJBXYlGAPOJi3t_isip6FvpA9Q4bRqqWiY1C2p0r_wATJTk4D6QoX678zu1bgW2YPwTunzz15EzBOo3EChnvkYrqDRDfI51r-QM13859uXGOieX"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:31 PM</td>
+        <td>
+          *******************Testing for PartnerCreator role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:31 PM</td>
+        <td>
+          *******************The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:32 PM</td>
+        <td>
+          This role i.e. PartnerCreator is allowed as per confluence and in actual response it is showing as allowed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:32 PM</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:32 PM</td>
+        <td>
+          Response is: {"message":"Successfully Logged in","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk1MWMwOGM1MTZhZTM1MmI4OWU0ZDJlMGUxNDA5NmY3MzQ5NDJhODciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFBhcnRuZXJjcmVhdGVyIiwidGVuYW50SWQiOiJDYXJlQVIiLCJyb2xlIjoicGFydG5lcl9jcmVhdG9yIiwicmVnaW9uIjoidXMtY2VudHJhbCIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9jYXJlYXItY2FuYWRhLWRldiIsImF1ZCI6ImNhcmVhci1jYW5hZGEtZGV2IiwiYXV0aF90aW1lIjoxNjY5OTkxMTMyLCJ1c2VyX2lkIjoiNzREUGxqUG1kNlJEWG1YWFZjVU9OeWRTalQyMiIsInN1YiI6Ijc0RFBsalBtZDZSRFhtWFhWY1VPTnlkU2pUMjIiLCJpYXQiOjE2Njk5OTExMzIsImV4cCI6MTY2OTk5NDczMiwiZW1haWwiOiJtb2hhbW1lZG5pemhhci5wKzEzQGNhcmVhci5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsibW9oYW1tZWRuaXpoYXIucCsxM0BjYXJlYXIuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.PMBiLh8Wd6nT51uLJRczArVuGkTCbr5GQ4YPK6rix-a8QwRo8iEtEkefQ1AxG_PwTdnPseY7dxjUcoSD7eTDVWli_s0plzhJNGomQYQ9rfigAM47UBSXd08chkM2Oy8qNBYS2xqWVSw2vtofhAGLSdVnlY3bVqPlPVxZ24h6cB8zXyw8-7kADWYSe0By5KLBSumYD3wqIw3pMfmVtSKMxEDc7Lv5jx-ZMWP-m26BH0kK7Z9-NKnm0ljNkpoe3Q68HBHlEshaHrz_vylaYGhwF-3GNzWHSSpryDO0O7ksGkYDzXRH0zi0NNa61BkOUnb3yLC1IIxb_X9BRuY2dOzihg","refreshToken":"AOkPPWTPxJT8YFQkW1H1K1Fw02s98WNQnLSvbJFmEzfK_zf2-w-oE0uZ21rflz0IwLtyp_e1BNgHFZSOH28-2t45Ir7cdfaHYnWRJOdgXpA8KqticvlXBaCutCJ0KYdbubFmEfgbHGVpWEPxNAWaL8C1PVLLFUc_5H_DcFRxldj1Ofg1CiyQsfhQqVl1hU1xbNmDzvRYA2aNHZnkMGBcLQvnPrZim_HRTZ_KVaJSj0-KJvrvXQ6IpfU4VVuNnyA97QZtjpVKYKd3"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:32 PM</td>
+        <td>
+          *******************Testing for PrimaryTenantAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:32 PM</td>
+        <td>
+          *******************The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:33 PM</td>
+        <td>
+          This role i.e. PrimaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:33 PM</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:33 PM</td>
+        <td>
+          Response is: {"message":"Successfully Logged in","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk1MWMwOGM1MTZhZTM1MmI4OWU0ZDJlMGUxNDA5NmY3MzQ5NDJhODciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFByaW1hcnl0ZW5hbnQiLCJ0ZW5hbnRJZCI6IllzSFpkMnZ3STAwYjlpemtZRFVlIiwicm9sZSI6InRlbmFudF9hZG1pbiIsInJlZ2lvbiI6InVzLWNlbnRyYWwiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2FyZWFyLWNhbmFkYS1kZXYiLCJhdWQiOiJjYXJlYXItY2FuYWRhLWRldiIsImF1dGhfdGltZSI6MTY2OTk5MTEzMywidXNlcl9pZCI6IjFObWhTSDFiQ2lja3JNM2JrRnJjdHhQMFFmTzIiLCJzdWIiOiIxTm1oU0gxYkNpY2tyTTNia0ZyY3R4UDBRZk8yIiwiaWF0IjoxNjY5OTkxMTMzLCJleHAiOjE2Njk5OTQ3MzMsImVtYWlsIjoibW9oYW1tZWRuaXpoYXIucCsxNEBjYXJlYXIuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbIm1vaGFtbWVkbml6aGFyLnArMTRAY2FyZWFyLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.b2DVS1iGYkbCpNvcwdoCGb8RmLdNnYgcBzffFwZGsMDJDoJlV4ktwvMAwRVNryLqFW39_Vl_0hksiBvs8RaWcnu_kU2vCHtgtRCS-qVjYKW_SAlIFcpHv1huWf6wteebdPyQ_mybLe92MZdpNylZ6M_Uinu4dhKMmI5bVvvFsEsu3NmpemdUZ1iRlQlMDDpLHPq60n1vOFplFJdXi55ORE8pillFcrvxPhSQNHBooZX-yWag9j5JI99uGINIkjkgC-1s-ODCaFDTMBAcrqwFvYVXj4zFpxsdiFAe0ayUAlJ6aerFwyr2HKPhRxP35tFukFOyiUAdMJaeSTQ8bRvcoA","refreshToken":"AOkPPWQm4sD85lrm6908u8KLJghkB3C5k3xASkCMFrOFkLfDpNA7CpFKxv39zxdpHLnNWl1AjNZHTyYTvCjuD_TcsiDYAFypZURg0HNOCPloTm5dqX3TnGJIBf9vj80c25Cejv6jeA9gyjsQkB_POxPiYi_7GSrUlkg0jUCO-EQsO7AdQEdAVchwb1ARAnG4GQONWtMf4A8-o-l3H15avUaf8YVE2fR9LlW6ZJ8Czfg1wstJdUCIsmhmPE68k6oshPokM3G7ty1g"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:33 PM</td>
+        <td>
+          *******************Testing for SecondaryTenantAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:33 PM</td>
+        <td>
+          *******************The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:33 PM</td>
+        <td>
+          This role i.e. SecondaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:33 PM</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:33 PM</td>
+        <td>
+          Response is: {"message":"Successfully Logged in","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk1MWMwOGM1MTZhZTM1MmI4OWU0ZDJlMGUxNDA5NmY3MzQ5NDJhODciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFNlY29uZGFyeSB0ZW5hbnQgYWRtaW4iLCJ0ZW5hbnRJZCI6IllzSFpkMnZ3STAwYjlpemtZRFVlIiwicm9sZSI6InRlbmFudF9hZG1pbiIsInJlZ2lvbiI6InVzLWNlbnRyYWwiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2FyZWFyLWNhbmFkYS1kZXYiLCJhdWQiOiJjYXJlYXItY2FuYWRhLWRldiIsImF1dGhfdGltZSI6MTY2OTk5MTEzMywidXNlcl9pZCI6Im9oWnNLbEFvSWJnMzNYM3lJbVdnNmtUdGNxMDIiLCJzdWIiOiJvaFpzS2xBb0liZzMzWDN5SW1XZzZrVHRjcTAyIiwiaWF0IjoxNjY5OTkxMTMzLCJleHAiOjE2Njk5OTQ3MzMsImVtYWlsIjoibW9oYW1tZWRuaXpoYXIucCsxNUBjYXJlYXIuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbIm1vaGFtbWVkbml6aGFyLnArMTVAY2FyZWFyLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.wMAOWdom6rKGn2TBjxcsIpU4OAF_J181yG8xoauo8E1iWhFMFwou5eAgjyQNdTRG6RtTisIa7SUnQGSQwRW4kCI-Rvbkv-WNIMB-w_zcN4fQxdOr4ag34kAeVvul4ZWC2zHLKRrgrV9ev0GhRwjoHSL8HDRxtvCm8FhJkpfRdPgS9RMSgVzK7zwLiH_EKNicgwSFkNYjB4IaE1TVu0tcmLBTHPWemoNPiBMZ1F3P8PVbnBslmPLeOIMaVF-ZzXympCLcmWauCva09Pi8eLOshajBpyjRq-SfULN4fPxSZd6lzpU7SK0RYvw7blTuuDRqi-ZvwnjzsuDrLeACYPKJjw","refreshToken":"AOkPPWTsppNEm2e-9bu42BfTLYqX-0aLHEIsDgitPyOIaJmoHeWz7jzwrt8LcCcywpv0oON2gqVYFSb8lMR86xt8G3ClL-cybM3sUutAL7JSw5ZO03cIIS5V9IJcleIO1sAX99_KPcuobXDyCEUv3PDFhE5ML1Q7eQCKb4a1AlP-THeGWkBDadiz2FTBAZHANUMyo0I1VH-T9Z6MVJEIvRK8bGd2J5bXgiqgNwirGD7xeIb4dVNFUP3w_pP2Q4POcTZzWyhdUp7ECecLmLLB7D6jqp4CHTEjAQ"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:33 PM</td>
+        <td>
+          *******************Testing for Analyst role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:33 PM</td>
+        <td>
+          *******************The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:34 PM</td>
+        <td>
+          This role i.e. Analyst is allowed as per confluence and in actual response it is showing as allowed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:34 PM</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:34 PM</td>
+        <td>
+          Response is: {"message":"Successfully Logged in","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk1MWMwOGM1MTZhZTM1MmI4OWU0ZDJlMGUxNDA5NmY3MzQ5NDJhODciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IEFuYWx5c3QiLCJ0ZW5hbnRJZCI6IllzSFpkMnZ3STAwYjlpemtZRFVlIiwicm9sZSI6ImFuYWx5c3QiLCJyZWdpb24iOiJ1cy1jZW50cmFsIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NhcmVhci1jYW5hZGEtZGV2IiwiYXVkIjoiY2FyZWFyLWNhbmFkYS1kZXYiLCJhdXRoX3RpbWUiOjE2Njk5OTExMzQsInVzZXJfaWQiOiJzN1UyeUxYbjdDWGJCbkhzN2tpU2JyZUIwenExIiwic3ViIjoiczdVMnlMWG43Q1hiQm5IczdraVNicmVCMHpxMSIsImlhdCI6MTY2OTk5MTEzNCwiZXhwIjoxNjY5OTk0NzM0LCJlbWFpbCI6Im1vaGFtbWVkbml6aGFyLnArMTZAY2FyZWFyLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJtb2hhbW1lZG5pemhhci5wKzE2QGNhcmVhci5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.AkvWPY0ESBUXGvMhqJnCxgTuhVEgB2GIt36bFdpQ2tERbsbZKPz3hC6qD2l9bo83v3NYFfkMsrhemp6Z0Hr2vVZRSyKJg2HnP0QaUjNNjQXHZPbesih2nAQof31N7-oqbUPgOUBoG_EP7GAGJFYBupwpf3lbkTIfJ0ByvBeADRjX7PvMTZ-5omC0KT5gmOYyh3j4wzP7TjrSmsLsTLHT7DYKFrEEK2ZtjlttQ9py_xusalTJIgqhdKftlwcNe1FJYtYw3XwvBJ-wnoF7sDljC0KJmQ4M1v4yjdd-uQ1BgRMqwDzyGjAjnGHdYGP5iucc9Mt2paS8PyyQgOkkq6GfQw","refreshToken":"AOkPPWRsZSs1Hgpk1RjZg32V2LMubX1eJV0H_EFmqXQIzZg1344UGWoMxRcuiiFYFLpMCZO0ymD_cSDl1GD2zEOg_gD2KOy7L_hz_blSoQtKqtO4Mj6DyZ0c8r05SQ7Qlhko6KGe04hI3_d9ShonO4Yi8f2IQDnDclHNcKAsH30EttBiHGv511kufXA2AXE0oiQl3PTQTyz0koBywBtW8e9fbEvuCAS_FQBbmTjIiziWV_5MV7twEKF7MT3EseafPa0fMW-uPuV7"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:34 PM</td>
+        <td>
+          *******************Testing for User role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:34 PM</td>
+        <td>
+          *******************The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:36 PM</td>
+        <td>
+          This role i.e. User is allowed as per confluence and in actual response it is showing as allowed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:36 PM</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:36 PM</td>
+        <td>
+          Response is: {"message":"Successfully Logged in","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk1MWMwOGM1MTZhZTM1MmI4OWU0ZDJlMGUxNDA5NmY3MzQ5NDJhODciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IFVzZXIiLCJ0ZW5hbnRJZCI6IllzSFpkMnZ3STAwYjlpemtZRFVlIiwicm9sZSI6InVzZXIiLCJyZWdpb24iOiJ1cy1jZW50cmFsIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NhcmVhci1jYW5hZGEtZGV2IiwiYXVkIjoiY2FyZWFyLWNhbmFkYS1kZXYiLCJhdXRoX3RpbWUiOjE2Njk5OTExMzYsInVzZXJfaWQiOiJ4ajBsT2tDMGNtTktJMTZ0dzBqQ1VMbFk2RXExIiwic3ViIjoieGowbE9rQzBjbU5LSTE2dHcwakNVTGxZNkVxMSIsImlhdCI6MTY2OTk5MTEzNiwiZXhwIjoxNjY5OTk0NzM2LCJlbWFpbCI6Im1vaGFtbWVkbml6aGFyLnArMThAY2FyZWFyLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJtb2hhbW1lZG5pemhhci5wKzE4QGNhcmVhci5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.pSkMjrEiNjE2E3-6-sHaj0PNP-3VkS1Cv3oGQyGFIfMBZBVfbm-eMyW74M3z4HA8BfIZyqvK4l8jDw-ChQzvNJC_Uk8ksuHWyODmmxa8DLAnp0KIi8svPDdkv-rJvW74G1LtFBSPlqTXUzO-2O80jikLgR1vBsq6FvEqBp3j0OF9HY-oS1KY0QZnapFmXgFihShEZp36aMAMVYwLMl_hioj0wMruc6HjGesQaUMInEe1LSgH3Mif8bmS0iO5zdiQHb7-TStxynTnraKBBJilrHQ1STNnrq9C_wqCotlLa1BeXNYX9p8UKJitR3mcbyOxRddPGTtzshhjrT8kyqhV3A","refreshToken":"AOkPPWT_rZOvuTIha1qEoou9AI9UGdWFCERzhVvOF_ZE9GIY1UO0t2wRieILQ-92UxWipZu78jpltsdqwdu1nU9An0Sxl44WfflQGSlzuF6hY4rSbEoxYXwm59UgVGAqB-6s-5tUdFVxTyJNmNQi1CkafmYOGR-gUhxaWf8FcJWnjz26aHRCC5CcuZgmxzRyBxl-nnrkssxBrX5lKq5sS9hEauI7vUpYhCvOiaKlr4pDpvxIcEYZbMAXwfRL73y6uokE_YMGBrXd"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:36 PM</td>
+        <td>
+          *******************Testing for Creator role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:36 PM</td>
+        <td>
+          *******************The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:37 PM</td>
+        <td>
+          This role i.e. Creator is allowed as per confluence and in actual response it is showing as allowed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:37 PM</td>
+        <td>
+          Response status code is: 200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:37 PM</td>
+        <td>
+          Response is: {"message":"Successfully Logged in","token":{"idToken":"eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk1MWMwOGM1MTZhZTM1MmI4OWU0ZDJlMGUxNDA5NmY3MzQ5NDJhODciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiRGV2IENyZWF0b3IiLCJ0ZW5hbnRJZCI6IllzSFpkMnZ3STAwYjlpemtZRFVlIiwicm9sZSI6ImNyZWF0b3IiLCJyZWdpb24iOiJ1cy1jZW50cmFsIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NhcmVhci1jYW5hZGEtZGV2IiwiYXVkIjoiY2FyZWFyLWNhbmFkYS1kZXYiLCJhdXRoX3RpbWUiOjE2Njk5OTExMzcsInVzZXJfaWQiOiJBR0xDVE5HZ0FjWE1ob08wZ3BEcXdqU1VVenQyIiwic3ViIjoiQUdMQ1ROR2dBY1hNaG9PMGdwRHF3alNVVXp0MiIsImlhdCI6MTY2OTk5MTEzNywiZXhwIjoxNjY5OTk0NzM3LCJlbWFpbCI6Im1vaGFtbWVkbml6aGFyLnArMTdAY2FyZWFyLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJtb2hhbW1lZG5pemhhci5wKzE3QGNhcmVhci5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.o_L4wkWI6_F6vRXqF0BJUIthAXx3897QoCjLKhY84Ihm67QiHOA0pztN2eMDHgcJIRJf2dQ3HxwNaULdI4xjkLHFrBBzc4dP-GaNYsx8jL8t3LtG2pWl1sNaWgGJRR-LYSVW4uOxYW2wzLmjkFB-H32GV2CIA_HOTgK5YwcSKANJCoR3meWxN5zxyH0ABERwafHu8GSUvIIE3k9TwkGoBsnoUzvNLfntz_KV6v9IrYG0dPJbQPgm5lJ2PegRqf5nAllLjU45HQrNiM24OnWC3CnHQMUkYBN396_Rin_GO1hrPbwatpQAFktWaKlJGDIDGA8wXFtqCahr8Fn8u6o-nA","refreshToken":"AOkPPWT-J6v5sdTs7GdpDQ9TarcKbQX6H_jHjEmKsA8b84WmcNZuc6E0q5x375029sOXRXZX-t3u274EAFphunf95nZLopCbbfWBkUHGF8Oi_TI2ZnRi6mdL3bhaMCvNzg-R2Hl7DEC9AqFYIAFTx6UEG_F8Sv-qgBuJUy0aJIwqtbuNuiDNTb2IpAJK80fcXMYWZ_t-trD10BGF-e4pHttL6VjDZBgQnWSw1q8eCmSAnmvku4JIs3Wpv7-SeyLf6PmEi8jAZvCC"},"expiresIn":"3600"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:37 PM</td>
+        <td>
+          *******************Testing for DifferentRegionAPISuperAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:37 PM</td>
+        <td>
+          *******************The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:38 PM</td>
+        <td>
+          This role i.e. DifferentRegionAPISuperAdmin is not allowed as per confluence and in actual response it is showing as not allowed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:38 PM</td>
+        <td>
+          Response status code is: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:38 PM</td>
+        <td>
+          Response is: {"message":"Failed to Log in","error":"Invalid Email or Password"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:38 PM</td>
+        <td>
+          *******************Testing for DifferentRegionSuperAdmin role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:38 PM</td>
+        <td>
+          *******************The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:38 PM</td>
+        <td>
+          This role i.e. DifferentRegionSuperAdmin is not allowed as per confluence and in actual response it is showing as not allowed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:38 PM</td>
+        <td>
+          Response status code is: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:38 PM</td>
+        <td>
+          Response is: {"message":"Failed to Log in","error":"Invalid Email or Password"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:38 PM</td>
+        <td>
+          *******************Testing for DifferentRegionSystemAnalyst role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:38 PM</td>
+        <td>
+          *******************The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:39 PM</td>
+        <td>
+          This role i.e. DifferentRegionSystemAnalyst is not allowed as per confluence and in actual response it is showing as not allowed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:39 PM</td>
+        <td>
+          Response status code is: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:39 PM</td>
+        <td>
+          Response is: {"message":"Failed to Log in","error":"Invalid Email or Password"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:39 PM</td>
+        <td>
+          *******************Testing for DiffRegionPartnerCreator role *******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:39 PM</td>
+        <td>
+          *******************The allowed roles are: api_super_admin ; super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; User ; Creator. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.***********
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:40 PM</td>
+        <td>
+          This role i.e. DiffRegionPartnerCreator is not allowed as per confluence and in actual response it is showing as not allowed.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:40 PM</td>
+        <td>
+          Response status code is: 401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:55:40 PM</td>
+        <td>
+          Response is: {"message":"Failed to Log in","error":"Invalid Email or Password"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:55:40 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 2, 2022 07:55:19 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 2, 2022 07:56:00 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='57%'><b>39</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>29</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"authLogin":16.781
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 39,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 29
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

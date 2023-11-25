@@ -1,0 +1,2 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Pass","Confluence - Allowed","ActualResult - NotAllowed","tenantAdminAddGroupAPI",,"deveu02.apiauto@gmail.com","super_admin",,"{""tenantId"":""02YQ6pnBCc9c9sxJOlYN"",""java.class.version"":""61.0"",""group"":""O""}","400","{""message"":""Bad request"",""errors"":[{""msg"":""Group value should have minimum 2 and maximum 16 characters"",""value"":""O"",""param"":""group""}]}"

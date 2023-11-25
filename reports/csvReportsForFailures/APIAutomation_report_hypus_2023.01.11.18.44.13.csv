@@ -1,0 +1,149 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","hyperspace01.apiauto@gmail.com","api_super_admin","GET","NA","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","hyperspace02.apiauto@gmail.com","super_admin","GET","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /null/lookup/quantEntangPart</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","mohammednizhar.p+25@carear.com","SystemAnalyst","GET","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /null/lookup/quantEntangPart</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","mohammednizhar.p+26@carear.com","PartnerCreator","GET","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /null/lookup/quantEntangPart</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","Venkata.Jonnalagadda@carear.com","PrimaryTenantAdmin","GET","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /null/lookup/quantEntangPart</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","mohammednizhar.p+27@carear.com","SecondaryTenantAdmin","GET","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /null/lookup/quantEntangPart</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","mohammednizhar.p+28@carear.com","Analyst","GET","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /null/lookup/quantEntangPart</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","mohammednizhar.p+29@carear.com","User","GET","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /null/lookup/quantEntangPart</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","Venkata.Jonnalagadda+1@carear.com","Creator","GET","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /null/lookup/quantEntangPart</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","mohammednizhar.p+30@carear.com","AnotherPrimaryTenantAdmin","GET","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /null/lookup/quantEntangPart</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","mohammednizhar.p+31@carear.com","SecTenantAdminFromAnotherTenantUnderSameRegion","GET","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /null/lookup/quantEntangPart</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","mohammednizhar.p+32@carear.com","AnalystRoleFromFromAnotherTenantUnderSameRegion","GET","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /null/lookup/quantEntangPart</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","mohammednizhar.p+33@carear.com","UserRoleFromFromAnotherTenantUnderSameRegion","GET","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /null/lookup/quantEntangPart</pre>
+</body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","mohammednizhar.p+34@carear.com","CreatorRoleUserFromDifferentTenant","GET","NA","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /null/lookup/quantEntangPart</pre>
+</body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","hyperspaceeu01.apiauto@gmail.com","DifferentRegionAPISuperAdmin","GET","NA","401","{""error"":""Invalid Token"",""message"":""Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null.""}"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","hyperspaceeu02.apiauto@gmail.com","DifferentRegionSuperAdmin","GET","NA","401","{""error"":""Invalid Token"",""message"":""Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null.""}"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","mohammednizhar.p+35@carear.com","DifferentRegionSystemAnalyst","GET","NA","401","{""error"":""Invalid Token"",""message"":""Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null.""}"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","centralLookupQuantPart","https://hyperspace.apiv2.carear.app/lookup/quantEntangPart?email=<email>","mohammednizhar.p+36@carear.com","DiffRegionPartnerCreator","GET","NA","401","{""error"":""Invalid Token"",""message"":""Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null.""}"

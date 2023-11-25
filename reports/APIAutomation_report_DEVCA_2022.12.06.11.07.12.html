@@ -1,0 +1,1736 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 6, 2022 11:07:12 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminSaveNotificationsAPI</p>
+            <p class="text-sm">
+              <span>11:07:14 AM</span> / <span>00:00:39:767</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tenantAdminSaveNotificationsAPI</h5>
+<span class='badge badge-success'>12.06.2022 11:07:14 AM</span>
+<span class='badge badge-danger'>12.06.2022 11:07:54 AM</span>
+<span class='badge badge-default'>00:00:39:767</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:14 AM</td>
+        <td>
+          *******************Starting of tenantAdminSaveNotificationsAPI test*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:14 AM</td>
+        <td>
+          ******************* Testing API URI 'https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/saveNotificationSettings'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:21 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for api_super_admin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:21 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. api_super_admin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> devca01.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>api_super_admin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:22 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for super_admin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:22 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> devca02.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>super_admin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Notification setting update successful"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:23 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SystemAnalyst<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:23 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SystemAnalyst is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+12@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SystemAnalyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:29 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PartnerCreator<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:29 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PartnerCreator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+13@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PartnerCreator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:31 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PrimaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:31 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+14@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PrimaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Notification setting update successful"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:32 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecondaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:32 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+15@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SecondaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Notification setting update successful"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:35 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Analyst<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:35 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Analyst is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+16@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>Analyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:36 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for User<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:36 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. User is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+18@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>User <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:37 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Creator<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:37 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+17@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>Creator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:38 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for AnotherPrimaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:38 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. AnotherPrimaryTenantAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+19@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>AnotherPrimaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Notification setting update failed","error":"Forbidden","status":400}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:39 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecTenantAdminFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:39 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecTenantAdminFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+20@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SecTenantAdminFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>400 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Notification setting update failed","error":"Forbidden","status":400}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:42 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for AnalystRoleFromFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:42 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. AnalystRoleFromFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+21@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>AnalystRoleFromFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:44 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for UserRoleFromFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:44 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. UserRoleFromFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+23@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>UserRoleFromFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:46 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for CreatorRoleUserFromDifferentTenant<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:46 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. CreatorRoleUserFromDifferentTenant is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+22@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>CreatorRoleUserFromDifferentTenant <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:47 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionAPISuperAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:47 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionAPISuperAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> deveu01.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionAPISuperAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:48 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSuperAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:48 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionSuperAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> deveu02.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSuperAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:50 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSystemAnalyst<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:50 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionSystemAnalyst is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSystemAnalyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:54 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DiffRegionPartnerCreator<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:07:54 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DiffRegionPartnerCreator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/YsHZd2vwI00b9izkYDUe/saveNotificationSettings <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda+1@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DiffRegionPartnerCreator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>POST <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminSaveNotificationsAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"emailNotificationList":["mohammednizhar.p+14@carear.com"],"notificationSettings":{"instruct":{"sessions":{"reminderOne":500,"reminderThree":330,"reminderFour":0,"reminderTwo":340}},"assist":{"sessions":{"reminderOne":80,"reminderThree":0,"reminderFour":0,"reminderTwo":60},"minutes":{"reminderOne":550,"reminderThree":0,"reminderFour":0,"reminderTwo":400}}}} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:07:54 AM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminUpdatePermissionDataAPI</p>
+            <p class="text-sm">
+              <span>11:08:14 AM</span> / <span>00:00:30:043</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tenantAdminUpdatePermissionDataAPI</h5>
+<span class='badge badge-success'>12.06.2022 11:08:14 AM</span>
+<span class='badge badge-danger'>12.06.2022 11:08:44 AM</span>
+<span class='badge badge-default'>00:00:30:043</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:14 AM</td>
+        <td>
+          *******************Starting of tenantAdminUpdatePermissionDataAPI test*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:14 AM</td>
+        <td>
+          ******************* Testing API URI 'https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:15 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for api_super_admin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:15 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. api_super_admin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> devca01.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>api_super_admin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:16 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for super_admin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:16 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> devca02.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>super_admin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Permissions Updated Successfully","error":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:17 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SystemAnalyst<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:17 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SystemAnalyst is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+12@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SystemAnalyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:18 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PartnerCreator<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:18 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PartnerCreator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+13@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PartnerCreator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:19 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PrimaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:19 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+14@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PrimaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Permissions Updated Successfully","error":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:20 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecondaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:20 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+15@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SecondaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Permissions Updated Successfully","error":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:23 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Analyst<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:23 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Analyst is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+16@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>Analyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:25 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for User<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:25 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. User is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+18@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>User <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:26 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Creator<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:26 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+17@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>Creator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:27 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for AnotherPrimaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:27 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. AnotherPrimaryTenantAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+19@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>AnotherPrimaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:28 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecTenantAdminFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:28 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecTenantAdminFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+20@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SecTenantAdminFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:29 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for AnalystRoleFromFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:29 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. AnalystRoleFromFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+21@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>AnalystRoleFromFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:31 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for UserRoleFromFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:31 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. UserRoleFromFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+23@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>UserRoleFromFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:34 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for CreatorRoleUserFromDifferentTenant<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:34 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. CreatorRoleUserFromDifferentTenant is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+22@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>CreatorRoleUserFromDifferentTenant <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:36 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionAPISuperAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:36 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionAPISuperAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> deveu01.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionAPISuperAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:38 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSuperAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:38 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionSuperAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> deveu02.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSuperAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:40 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSystemAnalyst<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:40 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionSystemAnalyst is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSystemAnalyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:44 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DiffRegionPartnerCreator<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:08:44 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DiffRegionPartnerCreator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/updatePermission <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda+1@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DiffRegionPartnerCreator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>tenantAdminUpdatePermissionDataAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"recordingEnabled":"false","snapshotEnabled":"false","tenantId":"YsHZd2vwI00b9izkYDUe","customRole":"false"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:08:44 AM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">userUpdateUserAPI</p>
+            <p class="text-sm">
+              <span>11:09:04 AM</span> / <span>00:00:27:633</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">userUpdateUserAPI</h5>
+<span class='badge badge-success'>12.06.2022 11:09:04 AM</span>
+<span class='badge badge-danger'>12.06.2022 11:09:32 AM</span>
+<span class='badge badge-default'>00:00:27:633</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:04 AM</td>
+        <td>
+          *******************Starting of userUpdateUserAPI test*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:04 AM</td>
+        <td>
+          ******************* Testing API URI 'https://canada.dev.apiv2.carear.app/user/updateUser'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:05 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for api_super_admin<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:05 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. api_super_admin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> devca01.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>api_super_admin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:06 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for super_admin<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:06 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> devca02.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>super_admin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"No updates made"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:09 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SystemAnalyst<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:09 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SystemAnalyst is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+12@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SystemAnalyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"lastSignInTimePortal":"2022-12-06","email":"mohammednizhar.p+12@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"User was successfully updated","fields":["lastSignInTimePortal"]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:11 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PartnerCreator<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:11 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PartnerCreator is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+13@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PartnerCreator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"lastSignInTimePortal":"2022-12-06","email":"mohammednizhar.p+13@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"User was successfully updated","fields":["lastSignInTimePortal"]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:12 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PrimaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:12 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+14@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PrimaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"No updates made"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:14 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecondaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:14 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+15@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SecondaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"No updates made"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:17 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Analyst<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:17 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Analyst is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+16@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>Analyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+16@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"No updates made"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:18 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for User<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:18 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. User is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+18@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>User <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"No updates made"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:20 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Creator<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:09:20 AM</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. Creator is allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+17@carear.com <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>Creator <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User","status":"Forbidden"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:22 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for AnotherPrimaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:22 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. AnotherPrimaryTenantAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+19@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>AnotherPrimaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User","status":"Forbidden"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:24 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecTenantAdminFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:24 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecTenantAdminFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+20@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SecTenantAdminFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User","status":"Forbidden"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:25 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for AnalystRoleFromFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:25 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. AnalystRoleFromFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+21@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>AnalystRoleFromFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User","status":"Forbidden"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:26 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for UserRoleFromFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:26 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. UserRoleFromFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+23@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>UserRoleFromFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User","status":"Forbidden"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:27 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for CreatorRoleUserFromDifferentTenant<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:27 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. CreatorRoleUserFromDifferentTenant is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+22@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>CreatorRoleUserFromDifferentTenant <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User","status":"Forbidden"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:28 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionAPISuperAdmin<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:28 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionAPISuperAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> deveu01.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionAPISuperAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:28 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSuperAdmin<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:28 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionSuperAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> deveu02.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSuperAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:29 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSystemAnalyst<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:29 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionSystemAnalyst is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSystemAnalyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:32 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DiffRegionPartnerCreator<br><b>2.</b> The allowed roles are: super_admin ; SystemAnalyst ; PartnerCreator ; PrimaryTenantAdmin ; SecondaryTenantAdmin ; Analyst ; Creator ; User. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:32 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DiffRegionPartnerCreator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/updateUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda+1@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DiffRegionPartnerCreator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>PUT <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userUpdateUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>{"secondaryPhoneNumber":"+564856133","email":"mohammednizhar.p+18@carear.com"} <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:32 AM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">userRemoveUserAPI</p>
+            <p class="text-sm">
+              <span>11:09:52 AM</span> / <span>00:01:27:273</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">userRemoveUserAPI</h5>
+<span class='badge badge-success'>12.06.2022 11:09:52 AM</span>
+<span class='badge badge-danger'>12.06.2022 11:11:19 AM</span>
+<span class='badge badge-default'>00:01:27:273</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:52 AM</td>
+        <td>
+          *******************Starting of userRemoveUserAPI test*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:52 AM</td>
+        <td>
+          ******************* Testing API URI 'https://canada.dev.apiv2.carear.app/user/:userId/removeUser'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:09:59 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for api_super_admin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:09:59 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. api_super_admin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/UP6T5YMNXWYanGo5az8qVHhjv8H2/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> devca01.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>api_super_admin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:03 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for super_admin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:10:03 AM</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. super_admin is allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/8iCTYtMLNjOLxBqzwlXJvziEnIx2/removeUser <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> devca02.apiauto@gmail.com <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>super_admin <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:07 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SystemAnalyst<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:10:07 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SystemAnalyst is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/bZVSkdWCPfTQ5aABJNef9Suardu1/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+12@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SystemAnalyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:11 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PartnerCreator<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:10:11 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PartnerCreator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/H3ZMfF74BwT2kWy5xTdbiletMwu2/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+13@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PartnerCreator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:17 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PrimaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:10:17 AM</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. PrimaryTenantAdmin is allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/HZAaU6dtB9eiaoKFAyw2Ad52yjS2/removeUser <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+14@carear.com <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>PrimaryTenantAdmin <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:26 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecondaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>11:10:26 AM</td>
+        <td>
+          <b><FONT COLOR="#ff0000 " style="font-size:20px">1. Failure Statement is :</FONT></b>  This role i.e. SecondaryTenantAdmin is allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#ff0000 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/RovXctzg86RMp12xqjfMIXDedyE3/removeUser <b><FONT COLOR="#ff0000 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+15@carear.com <b><FONT COLOR="#ff0000 " style="font-size:20px">4. Role Tested is : </FONT></b>SecondaryTenantAdmin <b><FONT COLOR="#ff0000 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#ff0000 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#ff0000 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#ff0000 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#ff0000 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:33 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Analyst<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:10:33 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Analyst is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/iFjWnOT9KHSmEUgUeZb6E7e8fk23/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+16@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>Analyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:36 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for User<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:10:36 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. User is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/2Hca5gDmh0gJuQSJbe3fCh2B3tO2/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+18@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>User <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:41 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Creator<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:10:41 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/37KoIYlPY6QXuie1OXoZWiC8Rk03/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+17@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>Creator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:44 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for AnotherPrimaryTenantAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:10:44 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. AnotherPrimaryTenantAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/VuL4ztdJSJYpJKEVFa41JsPfI7J2/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+19@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>AnotherPrimaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:50 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecTenantAdminFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:10:50 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecTenantAdminFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/XXNfm5PwG8h57JN6yGRLnE9wzaX2/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+20@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SecTenantAdminFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:55 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for AnalystRoleFromFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:10:55 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. AnalystRoleFromFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/x87Dy6UYbOffnUQEi2813rzMxTw2/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+21@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>AnalystRoleFromFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:10:58 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for UserRoleFromFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:10:58 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. UserRoleFromFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/hcys24yMMlPBSaoXAHGjrLI6NWg1/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+23@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>UserRoleFromFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:03 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for CreatorRoleUserFromDifferentTenant<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:03 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. CreatorRoleUserFromDifferentTenant is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/Hjuz268hdLbAXipRC013oJAHmVu1/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+22@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>CreatorRoleUserFromDifferentTenant <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:08 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionAPISuperAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:08 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionAPISuperAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/gPY4bIdxqHb0Ml8z1h2D6zebZV13/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> deveu01.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionAPISuperAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:12 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSuperAdmin<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:12 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionSuperAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/AfS0dbpAJeR49EwEGVyhaP65Xlm2/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> deveu02.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSuperAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:15 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSystemAnalyst<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:15 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionSystemAnalyst is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/4VcaQVjA5nNIjTQtRKd3erfQUp52/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSystemAnalyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:19 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DiffRegionPartnerCreator<br><b>2.</b> The allowed roles are: super_admin ; PrimaryTenantAdmin ; SecondaryTenantAdmin. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:19 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DiffRegionPartnerCreator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/user/CzLTZlmatThr1FtdboDYFjgZUfJ2/removeUser <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda+1@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DiffRegionPartnerCreator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>DELETE <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>userRemoveUserAPI <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:19 AM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">getTenantPurchaseHistory</p>
+            <p class="text-sm">
+              <span>11:11:39 AM</span> / <span>00:00:23:339</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">getTenantPurchaseHistory</h5>
+<span class='badge badge-success'>12.06.2022 11:11:39 AM</span>
+<span class='badge badge-danger'>12.06.2022 11:12:02 AM</span>
+<span class='badge badge-default'>00:00:23:339</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:39 AM</td>
+        <td>
+          *******************Starting of getTenantPurchaseHistory test*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:39 AM</td>
+        <td>
+          ******************* Testing API URI 'https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:40 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for api_super_admin<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:40 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. api_super_admin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> devca01.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>api_super_admin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:41 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for super_admin<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:41 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. super_admin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> devca02.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>super_admin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Successfully fetched tenant purchse history","data":[{"action":"purchase","quantity":"+100","description":"Instruct sessions","date":"11/24/2022","time":"12:35 pm"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:43 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SystemAnalyst<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:43 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SystemAnalyst is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+12@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SystemAnalyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Successfully fetched tenant purchse history","data":[{"action":"purchase","quantity":"+100","description":"Instruct sessions","date":"11/24/2022","time":"12:35 pm"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:44 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PartnerCreator<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:44 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PartnerCreator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+13@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PartnerCreator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:45 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for PrimaryTenantAdmin<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:45 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. PrimaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+14@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>PrimaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Successfully fetched tenant purchse history","data":[{"action":"purchase","quantity":"+100","description":"Instruct sessions","date":"11/24/2022","time":"12:35 pm"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:46 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecondaryTenantAdmin<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:46 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecondaryTenantAdmin is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+15@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SecondaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Successfully fetched tenant purchse history","data":[{"action":"purchase","quantity":"+100","description":"Instruct sessions","date":"11/24/2022","time":"12:35 pm"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:47 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Analyst<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:47 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Analyst is allowed as per confluence and in actual response it is showing as allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+16@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>Analyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>200 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Successfully fetched tenant purchse history","data":[{"action":"purchase","quantity":"+100","description":"Instruct sessions","date":"11/24/2022","time":"12:35 pm"}]}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:48 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for User<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:48 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. User is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+18@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>User <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>500 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to fetch the connectors list","error":"Forbidden","updatedFields":null,"status":500}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:51 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for Creator<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:51 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. Creator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+17@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>Creator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:52 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for AnotherPrimaryTenantAdmin<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:52 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. AnotherPrimaryTenantAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+19@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>AnotherPrimaryTenantAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>500 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to fetch the connectors list","error":"Forbidden","updatedFields":null,"status":500}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:53 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for SecTenantAdminFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:53 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. SecTenantAdminFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+20@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>SecTenantAdminFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>500 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to fetch the connectors list","error":"Forbidden","updatedFields":null,"status":500}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:54 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for AnalystRoleFromFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:54 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. AnalystRoleFromFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+21@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>AnalystRoleFromFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>500 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to fetch the connectors list","error":"Forbidden","updatedFields":null,"status":500}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:55 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for UserRoleFromFromAnotherTenantUnderSameRegion<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:55 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. UserRoleFromFromAnotherTenantUnderSameRegion is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+23@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>UserRoleFromFromAnotherTenantUnderSameRegion <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>500 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"message":"Failed to fetch the connectors list","error":"Forbidden","updatedFields":null,"status":500}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:56 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for CreatorRoleUserFromDifferentTenant<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:56 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. CreatorRoleUserFromDifferentTenant is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> mohammednizhar.p+22@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>CreatorRoleUserFromDifferentTenant <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>403 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Insufficient Permission","message":"Failed to authenticate the User"}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:57 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionAPISuperAdmin<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:57 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionAPISuperAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> deveu01.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionAPISuperAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:11:59 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSuperAdmin<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:11:59 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionSuperAdmin is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> deveu02.apiauto@gmail.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSuperAdmin <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:00 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DifferentRegionSystemAnalyst<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:12:00 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DifferentRegionSystemAnalyst is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DifferentRegionSystemAnalyst <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:02 AM</td>
+        <td>
+          -----Start of InfoStatements-----<br><b>1.</b> Testing for DiffRegionPartnerCreator<br><b>2.</b> The allowed roles are: PrimaryTenantAdmin ; SecondaryTenantAdmin ; super_admin ; Analyst ; SystemAnalyst. These allowed roles are from the same region(US/EU/CA) and also if applicable from the same tenantid.<br>-----End of InfoStatements-----
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:12:02 AM</td>
+        <td>
+          <b><FONT COLOR="#FF8C00 " style="font-size:20px">1. Pass Statement is : </FONT></b> This role i.e. DiffRegionPartnerCreator is NOT allowed as per confluence and in actual response it is showing as NOT allowed. <b><FONT COLOR="#FF8C00 " style="font-size:20px">2. API Endpoint is : </FONT></b>https://canada.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/getPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">3. Username is : </FONT></b> Venkata.Jonnalagadda+1@carear.com <b><FONT COLOR="#FF8C00 " style="font-size:20px">4. Role Tested is : </FONT></b>DiffRegionPartnerCreator <b><FONT COLOR="#FF8C00 " style="font-size:20px">5. Type of request is : </FONT></b>GET <b><FONT COLOR="#FF8C00 " style="font-size:20px">6. Method name is : </FONT></b>getTenantPurchaseHistory <b><FONT COLOR="#FF8C00 " style="font-size:20px">7. BodyORPayload is : </FONT></b>NA <b><FONT COLOR="#FF8C00 " style="font-size:20px">8. Response status code is: </FONT></b>401 <b><FONT COLOR="#FF8C00 " style="font-size:20px">9. Response is: </FONT></b>{"error":"Invalid Token","message":"Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null."}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:12:02 AM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 6, 2022 11:07:12 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 6, 2022 11:12:22 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>3</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='60%'>
+<b>3</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='40%'><b>2</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='44%'><b>86</b> events passed</small></div>
+<div>
+<small data-tooltip='2%'><b>4</b> events failed,
+<b data-tooltip='%'>105</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"tenantAdminSaveNotificationsAPI":39.767,"tenantAdminUpdatePermissionDataAPI":30.043,"userUpdateUserAPI":27.633,"userRemoveUserAPI":87.273,"getTenantPurchaseHistory":23.339
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 3,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 86,
+failEvents: 4,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 105
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

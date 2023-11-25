@@ -1,0 +1,59 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","dev01.apiauto@gmail.com","api_super_admin","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","dev02.apiauto@gmail.com","super_admin","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /tenantAdmin/tenant/saveKPI</pre>
+<script type=""text/javascript"" src=""/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=17773467"" async></script></body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","dev07.apiauto@gmail.com","SystemAnalyst","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","dev08.apiauto@gmail.com","PartnerCreator","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","dev03.apiauto@gmail.com","PrimaryTenantAdmin","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /tenantAdmin/tenant/saveKPI</pre>
+<script type=""text/javascript"" src=""/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=10&cb=790970679"" async></script></body>
+</html>
+"
+"Fail","Confluence - Allowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","dev04.apiauto@gmail.com","SecondaryTenantAdmin","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /tenantAdmin/tenant/saveKPI</pre>
+<script type=""text/javascript"" src=""/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=12&cb=1504607999"" async></script></body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","dev05.apiauto@gmail.com","Analyst","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","dev06.apiauto@gmail.com","User","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","mohammednizhar.p@carear.com","Creator","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","404","<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<meta charset=""utf-8"">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /tenantAdmin/tenant/saveKPI</pre>
+<script type=""text/javascript"" src=""/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=18&cb=1820739713"" async></script></body>
+</html>
+"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","devanother03.apiauto@gmail.com","AnotherPrimaryTenantAdmin","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","devanother03.apiauto+1@gmail.com","SecTenantAdminFromAnotherTenantUnderSameRegion","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","devanother03.apiauto+2@gmail.com","AnalystRoleFromFromAnotherTenantUnderSameRegion","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","devanother03.apiauto+3@gmail.com","UserRoleFromFromAnotherTenantUnderSameRegion","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","devanother03.apiauto+6@gmail.com","CreatorRoleUserFromDifferentTenant","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","deveu01.apiauto@gmail.com","DifferentRegionAPISuperAdmin","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","401","{""error"":""Invalid Token"",""message"":""Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null.""}"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","deveu02.apiauto@gmail.com","DifferentRegionSuperAdmin","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","401","{""error"":""Invalid Token"",""message"":""Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null.""}"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","Venkata.Jonnalagadda@carear.com","DifferentRegionSystemAnalyst","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","401","{""error"":""Invalid Token"",""message"":""Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null.""}"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminTenantIdSaveKPI","https://dev.apiv2.carear.app/tenantAdmin/tenant/saveKPI","Venkata.Jonnalagadda+1@carear.com","DiffRegionPartnerCreator","POST","{""tenantId"":""uMbQiXOc1pHs49b46fcp"",""index"":""1"",""label"":""Rate the experience 3"",""userType"":""host"",""type"":""singleline"",""required"":true,""predefined_data"":"""",""status"":true}","401","{""error"":""Invalid Token"",""message"":""Cannot destructure property 'aud' of 'jwt.decode(...)' as it is null.""}"

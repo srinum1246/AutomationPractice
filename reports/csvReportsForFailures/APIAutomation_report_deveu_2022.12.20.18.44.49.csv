@@ -1,0 +1,2 @@
+"Result","IsRoleAllowedAsPerConfluence::Allowed,NotAllowed","IsRoleAllowedActually","MethodName","APIEndPoint","userName","Role","Typeofrequest","Payload","ResponseStatusCOde","Response"
+"Pass","Confluence - NotAllowed","ActualResult - NotAllowed","tenantAdminRemoveGroupAPI","https://emea.dev.apiv2.carear.app/tenantAdmin/groups/removeGroup","deveu01.apiauto@gmail.com","api_super_admin","DELETE","{""tenantId"":""02YQ6pnBCc9c9sxJOlYN"",""group"":""Kemjhsejju""}","403","{""error"":""Insufficient Permission"",""message"":""Failed to authenticate the User""}"

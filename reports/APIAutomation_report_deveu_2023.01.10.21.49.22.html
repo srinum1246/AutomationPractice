@@ -1,0 +1,4469 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 10, 2023 09:49:22 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createTenantAPI</p>
+            <p class="text-sm">
+              <span>9:49:25 PM</span> / <span>00:00:35:985</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">createTenantAPI</h5>
+<span class='badge badge-success'>01.10.2023 9:49:25 PM</span>
+<span class='badge badge-danger'>01.10.2023 9:50:01 PM</span>
+<span class='badge badge-default'>00:00:35:985</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:25 PM</td>
+        <td>
+          ***<b> Starting of createTenantAPItest - createTenantAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:25 PM</td>
+        <td>
+          ***** Testing API URI 'https://emea.dev.apiv2.carear.app/tenantManagement/createTenant *****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:25 PM</td>
+        <td>
+          ***** Starting of <b>: createTenantAPI - Data Validation </b>*****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:25 PM</td>
+        <td>
+          *******************<b> Testing for the role - api_super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Cgznuqlxqj" is matching with actual value from the response i.e."Cgznuqlxqj"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "serviceNowConnectorEntitlement" in payload, the expected value i.e "true" is matching with actual value from the response i.e."true"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "subscriptionTerm" in payload, the expected value i.e "36" is matching with actual value from the response i.e."36"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "expiryDate" in payload, the expected value i.e "{seconds: 1684693799, nanoseconds: 999000000}" is NOT matching with actual value from the response i.e. "2025-12-25T16:19:31.176Z"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "tenantAdminEmail" in payload, the expected value i.e "automationEvtty@gmail.com" is matching with actual value from the response i.e."automationevtty@gmail.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "customerStatus" in payload, the expected value i.e "paying" is matching with actual value from the response i.e."paying"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "Mqthlsgjov" is matching with actual value from the response i.e."Mqthlsgjov"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "customerSuccessManager" in payload, the expected value i.e "Xbhlmipaya" is matching with actual value from the response i.e."Xbhlmipaya"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "Hztrkkcozp" is matching with actual value from the response i.e."Hztrkkcozp"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Manual" is matching with actual value from the response i.e."Manual"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "Ntkokuskjy" is matching with actual value from the response i.e."Ntkokuskjy"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "0" is matching with actual value from the response i.e."0"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "contractEffectiveDate" in payload, the expected value i.e "12/29/2022" is matching with actual value from the response i.e."12/29/2022"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "assistUsageType" in payload, the expected value i.e "user" is matching with actual value from the response i.e."user"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "instructSessionsPurchased" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "aiEnabled" in payload, the expected value i.e "true" is matching with actual value from the response i.e."true"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:45 PM</td>
+        <td>
+          For the input key "gcpTenantId" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:46 PM</td>
+        <td>
+          For the input key "imageRecognitionEntitlement" in payload, the expected value i.e "true" is matching with actual value from the response i.e."true"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:46 PM</td>
+        <td>
+          For the input key "customerPlan" in payload, the expected value i.e "platform" is matching with actual value from the response i.e."platform"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:46 PM</td>
+        <td>
+          For the input key "servicePackage" in payload, the expected value i.e "PremiumPlus" is matching with actual value from the response i.e."PremiumPlus"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:46 PM</td>
+        <td>
+          For the input key "tenantAdminFirstName" in payload, the expected value i.e "Eneckddjdd" is matching with actual value from the response i.e."Eneckddjdd"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:49:46 PM</td>
+        <td>
+          For the input key "tenantAdminLastName" in payload, the expected value i.e "Vifdrlcoss" is matching with actual value from the response i.e."Vifdrlcoss"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:49:46 PM</td>
+        <td>
+          *******************<b> Testing for the role - super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Cgznuqlxqj" is matching with actual value from the response i.e."Cgznuqlxqj"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "serviceNowConnectorEntitlement" in payload, the expected value i.e "true" is matching with actual value from the response i.e."true"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "subscriptionTerm" in payload, the expected value i.e "36" is matching with actual value from the response i.e."36"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "expiryDate" in payload, the expected value i.e "{seconds: 1684693799, nanoseconds: 999000000}" is NOT matching with actual value from the response i.e. "2025-12-25T16:19:47.289Z"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "tenantAdminEmail" in payload, the expected value i.e "automationJgevi@gmail.com" is matching with actual value from the response i.e."automationjgevi@gmail.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "customerStatus" in payload, the expected value i.e "paying" is matching with actual value from the response i.e."paying"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "Mqthlsgjov" is matching with actual value from the response i.e."Mqthlsgjov"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "customerSuccessManager" in payload, the expected value i.e "Xbhlmipaya" is matching with actual value from the response i.e."Xbhlmipaya"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "Hztrkkcozp" is matching with actual value from the response i.e."Hztrkkcozp"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Manual" is matching with actual value from the response i.e."Manual"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "Ntkokuskjy" is matching with actual value from the response i.e."Ntkokuskjy"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "0" is matching with actual value from the response i.e."0"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "contractEffectiveDate" in payload, the expected value i.e "12/29/2022" is matching with actual value from the response i.e."12/29/2022"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "assistUsageType" in payload, the expected value i.e "user" is matching with actual value from the response i.e."user"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "instructSessionsPurchased" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "aiEnabled" in payload, the expected value i.e "true" is matching with actual value from the response i.e."true"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "gcpTenantId" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "imageRecognitionEntitlement" in payload, the expected value i.e "true" is matching with actual value from the response i.e."true"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "customerPlan" in payload, the expected value i.e "platform" is matching with actual value from the response i.e."platform"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "servicePackage" in payload, the expected value i.e "PremiumPlus" is matching with actual value from the response i.e."PremiumPlus"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "tenantAdminFirstName" in payload, the expected value i.e "Eneckddjdd" is matching with actual value from the response i.e."Eneckddjdd"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          For the input key "tenantAdminLastName" in payload, the expected value i.e "Vifdrlcoss" is matching with actual value from the response i.e."Vifdrlcoss"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createTenantCoreAPI</p>
+            <p class="text-sm">
+              <span>9:50:01 PM</span> / <span>00:00:08:659</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">createTenantCoreAPI</h5>
+<span class='badge badge-success'>01.10.2023 9:50:01 PM</span>
+<span class='badge badge-danger'>01.10.2023 9:50:10 PM</span>
+<span class='badge badge-default'>00:00:08:659</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          ***<b> Starting of createTenantCoreAPItest - createTenantCoreAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          ***** Testing API URI 'https://emea.dev.apiv2.carear.app/tenantManagement/createTenant *****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          ***** Starting of <b>: createTenantCoreAPI - Data Validation </b>*****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:01 PM</td>
+        <td>
+          *******************<b> Testing for the role - api_super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Tcs" is matching with actual value from the response i.e."Tcs"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "serviceNowConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "subscriptionTerm" in payload, the expected value i.e "12" is matching with actual value from the response i.e."12"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "expiryDate" in payload, the expected value i.e "{seconds: 1688668199, nanoseconds: 999000000}" is NOT matching with actual value from the response i.e. "2024-01-05T16:20:02.754Z"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "tenantAdminEmail" in payload, the expected value i.e "automationRyfqh@gmail.com" is matching with actual value from the response i.e."automationryfqh@gmail.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "customerStatus" in payload, the expected value i.e "paying" is matching with actual value from the response i.e."paying"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "customerSuccessManager" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "tenantPhysicalAddress" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Manual" is matching with actual value from the response i.e."Manual"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "0" is matching with actual value from the response i.e."0"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "contractEffectiveDate" in payload, the expected value i.e "01/10/2023" is matching with actual value from the response i.e."01/10/2023"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "gcpTenantId" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "customerPlan" in payload, the expected value i.e "core" is matching with actual value from the response i.e."core"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "tenantAdminFirstName" in payload, the expected value i.e "Gvfxfoumgl" is matching with actual value from the response i.e."Gvfxfoumgl"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          For the input key "tenantAdminLastName" in payload, the expected value i.e "Zuqfmxurgs" is matching with actual value from the response i.e."Zuqfmxurgs"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:05 PM</td>
+        <td>
+          *******************<b> Testing for the role - super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:09 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Tcs" is matching with actual value from the response i.e."Tcs"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:09 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:09 PM</td>
+        <td>
+          For the input key "serviceNowConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:09 PM</td>
+        <td>
+          For the input key "subscriptionTerm" in payload, the expected value i.e "12" is matching with actual value from the response i.e."12"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:50:09 PM</td>
+        <td>
+          For the input key "expiryDate" in payload, the expected value i.e "{seconds: 1688668199, nanoseconds: 999000000}" is NOT matching with actual value from the response i.e. "2024-01-05T16:20:07.198Z"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:09 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:09 PM</td>
+        <td>
+          For the input key "tenantAdminEmail" in payload, the expected value i.e "automationKhzfb@gmail.com" is matching with actual value from the response i.e."automationkhzfb@gmail.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "customerStatus" in payload, the expected value i.e "paying" is matching with actual value from the response i.e."paying"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "customerSuccessManager" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "tenantPhysicalAddress" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Manual" is matching with actual value from the response i.e."Manual"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "0" is matching with actual value from the response i.e."0"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "contractEffectiveDate" in payload, the expected value i.e "01/10/2023" is matching with actual value from the response i.e."01/10/2023"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "gcpTenantId" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "customerPlan" in payload, the expected value i.e "core" is matching with actual value from the response i.e."core"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "tenantAdminFirstName" in payload, the expected value i.e "Oougcxclnd" is matching with actual value from the response i.e."Oougcxclnd"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          For the input key "tenantAdminLastName" in payload, the expected value i.e "Zvhrcoycxu" is matching with actual value from the response i.e."Zvhrcoycxu"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createTenantEnterpriseAPI</p>
+            <p class="text-sm">
+              <span>9:50:10 PM</span> / <span>00:00:07:681</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">createTenantEnterpriseAPI</h5>
+<span class='badge badge-success'>01.10.2023 9:50:10 PM</span>
+<span class='badge badge-danger'>01.10.2023 9:50:17 PM</span>
+<span class='badge badge-default'>00:00:07:681</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          ***<b> Starting of createTenantEnterpriseAPItest - createTenantEnterpriseAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          ***** Testing API URI 'https://emea.dev.apiv2.carear.app/tenantManagement/createTenant *****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          ***** Starting of <b>: createTenantEnterpriseAPI - Data Validation </b>*****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:10 PM</td>
+        <td>
+          *******************<b> Testing for the role - api_super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Tcs" is matching with actual value from the response i.e."Tcs"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "serviceNowConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "subscriptionTerm" in payload, the expected value i.e "12" is matching with actual value from the response i.e."12"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "expiryDate" in payload, the expected value i.e "{seconds: 1688668199, nanoseconds: 999000000}" is NOT matching with actual value from the response i.e. "2024-01-05T16:20:11.376Z"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "tenantAdminEmail" in payload, the expected value i.e "automationIqcmt@gmail.com" is matching with actual value from the response i.e."automationiqcmt@gmail.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "customerStatus" in payload, the expected value i.e "paying" is matching with actual value from the response i.e."paying"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "customerSuccessManager" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "tenantPhysicalAddress" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Manual" is matching with actual value from the response i.e."Manual"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "0" is matching with actual value from the response i.e."0"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "contractEffectiveDate" in payload, the expected value i.e "01/10/2023" is matching with actual value from the response i.e."01/10/2023"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:13 PM</td>
+        <td>
+          For the input key "gcpTenantId" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:14 PM</td>
+        <td>
+          For the input key "customerPlan" in payload, the expected value i.e "enterprise" is matching with actual value from the response i.e."enterprise"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:14 PM</td>
+        <td>
+          For the input key "tenantAdminFirstName" in payload, the expected value i.e "Iovtjccejx" is matching with actual value from the response i.e."Iovtjccejx"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:14 PM</td>
+        <td>
+          For the input key "tenantAdminLastName" in payload, the expected value i.e "Qxaphbltij" is matching with actual value from the response i.e."Qxaphbltij"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:14 PM</td>
+        <td>
+          *******************<b> Testing for the role - super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Tcs" is matching with actual value from the response i.e."Tcs"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "serviceNowConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "subscriptionTerm" in payload, the expected value i.e "12" is matching with actual value from the response i.e."12"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "expiryDate" in payload, the expected value i.e "{seconds: 1688668199, nanoseconds: 999000000}" is NOT matching with actual value from the response i.e. "2024-01-05T16:20:15.230Z"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "tenantAdminEmail" in payload, the expected value i.e "automationOoxhi@gmail.com" is matching with actual value from the response i.e."automationooxhi@gmail.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "customerStatus" in payload, the expected value i.e "paying" is matching with actual value from the response i.e."paying"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "customerSuccessManager" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "tenantPhysicalAddress" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Manual" is matching with actual value from the response i.e."Manual"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "0" is matching with actual value from the response i.e."0"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "contractEffectiveDate" in payload, the expected value i.e "01/10/2023" is matching with actual value from the response i.e."01/10/2023"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "gcpTenantId" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "customerPlan" in payload, the expected value i.e "enterprise" is matching with actual value from the response i.e."enterprise"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "tenantAdminFirstName" in payload, the expected value i.e "Jtpdtptfkt" is matching with actual value from the response i.e."Jtpdtptfkt"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          For the input key "tenantAdminLastName" in payload, the expected value i.e "Kstqylgoba" is matching with actual value from the response i.e."Kstqylgoba"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createTenantTrialAPI</p>
+            <p class="text-sm">
+              <span>9:50:17 PM</span> / <span>00:00:07:675</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">createTenantTrialAPI</h5>
+<span class='badge badge-success'>01.10.2023 9:50:17 PM</span>
+<span class='badge badge-danger'>01.10.2023 9:50:25 PM</span>
+<span class='badge badge-default'>00:00:07:675</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          ***<b> Starting of createTenantTrialAPItest - createTenantTrialAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          ***** Testing API URI 'https://emea.dev.apiv2.carear.app/tenantManagement/createTenant *****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          ***** Starting of <b>: createTenantTrialAPI - Data Validation </b>*****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:17 PM</td>
+        <td>
+          *******************<b> Testing for the role - api_super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Tcs" is matching with actual value from the response i.e."Tcs"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "serviceNowConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "subscriptionTerm" in payload, the expected value i.e "12" is matching with actual value from the response i.e."12"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "expiryDate" in payload, the expected value i.e "{seconds: 1688668199, nanoseconds: 999000000}" is NOT matching with actual value from the response i.e. "2024-01-05T16:20:19.036Z"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "tenantAdminEmail" in payload, the expected value i.e "automationOeakd@gmail.com" is matching with actual value from the response i.e."automationoeakd@gmail.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "customerStatus" in payload, the expected value i.e "paying" is matching with actual value from the response i.e."paying"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "customerSuccessManager" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "tenantPhysicalAddress" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Manual" is matching with actual value from the response i.e."Manual"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "0" is matching with actual value from the response i.e."0"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "contractEffectiveDate" in payload, the expected value i.e "01/10/2023" is matching with actual value from the response i.e."01/10/2023"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "gcpTenantId" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "customerPlan" in payload, the expected value i.e "trial" is matching with actual value from the response i.e."trial"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "tenantAdminFirstName" in payload, the expected value i.e "Zqasvnqvrz" is matching with actual value from the response i.e."Zqasvnqvrz"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          For the input key "tenantAdminLastName" in payload, the expected value i.e "Sxyebddgjl" is matching with actual value from the response i.e."Sxyebddgjl"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:21 PM</td>
+        <td>
+          *******************<b> Testing for the role - super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Tcs" is matching with actual value from the response i.e."Tcs"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "serviceNowConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "subscriptionTerm" in payload, the expected value i.e "12" is matching with actual value from the response i.e."12"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "expiryDate" in payload, the expected value i.e "{seconds: 1688668199, nanoseconds: 999000000}" is NOT matching with actual value from the response i.e. "2024-01-05T16:20:22.913Z"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "tenantAdminEmail" in payload, the expected value i.e "automationPfjls@gmail.com" is matching with actual value from the response i.e."automationpfjls@gmail.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "customerStatus" in payload, the expected value i.e "paying" is matching with actual value from the response i.e."paying"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "customerSuccessManager" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "tenantPhysicalAddress" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Manual" is matching with actual value from the response i.e."Manual"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "0" is matching with actual value from the response i.e."0"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "contractEffectiveDate" in payload, the expected value i.e "01/10/2023" is matching with actual value from the response i.e."01/10/2023"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "gcpTenantId" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "customerPlan" in payload, the expected value i.e "trial" is matching with actual value from the response i.e."trial"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "tenantAdminFirstName" in payload, the expected value i.e "Bbfnjcsazx" is matching with actual value from the response i.e."Bbfnjcsazx"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          For the input key "tenantAdminLastName" in payload, the expected value i.e "Ejxxcqmpop" is matching with actual value from the response i.e."Ejxxcqmpop"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createTenantPlatformWithFlexAPI</p>
+            <p class="text-sm">
+              <span>9:50:25 PM</span> / <span>00:00:29:664</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">createTenantPlatformWithFlexAPI</h5>
+<span class='badge badge-success'>01.10.2023 9:50:25 PM</span>
+<span class='badge badge-danger'>01.10.2023 9:50:55 PM</span>
+<span class='badge badge-default'>00:00:29:664</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          ***<b> Starting of createTenantPlatformWithFlexAPItest - createTenantPlatformWithFlexAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          ***** Testing API URI 'https://emea.dev.apiv2.carear.app/tenantManagement/createTenant *****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          ***** Starting of <b>: createTenantPlatformWithFlexAPI - Data Validation </b>*****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:25 PM</td>
+        <td>
+          *******************<b> Testing for the role - api_super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          {"message":"Successfully created the Tenant Admin and sent the Initial Invite Email","tenantId":"Bgvh5kpxI7LtdTNZyeQ2","tenantCreationDate":"2023-01-10T16:20:26.961Z","error":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Tcs" is matching with actual value from the response i.e."Tcs"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          For the input key "serviceNowConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          For the input key "subscriptionTerm" in payload, the expected value i.e "12" is matching with actual value from the response i.e."12"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          For the input key "expiryDate" in payload, the expected value i.e "{seconds: 1688927399, nanoseconds: 999000000}" is NOT matching with actual value from the response i.e. "2024-01-05T16:20:26.749Z"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          For the input key "tenantAdminEmail" in payload, the expected value i.e "automationFaodn@gmail.com" is matching with actual value from the response i.e."automationfaodn@gmail.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          For the input key "customerStatus" in payload, the expected value i.e "paying" is matching with actual value from the response i.e."paying"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          For the input key "customerSuccessManager" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:39 PM</td>
+        <td>
+          For the input key "tenantPhysicalAddress" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Manual" is matching with actual value from the response i.e."Manual"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "0" is matching with actual value from the response i.e."0"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "contractEffectiveDate" in payload, the expected value i.e "01/10/2023" is matching with actual value from the response i.e."01/10/2023"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "assistUsageType" in payload, the expected value i.e "user" is matching with actual value from the response i.e."user"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "instructSessionsPurchased" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "aiEnabled" in payload, the expected value i.e "true" is matching with actual value from the response i.e."true"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "gcpTenantId" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "imageRecognitionEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "salesforceConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "customerPlan" in payload, the expected value i.e "platform" is matching with actual value from the response i.e."platform"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "servicePackage" in payload, the expected value i.e "Flex" is matching with actual value from the response i.e."Flex"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "tenantAdminFirstName" in payload, the expected value i.e "Thfycabqlp" is matching with actual value from the response i.e."Thfycabqlp"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          For the input key "tenantAdminLastName" in payload, the expected value i.e "Ajlmaoimdv" is matching with actual value from the response i.e."Ajlmaoimdv"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:40 PM</td>
+        <td>
+          *******************<b> Testing for the role - super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:54 PM</td>
+        <td>
+          200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:54 PM</td>
+        <td>
+          {"message":"Successfully created the Tenant Admin and sent the Initial Invite Email","tenantId":"cZ8VYrASCyceJm4rtgQ5","tenantCreationDate":"2023-01-10T16:20:41.501Z","error":null}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:54 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Tcs" is matching with actual value from the response i.e."Tcs"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:54 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:54 PM</td>
+        <td>
+          For the input key "serviceNowConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:54 PM</td>
+        <td>
+          For the input key "subscriptionTerm" in payload, the expected value i.e "12" is matching with actual value from the response i.e."12"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "expiryDate" in payload, the expected value i.e "{seconds: 1688927399, nanoseconds: 999000000}" is NOT matching with actual value from the response i.e. "2024-01-05T16:20:41.304Z"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "tenantAdminEmail" in payload, the expected value i.e "automationIjotu@gmail.com" is matching with actual value from the response i.e."automationijotu@gmail.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "customerStatus" in payload, the expected value i.e "paying" is matching with actual value from the response i.e."paying"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "customerSuccessManager" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "tenantPhysicalAddress" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Manual" is matching with actual value from the response i.e."Manual"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "0" is matching with actual value from the response i.e."0"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "contractEffectiveDate" in payload, the expected value i.e "01/10/2023" is matching with actual value from the response i.e."01/10/2023"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "assistUsageType" in payload, the expected value i.e "user" is matching with actual value from the response i.e."user"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "instructSessionsPurchased" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "aiEnabled" in payload, the expected value i.e "true" is matching with actual value from the response i.e."true"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "gcpTenantId" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "imageRecognitionEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "salesforceConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "customerPlan" in payload, the expected value i.e "platform" is matching with actual value from the response i.e."platform"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "servicePackage" in payload, the expected value i.e "Flex" is matching with actual value from the response i.e."Flex"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "tenantAdminFirstName" in payload, the expected value i.e "Pfsretghyq" is matching with actual value from the response i.e."Pfsretghyq"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          For the input key "tenantAdminLastName" in payload, the expected value i.e "Vsrommlnhp" is matching with actual value from the response i.e."Vsrommlnhp"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createTenantPlatformWithProAPI</p>
+            <p class="text-sm">
+              <span>9:50:55 PM</span> / <span>00:00:30:689</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">createTenantPlatformWithProAPI</h5>
+<span class='badge badge-success'>01.10.2023 9:50:55 PM</span>
+<span class='badge badge-danger'>01.10.2023 9:51:25 PM</span>
+<span class='badge badge-default'>00:00:30:689</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          ***<b> Starting of createTenantPlatformWithProAPItest - createTenantPlatformWithProAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          ***** Testing API URI 'https://emea.dev.apiv2.carear.app/tenantManagement/createTenant *****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          ***** Starting of <b>: createTenantPlatformWithProAPI - Data Validation </b>*****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:50:55 PM</td>
+        <td>
+          *******************<b> Testing for the role - api_super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Tcs" is matching with actual value from the response i.e."Tcs"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "serviceNowConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "subscriptionTerm" in payload, the expected value i.e "12" is matching with actual value from the response i.e."12"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "expiryDate" in payload, the expected value i.e "{seconds: 1688927399, nanoseconds: 999000000}" is NOT matching with actual value from the response i.e. "2024-01-05T16:20:56.537Z"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "tenantAdminEmail" in payload, the expected value i.e "automationJltxf@gmail.com" is matching with actual value from the response i.e."automationjltxf@gmail.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "customerStatus" in payload, the expected value i.e "paying" is matching with actual value from the response i.e."paying"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "customerSuccessManager" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "tenantPhysicalAddress" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Manual" is matching with actual value from the response i.e."Manual"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "0" is matching with actual value from the response i.e."0"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "contractEffectiveDate" in payload, the expected value i.e "01/10/2023" is matching with actual value from the response i.e."01/10/2023"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "assistUsageType" in payload, the expected value i.e "user" is matching with actual value from the response i.e."user"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:10 PM</td>
+        <td>
+          For the input key "instructSessionsPurchased" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:11 PM</td>
+        <td>
+          For the input key "aiEnabled" in payload, the expected value i.e "true" is matching with actual value from the response i.e."true"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:11 PM</td>
+        <td>
+          For the input key "gcpTenantId" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:11 PM</td>
+        <td>
+          For the input key "imageRecognitionEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:11 PM</td>
+        <td>
+          For the input key "salesforceConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:11 PM</td>
+        <td>
+          For the input key "customerPlan" in payload, the expected value i.e "platform" is matching with actual value from the response i.e."platform"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:11 PM</td>
+        <td>
+          For the input key "servicePackage" in payload, the expected value i.e "Pro" is matching with actual value from the response i.e."Pro"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:11 PM</td>
+        <td>
+          For the input key "tenantAdminFirstName" in payload, the expected value i.e "Pesgkrsdgl" is matching with actual value from the response i.e."Pesgkrsdgl"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:11 PM</td>
+        <td>
+          For the input key "tenantAdminLastName" in payload, the expected value i.e "Fvrrqgfmro" is matching with actual value from the response i.e."Fvrrqgfmro"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:11 PM</td>
+        <td>
+          *******************<b> Testing for the role - super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Tcs" is matching with actual value from the response i.e."Tcs"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "serviceNowConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "subscriptionTerm" in payload, the expected value i.e "12" is matching with actual value from the response i.e."12"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "expiryDate" in payload, the expected value i.e "{seconds: 1688927399, nanoseconds: 999000000}" is NOT matching with actual value from the response i.e. "2024-01-05T16:21:12.292Z"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "tenantAdminEmail" in payload, the expected value i.e "automationVudsb@gmail.com" is matching with actual value from the response i.e."automationvudsb@gmail.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "customerStatus" in payload, the expected value i.e "paying" is matching with actual value from the response i.e."paying"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "customerSuccessManager" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "tenantPhysicalAddress" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Manual" is matching with actual value from the response i.e."Manual"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "0" is matching with actual value from the response i.e."0"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "contractEffectiveDate" in payload, the expected value i.e "01/10/2023" is matching with actual value from the response i.e."01/10/2023"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "assistUsageType" in payload, the expected value i.e "user" is matching with actual value from the response i.e."user"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "instructSessionsPurchased" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "aiEnabled" in payload, the expected value i.e "true" is matching with actual value from the response i.e."true"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "gcpTenantId" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "imageRecognitionEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "salesforceConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "customerPlan" in payload, the expected value i.e "platform" is matching with actual value from the response i.e."platform"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "servicePackage" in payload, the expected value i.e "Pro" is matching with actual value from the response i.e."Pro"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "tenantAdminFirstName" in payload, the expected value i.e "Doensurfei" is matching with actual value from the response i.e."Doensurfei"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          For the input key "tenantAdminLastName" in payload, the expected value i.e "Qrbjyykjyb" is matching with actual value from the response i.e."Qrbjyykjyb"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">createTenantPlatformWithPremiumAPI</p>
+            <p class="text-sm">
+              <span>9:51:25 PM</span> / <span>00:00:30:608</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">createTenantPlatformWithPremiumAPI</h5>
+<span class='badge badge-success'>01.10.2023 9:51:25 PM</span>
+<span class='badge badge-danger'>01.10.2023 9:51:56 PM</span>
+<span class='badge badge-default'>00:00:30:608</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          ***<b> Starting of createTenantPlatformWithPremiumAPItest - createTenantPlatformWithPremiumAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          ***** Testing API URI 'https://emea.dev.apiv2.carear.app/tenantManagement/createTenant *****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          ***** Starting of <b>: createTenantPlatformWithPremiumAPI - Data Validation </b>*****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:25 PM</td>
+        <td>
+          *******************<b> Testing for the role - api_super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Tcs" is matching with actual value from the response i.e."Tcs"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "serviceNowConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "subscriptionTerm" in payload, the expected value i.e "12" is matching with actual value from the response i.e."12"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "expiryDate" in payload, the expected value i.e "{seconds: 1688927399, nanoseconds: 999000000}" is NOT matching with actual value from the response i.e. "2024-01-05T16:21:27.533Z"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "tenantAdminEmail" in payload, the expected value i.e "automationOioka@gmail.com" is matching with actual value from the response i.e."automationoioka@gmail.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "customerStatus" in payload, the expected value i.e "paying" is matching with actual value from the response i.e."paying"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "customerSuccessManager" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "tenantPhysicalAddress" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Manual" is matching with actual value from the response i.e."Manual"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "0" is matching with actual value from the response i.e."0"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "contractEffectiveDate" in payload, the expected value i.e "01/10/2023" is matching with actual value from the response i.e."01/10/2023"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "assistUsageType" in payload, the expected value i.e "user" is matching with actual value from the response i.e."user"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "instructSessionsPurchased" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "aiEnabled" in payload, the expected value i.e "true" is matching with actual value from the response i.e."true"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "gcpTenantId" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "imageRecognitionEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "salesforceConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "customerPlan" in payload, the expected value i.e "platform" is matching with actual value from the response i.e."platform"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "servicePackage" in payload, the expected value i.e "Premium" is matching with actual value from the response i.e."Premium"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "tenantAdminFirstName" in payload, the expected value i.e "Ufjmcelxzx" is matching with actual value from the response i.e."Ufjmcelxzx"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          For the input key "tenantAdminLastName" in payload, the expected value i.e "Jksimombzc" is matching with actual value from the response i.e."Jksimombzc"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:40 PM</td>
+        <td>
+          *******************<b> Testing for the role - super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Tcs" is matching with actual value from the response i.e."Tcs"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "serviceNowConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "subscriptionTerm" in payload, the expected value i.e "12" is matching with actual value from the response i.e."12"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "expiryDate" in payload, the expected value i.e "{seconds: 1688927399, nanoseconds: 999000000}" is NOT matching with actual value from the response i.e. "2024-01-05T16:21:42.204Z"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "tenantAdminEmail" in payload, the expected value i.e "automationGlzof@gmail.com" is matching with actual value from the response i.e."automationglzof@gmail.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "customerStatus" in payload, the expected value i.e "paying" is matching with actual value from the response i.e."paying"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "customerSuccessManager" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "tenantPhysicalAddress" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Manual" is matching with actual value from the response i.e."Manual"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "0" is matching with actual value from the response i.e."0"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "contractEffectiveDate" in payload, the expected value i.e "01/10/2023" is matching with actual value from the response i.e."01/10/2023"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "assistUsageType" in payload, the expected value i.e "user" is matching with actual value from the response i.e."user"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "instructSessionsPurchased" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "aiEnabled" in payload, the expected value i.e "true" is matching with actual value from the response i.e."true"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "gcpTenantId" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "imageRecognitionEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "salesforceConnectorEntitlement" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "customerPlan" in payload, the expected value i.e "platform" is matching with actual value from the response i.e."platform"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "servicePackage" in payload, the expected value i.e "Premium" is matching with actual value from the response i.e."Premium"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "tenantAdminFirstName" in payload, the expected value i.e "Osdjaqpxym" is matching with actual value from the response i.e."Osdjaqpxym"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          For the input key "tenantAdminLastName" in payload, the expected value i.e "Gblmmhzigm" is matching with actual value from the response i.e."Gblmmhzigm"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">updateTenantAPI</p>
+            <p class="text-sm">
+              <span>9:51:56 PM</span> / <span>00:00:33:857</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">updateTenantAPI</h5>
+<span class='badge badge-success'>01.10.2023 9:51:56 PM</span>
+<span class='badge badge-danger'>01.10.2023 9:52:30 PM</span>
+<span class='badge badge-default'>00:00:33:857</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          ***<b> Starting of updateTenantAPItest - updateTenantAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/tenantManagement/updateTenant'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          ***** Starting of <b>: updateTenantAPI - Data Validation </b>*****
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:51:56 PM</td>
+        <td>
+          *******************<b> Testing for the role - api_super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:13 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Phqvknbaqf" is matching with actual value from the response i.e."Phqvknbaqf"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:13 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "true" is matching with actual value from the response i.e."true"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:13 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:13 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "5000" is matching with actual value from the response i.e."5000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:13 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "1002" is matching with actual value from the response i.e."1002"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:13 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "Opxpibuiyz" is matching with actual value from the response i.e."Opxpibuiyz"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:13 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "Ckddnykzzz" is matching with actual value from the response i.e."Ckddnykzzz"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:13 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Zuora" is matching with actual value from the response i.e."Zuora"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:13 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "Cadactelgi" is matching with actual value from the response i.e."Cadactelgi"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:13 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "20" is matching with actual value from the response i.e."20"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:13 PM</td>
+        <td>
+          *******************<b> Testing for the role - super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:30 PM</td>
+        <td>
+          For the input key "tenantName" in payload, the expected value i.e "Phqvknbaqf" is matching with actual value from the response i.e."Phqvknbaqf"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:30 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "true" is matching with actual value from the response i.e."true"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:30 PM</td>
+        <td>
+          For the input key "numberUsers" in payload, the expected value i.e "1000" is matching with actual value from the response i.e."1000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:30 PM</td>
+        <td>
+          For the input key "tierLevel" in payload, the expected value i.e "5000" is matching with actual value from the response i.e."5000"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:30 PM</td>
+        <td>
+          For the input key "customerCRMID" in payload, the expected value i.e "1002" is matching with actual value from the response i.e."1002"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:30 PM</td>
+        <td>
+          For the input key "resellerOfRecord" in payload, the expected value i.e "Opxpibuiyz" is matching with actual value from the response i.e."Opxpibuiyz"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:30 PM</td>
+        <td>
+          For the input key "zQuoteID" in payload, the expected value i.e "Ckddnykzzz" is matching with actual value from the response i.e."Ckddnykzzz"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:30 PM</td>
+        <td>
+          For the input key "createdBy" in payload, the expected value i.e "Zuora" is matching with actual value from the response i.e."Zuora"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:30 PM</td>
+        <td>
+          For the input key "referralCode" in payload, the expected value i.e "Cadactelgi" is matching with actual value from the response i.e."Cadactelgi"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:30 PM</td>
+        <td>
+          For the input key "numberVideoRecordingUsers" in payload, the expected value i.e "20" is matching with actual value from the response i.e."20"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:30 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminTenantIdExperiencesAddAPI</p>
+            <p class="text-sm">
+              <span>9:52:30 PM</span> / <span>00:00:12:711</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tenantAdminTenantIdExperiencesAddAPI</h5>
+<span class='badge badge-success'>01.10.2023 9:52:30 PM</span>
+<span class='badge badge-danger'>01.10.2023 9:52:43 PM</span>
+<span class='badge badge-default'>00:00:12:711</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:30 PM</td>
+        <td>
+          ***<b> Starting of tenantAdminTenantIdExperiencesAddAPItest - tenantAdminTenantIdExperiencesAddAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:30 PM</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/experiences'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:30 PM</td>
+        <td>
+          *******************<b> Testing for the role - super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:32 PM</td>
+        <td>
+          For the input key "experienceName" in payload, the expected value i.e "experienceNameNameVpiyrfctrs" is matching with actual value from the response i.e."experienceNameNameVpiyrfctrs"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:32 PM</td>
+        <td>
+          For the input key "experienceDescription" in payload, the expected value i.e "Lmimydvagq" is matching with actual value from the response i.e."Lmimydvagq"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:33 PM</td>
+        <td>
+          For the input key "authenticated" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:33 PM</td>
+        <td>
+          *******************<b> Testing for the role - PartnerCreator </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:35 PM</td>
+        <td>
+          For the input key "experienceName" in payload, the expected value i.e "experienceNameNameIkdbynxgny" is matching with actual value from the response i.e."experienceNameNameIkdbynxgny"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:35 PM</td>
+        <td>
+          For the input key "experienceDescription" in payload, the expected value i.e "Ardlyvgfkk" is matching with actual value from the response i.e."Ardlyvgfkk"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:35 PM</td>
+        <td>
+          For the input key "authenticated" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:35 PM</td>
+        <td>
+          *******************<b> Testing for the role - PrimaryTenantAdmin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:37 PM</td>
+        <td>
+          For the input key "experienceName" in payload, the expected value i.e "experienceNameNameAtvsfepeai" is matching with actual value from the response i.e."experienceNameNameAtvsfepeai"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:37 PM</td>
+        <td>
+          For the input key "experienceDescription" in payload, the expected value i.e "Pfpjzzrbar" is matching with actual value from the response i.e."Pfpjzzrbar"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:37 PM</td>
+        <td>
+          For the input key "authenticated" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:37 PM</td>
+        <td>
+          *******************<b> Testing for the role - SecondaryTenantAdmin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:40 PM</td>
+        <td>
+          For the input key "experienceName" in payload, the expected value i.e "experienceNameNameIeczykjqox" is matching with actual value from the response i.e."experienceNameNameIeczykjqox"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:40 PM</td>
+        <td>
+          For the input key "experienceDescription" in payload, the expected value i.e "Cvjsqgllfd" is matching with actual value from the response i.e."Cvjsqgllfd"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:40 PM</td>
+        <td>
+          For the input key "authenticated" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:40 PM</td>
+        <td>
+          *******************<b> Testing for the role - Creator </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:43 PM</td>
+        <td>
+          For the input key "experienceName" in payload, the expected value i.e "experienceNameNameAbntsuojhy" is matching with actual value from the response i.e."experienceNameNameAbntsuojhy"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:43 PM</td>
+        <td>
+          For the input key "experienceDescription" in payload, the expected value i.e "Szmqflxeft" is matching with actual value from the response i.e."Szmqflxeft"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:43 PM</td>
+        <td>
+          For the input key "authenticated" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:43 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminTenantIdExperiencesUpdateAPI</p>
+            <p class="text-sm">
+              <span>9:52:43 PM</span> / <span>00:00:25:786</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tenantAdminTenantIdExperiencesUpdateAPI</h5>
+<span class='badge badge-success'>01.10.2023 9:52:43 PM</span>
+<span class='badge badge-danger'>01.10.2023 9:53:08 PM</span>
+<span class='badge badge-default'>00:00:25:786</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:43 PM</td>
+        <td>
+          ***<b> Starting of tenantAdminTenantIdExperiencesUpdateAPItest - tenantAdminTenantIdExperiencesUpdateAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:43 PM</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/tenantAdmin/tenants/:tenantId/experiences/:experienceId'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:43 PM</td>
+        <td>
+          *******************<b> Testing for the role - super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:46 PM</td>
+        <td>
+          For the input key "experienceName" in payload, the expected value i.e "Hglzmneyif" is matching with actual value from the response i.e."Hglzmneyif"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:48 PM</td>
+        <td>
+          *******************<b> Testing for the role - PartnerCreator </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:52 PM</td>
+        <td>
+          For the input key "experienceName" in payload, the expected value i.e "Vsgabzqlra" is matching with actual value from the response i.e."Vsgabzqlra"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:53 PM</td>
+        <td>
+          *******************<b> Testing for the role - PrimaryTenantAdmin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:52:57 PM</td>
+        <td>
+          For the input key "experienceName" in payload, the expected value i.e "Epqbaqchiz" is matching with actual value from the response i.e."Epqbaqchiz"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:52:58 PM</td>
+        <td>
+          *******************<b> Testing for the role - SecondaryTenantAdmin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:02 PM</td>
+        <td>
+          For the input key "experienceName" in payload, the expected value i.e "Biqgqpfbnu" is matching with actual value from the response i.e."Biqgqpfbnu"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:03 PM</td>
+        <td>
+          *******************<b> Testing for the role - Creator </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:07 PM</td>
+        <td>
+          For the input key "experienceName" in payload, the expected value i.e "Eyfkumilmy" is matching with actual value from the response i.e."Eyfkumilmy"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:08 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminSavePluginSystemInfoUpdateAPI</p>
+            <p class="text-sm">
+              <span>9:53:08 PM</span> / <span>00:00:12:747</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tenantAdminSavePluginSystemInfoUpdateAPI</h5>
+<span class='badge badge-success'>01.10.2023 9:53:08 PM</span>
+<span class='badge badge-danger'>01.10.2023 9:53:21 PM</span>
+<span class='badge badge-default'>00:00:12:747</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:08 PM</td>
+        <td>
+          ***<b> Starting of tenantAdminSavePluginSystemInfoUpdateAPItest - tenantAdminSavePluginSystemInfoUpdateAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:08 PM</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/tenants/:tenantId/savePluginSystemInfo'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:08 PM</td>
+        <td>
+          *******************<b> Testing for the role - super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:13 PM</td>
+        <td>
+          For the input key "username" in payload, the expected value i.e "mohammednizhar.p+2@carear.com" is matching with actual value from the response i.e."mohammednizhar.p+2@carear.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:13 PM</td>
+        <td>
+          For the input key "password" in payload, the expected value i.e "Testing1" is matching with actual value from the response i.e."Testing1"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:13 PM</td>
+        <td>
+          For the input key "token" in payload, the expected value i.e "67b1288ff225adbab24e" is matching with actual value from the response i.e."67b1288ff225adbab24e"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:13 PM</td>
+        <td>
+          For the input key "apiURL" in payload, the expected value i.e "Test" is matching with actual value from the response i.e."Test"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:13 PM</td>
+        <td>
+          For the input key "fqdn" in payload, the expected value i.e "Jvaijgunbg" is matching with actual value from the response i.e."Jvaijgunbg"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:13 PM</td>
+        <td>
+          *******************<b> Testing for the role - PrimaryTenantAdmin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:17 PM</td>
+        <td>
+          For the input key "username" in payload, the expected value i.e "mohammednizhar.p+2@carear.com" is matching with actual value from the response i.e."mohammednizhar.p+2@carear.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:17 PM</td>
+        <td>
+          For the input key "password" in payload, the expected value i.e "Testing1" is matching with actual value from the response i.e."Testing1"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:17 PM</td>
+        <td>
+          For the input key "token" in payload, the expected value i.e "67b1288ff225adbab24e" is matching with actual value from the response i.e."67b1288ff225adbab24e"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:17 PM</td>
+        <td>
+          For the input key "apiURL" in payload, the expected value i.e "Test" is matching with actual value from the response i.e."Test"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:17 PM</td>
+        <td>
+          For the input key "fqdn" in payload, the expected value i.e "Teblbpdzxv" is matching with actual value from the response i.e."Teblbpdzxv"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:17 PM</td>
+        <td>
+          *******************<b> Testing for the role - SecondaryTenantAdmin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:21 PM</td>
+        <td>
+          For the input key "username" in payload, the expected value i.e "mohammednizhar.p+2@carear.com" is matching with actual value from the response i.e."mohammednizhar.p+2@carear.com"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:21 PM</td>
+        <td>
+          For the input key "password" in payload, the expected value i.e "Testing1" is matching with actual value from the response i.e."Testing1"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:21 PM</td>
+        <td>
+          For the input key "token" in payload, the expected value i.e "67b1288ff225adbab24e" is matching with actual value from the response i.e."67b1288ff225adbab24e"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:21 PM</td>
+        <td>
+          For the input key "apiURL" in payload, the expected value i.e "Test" is matching with actual value from the response i.e."Test"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:21 PM</td>
+        <td>
+          For the input key "fqdn" in payload, the expected value i.e "Cpoyggnnju" is matching with actual value from the response i.e."Cpoyggnnju"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:21 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tenantAdminSaveInstructBuilderExperienceAPI</p>
+            <p class="text-sm">
+              <span>9:53:21 PM</span> / <span>00:00:10:647</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">tenantAdminSaveInstructBuilderExperienceAPI</h5>
+<span class='badge badge-success'>01.10.2023 9:53:21 PM</span>
+<span class='badge badge-danger'>01.10.2023 9:53:32 PM</span>
+<span class='badge badge-default'>00:00:10:647</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:21 PM</td>
+        <td>
+          ***<b> Starting of tenantAdminSaveInstructBuilderExperienceAPItest - tenantAdminSaveInstructBuilderExperienceAPI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:21 PM</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/tenantAdmin/instructExperience/saveInstructBuilder'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:21 PM</td>
+        <td>
+          *******************<b> Testing for the role - super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:23 PM</td>
+        <td>
+          For the input key "id" in payload, the expected value i.e "wsF3muRAHWsPI8JRktaw" is NOT matching with actual value from the response i.e. "YWLd9ivGKf8B8PZkSObE"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:23 PM</td>
+        <td>
+          For the input key "tenantId" in payload, the expected value i.e "02YQ6pnBCc9c9sxJOlYN" is matching with actual value from the response i.e."02YQ6pnBCc9c9sxJOlYN"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:23 PM</td>
+        <td>
+          For the input key "title" in payload, the expected value i.e "fgh" is matching with actual value from the response i.e."fgh"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:23 PM</td>
+        <td>
+          For the input key "description" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:23 PM</td>
+        <td>
+          For the input key "pages" in payload, the expected value i.e "{}" is matching with actual value from the response i.e."{}"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:23 PM</td>
+        <td>
+          For the input key "edges" in payload, the expected value i.e "[]" is NOT matching with actual value from the response i.e. ""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:23 PM</td>
+        <td>
+          For the input key "navigationNodes" in payload, the expected value i.e "[]" is NOT matching with actual value from the response i.e. ""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:23 PM</td>
+        <td>
+          *******************<b> Testing for the role - PartnerCreator </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:25 PM</td>
+        <td>
+          For the input key "id" in payload, the expected value i.e "wsF3muRAHWsPI8JRktaw" is NOT matching with actual value from the response i.e. "YWLd9ivGKf8B8PZkSObE"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:25 PM</td>
+        <td>
+          For the input key "tenantId" in payload, the expected value i.e "02YQ6pnBCc9c9sxJOlYN" is matching with actual value from the response i.e."02YQ6pnBCc9c9sxJOlYN"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:25 PM</td>
+        <td>
+          For the input key "title" in payload, the expected value i.e "fgh" is matching with actual value from the response i.e."fgh"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:25 PM</td>
+        <td>
+          For the input key "description" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:25 PM</td>
+        <td>
+          For the input key "pages" in payload, the expected value i.e "{}" is matching with actual value from the response i.e."{}"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:25 PM</td>
+        <td>
+          For the input key "edges" in payload, the expected value i.e "[]" is NOT matching with actual value from the response i.e. ""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:25 PM</td>
+        <td>
+          For the input key "navigationNodes" in payload, the expected value i.e "[]" is NOT matching with actual value from the response i.e. ""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:25 PM</td>
+        <td>
+          *******************<b> Testing for the role - PrimaryTenantAdmin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:27 PM</td>
+        <td>
+          For the input key "id" in payload, the expected value i.e "wsF3muRAHWsPI8JRktaw" is NOT matching with actual value from the response i.e. "YWLd9ivGKf8B8PZkSObE"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:27 PM</td>
+        <td>
+          For the input key "tenantId" in payload, the expected value i.e "02YQ6pnBCc9c9sxJOlYN" is matching with actual value from the response i.e."02YQ6pnBCc9c9sxJOlYN"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:27 PM</td>
+        <td>
+          For the input key "title" in payload, the expected value i.e "fgh" is matching with actual value from the response i.e."fgh"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:27 PM</td>
+        <td>
+          For the input key "description" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:27 PM</td>
+        <td>
+          For the input key "pages" in payload, the expected value i.e "{}" is matching with actual value from the response i.e."{}"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:27 PM</td>
+        <td>
+          For the input key "edges" in payload, the expected value i.e "[]" is NOT matching with actual value from the response i.e. ""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:27 PM</td>
+        <td>
+          For the input key "navigationNodes" in payload, the expected value i.e "[]" is NOT matching with actual value from the response i.e. ""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:27 PM</td>
+        <td>
+          *******************<b> Testing for the role - SecondaryTenantAdmin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:30 PM</td>
+        <td>
+          For the input key "id" in payload, the expected value i.e "wsF3muRAHWsPI8JRktaw" is NOT matching with actual value from the response i.e. "YWLd9ivGKf8B8PZkSObE"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:30 PM</td>
+        <td>
+          For the input key "tenantId" in payload, the expected value i.e "02YQ6pnBCc9c9sxJOlYN" is matching with actual value from the response i.e."02YQ6pnBCc9c9sxJOlYN"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:30 PM</td>
+        <td>
+          For the input key "title" in payload, the expected value i.e "fgh" is matching with actual value from the response i.e."fgh"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:30 PM</td>
+        <td>
+          For the input key "description" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:30 PM</td>
+        <td>
+          For the input key "pages" in payload, the expected value i.e "{}" is matching with actual value from the response i.e."{}"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:30 PM</td>
+        <td>
+          For the input key "edges" in payload, the expected value i.e "[]" is NOT matching with actual value from the response i.e. ""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:30 PM</td>
+        <td>
+          For the input key "navigationNodes" in payload, the expected value i.e "[]" is NOT matching with actual value from the response i.e. ""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:30 PM</td>
+        <td>
+          *******************<b> Testing for the role - Creator </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:32 PM</td>
+        <td>
+          For the input key "id" in payload, the expected value i.e "wsF3muRAHWsPI8JRktaw" is NOT matching with actual value from the response i.e. "YWLd9ivGKf8B8PZkSObE"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:32 PM</td>
+        <td>
+          For the input key "tenantId" in payload, the expected value i.e "02YQ6pnBCc9c9sxJOlYN" is matching with actual value from the response i.e."02YQ6pnBCc9c9sxJOlYN"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:32 PM</td>
+        <td>
+          For the input key "title" in payload, the expected value i.e "fgh" is matching with actual value from the response i.e."fgh"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:32 PM</td>
+        <td>
+          For the input key "description" in payload, the expected value i.e "" is matching with actual value from the response i.e.""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:32 PM</td>
+        <td>
+          For the input key "pages" in payload, the expected value i.e "{}" is matching with actual value from the response i.e."{}"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:32 PM</td>
+        <td>
+          For the input key "edges" in payload, the expected value i.e "[]" is NOT matching with actual value from the response i.e. ""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:32 PM</td>
+        <td>
+          For the input key "navigationNodes" in payload, the expected value i.e "[]" is NOT matching with actual value from the response i.e. ""
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:32 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">downloadManagementSave</p>
+            <p class="text-sm">
+              <span>9:53:32 PM</span> / <span>00:00:02:630</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">downloadManagementSave</h5>
+<span class='badge badge-success'>01.10.2023 9:53:32 PM</span>
+<span class='badge badge-danger'>01.10.2023 9:53:34 PM</span>
+<span class='badge badge-default'>00:00:02:630</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:32 PM</td>
+        <td>
+          ***<b> Starting of downloadManagementSavetest - downloadManagementSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:32 PM</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/downloadManagement/downloads/save'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:32 PM</td>
+        <td>
+          *******************<b> Testing for the role - super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:34 PM</td>
+        <td>
+          For the input key "name" in payload, the expected value i.e "Google Play" is matching with actual value from the response i.e."Google Play"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>9:53:34 PM</td>
+        <td>
+          For the input key "index" in payload, the expected value i.e "0.5756089665158771" is NOT matching with actual value from the response i.e. "100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:34 PM</td>
+        <td>
+          For the input key "versionNumber" in payload, the expected value i.e "1234" is matching with actual value from the response i.e."1234"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:34 PM</td>
+        <td>
+          For the input key "logoURL" in payload, the expected value i.e "https://firebasestorage.googleapis.com/v0/b/carear-development.appspot.com/o/download_software_logos%2F4k.jpg?alt=media&token=bc1a862b-bebf-47ac-8ba1-9d7407cd1268" is matching with actual value from the response i.e."https://firebasestorage.googleapis.com/v0/b/carear-development.appspot.com/o/download_software_logos%2F4k.jpg?alt=media&token=bc1a862b-bebf-47ac-8ba1-9d7407cd1268"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:34 PM</td>
+        <td>
+          For the input key "platformType" in payload, the expected value i.e "GooglePlay1" is matching with actual value from the response i.e."GooglePlay1"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:34 PM</td>
+        <td>
+          For the input key "fileLocation" in payload, the expected value i.e "https://firebasestorage.googleapis.com/v0/b/carear-development.appspot.com/o/download_software%2Fen-common-src.zip?alt=media&token=050e3017-7024-4708-ac41-e689765c8643" is matching with actual value from the response i.e."https://firebasestorage.googleapis.com/v0/b/carear-development.appspot.com/o/download_software%2Fen-common-src.zip?alt=media&token=050e3017-7024-4708-ac41-e689765c8643"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:34 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">downloadManagementUpdate</p>
+            <p class="text-sm">
+              <span>9:53:34 PM</span> / <span>00:00:03:390</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">downloadManagementUpdate</h5>
+<span class='badge badge-success'>01.10.2023 9:53:34 PM</span>
+<span class='badge badge-danger'>01.10.2023 9:53:38 PM</span>
+<span class='badge badge-default'>00:00:03:390</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:34 PM</td>
+        <td>
+          ***<b> Starting of downloadManagementUpdatetest - downloadManagementUpdate
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:34 PM</td>
+        <td>
+          ******************* Testing API URI 'https://emea.dev.apiv2.carear.app/downloadManagement/downloads/update/{{downloaderDocId}}'*******************
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:34 PM</td>
+        <td>
+          *******************<b> Testing for the role - super_admin </b> ******************* 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:38 PM</td>
+        <td>
+          For the input key "disabled" in payload, the expected value i.e "false" is matching with actual value from the response i.e."false"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:38 PM</td>
+        <td>
+          For the input key "versionNumber" in payload, the expected value i.e "1234" is matching with actual value from the response i.e."1234"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:38 PM</td>
+        <td>
+          For the input key "name" in payload, the expected value i.e "Google Play" is matching with actual value from the response i.e."Google Play"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:38 PM</td>
+        <td>
+          For the input key "platformType" in payload, the expected value i.e "GooglePlay1" is matching with actual value from the response i.e."GooglePlay1"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>9:53:38 PM</td>
+        <td>
+          For the input key "index" in payload, the expected value i.e "100" is matching with actual value from the response i.e."100"
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>9:53:38 PM</td>
+        <td>
+          *******************EndOfTest*******************
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 10, 2023 09:49:22 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 10, 2023 09:53:38 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>5</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>9</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='35%'>
+<b>5</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='64%'><b>9</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='77%'><b>423</b> events passed</small></div>
+<div>
+<small data-tooltip='5%'><b>30</b> events failed,
+<b data-tooltip='%'>90</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"createTenantAPI":35.985,"createTenantCoreAPI":8.659,"createTenantEnterpriseAPI":7.681,"createTenantTrialAPI":7.675,"createTenantPlatformWithFlexAPI":29.664,"createTenantPlatformWithProAPI":30.689,"createTenantPlatformWithPremiumAPI":30.608,"updateTenantAPI":33.857,"tenantAdminTenantIdExperiencesAddAPI":12.711,"tenantAdminTenantIdExperiencesUpdateAPI":25.786,"tenantAdminSavePluginSystemInfoUpdateAPI":12.747,"tenantAdminSaveInstructBuilderExperienceAPI":10.647,"downloadManagementSave":2.63,"downloadManagementUpdate":3.39
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 5,
+failParent: 9,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 423,
+failEvents: 30,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 90
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
